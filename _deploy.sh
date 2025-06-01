@@ -24,19 +24,19 @@ if /usr/local/bin/quarto render; then
   echo Done with Quarto. Deleting old directories and files...
   
   ### Delete all contents in public HTML directory
-  rm -rf ~/comms.opens.science/*.*
-  rm -rf ~/comms.opens.science/*
-  rm -f ~/comms.opens.science/.htaccess
-  rm -f ~/comms.opens.science/core/.htaccess
+  rm -rf ~/comms.opens.science/core/*.*
+  rm -rf ~/comms.opens.science/core/*
+  #rm -f ~/comms.opens.science/core/.htaccess
+  rm -f ~/comms.opens.science/core/core/.htaccess
   
   echo Done deleting old directories and files. Copying over new website...
   
   ### Copy website
-  cp -RT public ~/comms.opens.science
+  cp -RT public ~/comms.opens.science/core
   
   ### Copy .htaccess
-  cp .htaccess ~/comms.opens.science
-  cp core/.htaccess ~/comms.opens.science/core
+  #cp .htaccess ~/comms.opens.science/core
+  cp core/.htaccess ~/comms.opens.science/core/core
 
   echo Done copying over new website.
 
