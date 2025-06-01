@@ -1,0 +1,13 @@
+---
+title: "Instructions for coding measurement instruments"
+listing:
+  - id: "measureCodeListing"
+    template: "psycore-measureCode-template.ejs"
+    contents: "../data/dctSpecs/*.yaml"
+    sort-ui: false
+    filter-ui: false
+    page-size: 999
+---
+
+::: {#measureCode-listing}
+:::

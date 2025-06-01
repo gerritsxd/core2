@@ -1,0 +1,23 @@
+
+RewriteEngine on
+
+### Directory used to be called CoRe; but now when Plesk clones or
+### pulls the git repo, it creates a directory called CoRe anyway,
+### even though it was renamed...
+RewriteCond %{HTTP_HOST} ^stab\.opens\.science$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.stab\.opens\.science$
+RewriteRule ^CoRe/(.*)$ /core/$1 [R=301]
+
+
+RewriteCond %{HTTP_HOST} ^stab\.opens\.science$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.stab\.opens\.science$
+RewriteRule ^website/instructions(.*)$ "https://docs.google.com/document/d/1erlLm02YswlJJrWsIiAfnm6niw0qeiU4_sSAiSvxSJ0/edit?usp=drive_link" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^stab\.opens\.science$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.stab\.opens\.science$
+RewriteRule ^website/drive-folder(.*)$ "https://drive.google.com/drive/folders/1MCol8WK1xMKaynkWS-iXlSgomE5FP4bX?usp=drive_link" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^stab\.opens\.science$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.stab\.opens\.science$
+RewriteRule ^workshop-1/intro-slides(.*)$ "https://docs.google.com/presentation/d/1rKu34fkLjIKHq4WVhTpII9yMTTobVCenf5_aKND6s7A/edit?usp=sharing" [R=302,L]
+

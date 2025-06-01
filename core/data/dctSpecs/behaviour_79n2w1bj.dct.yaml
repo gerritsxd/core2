@@ -1,0 +1,71 @@
+dct:
+  version: 0.1.0
+  id: behaviour_79n2w1bj
+  label: Behaviour
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: 'An individual’s manifest, observable activities in response to external
+      or internal stimuli. '
+  measure_dev:
+    instruction: |
+      The prefered instruments to measure behaviour are observation by trained observers using a valid and reliable reporting protocol and/or the use of technical measures and devices to record and track behaviour during particular events and over time.
+
+      If these objective measures can not be used, self-report of behaviour assessed by questionniares or interviews are an alternative option. However, one should take into account that these latter instruments by definition measure a subjective representation of behaviour. Moreover, whereas there is general agreement about the definition of a specific behaviour ("running"), this is not the case when asking about a broad behavioural category, such as "exercising". To assess a category of behaviours via self-report, therefore, we must provide a clear definition of the category in question and specify action, target, context, and time.
+
+      Depending on the nature of the behaviour, engagement in the behaviour can be conceived as binary (i.e. one either does or does not engage in the target behaviour, e.g. getting tested for STIs every six months), a matter of frequency (i.e. one engages in the target behaviour with a frequency from zero up to a given feasible maximum frequency in a given timespan, e.g. the frequency with which one washes their hands conform the guidelines), a matter of intensity (i.e. one engages in the target behaviour to a degree from zero up to a given feasible maximum intensity, e.g. the amount of kilocalories one consumed in a meal), or a combination of these (i.e. one engages in the target behaviour with a given frequency and with a given intensity, e.g. how frequently one drinks alcohol, and how many grams of alcohol one consumes when one does).
+
+      The instructions for developing a self-report instrument to measure behaviour, logically derive from the foregoing consideration regarding the nature of the behaviour of interest. For example, for a dichotomous response option (yes/no) the question can be formulated in the following way: "Did you get tested for STIs during the last six months?". If the behaviour is a matter of frequency, multiple response options may be given, e.g.: "During the last seven days, how many days did you drink two or more alcoholic drinks?", with response options ranging from 0 to 7.
+  measure_code:
+    instruction: |
+      Instruments that measure observable behaviour. The prefered instruments for this purpose are observation by trained observers using a valid and reliable reporting protocol and/or the use of technical measures and devices to record and track behaviour during particular events and over time. Self-report of behaviour assessed by questionniares or interviews are alternative options. However, one should take into account that these latter methods by definition measure a subjective representation of behaviour. Moreover, whereas there is general agreement about the definition of a specific behaviour ("running"), this is not the case when asking about a broad behavioural category, such as "exercising". To assess a category of behaviours via self-report, therefore, a clear definition of the category in question must be provided, specifying action, target, context, and time.
+
+      Depending on the nature of the behaviour, engagement in the behaviour can be conceived as binary (i.e. one either does or does not engage in the target behaviour, e.g. getting tested for STIs every six months), a matter of frequency (i.e. one engages in the target behaviour with a frequency from zero up to a given feasible maximum frequency in a given timespan, e.g. the frequency with which one washes their hands conform the guidelines), a matter of intensity (i.e. one engages in the target behaviour to a degree from zero up to a given feasible maximum intensity, e.g. the amount of kilocalories one consumed in a meal), or a combination of these (i.e. one engages in the target behaviour with a given frequency and with a given intensity, e.g. how frequently one drinks alcohol, and how many grams of alcohol one consumes when one does).
+
+      The composition of self-report instruments to measure behaviour, logically derive from the foregoing consideration regarding the nature of the behaviour of interest. For example, for a dichotomous response option (yes/no) the question can be formulated in the following way: "Did you get tested for STIs during the last six months?". If the behaviour is a matter of frequency, multiple response options may be given, e.g.: "During the last seven days, how many days did you drink two or more alcoholic drinks?", with response options ranging from 0 to 7.
+  aspect_dev:
+    instruction: "Conduct a qualitative study where participants are interviewed,
+      and the interviews are either recorded and transcribed, or notes are kept. These
+      sources are then coded using the instruction for aspect coding.\n\nIn this qualitative
+      study, the formulation of the question(s) depends on the nature of the behaviour,
+      i.e. engagement in the behaviour can be conceived as binary (i.e. one either
+      does or does not engage in the target behaviour, e.g. getting tested for STIs
+      every six months), a matter of frequency (i.e. one engages in the target behaviour
+      with a frequency from zero up to a given feasible maximum frequency in a given
+      timespan, e.g. the frequency with which one washes their hands conform the guidelines),
+      a matter of intensity (i.e. one engages in the target behaviour to a degree
+      from zero up to a given feasible maximum intensity, e.g. the amount of kilocalories
+      one consumed in a meal), or a combination of these (i.e. one engages in the
+      target behaviour with a given frequency and with a given intensity, e.g. how
+      frequently one drinks alcohol, and how many grams of alcohol one consumes when
+      one does).\n\nIf engagement in the behaviour is conceived as binary, the interviewer
+      can ask a question in the following fashion: \"Do you you perform BEHAVIOUR
+      X?\", \"Do you you perform BEHAVIOUR X when at location X?\", or \"Did you you
+      perform BEHAVIOUR X during period X?\".\n\nIf the interviewer is interested
+      in the frequency the behaviour is performed, he/she can ask a question in the
+      following fashion: \"During period X, how many days did you perform BEHAVIOUR
+      X?\" or \"When you were at location X, how many times did you perform BEHAVIOUR
+      X?\".\n\nIf the intensity of performance of the behaviour is the focus of interest,
+      the interviewer can ask a question in the following fashion: \"On the days you
+      performed BEHAVIOUR X during period X, how much/many did you take/consume?\"
+      or \"On the days you performed BEHAVIOUR X during period X, how long did you
+      engage in BEHAVIOUR X?\" \n\nIf both the frequency and intensity of engagement
+      in the behaviour is of interest, the interviewer can formulate questions in
+      the following way: \"During period X, how many days did you perform BEHAVIOUR
+      X and for how long?\" or \"During period X, how many days did you perform BEHAVIOUR
+      X and how much/many did you take/consume each time?\".\n"
+  aspect_code:
+    instruction: "Expressions that demonstrate or imply engagement in the behaviour
+      of interest. These expressions may indicate engagement in the behaviour (yes/no),
+      the frequency the behaviour is performed, the intensity with which the behaviour
+      is performed, or a combination of the foregoing aspects. For example: \"I do
+      not drink alcohol\", \"I only drink alcohol in the weekends\", \"When going
+      clubbing I drink about 5 tot 6 beers\", or \"I drink one glass of wine each
+      day with dinner\". \n\nExpressions that refer to either intentions, willingness,
+      or specific plans to engage in the behaviour should not be coded as dct:behaviour_79n2w1bj,
+      but as, respectively, dct:intention_73dnt604, dct:willingness_79n2fh4w, and
+      dct:action_plan_79n2w1bh"
+  rel: ~
+
+

@@ -1,0 +1,8 @@
+---
+title: "COMMS Repository Template: CoRe"
+---
+
+This is a COMMS Repository Template, specifically for a CoRe repository.
+
+COMMS stands for Connected Open Machine-readable Meaningful Science. It is an initiative striving for connected open machine-readable meaningful science in a way that is consistent with open science principles, which means we optimize for accessibility, forgoing e.g. centrally curated ontologies in favour of relatively light-weight solutions that lend themselves to decentralized implementation yet afford much of the same benefits. COMMS unites various COMMUNICATORs (Contributor to Open Machine-readable Methods and User-friendly Novel Infrastructure by Conceiving of and Applying Tools or Other Resources) to make the world a better place.
+

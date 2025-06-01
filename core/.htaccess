@@ -1,0 +1,12 @@
+### Activate URL rewriting
+RewriteEngine On
+
+###------------------------------------------------------------------
+### CoRe
+###------------------------------------------------------------------
+
+RewriteCond %{HTTP_HOST} ^stab\.opens\.science$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.stab\.opens\.science$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /core/construct?ucid=$1 [NC,L,R=302]

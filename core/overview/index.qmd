@@ -1,0 +1,22 @@
+---
+title: "Construct overview"
+listing:
+  - id: "construct-overview"
+    template: "psycore-overview-template.ejs"
+    contents: "../data/dctSpecs/*.yaml"
+    sort-ui: false
+    filter-ui: false
+    page-size: 999
+    fields: [label, dctId]
+    field-display-names:
+      label: "Construct Label"
+      dct.label: "Construct Label"
+      dctId: "UCID"
+      dct: "Test"
+
+# This is all based on:
+#   https://quarto.org/docs/websites/website-listings-custom.html
+---
+
+::: {#construct-overview}
+:::

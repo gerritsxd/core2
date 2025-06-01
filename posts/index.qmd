@@ -1,0 +1,19 @@
+---
+title: "✍️ Posts"
+listing:
+  id: blog-posts-full
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  page-size: 100  
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+title-block-banner: false
+---
+
+These are interesting blog posts.
+
+:::{#blog-posts-full}
+:::

@@ -1,0 +1,15 @@
+---
+title: First post
+author: A COMMMUNICATOR
+execute:
+  echo: false
+  results: asis
+  freeze: false
+editor_options: 
+  chunk_output_type: console
+params:
+  a_parameter: "a value"
+---
+
+Some contents.
+

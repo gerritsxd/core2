@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: public
+  resources: 
+    - "img/*.*"
+    - "img/logo/*.*"
+    - "img/persons/*.*"
+
+website:
+  title: "COMMS Repository Template: CoRe"
+  navbar:
+    background: "#666666"
+    foreground: "#BBBBBB"
+    left:
+      - core/index.qmd
+      - posts/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: false

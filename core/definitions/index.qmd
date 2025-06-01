@@ -1,0 +1,13 @@
+---
+title: "Construct definitions"
+listing:
+  - id: "definitions-listing"
+    template: "psycore-definitions-template.ejs"
+    contents: "../data/dctSpecs/*.yaml"
+    sort-ui: false
+    filter-ui: false
+    page-size: 999
+---
+
+::: {#definitions-listing}
+:::

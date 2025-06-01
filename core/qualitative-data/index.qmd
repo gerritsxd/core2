@@ -1,0 +1,13 @@
+---
+title: "Instructions for eliciting qualitative data"
+listing:
+  - id: "aspectDevListing"
+    template: "psycore-aspectDev-template.ejs"
+    contents: "../data/dctSpecs/*.yaml"
+    sort-ui: false
+    filter-ui: false
+    page-size: 999
+---
+
+::: {#aspectDev-listing}
+:::

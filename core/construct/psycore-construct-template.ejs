@@ -1,0 +1,147 @@
+```{=html}
+
+<div class="list construct-view-wrapper">
+<% for (const item of items) { %>
+
+  <div id="<%= item.dct.id %>_view" <%= metadataAttrs(item) %> style="display:none;" class="construct-view" >
+
+    <div class="construct-view-construct-name listing-name">
+      <%= item.dct.label %>
+    </div>
+
+    <div class="construct-view-ucid">
+      Unique Construct Identifier (UCID): <a href="../<%= item.dct.id %>">❄️ <%= item.dct.id %></a> |
+      <a href="https://codeberg.org/STAB/STAB-website/src/branch/main/core/data/dctSpecs/<%= item.dct.id %>.dct.yaml">📝 YAML file on CodeBerg</a>
+    </div>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Construct definition                                                -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <div id="<%= item.dct.id %>_definition" class="construct-definition-box">
+
+      <div class="construct-view-definition">
+        <div class="construct-view-title-image">
+          <img src="../images/dct_definition.svg" width="55px" />
+        </div>
+        <div class="construct-view-title">
+          Construct Definition
+        </div>
+      </div>
+
+      <p><% if (item.dct.definition.definition) { %>
+        <script>
+          document.write(prepDCTtxt(`<%= item.dct.definition.definition %>`));
+        </script>
+      <% } else{ %>
+        Not specified.
+      <% } %></p>
+
+    </div>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Instructions for measurement                                        -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <div id="<%= item.dct.measure_dev %>" class="measure-dev-box">
+
+      <div class="construct-view-measure-dev">
+        <div class="construct-view-title-image">
+          <img src="../images/dct_measurement.svg" width="55px" />
+        </div>
+        <div class="construct-view-title">
+          Instructions to develop measurement instruments
+        </div>
+      </div>
+
+      <p><% if (item.dct.measure_dev.instruction) { %>
+        <script>
+          document.write(prepDCTtxt(`<%= item.dct.measure_dev.instruction %>`));
+        </script>
+      <% } else{ %>
+        Not specified.
+      <% } %></p>
+
+    </div>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Instructions for coding measurement instruments                     -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <div id="<%= item.dct.measure_code %>" class="measure-code-box">
+
+      <div class="construct-view-measure-code">
+        <div class="construct-view-title-image">
+          <img src="../images/dct_measurement-coding.svg" width="55px" />
+        </div>
+        <div class="construct-view-title">
+          Instructions to code measurement instruments
+        </div>
+      </div>
+
+      <p><% if (item.dct.measure_code.instruction) { %>
+        <script>
+          document.write(prepDCTtxt(`<%= item.dct.measure_code.instruction %>`));
+        </script>
+      <% } else{ %>
+        Not specified.
+      <% } %></p>
+
+    </div>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Instructions for eliciting qualitative data                         -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <div id="<%= item.dct.aspect_dev %>" class="aspect-dev-box">
+
+      <div class="construct-view-aspect-dev">
+        <div class="construct-view-title-image">
+          <img src="../images/dct_aspect.svg" width="55px" />
+        </div>
+        <div class="construct-view-title">
+          Instructions to elicit construct content (develop aspects)
+        </div>
+      </div>
+
+      <p><% if (item.dct.aspect_dev.instruction) { %>
+        <script>
+          document.write(prepDCTtxt(`<%= item.dct.aspect_dev.instruction %>`));
+        </script>
+      <% } else{ %>
+        Not specified.
+      <% } %></p>
+
+    </div>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Instructions for coding qualitative data                            -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <div id="<%= item.dct.aspect_code %>" class="aspect-code-box">
+
+      <div class="construct-view-aspect-code">
+        <div class="construct-view-title-image">
+          <img src="../images/dct_aspect-coding.svg" width="55px" />
+        </div>
+        <div class="construct-view-title">
+          Instructions to code construct content (aspects)
+        </div>
+      </div>
+
+      <p><% if (item.dct.aspect_code.instruction) { %>
+        <script>
+          document.write(prepDCTtxt(`<%= item.dct.aspect_code.instruction %>`));
+        </script>
+      <% } else{ %>
+        Not specified.
+      <% } %></p>
+
+    </div>
+
+  </div>
+
+<% } %>
+</div>
+
+```

@@ -1,0 +1,40 @@
+```{=html}
+
+<div class="single-overview-wrapper">
+
+  <div class="single-overview-intro">
+    <div class="single-overview-title-image">
+      <img src="../images/dct_aspect-coding.svg" width="100px" />
+    </div>
+    <div class="single-overview-introduction">
+      This overview only contains the instructions for coding qualitative data. You can click a Unique Construct Identifier (UCID) to view the definition and all instructions for a construct, or <a href="../overview">check the full overview</a> for a table with the construct definitions and all instructions.
+    </div>
+  </div>
+
+  <% for (const item of items) { %>
+
+    <div <%= metadataAttrs(item) %> class="single-overview-view" >
+
+      <span class="construct-view-construct-name listing-name">
+        <%= item.dct.label %>
+      </span>
+      <span class="construct-view-ucid">
+        (<a href="../<%= item.dct.id %>">❄️ <%= item.dct.id %></a>)
+      </span>
+      <span class="construct-single-overview-content">
+
+      <% if (item.dct.aspect_code.instruction) { %>
+        <script>
+          document.write(prepDCTtxt(`<%= item.dct.aspect_code.instruction %>`));
+        </script>
+      <% } else { %>
+        Not specified.
+      <% } %></p>
+
+    </div>
+
+  <% } %>
+
+</div>
+
+```
