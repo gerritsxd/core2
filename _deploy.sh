@@ -7,14 +7,14 @@
 ### export VISUAL=nano; crontab -e
 ###
 ### Comment/uncomment this to show the commands as they are executed
-set -x
+#set -x
 
 echo - - - STARTING DEPLOYMENT SCRIPT at $(date) - - -
 
 ### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ### Normally, you should only have to change these variables. Make sure
 ### that there are no spaces in between the variable name, the equals
-### sign, and the variable value between double quotes.
+### sign, and the variable value.
 ### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 echo Setting variables:
