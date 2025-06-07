@@ -8,14 +8,24 @@
 
 echo - - - STARTING DEPLOYMENT SCRIPT at $(date) - - -
 
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### Normally, you should only have to change these variables. Make sure
+### that there are no spaces in between the variable name, the equals
+### sign, and the variable value between double quotes.
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 echo Setting variables:
 
-quartoDir = "/usr/local/bin/quarto"
-extraPathDirs = "/opt/plesk/phpenv/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin"
-httpDir = "~/httpdocs"
-renderDir = "public"
-repoDir = "core"
-deployDir = "~/deploy_core"
+quartoDir="/usr/local/bin/quarto"
+extraPathDirs="/opt/plesk/phpenv/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin"
+httpDir="~/httpdocs"
+renderDir="public"
+repoDir="core"
+deployDir="~/deploy_core"
+
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+### From this point on, you should normally not have to change anything
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 echo quartoDir = $quartoDir
 echo extraPathDirs = $extraPathDirs
