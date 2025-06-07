@@ -56,7 +56,7 @@ if $quartoDir render; then
   ### Delete all contents in public HTML directory
   rm -rf $httpDir/*.*
   rm -rf $httpDir/*
-  #rm -f $httpDir/.htaccess
+  rm -f $httpDir/.htaccess
   rm -f $httpDir/$repoDir/.htaccess
   
   echo Done deleting old directories and files. Copying over new website from $deployDir/$renderDir to $httpDir...
@@ -66,7 +66,7 @@ if $quartoDir render; then
   cp -RT $renderDir $httpDir
 
   ### Copy .htaccess
-  #cp .htaccess ~/comms.opens.science/core
+  cp .htaccess $httpDir/
   cp $repoDir/.htaccess $httpDir/$repoDir/
 
   echo Done copying over new website.
