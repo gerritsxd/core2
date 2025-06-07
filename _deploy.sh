@@ -63,11 +63,11 @@ if $quartoDir render; then
   
   ### Copy website: "httpdocs" should be changed to
   ### the directory the website is served from
-  cp -RT $renderDir ~/httpdocs
+  cp -RT $renderDir $httpDir
   
   ### Copy .htaccess
   #cp .htaccess ~/comms.opens.science/core
-  cp $repoDir/.htaccess ~/httpdocs/$repoDir
+  cp $repoDir/.htaccess $httpDir/$repoDir
 
   echo Done copying over new website.
 
