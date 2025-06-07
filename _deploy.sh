@@ -19,12 +19,12 @@ echo - - - STARTING DEPLOYMENT SCRIPT at $(date) - - -
 
 echo Setting variables:
 
-quartoDir="/usr/local/bin/quarto"
-extraPathDirs="/opt/plesk/phpenv/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin"
-renderDir="public"
-repoDir="core"
-deployDir="~/deploy_core"
-httpDir="~/httpdocs/core"
+quartoDir=/usr/local/bin/quarto
+extraPathDirs=/opt/plesk/phpenv/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+renderDir=public
+repoDir=core
+deployDir=~/deploy_core
+httpDir=~/httpdocs/core
 
 ### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ### From this point on, you should normally not have to change anything
