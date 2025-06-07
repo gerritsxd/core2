@@ -62,8 +62,9 @@ if $quartoDir render; then
   echo Done deleting old directories and files. Copying over new website from $deployDir/$renderDir to $httpDir...
   
   ### Copy website
+  mkdir $httpDir
   cp -RT $renderDir $httpDir
-  
+
   ### Copy .htaccess
   #cp .htaccess ~/comms.opens.science/core
   cp $repoDir/.htaccess $httpDir/$repoDir/
