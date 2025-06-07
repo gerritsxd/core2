@@ -21,10 +21,10 @@ echo Setting variables:
 
 quartoDir="/usr/local/bin/quarto"
 extraPathDirs="/opt/plesk/phpenv/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin"
-httpDir="~/httpdocs"
 renderDir="public"
 repoDir="core"
 deployDir="~/deploy_core"
+httpDir="~/httpdocs/core"
 
 ### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ### From this point on, you should normally not have to change anything
@@ -61,13 +61,12 @@ if $quartoDir render; then
   
   echo Done deleting old directories and files. Copying over new website from $deployDir/$renderDir to $httpDir...
   
-  ### Copy website: "httpdocs" should be changed to
-  ### the directory the website is served from
+  ### Copy website
   cp -RT $renderDir $httpDir
   
   ### Copy .htaccess
   #cp .htaccess ~/comms.opens.science/core
-  cp $repoDir/.htaccess $httpDir/$repoDir
+  cp $repoDir/.htaccess $httpDir/$repoDir/
 
   echo Done copying over new website.
 
