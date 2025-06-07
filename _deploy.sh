@@ -5,10 +5,11 @@
 ### https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/
 ### To edit the cron file with nano instead of vim:
 ### export VISUAL=nano; crontab -e
+###
+### Comment/uncomment this to show the commands as they are executed
+set -x
 
 echo - - - STARTING DEPLOYMENT SCRIPT at $(date) - - -
-
-set -x
 
 ### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ### Normally, you should only have to change these variables. Make sure
@@ -62,11 +63,11 @@ if $quartoDir render; then
   
   ### Copy website: "httpdocs" should be changed to
   ### the directory the website is served from
-  cp -RT $renderDir $httpDir
+  cp -RT $renderDir ~/httpdocs
   
   ### Copy .htaccess
   #cp .htaccess ~/comms.opens.science/core
-  cp $repoDir/.htaccess $httpDir/$repoDir
+  cp $repoDir/.htaccess ~/httpdocs/$repoDir
 
   echo Done copying over new website.
 
