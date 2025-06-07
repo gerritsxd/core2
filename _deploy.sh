@@ -61,8 +61,8 @@ if $quartoDir render; then
   
   echo Done deleting old directories and files. Copying over new website from $deployDir/$renderDir to $httpDir...
   
-  ### Copy website
-  mkdir $httpDir
+  ### Copy website (first create dir if it doesn't exist)
+  mkdir -p $httpDir
   cp -RT $renderDir $httpDir
 
   ### Copy .htaccess
