@@ -22,7 +22,7 @@ echo Setting variables:
 quartoDir=/usr/local/bin/quarto
 extraPathDirs=/opt/plesk/phpenv/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
 renderDir=public
-repoDir=core
+repoDir=repo
 deployDir=~/deploy_core
 httpDir=~/httpdocs/core
 
