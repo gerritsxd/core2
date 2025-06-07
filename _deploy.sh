@@ -8,6 +8,8 @@
 
 echo - - - STARTING DEPLOYMENT SCRIPT at $(date) - - -
 
+set -x
+
 ### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ### Normally, you should only have to change these variables. Make sure
 ### that there are no spaces in between the variable name, the equals
