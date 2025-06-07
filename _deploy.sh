@@ -12,7 +12,7 @@ echo $(date)
 PATH=$PATH:/opt/plesk/phpenv/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
 
 ### Go to directory with cloned git repo
-cd ~/deploy_comms.opens.science
+cd ~/deploy_core
 
 echo Running Quarto...
 
@@ -24,19 +24,19 @@ if /usr/local/bin/quarto render; then
   echo Done with Quarto. Deleting old directories and files...
   
   ### Delete all contents in public HTML directory
-  rm -rf ~/comms.opens.science/core/*.*
-  rm -rf ~/comms.opens.science/core/*
-  #rm -f ~/comms.opens.science/core/.htaccess
-  rm -f ~/comms.opens.science/core/core/.htaccess
+  rm -rf ~/core/*.*
+  rm -rf ~/core/*
+  #rm -f ~/core/.htaccess
+  rm -f ~/core/core/.htaccess
   
   echo Done deleting old directories and files. Copying over new website...
   
   ### Copy website
-  cp -RT public ~/comms.opens.science/core
+  cp -RT public ~/core
   
   ### Copy .htaccess
   #cp .htaccess ~/comms.opens.science/core
-  cp core/.htaccess ~/comms.opens.science/core/core
+  cp core/.htaccess ~/core/core
 
   echo Done copying over new website.
 
