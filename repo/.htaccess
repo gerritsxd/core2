@@ -10,4 +10,4 @@ RewriteCond %{HTTP_HOST} ^comms\.opens\.science$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.comms\.opens\.science$
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /repo/construct?ucid=$1 [NC,L,R=302]
+RewriteRule ^(.*)$ repo/construct?ucid=$1 [NC,L,R=302]

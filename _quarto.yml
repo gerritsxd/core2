@@ -4,7 +4,6 @@ project:
   resources: 
     - "img/*.*"
     - "img/logo/*.*"
-    - "img/persons/*.*"
 
 website:
   title: "COMMS Repository Template: CoRe"
@@ -12,7 +11,7 @@ website:
     background: "#666666"
     foreground: "#BBBBBB"
     left:
-      - core/index.qmd
+      - repo/index.qmd
       - posts/index.qmd
 
 format:
