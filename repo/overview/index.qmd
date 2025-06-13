@@ -1,22 +1,101 @@
 ---
-title: "Construct overview"
-listing:
-  - id: "construct-overview"
-    template: "psycore-overview-template.ejs"
-    contents: "../data/dctSpecs/*.yaml"
-    sort-ui: false
-    filter-ui: false
-    page-size: 999
-    fields: [label, dctId]
-    field-display-names:
-      label: "Construct Label"
-      dct.label: "Construct Label"
-      dctId: "UCID"
-      dct: "Test"
-
-# This is all based on:
-#   https://quarto.org/docs/websites/website-listings-custom.html
+title: "Construct Search"
+format:
+  html:
+    toc: false
 ---
 
-::: {#construct-overview}
-:::
+<div class="form-group">
+  <label for="search-input">Search by Construct Title</label>
+  <input type="text" id="search-input" class="form-control" placeholder="Type to search...">
+</div>
+
+<hr>
+
+<div id="results-container"></div>
+
+<script>
+  // Debounce function to limit the rate at which a function gets called.
+  function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+      const context = this;
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(context, args), wait);
+    };
+  }
+
+  // Main search function
+  async function searchConstructs() {
+    const searchInput = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('results-container');
+    let constructs = [];
+
+    // 1. Fetch the search index
+    try {
+      const response = await fetch('search_index.json');
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      constructs = await response.json();
+    } catch (error) {
+      resultsContainer.innerHTML = '<p class="text-danger">Could not load construct index. Please try reloading the page.</p>';
+      console.error('Failed to fetch search index:', error);
+      return;
+    }
+
+    // 2. Function to render results
+    function renderResults(results) {
+      if (results.length === 0) {
+        resultsContainer.innerHTML = '<p>No constructs found.</p>';
+        return;
+      }
+      
+      const list = document.createElement('ul');
+      list.className = 'list-group';
+      
+      results.forEach(construct => {
+        const listItem = document.createElement('li');
+        listItem.className = 'list-group-item';
+        
+        const link = document.createElement('a');
+        link.href = construct.url;
+        link.textContent = construct.title;
+        
+        const subtitle = document.createElement('small');
+        subtitle.className = 'd-block text-muted';
+        subtitle.textContent = construct.subtitle;
+        
+        listItem.appendChild(link);
+        listItem.appendChild(subtitle);
+        list.appendChild(listItem);
+      });
+      
+      resultsContainer.innerHTML = '';
+      resultsContainer.appendChild(list);
+    }
+
+    // 3. Function to filter constructs based on input
+    function filterConstructs() {
+      const query = searchInput.value.toLowerCase().trim();
+      if (!query) {
+        renderResults(constructs); // Show all if search is empty
+        return;
+      }
+      
+      const filteredResults = constructs.filter(construct => 
+        construct.title.toLowerCase().includes(query)
+      );
+      renderResults(filteredResults);
+    }
+
+    // 4. Add event listener with debounce
+    searchInput.addEventListener('input', debounce(filterConstructs, 250));
+
+    // 5. Initial render
+    renderResults(constructs);
+  }
+
+  // Run the search function when the page loads
+  document.addEventListener('DOMContentLoaded', searchConstructs);
+</script>

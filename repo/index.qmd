@@ -5,6 +5,6 @@ format: html
 
 Welcome to this COMMS Template Repository of a CoRe repository. A CoRe is a Construct Repository (or Concept Repository).
 
-[Overview of all constructs](overview/index.html){.btn .btn-outline-primary role="button"}
+[Overview of all constructs](/repo/overview/){.btn .btn-outline-primary role="button"}
 
 In addition to the overview, there are overviews containing only the <a href="definitions/">construct definitions</a> or the instructions for <a href="measurement-instruments/">developing measurement instruments (for empirical research)</a>, <a href="coding-measurement-instruments/">coding measurement instruments (for systematic reviews)</a>, and for <a href="qualitative-data/">eliciting construct content</a>, and <a href="coding-qualitative-data/">coding qualitative data</a> (both for qualitative research).

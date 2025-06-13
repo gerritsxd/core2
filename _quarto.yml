@@ -1,9 +1,13 @@
 project:
   type: website
   output-dir: public
+  pre-render: generate_construct_pages.py
   resources: 
     - "img/*.*"
     - "img/logo/*.*"
+    - "css/*.*"
+    - "js/*.*"
+    - "repo/overview/search_index.json"
 
 website:
   title: "COMMS Repository Template: CoRe"
@@ -17,7 +21,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: /styles.css
     toc: true
 
 execute:

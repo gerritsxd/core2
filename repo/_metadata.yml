@@ -1,13 +1,13 @@
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: /styles.css
     toc: true
     include-in-header:
       ### https://github.com/developit/snarkdown
       - text: |
-          <link href="../css/psycore.css" rel="stylesheet"></script>
-          <link href="../css/sortable.min.css" rel="stylesheet"></script>
-          <script type="text/javascript" src="../js/marked.min.js"></script>
-          <script type="text/javascript" src="../js/sortable.min.js"></script>
-          <script type="text/javascript" src="../js/prepDCTtxt.js"></script>
+          <link href="/css/psycore.css" rel="stylesheet">
+          <link href="/css/sortable.min.css" rel="stylesheet">
+          <script type="text/javascript" src="/js/marked.min.js"></script>
+          <script type="text/javascript" src="/js/sortable.min.js"></script>
+          <script type="text/javascript" src="/js/prepDCTtxt.js"></script>
