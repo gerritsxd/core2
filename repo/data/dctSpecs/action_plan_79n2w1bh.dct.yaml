@@ -1,0 +1,85 @@
+---
+dct:
+  version: 0.1.0
+  id: action_plan_79n2w1bh
+  label: Action plan
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: |-
+      Action plans are detailed plans to perform a distinct subbehaviour of the target behaviour. Action plans direct when, where, and how to carry out this subbehaviour or integrated set of component subbehaviours. If the target behaviour is defined at a very high level of specificity, the action plan may also concern performance of the target behaviour itself.
+
+      An action plan is defined as a representation of the plan to perform the plan's target behavior 1) at a specific time (when; temporal); 2) at a specific location or situation (where; contextual); and 3) in a specific way (how; operational). An incomplete action plan, for example only specifying the contextual or operational aspect, is still considered an action plan, and therefore, the 'quality'/'strength' of action plans is variable.
+
+      Representations of aspects of a plan to carry out one or more (sub)behaviors are not action plans: action plans must always represent one or more of the three aspects (contextual, temporal, or operational).
+
+      The presence of a greater number of action plans (i.e. an action plan for each of the subbehaviours that together constitute the target behaviour), and greater level of detail of action plans (i.e. specifying exactly when, where, and how to carry out the subbehaviours) increase the likelihood of performance of the target behaviour. The extent to which the various action plans related to the target behaviour are present or absent, is represented by the action plan composite (see dct:action_plancomp_79n2w1bh).
+  measure_dev:
+    instruction: "The self-reported presence of action plans can be measured with
+      dichotomous items asking if a specific plan is present (yes/no) for performance
+      of a subbehaviour of the target behaviour. Answers on these items express if
+      the participant has a plan to perform the subbehaviour according to the description
+      provided. Items should specify when, where, and how the particular subbehaviour
+      is performed.\n\nItems measuring the presence of action plans start with a question
+      stem that presents the situation about which the question is asking, followed
+      by a detailed description of an action plan. Participants are asked to indicate
+      if they have (yes=1/no=0) this specific action plan. \n\nAn example of a question
+      stem followed by three items measuring the presence of three separate action
+      plans for the target behaviour \"protecting skin against UV radiation\" is:\n\nWhen
+      you are going on a day trip this summer and large parts of your skin will be
+      uncovered (e.g. at the pool or beach)...\n1) Do you plan to check one day or
+      more beforehand if you have sunscreen at home?\n2) Do you plan to check if you
+      have sunscreen with you before leaving on the day trip?\n3) Do you plan to use
+      sunscreen every 2 hours?\n\nTo assess a participant's overall presence of action
+      plans for the target behaviour see dct:action_plancomp_79n2w1bh.\n"
+  measure_code:
+    instruction: "Questions or questionnaires that measure the presence of action
+      plans for performance of subbehaviours of the target behaviour. In some instances
+      the target behaviour is defined at a very high level of specificity. In that
+      case, dividing the target behaviour into subbehaviours is not possible or redundant,
+      and action plans for performance of the target behaviour itself are measured.\n\nThe
+      presence of action plans, ideally, is measured with dichotomous items asking
+      if a specific plan is present (yes/no) for performance of a subbehaviour of
+      the target behaviour. Answers on these items express if the participant has
+      a plan to perform the subbehaviour according to the description provided. Items
+      should specify when, where, and how the particular subbehaviour is performed.\n\nItems
+      measuring the presence of action plans can start with a question stem that presents
+      the issue and situation about which the question is asking, followed by a detailed
+      description of an action plan. Participants are askes to indicate if they have
+      (yes/no) this specific action plan. \n\nAn example of a question stem followed
+      by three items measuring the presence of three separate action plans for the
+      target behaviour \"protecting skin against UV radiation\" is:\n\nWhen you are
+      going on a day trip this summer and large parts of your skin will be uncovered
+      (e.g. at the pool or beach)....\n1) Do you plan to check one day or more beforehand
+      if you have sunscreen at home?\n2) Do you plan to check if you have sunscreen
+      with you before leaving on the day trip?\n3) Do you plan to use sunscreen every
+      2 hours?\n\nMeasures of action plans often provide answer options that express
+      the likelihood the participant expects to perform the decribed behaviour, or
+      the level of agreement or diagreement with performance of the behaviour; i.e.
+      with anchors \"Very likely\" vs \"Very unlikely\" and \"Totally agree\" vs \"Totally
+      diagree\" on a 5- or 7-point Likert scale. For example: \"When you are going
+      to a pop concert, music festival, or dance/house event, do you plan to take
+      ear plugs with you?\", with answers ranging from \"Very likely\" vs \"Very unlikely\"
+      on a 5-point scale. These items may not measure (the presence of) action plans,
+      but another construct, most likely expectations, and should be coded as such.\n\nSee
+      action_plancomp_79n2w1bh for the measurement of a participant's overall presence
+      of action plans for a particular target behaviour "
+  aspect_dev:
+    instruction: "Conduct a qualitative study where participants are interviewed,
+      and the interviews are either recorded and transcribed, or notes are kept. These
+      sources are then coded using the instruction for aspect coding. \n\nIn this
+      qualitative study, for those participants that have expressed the intention
+      to perform the target behaviour (see: intention_73dnt604), ask for the presence
+      of specific plans how, when, or where to perform the target behaviour.\n\nThese
+      questions may be formulated in the following way: \"How do you plan to TARGET
+      BEHAVIOUR?\", \"When do you plan to TARGET BEHAVIOUR?\", and \"Where do you
+      plan to TARGET BEHAVIOUR\", e.g. \"How/when/where do you plan to exercise?\"."
+  aspect_code:
+    instruction: |+
+      Expressions that demonstrate or imply the presence or absence of specific plans to perform the target behaviour or subbehaviours of the target behaviour. For example "I have an appointment with a friend to go swimming every Monday and Thursday morning from 09.00 to 10.30" is an expression of an action plan for the target behaviour "engage in physical exercise at least twice a week".
+
+  rel: ~
+
+---
+

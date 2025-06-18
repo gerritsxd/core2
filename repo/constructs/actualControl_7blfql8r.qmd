@@ -1,0 +1,41 @@
+---
+format: html
+subtitle: 'UCID: actualControl_7blfql8r'
+title: Actual control
+toc: true
+---
+
+## Definition
+
+Relevant skills and abilities as well as barriers to and facilitators of behavioral performance.
+
+## Developing Measurement Instruments
+
+Researchers can utilize three complementary methods to assess the degree of actual control of a participant.
+
+First, they can establish whether control factors, expressed by participants during the elicitation of salient beliefs, constitute actual (real) barriers or facilitators. Fishbein & Ajzen (2010) on p. 330-331 provide an example: 'Imagine that lack of public transportation is one of the salient factors mentioned as a possible barrier to getting a colonoscopy. We can try to establish if this is a realistic concern by checking with the transportation authorities on the kinds of public transportation available in the area. This would provide a measure of actual control with respect to this particular factor. In addition, we would also need to ascertain whether it is true that lack of public transportation actually interferes with getting to the doctor’s office'. 
+
+A second method to assess actual control is to gather background information about the population of interest; specifically concerning factors that may affect their performance of the target behaviour. Identification of these factors, whether personal or environmental, may be enhanced by consulting experts, members of the target population, and those closely living or working together with those members. As a result of increased comprehension of the study population, specific items can be formulated and included in the questionnaire that measure background factors relevant for performance of the target behaviour (e.g. highest level of education achieved), and/or a skills test (see next paragraph) may be developed, and as such these measures may be provide an (indirect) indication of the level of actual control.
+
+Finally, a third method to measure actual control is observation. The current gold standard for objectively measuring enacted behaviour is 'observational coding' (i.e. 'classifying and quantifying verbal and nonverbal behavioural events or psychological states, irrespective of participants' reports or perceptions'). For example, registering actual control over the intention to be physically active by observing a participant's choices during the day, e.g taking the stairs instead of the elevator, going by bike, and not by car, etc.  As a consequence of its time and resource intensive nature, direct observation is not always a viable option. However, technical innovations have augmented the possiblities to track people's behaviour, affect, and physiology outside of laboratory settings, e.g. an accelerometer may give an (objective) indication of a person's ability to remain physically active over a determined time period. Another way of observing actual control is by designing a test in which participants' skills are put to the proof, e.g. by asking participants to prepare a résumé to test the presence of facilitating factors in applying for a job (example from p. 331 of Fishbein & Ajzen, 2010).
+
+
+## Coding Measurement Instruments
+
+Most research uses perceived behavioural control (see dct:perceivedBehavioralControl_73dnt603) as a proxy of actual control, e.g. questions asessing control beliefs and direct measurements of perceived behavioural control are regarded to reflect actual control.
+
+In some instances, the reality of control beliefs may be objectively verified by the researchers, e.g. a check of the map and neighboorhood may prove or disapprove the belief that no green areas are available for outdoor physical activities. Furthermore, researchers may apply tests to assess the presence of skills essential for the enactment of the target behaviour. Background factors relevant for performance of the target behaviour, such as highest level of education achieved, may also give an indication of the level of actual control.
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are individually interviewed in a free-response format, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding. 
+
+In this qualitative study, use these two questions: ‘Please list any factors or circumstances that would make it easy or enable you to target behaviour’ and ‘Please list any factors or circumstances that would make it difficult or prevent you from target behaviour.’
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply the presence or absence of confidence about one’s control over performance or nonperformance of the target behaviour (i.e. if (non)performance is "up to them"), and expressions that demonstrate or imply the presence or absence of confidence about one’s ability to perform the target behaviour. 
+
+Whether these elicited control beliefs constitute actual (real) barriers or facilitators may be subsequently verified by the researchers, may form the starting point for the development of a skills test or observational coding scheme, or may help gathering the right background information (see: 'measure_dev' of this same DCT for more information). These subsequent steps will thus help establish to what extent actual control with regard to the target behaviour is present.
+
+

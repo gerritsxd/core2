@@ -1,0 +1,36 @@
+---
+dct:
+  version: 0.1.0
+  id: attitude_73dnt5zc
+  label: Attitude
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: A latent disposition or tendency to respond with some degree of favorableness
+      or unfavorableness to the target behavior.
+  measure_dev:
+    instruction: "Attitude consists of two sub-constructs, and is measured by measuring
+      those, i.e.: dct:experientialAttitude_73dnt5z5 and dct:instrumentalAttitude_73dnt5zb
+      \n\n\nA sample question to measure instrumental and experiental attitude would
+      be (from Ajzen & Fishbein, 2010, on p. 450 of their book \"Predicting and changing
+      Behavior: The Reasoned Action Approach\"): \"My exercising for at least 20 minutes,
+      three times per week, for the next 3 months would be....\". Answer options range
+      from \"bad\" to \"good\" (for  instrumental attitude), and from \"pleasant\"
+      to \"unpleasant\" (for experiental attitude) on a 7-point Likert scale.\n"
+  measure_code:
+    instruction: 'Attitude consists of two sub-constructs, and is measured by measuring
+      those: dct:experientialAttitude_73dnt5z5 and dct:instrumentalAttitude_73dnt5zb.'
+  aspect_dev:
+    instruction: |
+      Conduct a qualitative study where participants are individually interviewed in a free-response format, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding. In this qualitative study, use these three questions: 'What do you see as the advantages of you engaging in TARGET BEHAVIOUR?', 'What do you see as the disadvantages of you engaging in TARGET BEHAVIOUR?' and 'What else comes to mind when you think about TARGET BEHAVIOUR?'.
+  aspect_code:
+    instruction: "Expressions of any global evaluation of the target behaviour as
+      a whole. Note that evaluations of specific aspects or consequences of the behavior
+      relate to aspects of underlying constructs, not of attitude itself. \n\nAlso
+      make sure to check the coding instructions for the two sub-constructs that attitude
+      consists of: dct:experientialAttitude_73dnt5z5 and dct:instrumentalAttitude_73dnt5zb.\n"
+  rel: ~
+
+---
+

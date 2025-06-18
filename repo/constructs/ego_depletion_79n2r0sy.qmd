@@ -1,0 +1,51 @@
+---
+format: html
+subtitle: 'UCID: ego_depletion_79n2r0sy'
+title: Ego depletion
+toc: true
+---
+
+## Definition
+
+People’s perceptions of situations and circumstances in which their ability is reduced to control over dominant responses with respect to the target behaviour.
+
+
+
+## Developing Measurement Instruments
+
+Present participants with items describing situations and circumstances that may potentially reduce the capacity for self-control, and ask participants to which extent they believe their ability is reduced to control over dominant responses with respect to the target behaviour. Responses are given on a 5-point Likert scale ranging from "Severly reduced" to "Not reduced at all".
+
+Examples of such items are: "Is your capacity to control the expression of vicious comments to friends or family reduced when preparing for an important test or exam?", "Is your capacity to control your alcohol intake reduced when tired from an exhausting day at work?", "Is your ability to control your exposure to loud music (e.g. by wearing ear plugs, restricting volume, or keeping a distance from loudspeakers) reduced when under the influence of alcohol of drugs? ". 
+
+Note that various situations and circumstances are depicted that may temporarily reduce self-control. The definition of "ego depletion" in this DCT is thus broader than in the original definition of ego depletion by Baumeister et al. (1994). "Ego depletion" in the present DCT can be the result of a prolonged effort to exert self-control (in line with the original defintion by Baumeister et al.), but it can also be prompted by other internal or external factors.
+
+For each behaviour and group of persons, different situations and circumstances may reduce the capacity for self-control. Therefore, specific items are composed for each target behaviour and target group.
+
+
+## Coding Measurement Instruments
+
+"Ego depletion" is its original meaning (i.e. ego depletion is reduced performance on self-control tasks resulting from engaging in preceding tasks requiring self-control) as formulated by Baumeister et al. 1994) is usually assessed by using a sequential-task experimental paradigm, in which participants engage in two consecutive tasks.
+
+The range of situations and circumstances that may elicit "ego depletion" in the definition of the present DCT is broader. Moreover, it reflects an individual's perception of situations and circumstances  in which ego depletion occurs. This perception is not necessarily a reflection of actual ego depletion taking place. Therefore, the  sequential-task experimental paradigm is not an appropriate method to measure the present construct.
+
+To measure the broader meaning of ego depletion, questions are presented in which participants are asked to which extent they believe their ability is reduced to control dominant responses with respect to the target behaviour in the situation or circumstances described. For example: "Is your capacity to control the expression of vicious comments to friends or family reduced when preparing for an important test or exam?" or "Is your ability to control your exposure to loud music (e.g. by wearing ear plugs, restrict the volume, or keeping a distance from loudspeakers) reduced when under the influence of alcohol of drugs? ". Responses on these items can be given on a 5-point Likert scale ranging from "Severly reduced" to "Not reduced at all".
+
+Note that to accurately measure ego depletion, items have to match with the specific target behaviour and target group.
+
+Ego depletion, as defined in the present construct (dct:ego_depletion_79n2r0sy) can be regarded as a subconstruct of dct:capacity_73dnt602, i.e. it represents a temporary reduced capacity for self-control (dct:self_control_79n2fh4t), induced by the situation or by circumstances.
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use this question: "In what situations or circumstances is your ability to control TARGET BEHAVIOUR reduced?". For example: "In what situations or circumstances is your ability to control your food consumption reduced?".
+ 
+
+## Coding Qualitative Data
+
+Expressions that describe situations or circumstances in which one’s ability to exert self-control with respect to the target behaviour is temporarily reduced. For example, expressions such as "When I have drunk alcohol, it is very difficult to control my eating behaviour" or "When I have a lot to do at work, I usually no longer control my eating behaviour and frequently eat junk food".
+
+Expressions that refer to self-control with regard to the target behaviour in general, not refering to situations or circumstances in which this ability is temporarily reduced, should be coded as dct:self_control_79n2fh4t
+
+

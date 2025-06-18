@@ -1,0 +1,29 @@
+---
+dct:
+  version: 0.1.0
+  id: intention_73dnt604
+  label: Intention
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: |
+      The readiness to engage in the behavior, incorporating concepts such as willingness, behavioral expectation, and trying.
+  measure_dev:
+    instruction: |
+      Use a likert scale to ask participants to what degree they intend to, are willing to, or plan to perform the target behavior. The items suggested in the 2010 RAA book are: ‘I intend to TARGET BEHAVIOR.’ with anchors ‘Definitely do not’ vs ‘Definitely do’; ‘I will TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’; ‘I am willing to TARGET BEHAVIOR.’ with anchors ‘False’ vs ‘True’; and ‘I plan to TARGET BEHAVIOR.’ with anchors ‘Absolutely not’ vs ‘Absolutely’.
+  measure_code:
+    instruction: |
+      Operationalisations that measure the degree to which a target population member has a deliberate (reasoned) plan/intention to engage in TARGET BEHAVIOR. For example, the items suggested in the book are: ‘I intend to TARGET BEHAVIOR.’ with anchors ‘Definitely do not’ vs ‘Definitely do’; ‘I will TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’; ‘I am willing to TARGET BEHAVIOR.’ with anchors ‘False’ vs ‘True’; and ‘I plan to TARGET BEHAVIOR.’ with anchors ‘Absolutely not’ vs ‘Absolutely’.
+  aspect_dev:
+    instruction: |
+      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+      In this qualitative study, partcipants are asked whether they intend to perform the target behaviour, for example: 'Do you intend to exercise for at least 20 minutes, three times per week, for the next 3 months?'
+  aspect_code:
+    instruction: Any expressions that somebody has the intention, goal, or plan to
+      perform a target behavior.
+  rel: ~
+
+---
+

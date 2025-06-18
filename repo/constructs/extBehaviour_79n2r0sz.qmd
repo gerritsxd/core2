@@ -1,0 +1,59 @@
+---
+format: html
+subtitle: 'UCID: extBehaviour_79n2r0sz'
+title: External regulation of behaviour
+toc: true
+---
+
+## Definition
+
+Behaviour is externally regulated when an activity is adopted to acquire an outcome that is separable from the activity itself. 
+
+
+
+
+## Developing Measurement Instruments
+
+The degree to which engagement in the target activity is externally regulated can be assessed by asking participants “Why are you currently engaged in this activity?” and representing a series of items containing potential answers to this question. Responses to each item are given on a 7-point Likert scale ranging from "Does not correspond at all" to "Corresponds exactly".
+
+Examples of items expressing externally regulated behaviour are: "Because I am supposed to do it", "Because it is something that I have to do", and "Because I feel that I have to do it".
+
+The procedure and items described here are from the Situational Motivation Scale (SIMS) (Guay et al., 2000). Beside items containing statements deemed typical for externally regulated behaviour, the SIMS contains items to assess identified regulation, intrinsic regulation, and amotivation. The items belonging to each particular subscale are summed to assess which motivational construct dominates. The SIMS is used to assess motivation for various activities such as physical exercise and academic performance. 
+
+## Coding Measurement Instruments
+
+Instruments that measure the degree to which engagement in the target activity is externally regulated.
+
+The Situational Motivation Scale (SIMS) (Guay et al., 2000) is a frequently used self-report instrument to assess whether behaviour is externally regulated. Beside external regulation of behaviour, the SIMDS assesses identified regulation, intrinsic regulation, and amotivation, and is used to assess motivation for various activities (e.g. physical exercise, academic performance). 
+
+The SIMS asks participants “Why are you currently engaged in this activity?”. Scale items represent potential answers to this question. Responses are given on a 7-point Likert scale ranging from "Does not correspond at all" to "Corresponds exactly".
+
+Examples of statements expressing external regulation of behaviour are: "Because I am supposed to do it", "Because it is something that I have to do", and "Because I feel that I have to do it".
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use this question: “Why are you currently engaged in TARGET BEHAVIOUR?” 
+
+For example: "Why do you currently wear ear plugs at concerts?" or "Why do you currently follow a calorie-restricted diet?"
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply that engagement in the target behaviour is externally regulated, using phrases such as "Because I am supposed to do it" and "Because it is something that I have to do".
+
+Expressions that demonstrate or imply the presence of introjected regulation of behaviour should be coded as dct:introjBehaviour_79n2r0t0.
+
+Expressions that demonstrate or imply the presence of identified regulation of behaviour should be coded as dct:identifiedBehaviour_79n2r0t0.
+
+Expressions that demonstrate or imply the presence of integrated regulation of behaviour should be coded as dct:integratedBehaviour_79n2r0t0.
+
+In practice, it can be difficult to distinguish expressions belonging to the four types of extrinsic motivation (external, introjected, identified, and integrated self-regulation). Therefore, a less precise categorization can be made between controlled and autonomous motivation: external and introjected regulation belonging to the first category, and identified and integrated self-regulation belonging to the first category.
+
+Expressions that demonstrate or imply the presence of intrinsically regulated behaviour should be coded as dct:intrinsicBehaviour_79n2r0t0.
+
+Expressions that demonstrate or imply the absence of motivation to engage in the target behaviour (i.e. "amotivation") should be coded as dct:motivation_79n2fh4q, and in a supplementary comment scored "0" or "absent".
+
+Expressions that refer to the presence of motivation with regard to the target behaviour without specifying the nature of its regulation or expressions that refer to the presence of motivation in general should be coded dct:motivation_79n2fh4q.
+
+

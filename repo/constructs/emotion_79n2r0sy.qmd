@@ -1,0 +1,36 @@
+---
+format: html
+subtitle: 'UCID: emotion_79n2r0sy'
+title: Emotion
+toc: true
+---
+
+## Definition
+
+Emotions are states that follow from the appraisal of a specific situation as facilitating or endangering the achievement of an important goal, involving behavioural, physiological, affective, and cognitive elements.
+
+
+## Developing Measurement Instruments
+
+Emotions affect an individual on different levels (behaviour, physiology, affect, cognition). As a consequence, multiple measurement methods may be employed, and possibly integrated, to measure emotion. Self-report, other-report, observation, and neurophysiology are the measurement methods most dominantly used in emotion research. 
+
+A three-step system for choosing a measure of emotion can be employed (Ekkekakis, 2008): 1) Decide whether you wish to study core affect, emotion, or mood (these are related but different constructs); 2) Choose the most appropriate theoretical framework for the chosen construct; 3) Select the psychometrically strongest measure based on the chosen theoretical framework.
+
+In the context of behaviour change, emotions may exert an influence on the target behaviour in various ways. The mere thought of performing the behaviour may trigger a strong emotion and in- or decrease the likelihood of performing the behaviour. Emotions may also affect the actual performance of the behaviour. The kinds of emotion that are experienced before, during, and after the behaviour may also be diverse (e.g. anger, shame, or joy).
+
+The foregoing must be taken into account when a measurement instrument is chosen or developed, e.g. if a (fictitious) research hypothesis is that the experience of "positive" emotions (e.g. joy, pride) and "negative" emotions (e.g. anger, shame), respectively, de- and increase the number of cigarettes smoked during a day, then retrospective assessment of experienced emotions with a self-report questionnaire likely is not the most appropriate instrument, but an measurement method that is able to record emotions at various moments of the day such as ecological momentary assessments (EMAs) is a better candidate.
+
+## Coding Measurement Instruments
+
+Self-report, other-report, observation, and neurophysiology measures that assess emotions associated with the target behaviour, and/or emotions experienced before, during, and/or after engagement in the target behaviour.
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use one or more of these questions: "Please list any emotions you experience when you think about engaging in the TARGET BEHAVIOUR", "Please list any emotions you experience before engaging in the TARGET BEHAVIOUR", "Please list any emotions you experience while engaging in the TARGET BEHAVIOUR", and "Please list any emotions you experience after engaging in the TARGET BEHAVIOUR".
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply the presence or absence of emotions, either by directly refering to the experience of an emotion (e.g. "I was very happy at that moment" or "That made me extremely angry") or by expressing behaviour typical of the experience of emotions ("I collapsed to the ground and cried when I heard the bad news" or "My head turned bright red and I didn't dare to look at my friends when i saw the video from the night before").
+

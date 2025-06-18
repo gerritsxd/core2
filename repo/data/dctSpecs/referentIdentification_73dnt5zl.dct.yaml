@@ -1,0 +1,69 @@
+---
+dct:
+  version: 0.1.0
+  id: referentIdentification_73dnt5zl
+  label: "Identification with referent"
+  date: ""
+  source:
+    id: "raa_book"
+
+################################################################################
+
+  definition:
+    definition: "Identification with a social referent is defined as the degree to which an individual wants to be like that social referent with regards to the target behavior.
+
+
+A social referent can be a specific individual, a group of distinct individuals (e.g. one's siblings), or a more generically defined group (e.g. the residents of my city).
+
+
+The identification with a given social referent combines multiplicatively with the perceived behavior of that social referent (dct:referentBehavior_73dnt5zk) into a descriptive norm belief (dct:descrNorms_belief_73dnt5zm)."
+    source:
+      spec: ""
+
+################################################################################
+
+  measure_dev:
+    instruction: "To measure the identification with a given social referent, measure how much people want to be like the relevant social referents with regard to the target behavior.
+
+
+Note that for any given social referent, it's possible that an individual wants to be like that referent, but it's also possible that the individual actively wants to be *unlike* that social referent. For example, people may strongly want to distance themselves from (be unlike) members of a perceived outgroup (e.g. adolescents may want to be unlike middle-aged people).
+
+
+Therefore, bidimensional scales are required to account for this variation. As item stem, use 'Concerning [BEHAVIOR], I want to be like [SOCIAL REFERENT]...', with anchors 'as little as possible' versus 'as much as possible'. For example, 'Concerning being able to speak in public, I want to be like a movie star... [As little as possible|As much as possible]'
+
+
+Because this is a bidimensional scale, the scale midpoint reflects neutrality (i.e. the participant neither wants to identify with, nor distance themselves from, the relevant social referent regarding this target behavior). This means that a seven-point response scale is slightly preferred over a five-point response scale to allow participants to express three degrees of desire to be similar or dissimilar."
+
+    source:
+      spec: ""
+
+################################################################################
+
+  measure_code:
+    instruction: ""
+    source:
+      spec: ""
+
+################################################################################
+
+  aspect_dev:
+    instruction: ""
+    source:
+      spec: ""
+
+################################################################################
+
+  aspect_code:
+    instruction: ""
+    source:
+      spec: ""
+
+################################################################################
+
+  rel:
+    id: "descrNorms_belief_73dnt5zm"
+    type: "causal_influences_product"
+
+################################################################################
+---
+

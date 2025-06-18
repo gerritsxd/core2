@@ -23,8 +23,20 @@ search_index = []
 # Loop through each YAML file and create a QMD file
 for file_path in yaml_files:
     
+    construct_data = None
     with open(file_path, 'r', encoding='utf-8') as f:
-        construct_data = yaml.safe_load(f)
+        # Use safe_load_all to handle multiple documents in a single file
+        # and find the first valid (non-empty) document.
+        documents = yaml.safe_load_all(f)
+        for doc in documents:
+            if doc:  # Check if the document is not None or empty
+                construct_data = doc
+                break # Found the first valid document, stop looking
+
+    # If no valid data was found in the file, skip it
+    if not construct_data:
+        print(f"Warning: No valid YAML document found in {file_path}. Skipping.")
+        continue
 
     # The actual data is under the 'dct' key
     dct_data = construct_data.get('dct', {})
@@ -34,35 +46,45 @@ for file_path in yaml_files:
     
     # --- Create QMD content ---
     title = dct_data.get('label', 'No Label')
-    qmd_front_matter = f"""---
-title: "{title}"
-subtitle: "UCID: {construct_id}"
-format: html
-toc: true
----
 
-"""
+    # Create front matter as a Python dictionary
+    front_matter_dict = {
+        'title': title,
+        'subtitle': f"UCID: {construct_id}",
+        'format': 'html',
+        'toc': True
+    }
+
+    # Use yaml.dump to create a correctly formatted and escaped YAML string.
+    # This is much more robust than manual string formatting.
+    qmd_front_matter = f"---\n{yaml.dump(front_matter_dict)}---\n\n"
 
     # Helper to create sections
-    def create_section(section_title, content_dict, key):
+    def create_section(section_title, content):
         text = None
-        if isinstance(content_dict, dict):
-            # It's a dictionary, get the text using the provided key
-            text = content_dict.get(key)
-        elif isinstance(content_dict, str):
-            # It's a string, so that's our text
-            text = content_dict
+        if content is None:
+            return "" # Section doesn't exist, return empty string
 
-        if text and text.strip():
+        if isinstance(content, str):
+            # Case 1: The content is just a direct string
+            text = content
+        elif isinstance(content, dict):
+            # Case 2: The content is a dictionary.
+            # We assume the text is the value of the *first* key in the dictionary.
+            # This is robust and doesn't rely on hardcoded keys like 'definition' or 'instruction'.
+            if content: # Check if dictionary is not empty
+                text = next(iter(content.values()), None)
+
+        if text and str(text).strip():
             return f"## {section_title}\n\n{text}\n\n"
         return ""
 
-    # 2. Build sections
-    qmd_definition = create_section("Definition", dct_data.get('definition', {}), 'definition')
-    qmd_measure_dev = create_section("Developing Measurement Instruments", dct_data.get('measure_dev', {}), 'instruction')
-    qmd_measure_code = create_section("Coding Measurement Instruments", dct_data.get('measure_code', {}), 'instruction')
-    qmd_aspect_dev = create_section("Eliciting Construct Content (Qualitative Research)", dct_data.get('aspect_dev', {}), 'instruction')
-    qmd_aspect_code = create_section("Coding Qualitative Data", dct_data.get('aspect_code', {}), 'instruction')
+    # 2. Build sections by passing the direct object from the YAML
+    qmd_definition = create_section("Definition", dct_data.get('definition'))
+    qmd_measure_dev = create_section("Developing Measurement Instruments", dct_data.get('measure_dev'))
+    qmd_measure_code = create_section("Coding Measurement Instruments", dct_data.get('measure_code'))
+    qmd_aspect_dev = create_section("Eliciting Construct Content (Qualitative Research)", dct_data.get('aspect_dev'))
+    qmd_aspect_code = create_section("Coding Qualitative Data", dct_data.get('aspect_code'))
 
     # Combine all parts
     qmd_content = (

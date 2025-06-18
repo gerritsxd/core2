@@ -1,0 +1,42 @@
+---
+format: html
+subtitle: 'UCID: goal_79n2r0sz'
+title: Goal
+toc: true
+---
+
+## Definition
+
+The representation of a desired state.
+
+## Developing Measurement Instruments
+
+Make 5- or 7-point Likert scales that measure the extent participants think engagement in the target behavior will help them reach their goals. For example: "TARGET BEHAVIOUR will help me reach my goals", with anchors "Totally agree" and "Totally disagree".
+
+Note that no specified goals are formulated. If one wants to identify the goals that are associated with a target behaviour, an elicitation study among the study population can be performed. This will identify the most salient goal beliefs. 
+
+After the elicitation study,  participants can be asked to respond to two questions with respect to each salient goal belief, one question to assess the perceived likelihood that engagement in the target behaviour will lead to attainment of the goal, and the other to measure the perceived importance of this goal. 
+
+To get a total quantitative score of a goal belief, the perceived likelihood that engagement in the target behaviour will lead to attainment of the goal is multiplied by the perceived importance of the goal. The total score of a goal belief enables the assessment of the impact of a specific goal belief, in comparison with other goal beliefs, and thus helps to identify the most important goals people may have for engaging in the target behaviour.
+
+
+## Coding Measurement Instruments
+
+Questions or questionnaires that measure that the extent participants think engagement in the target behaviour will help them reach their goals. For example: "TARGET BEHAVIOUR will help me reach my goals", with anchors "Totally agree" and "Totally disagree".
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, ask the question: "What role does TARGET BEHAVIOUR play in reaching your goals?".
+
+In the aforementioned question "goal" is not specified. If one wants to identify salient goal beliefs, the following question may be asked: "What do you consider your most important goals for (engaging in) TARGET BEHAVIOUR?"  
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply the degree of importance, performance of the target behaviour has for the participant in reaching his or her goals, e.g. using words and phrases such as "important/unimportant" and "major/minor role".
+
+
+
+

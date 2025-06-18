@@ -3,7 +3,7 @@ title: "Construct definitions"
 listing:
   - id: "definitions-listing"
     template: "psycore-definitions-template.ejs"
-    contents: "../data/dctSpecs/*.yaml"
+    contents: "../data/dctSpecs/*.dct.yaml"
     sort-ui: false
     filter-ui: false
     page-size: 999

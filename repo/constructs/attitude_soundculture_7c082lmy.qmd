@@ -1,0 +1,50 @@
+---
+format: html
+subtitle: 'UCID: attitude_soundculture_7c082lmy'
+title: Attitude towards sound level in music and sports settings
+toc: true
+---
+
+## Definition
+
+A latent disposition or tendency to respond with some degree of favorableness or unfavorableness to the sound levels at musical and sports activities and events, and in nightlife settings ('clubbing').
+
+## Developing Measurement Instruments
+
+Attitude towards sound levels is a subgroup of attitude towards noise (see:dct:attitude_noise_7c08258d), which in its turn is a specific subtype of attitude (see dct: attitude_73dnt5zc). 
+
+Attitude towards sound levels is assessed with instruments that consist of  items that measure both the experiential (see dct:experientialAttitude_73dnt5z5) and instrumental (dct:instrumentalAttitude_73dnt5zb) attitude towards sound levels at musical and sports activities and events, and in nightlife settings ('clubbing'), or the instrument may measure attitude towards the sound levels at musical and sports activities and events, and in nightlife settings, without the items being particularly experiential or instrumental in nature.
+
+The first factor (phrased "elements of youth culture") of the ‘Youth Attitude to Noise Scale’ (YANS) (Widen et al, 2006), consisting of 8 items, is an example of an instrument assessing this construct. It consists of items measuring both experiential and instrumental attitudes towards sound levels in musical, sports and nightlife settings.
+
+
+
+
+## Coding Measurement Instruments
+
+Attitude towards sound levels is a subgroup of attitude towards noise (see dct:attitude_noise_7c08258d), which in its turn is a specific subtype of attitude (see dct: attitude_73dnt5zc). 
+
+Attitude towards sound levels is assessed with instruments that consist of  items that measure both the experiential (see dct:experientialAttitude_73dnt5z5) and instrumental (dct:instrumentalAttitude_73dnt5zb) attitude towards sound levels at musical and sports activities and events, and in nightlife settings ('clubbing'), or the instrument may measure attitude towards the sound levels at musical and sports activities and events, and in nightlife settings, without the items being particularly experiential or instrumental in nature.
+
+The first factor (phrased "elements of youth culture"), consisting of the 8 items, of the ‘Youth Attitude to Noise Scale’ (YANS) (Widen et al, 2006), is an example of an instrument assessing this construct. It consists of items measuring both experiential and instrumental attitudes towards sound levels in musical, sports and nightlife settings.
+
+
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are individually interviewed in a free-response format, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding. In this qualitative study, use these three questions: 'What do you see as the advantages of LOUD SOUND during sport/music/nightlife events', 'What do you see as the disadvantages of LOUD SOUND during sport/music/nightlife events?' and 'What else comes to mind when you think about LOUD SOUND during sport/music/nightlife events?'.
+
+
+
+
+
+## Coding Qualitative Data
+
+Expressions of any global evaluation of loud sounds in sport/music/nightlife settings. Note that evaluations of specific aspects or consequences of the behavior relate to aspects of underlying constructs, not of attitude itself. 
+
+Expressions that relate to general attitudes towards loud sound (i.e. not specifically refering to sports, musical, or nightlife settings) are coded as dct:attitude_noise_7c08258d
+
+Also make sure to check the coding instructions for the two sub-constructs that attitude consists of: dct:experientialAttitude_73dnt5z5 and dct:instrumentalAttitude_73dnt5zb.
+
+

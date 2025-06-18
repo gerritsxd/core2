@@ -1,0 +1,39 @@
+---
+dct:
+  version: 0.1.0
+  id: injunctiveNorms_73dnt5zj
+  label: Injunctive norms
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: |
+      Injunctive norms refer to perceptions concerning what should or ought to be done with respect to performing a given behaviour. People may be motivated to behave in accordance with what they believe others think they should do (injunctive norms) because the social agent has the power to reward or punish them, because the agent has the right to request it, because the agent is an expert, or because they want to be like the agent. The operation of reward, coercive, and legitimate power all imply that the social agent expects a particular kind of behavior; that is, it implies an injunctive norm.
+  measure_dev:
+    instruction: |
+      Use likert scales that measure perceived social approval of important social referents in general. It is important that no specific individuals are referenced, but that the items do refer to individuals that are similar, important or seen as important to follow. Note that the behaviour in these items must always be the target behavior. The example items in the 2010 RAA book are ‘Most people who are important to me think I should TARGET BEHAVIOUR.’ with anchors ‘False’ vs ‘True’; and ‘Most people whose opinions I value would … of my TARGET BEHAVIOUR’ with anchors ‘Disapprove’ vs ‘Approve’.
+  measure_code:
+    instruction: "Questions or questionnaires that measure perceptions concerning
+      what should or ought to be done with respect to performing the target behaviour.
+      No specific individuals are referenced, but items refer to individuals that
+      are similar, important or seen as important to follow. Examples of questions
+      measuring injunctive norms (on a 7-point Likert scale) are: ‘Most people who
+      are important to me think I should TARGET BEHAVIOuR.’ with anchors ‘Agree’ vs
+      ‘Disagree’; and ‘Most people whose opinions I value would … of my TARGET BEHAVIOUR’
+      with anchors ‘Disapprove’ vs ‘Approve’. \n"
+  aspect_dev:
+    instruction: |
+      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+      In this qualitative study, ask these questions: ‘Would persons important to you approve or think you should TARGET BEHAVIOUR'; and 'Would persons important to you disapprove or think you should not TARGET BEHAVIOUR?'
+
+      Reference here is made to a 'generalized agent' (i.e. important social referents in general) and no specific individuals are referenced. As reference to a specific individual is often unavoidable, one may opt not to elicit construct content with regard to injunctive norms, but limit the elicitation of construct content to the subconstructs dct:motivationToComply_73dnt5zf and dct:referentApproval_73dnt5zd
+  aspect_code:
+    instruction: |
+      Expressions of perceived approval or disapproval of the target behaviour by others.
+
+      Note that expressions of perceived performance of the target behaviour by others should be coded as dct:descriptiveNorms_73dnt5zp, and expressions of perceived norms where it is unclear whether they concern perceived (dis)approval or perceived approval should be coded as dct:perceivedNorm_71w98kk2.
+  rel: ~
+
+---
+

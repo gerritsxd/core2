@@ -1,0 +1,45 @@
+---
+dct:
+  version: 0.1.0
+  id: motivation_79n2fh4q
+  label: Motivation
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: |
+      Motivation is the experience of desire or aversion that instigates, directs, and maintains goal-oriented behaviour, and is energized intrinsically, by internal factors related to the individual, and extrinsically, by external factors acting on the individual.
+  measure_dev:
+    instruction: |
+      The presence or absence of motivation for engagement in the target behaviour can be measured with the question "Are you motivated to engage in TARGET BEHAVIOUR?" followed by either a dichotomous response option ("yes"/"no") or a 5-point Likert scale ranging from "Very Much" to "Not at all".
+
+      According to self-determination theory (Deci & Ryan, 1985), different types of motivation underlie human behaviour. These different types of motivation may be positioned on a continuum from high to low levels of self-determination, with intrinsic motivation and amotivation at the extreme ends. Instructions for measuring these different categories of motivation (each one with its specific place on the motivation continuum) can be found at their respective dcts, i.e.: dct:intrinsicBehaviour_79n2r0t0, dct:integratedBehaviour_79n2r0t0, dct:identifiedBehaviour_79n2r0t0, dct:introjBehaviour_79n2r0t0, and dct:extBehaviour_79n2r0sz.
+  measure_code:
+    instruction: |
+      Questions or questionnaires that measure the presence or absence of motivation for engagement in the target behaviour. In its simplest form, this can be measured with the question "Are you motivated to engage in TARGET BEHAVIOUR?" followed by either a dichotomous response option ("yes"/"no") or a 5-point Likert scale ranging from "Very Much" to "Not at all".
+
+      Definitions and operationalisations of motivation vary greatly across studies. One influential theory on human motivation is self-determination theory (Deci & Ryan, 1985). According to this theory, different types of motivation underlie human behaviour. These different types of motivation are positioned on a continuum from high to low levels of self-determination, with intrinsic motivation and amotivation at the extreme ends. The Situational Motivation Scale (SIMS) (Guay et al., 2000) is a frequently used self-report instrument to assess which type of motivation dominates for a particular behaviour or activity (see dct:intrinsicBehaviour_79n2r0t0, dct:integratedBehaviour_79n2r0t0, dct:identifiedBehaviour_79n2r0t0, dct:introjBehaviour_79n2r0t0, and dct:extBehaviour_79n2r0sz).
+
+      Questions that measure specific types of motivation (such as the questions used in the SIMS), and not motivation in general (for engagement in the target behaviour) should not be coded as dct:motivation_79n2fh4q, but should be given the code pertaining to the specific subconstruct measured (e.g. dct:extBehaviour_79n2r0sz).
+  aspect_dev:
+    instruction: |-
+      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+      In this qualitative study, use this question "Are you motivated to engage in TARGET BEHAVIOUR?" For example: "Are you motivated to follow a calorie-restricted diet?" or "Are you motivated to stop smoking?"
+  aspect_code:
+    instruction: |
+      Expressions that demonstrate or imply the presence or absence of motivation to perform the target behavior. For example, using phrases as "I am motivated to follow a calorie-restricted diet" or "I do not have enough motivation to stop smoking"
+
+      Expressions that demonstrate or imply that engagement in the target behaviour is externally regulated, should be coded as dct:extBehaviour_79n2r0sz.
+
+      Expressions that demonstrate or imply the presence of introjected regulation of behaviour should be coded as dct:introjBehaviour_79n2r0t0.
+
+      Expressions that demonstrate or imply the presence of identified regulation of behaviour should be coded as dct:identifiedBehaviour_79n2r0t0.
+
+      Expressions that demonstrate or imply the presence of integrated regulation of behaviour should be coded as dct:integratedBehaviour_79n2r0t0.
+
+      Expressions that demonstrate or imply the presence of intrinsically regulated behaviour should be coded as dct:intrinsicBehaviour_79n2r0t0.
+  rel: ~
+
+---
+

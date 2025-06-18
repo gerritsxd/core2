@@ -1,0 +1,38 @@
+---
+format: html
+subtitle: 'UCID: injNorms_belCom_73dnt5zh'
+title: Injunctive norm beliefs composite
+toc: true
+---
+
+## Definition
+
+
+The sum of the injunctive norm beliefs.
+
+## Developing Measurement Instruments
+
+A composite of injunctive norms beliefs is obtained by multiplying the perceived approval or disapproval of a normative referent (dct:referentApproval_73dnt5zd) by the motivation to comply with that referent (dct:motivationToComply_73dnt5zf) and then summing the product terms across all salient injunctive norms beliefs. This, preferably, is represented graphically (e.g. in a table or index) and, additionally, in an equation. See Table 4.1 on p. 136 of the Reasoned Action Approach book (Ajzen & Fishbein, 2010) for an example.
+ 
+
+## Coding Measurement Instruments
+
+The injunctive norm beliefs composite reflects the summation of injunctive norm beliefs with regard to the target behaviour. Each injunctive norm belief  (dct:injNorms_belief_73dnt5zg), in its turn, is the product term of the multiplication of the perceived referent approval (dct:referentApproval_73dnt5zd) by the motivation to comply with that referent (dct:motivationToComply_73dnt5zf).
+
+Given the formative nature of the injunctive norm beliefs composite, for a swift and clear overview of its composition and its effect on injunctive norms (dct:injunctiveNorms_73dnt5zj), preferably a graphical representation (e.g. a table or index) and, possibly, an equation is consulted. Table 4.1 on p. 136 of  the Reasoned Action Approach book (Ajzen & Fishbein, 2010) represents an example of an overview of a injunctive norm beliefs composite.
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Injunctive norm beliefs and, as a consequence, also injunctive norm beliefs composites (which are the sum of the former), can not be directly elicited. Injunctive norm beliefs are the product of the perceived referent approval of the target behaviour (dct:referentApproval_73dnt5zd) multiplied by the motivation to comply with that referent (dct:motivationToComply_73dnt5zf). 
+
+See these two subconstructs for instructions for eliciting their respective construct content.
+
+
+## Coding Qualitative Data
+
+Injunctive norm beliefs and, as a consequence, also injunctive norm beliefs composites (which are the sum of the former), can not be directly elicited. Injunctive norm beliefs are the product of the perceived referent approval of the target behaviour (dct:referentApproval_73dnt5zd) multiplied by the motivation to comply with that referent (dct:motivationToComply_73dnt5zf). 
+
+See these two subconstructs for instructions for coding their respective construct content.
+
+

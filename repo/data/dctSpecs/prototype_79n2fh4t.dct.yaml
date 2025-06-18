@@ -1,0 +1,45 @@
+---
+dct:
+  version: 0.1.0
+  id: prototype_79n2fh4t
+  label: Prototype
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: 'A person''s image of the typical person who performs (or does not
+      perform) a given behaviour. '
+  measure_dev:
+    instruction: |
+      An individual's image of the typical person who performs (or does not perform) a given behaviour (i.e. the "prototype") can be assessed by measuring the subconstructs prototype favourability (see dct:prototypeFavourability_79n2fh4t) and prototype similarity (see dct:prototypeSimilarity_79n2fh4t).
+
+      When the prototype performs the target behaviour, higher prototype favourability and similarity are, in general, related to an increased likelihood that an individual will engage in the behaviour, or will exhibit the willingness or intention to engage in the behaviour associated with the prototype (vice versa, when the protoptype abstains from performing the behaviour, higher prototype favourability and similarity are related to a decreased likelihood that an individual will engage in the behaviour).
+
+      In addition, analyzing the interaction between prototype favourability and similarity can increase predictive validity (Van Lettow et al., 2016). For example, in the study by Rivis et al. (2011) more favourable perceptions of the drink-driver prototype were associated with greater willingness to drink and drive at high (but not moderate or low) levels of prototype similarity.
+  measure_code:
+    instruction: "Prototype images with regard to the target behaviour can be assessed
+      by measuring the subconstructs prototype favourability (see dct:prototypeFavourability_79n2fh4t)
+      and prototype similarity (see dct:prototypeSimilarity_79n2fh4t).\n\nWhen the
+      prototype performs the target behaviour, higher prototype favourability and
+      similarity are, in general, related to an increased likelihood that an individual
+      will engage in the behaviour, or will exhibit the willingness or intention to
+      engage in the behaviour associated with the prototype. \nWhen the protoptype
+      abstains from performing the behaviour, higher prototype favourability and similarity
+      are related to a decreased likelihood that an individual will engage in the
+      behaviour."
+  aspect_dev:
+    instruction: |
+      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+      In this qualitative study, use the questions: "How would you describe the typical person that engages (or: does not engage) in TARGET BEHAVIOUR?" or "What is your image of the typical person that engages (or: does not engage) in TARGET BEHAVIOUR?"
+  aspect_code:
+    instruction: |
+      Expressions that exhibit the presence of a prototype image associated with the performance of a behaviour (or abstaining from it) without a reference to favourability or similarity. For example in the answer "These people are very health concious" in response to the question "What is your image of the typical person that does not drink alcohol?" no clear aspect of favourability or similarity is apparent. However, a reference to a prototypical image is nevertheless made.
+
+      Expressions that demonstrate or imply the degree of favourability, containing adjunctives such as "smart/dumb", "attractive/unattractive", "desirable/undiserable" should be coded as dct:prototypeFavourability_79n2fh4t.
+
+      Expressions that demonstrate or imply the degree of similarity, containing adjunctives such as "familiar/unfamiliar",  "related/unrelated", "resemble/differ" should be coded as dct:prototypeSimilarity_79n2fh4t.
+  rel: ~
+
+---
+

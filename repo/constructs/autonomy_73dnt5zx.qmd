@@ -1,0 +1,41 @@
+---
+format: html
+subtitle: 'UCID: autonomy_73dnt5zx'
+title: Autonomy
+toc: true
+---
+
+## Definition
+
+
+People’s perceptions of the extent to which performance or nonperformance of a behaviour is up to them.
+
+## Developing Measurement Instruments
+
+Items to measure autonomy usually ask participants to consider the extent to which extent performance or nonperformance of the behaviour is under their control or is up to them. The focus here is on control over performance as well as nonperformance of the behaviour. 
+
+Fishbein & Ajzen provide a sample question to measure autonomy on p. 450 of their Reasoned Action Approach (RAA) book (2010): "My exercising for at least 20 minutes, three times per week, for the next 3 months is up to me". Answer options range from "Disagree" to "Agree" on a 7-point Likert scale. 
+
+Other examples of items that measure autonomy are (p. 166 of RAA book): "How much control do you have over whether you perform behavior x?" (no control–complete control); "I feel in complete control over whether I perform behavior x" (completely false–completely true); "Whether or not I perform behavior x is completely up to me" (disagree–agree); "How much do you feel that performing behavior x is beyond your control?" (not at all–very much); "It is mostly up to me whether or not I perform behavior x" (strongly agree–strongly disagree); "The number of events outside my control which could prevent me from performing behavior x are ..." (numerous–very few).
+
+
+## Coding Measurement Instruments
+
+Questions or questionnaires that measure the perceived degree to which performance or nonperformance of the behaviour is under participants' control or is up to them. Examples of questions measuring autonomy are: "I feel in complete control over whether I perform TARGET BEHAVIOUR" (completely false–completely true); and "Whether or not I perform TARGET BEHAVIOUR is completely up to me", with responses ranging from "Disagree" to "Agree" on a 7-point Likert scale.
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are individually interviewed in a free-response format, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use these two questions: ‘Please list any factors or circumstances that would make it easy or enable you to TARGET BEHAVIOUR’ and ‘Please list any factors or circumstances that would make it difficult or prevent you from TARGET BEHAVIOUR.’
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply the presence or absence of confidence about one’s control over performance or nonperformance of the target behaviour (i.e. if (non)performance is "up to them"), for example because of a barrier, obstacle, or facilitating condition or circumstance. 
+
+Expressions that relate to one’s ability to perform the target behavior, should be coded as dct:capacity_73dnt602.
+
+Expressions that refer to control in general (not specifically one’s autonomy), should be coded as dct:perceivedBehavioralControl_71w8sfdk.
+
+

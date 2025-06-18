@@ -3,7 +3,7 @@ title: "Instructions for coding qualitative data"
 listing:
   - id: "aspectCodeListing"
     template: "psycore-aspectCode-template.ejs"
-    contents: "../data/dctSpecs/*.yaml"
+    contents: "../data/dctSpecs/*.dct.yaml"
     sort-ui: false
     filter-ui: false
     page-size: 999

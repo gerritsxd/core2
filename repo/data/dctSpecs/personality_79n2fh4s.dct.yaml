@@ -1,0 +1,52 @@
+---
+dct:
+  version: 0.1.0
+  id: personality_79n2fh4s
+  label: Personality
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: |
+      Personality is the set of psychological traits and mechanisms within the individual that are organized and relatively enduring and that influence his or her interactions with, and adaptations to, the intrapsychic, physical, and social environments.
+  measure_dev:
+    instruction: |
+      Numerous instruments exist that aim to measure human personality. Most instruments are self-report questionnaires. However, other measures of personality exist such as performance tests, instruments for direct observation, semi-structured interviews, and projective tests.
+
+      The choice for a particular instrument is largely driven by the specific personality theory one adheres to; for example the influential Big Five model of personality traits, or five-factor model (FFM), has inspired the creation of a number of self-report instruments (such as the the Revised NEO Personality Inventory [NEO PI-R]) that assess the relative presence of each of the Big Five personality traits (openness to experience, conscientiousness, extraversion, agreeableness, and neuroticism) in a person.
+
+      The NEO PI-R consists of 240 items such as "I like to have a lot of people around me" and "I often find myself in disagreements with my family and colleagues". Answers are given on a 5-points Likert scale ranging from "Totally disagree" to "Totally agree". Each of the five personality dimensions in the NEO PI-R consists of six facets. At the broadest level, personality can be described in terms of five basic dimensions by summing the six facets in each domain. More precise estimates of standing on the five factors, can be provided by factor scores (i.e. a weighted combination of scores on all 30 facets). For interpretation, an individual's scores on the NEO PI-R are compared to a relevant reference group (e.g. adult men).
+  measure_code:
+    instruction: "Self-report questions that are assumed to measure stable facets
+      of personality (i.e. \"traits\") across time and situations such as \"I like
+      to have a lot of people around me\" and \"I often find myself in disagreements
+      with my family and colleagues\". These examples are from the NEO Personality
+      Inventory (NEO PI-R) and answers here are given on a 5-points Likert scale with
+      the anchors \"Totally disagree\" to \"Totally agree\". \n\nBeside self-report
+      questionnaires, other measures of personality exist such as performance tests,
+      \ instruments for direct observation, semi-structured interviews, and projective
+      tests.\n"
+  aspect_dev:
+    instruction: |-
+      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+      In this qualitative study, people are asked for their typical behaviour in a series of different situations (deemed appropriate to incite representative behaviour). For example: "You are invited to a party where you hardly know any of the guests. How would you describe your behaviour at the party?".
+
+      The Structured Interview for the Five-Factor Model of Personality (SIFFM; T J. Rull & T A. Widiger, 1997) is a 120-item semistructured interview to asses personality according to the five-factor model (FFM). An example of an item measuring neuroticism is: "Do you worry a lot about the future or things that might go wrong?" [If yes:] "What kinds of things do you worry about?" [After response] "What proportion of the time?". An SIFFM-item for the assessment of extraversion is: "Would you describe yourself as a leader?" [If yes:] "Please give me some examples of yourself as a leader?" [After response] "Do others ever consider you to be bossy or domineering?''.
+  aspect_code:
+    instruction: "Expressions that demonstrate or imply the presence of behaviour
+      assumed to be typical for a particular personality type, e.g. answers to the
+      question \"You are invited to a party where you hardly know any of the guests;
+      how would you describe your behaviour at the party?\" that include elements
+      such \"withdrawn\", \"shy\", and \"uncomfortable\" point to a low degree of
+      extraversion. \n\nResponses to items on the Structured Interview for the Five-Factor
+      Model of Personality (SIFFM; T J. Rull & T A. Widiger, 1997) are scored as either
+      0 (absent), 1 (present and does not result in significant dysfunction), or 2
+      (present and may result in significant dysfunction). Raw SIFFM-scores are not
+      compared with a reference group but, beside reflecting the degree to which a
+      personality trait is endorsed, directly indicate the level of dysfunction associated
+      with the trait (i.e. criterion referenced, as opposed to norm referenced)."
+  rel: ~
+
+---
+

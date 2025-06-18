@@ -1,0 +1,71 @@
+---
+dct:
+  version: 0.1.0
+  id: referentBehavior_73dnt5zk
+  label: "Perceived referent behavior"
+  date: ""
+  source:
+    id: "raa_book"
+
+################################################################################
+
+  definition:
+    definition: "The perceived behavior of a social referent is a given individual's perception of whether that person engages in the target behavior. Note that this perception only relates to the behavior of the social referent, not to what the social referent might believe. Perceptions of the social referent's (dis)approval of whether the given individual engages in the target behavior is captured in dct:referentApproval_73dnt5zd.
+
+
+A social referent can be a specific individual, a group of distinct individuals (e.g. one's siblings), or a more generically defined group (e.g. the residents of my city).
+
+
+Depending on the nature of the target behavior, engagement in that behavior can be conceived as binary (i.e. one either does or does not engage in the target behavior, e.g. getting tested for STIs every six months), a matter of frequency (i.e. one engages in the target behavior with a frequency from zero up to a given feasible maximum frequency in a given timespan, e.g. the frequency with which one washes their hands conform the guidelines), a matter of intensity (i.e. one engages in the target behavior to a degree from zero up to a given feasible maximum intensity, e.g. the amount of kilocalories one consumed in a meal), or a combination of these (i.e. one engages in the target behavior with a given frequency and with a given intensity, e.g. how frequently one drinks alcohol, and how many grams of alcohol one consumes when one does).
+
+
+The perceived behavior of a given social referent combines multiplicatively with the identification with that social referent (dct:referentIdentification_73dnt5zl) into a descriptive norm belief (dct:descrNorms_belief_73dnt5zm)."
+
+    source:
+      spec: ""
+
+################################################################################
+
+  measure_dev:
+    instruction: "To measure the perceptions individuals have of social referents' behavior, measure the probability that they engage in that target behavior. Use an item stem listing both the target behavior and the social referent, and use anchors 'improbable' versus 'probable', with intensifying adjectives.
+	
+	
+	'How likely do you think it is that [SOCIAL REFERENT] engage(s) in [TARGET BEHAVIOR]?' with anchors 'Very improbable' and 'Very probable'.
+	
+	
+	For example, 'How likely do you think it is that your close family members engage in recycling? [Very improbable|Very probable]'
+	"
+
+    source:
+      spec: ""
+
+################################################################################
+
+  measure_code:
+    instruction: ""
+    source:
+      spec: ""
+
+################################################################################
+
+  aspect_dev:
+    instruction: ""
+    source:
+      spec: ""
+
+################################################################################
+
+  aspect_code:
+    instruction: ""
+    source:
+      spec: ""
+
+################################################################################
+
+  rel:
+    id: "descrNorms_belief_73dnt5zm"
+    type: "causal_influences_product"
+
+################################################################################
+---
+

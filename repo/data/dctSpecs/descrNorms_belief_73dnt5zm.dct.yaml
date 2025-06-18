@@ -1,0 +1,52 @@
+---
+dct:
+  version: 0.1.0
+  id: descrNorms_belief_73dnt5zm
+  label: Descriptive norm belief
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: A person's belief that important individuals or groups in his/her
+      life perform or don’t perform a particular behavior.
+  measure_dev:
+    instruction: "The measurement of descriptive norm beliefs starts with an elicitation
+      study to identify the content of descriptive norm beliefs about the behaviour
+      which are shared by the target population. \n\nTo obtain quantitative data regarding
+      descriptive norm beliefs, the participant is subsequently asked to respond to
+      two questions with respect to each salient descriptive norm belief, one to assess
+      the perceived behaviour of a given social referent (dct:referentBehavior_73dnt5zk)
+      and the other to measure the identification with that social referent  (dct:referentIdentification_73dnt5zl).
+      \n\nFinally, to get a total quantitative score of a descriptive norm belief,
+      the perceived behaviour of a social referent is multiplied by the identification
+      with that social referent . The total score of a descriptive norm belief enables
+      the assessment of the importance of the contribution of a descriptive norm belief,
+      in comparison with other descriptive norm beliefs, to the descriptive norm beliefs
+      composite (dct:descrNorms_belCom_73dnt5zn).\n"
+  measure_code:
+    instruction: "Each descriptive norm belief is the product term of the multiplication
+      of the perceived behaviour of a given social referent (dct:referentBehavior_73dnt5zk)
+      by the identification with that social referent  (dct:referentIdentification_73dnt5zl).
+      \ \n\nTherefore, whether an descriptive norm belief exerts influence (and if
+      so, to what extent) on the descriptive norm beliefs composite (dct:descrNorms_belCom_73dnt5zn),
+      and whether a particular descriptive norm belief lowers or increases the perception
+      that salient normative referents are performing the behaviour in question, can
+      only be deduced by concurrent consultation of the two subcomponents of which
+      it is constructed. Table 4.1 on p. 136 of the Reasoned Action Approach book
+      (Ajzen & Fishbein, 2010)  provides an example how the subcomponents exert an
+      influence on individual normative beliefs (in Table 4.1 it concerns injunctive
+      normative beliefs).\n"
+  aspect_dev:
+    instruction: |
+      Descriptive norm beliefs can not be directly elicited. They are the product of a participant's perception of a normative referent's conduct of the target behaviour multiplied by the degree a participant wants to be like that normative referent with regards to the target behaviour
+
+      See these two subconstructs  (i.e. dct:referentBehavior_73dnt5zk and dct:referentIdentification_73dnt5zl) for instructions for eliciting their respective construct content.
+  aspect_code:
+    instruction: |
+      Descriptive norm beliefs can not be directly elicited. They are the product of a participant's perception of a normative referent's conduct of the target behaviour multiplied by the degree a participant wants to be like that normative referent with regards to the target behaviour
+
+      See these two subconstructs  (i.e. dct:referentBehavior_73dnt5zk and dct:referentIdentification_73dnt5zl) for instructions for coding their respective construct content.
+  rel: ~
+
+---
+

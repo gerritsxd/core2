@@ -1,0 +1,45 @@
+---
+format: html
+subtitle: 'UCID: instrAttitude_evaluation_73dnt5z7'
+title: Instrumental attitude belief evaluation
+toc: true
+---
+
+## Definition
+
+An instrumental attitude belief evaluation is the evaluation as positive or negative (i.e. desirable or undesirable) of one specific instrumental potential consequence of a behavior. The instrumental nature of this evaluation means that this these evaluations contain information about people's longer term goals. Consequences that concern experiences and sensations, such as pleasure or pain, are captured in experiential attitude and the underlying beliefs (see dct:instrAttitude_expectation_73dnt5z6 and dct:expAttitude_expectation_73dnt5z1 for more details about this distinction).
+
+According to the Reasoned Action Approach, instrumental attitude belief evaluations combine multiplicatively with instrumental attitude belief expectations (see dct:instrAttitude_expectation_73dnt5z6) into instrumental attitude beliefs (see dct:instrAttitude_belief_73dnt5z8).
+
+Examples of instrumental attitude belief evaluations are (note that the examples provided for the instrumental attitude belief expectations should probably be read first, see dct:instrAttitude_expectation_73dnt5z6): the degree to which one evaluates the expectation that one saves time by taking the bus to the city center as positive; the extent to which one considers it desirable that exercising will contribute to one's goal of being healthy (assuming one holds that expectation, which is captured by dct:instrAttitude_expectation_73dnt5z6); whether somebody likes to prevent starving, a goal that eating a pizza contributes to; one's evaluation of burning calories (an expectation one may have of the behavior going for a run); and whether somebody wants to produce offspring.
+
+## Developing Measurement Instruments
+
+Instrumental attitude belief evaluations are measured using questions in a questionnaire that are referred to as 'items'. Instrumental attitude belief evaluation always relate to specific instrumental attitude belief expectations, so the first step is to identify the expectation for which the evaluation should be measured (e.g. 'Drinking four cups of coffee every day leads to me being ... [much less healthy|much more healthy]' or 'Drinking four cups of coffee makes me ... [very idle|very productive]'). Evaluations of expectations are always measured on a bidimensional scale.
+
+As item stem, use 'I prefer ...', and as anchors, include the scale extremes used when measuring the expectation. For example, an item could be 'I prefer ... [being much less healthy|being much more healthy]', and another items can be 'I prefer ... [being very idle|being very productive]'. Make sure to formulate the item stem such that it makes clear that you are asking people about *their* evaluation (not what they think holds more generally). Use a seven-point response scale and try to always be consistent in the scale valence; in languages that are read from left to right, always place the most passive/low/less/weak/unlikely scale extreme (anchor) on the left, and the most active/high/more/strong/likely scale extreme (anchor) on the right. Do not reverse this order for one or more items.
+
+The item or set of items should be accompanied by an instruction that makes clear that you are asking people about *their* evaluation (not what they think holds more generally).
+
+## Coding Measurement Instruments
+
+Instrumental attitude belief evaluations are measured using questions in a questionnaire (these are referred to as 'items'). Items can be coded as measuring an instrumental attitude belief evaluation if they measure participants' evaluation of one specific instrumental potential consequence of a behavior as positive or negative (i.e. desirable or undesirable).
+
+The instrumental nature of this evaluation means that this these evaluations contain information about people's longer term goals.
+
+The question should include, either in its stem or in its anchors, the specific dimension of which the evaluation is being measured (e.g. whether people prefer being unhealthy versus healthy, or whether people evaluate being healthy as positive or negative).
+
+Note that evaluations of consequences that concern experiences and sensations, such as pleasure or pain, are captured in experiential attitude and the underlying beliefs (see dct:instrAttitude_expectation_73dnt5z6 and dct:expAttitude_expectation_73dnt5z1 for more details about this distinction, and see [[dct::expAttitude_evaluation_73dnt5z2]] for the coding instruction for experiential attitude belief evaluations).
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources (i.e. transcripts or notes) are then coded using the instruction for aspect coding. In this qualitative study, use these questions: 'What do you see as the advantages of you engaging in [target behavior]?', 'What do you see as the disadvantages of you engaging in [target behavior]?', and 'What else comes to mind when you think about [target behavior]?'.
+
+## Coding Qualitative Data
+
+Expressions of one's evaluations as positive or negative (i.e. desirable or undesirable) of instrumental potential consequences of a behavior. The instrumental nature of this evaluation means that this these evaluations contain information about people's longer term goals.
+
+Note that expressions of evaluations of consequences that concern experiences and sensations, such as pleasure or pain, are captured in experiential attitude and the underlying beliefs (see dct:expAttitude_evaluation_73dnt5z2).
+
+One's actual expectation (i.e. whether a consequence is likely or unlikely) should be coded as dct:instrAttitude_expectation_73dnt5z6.
+

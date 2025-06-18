@@ -1,0 +1,44 @@
+---
+dct:
+  version: 0.1.0
+  id: threat_severity_79n2fh4r
+  label: Perceived threat severity
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: Beliefs about the significance or magnitude of the threat.
+  measure_dev:
+    instruction: |
+      Use 5- or 7-point Likert scales that measure the severity of the (health) threat in question, e.g. " I believe that HEALTH THREAT is severe" and "I believe that HEALTH THREAT has serious negative consequences" with "Strongly disagree" and "Strongly agree" as anchors.
+
+      Examples of items measuring the perceived severity of a health threat are: "I believe that HIV infection has serious negative consequences" and "I believe that HIV infection is extremely harmful", with "Strongly disagree" and "Strongly agree" as anchors on a 5-point Likert scale (examples are from the Risk Behaviour Diagnosis Scale [Witte et al., 1995]).
+  measure_code:
+    instruction: |
+      Questions or questionnaires that measure the perceived severity of the (health) threat in question, e.g. "I believe that HEALTH THREAT is severe" and "I believe that HEALTH THREAT has serious negative consequences" with "Strongly disagree" and "Strongly agree" as anchors on a 5-point Likert scale.
+
+      Examples of items measuring the perceived severity of a health threat are: "I believe that HIV infection has serious negative consequences" and "I believe that HIV infection is extremely harmful", with "Strongly disagree" and "Strongly agree" as anchors on a 5-point Likert scale (examples are from the Risk Behaviour Diagnosis Scale [Witte et al., 1995]).
+  aspect_dev:
+    instruction: |
+      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+      In this qualitative study, use the questions: "How would you rate the risk associated with HEALTH THREAT (e.g. TARGET BEHAVIOUR)?" or "Can you describe your personal ideas of the risk associated with HEALTH THREAT (e.g. TARGET BEHAVIOUR)?".
+  aspect_code:
+    instruction: "Expressions that demonstrate or imply the degree of perceived threat
+      severity, containing verbs such as \"very/not very severe\",  \"malicious/benign\",
+      and \"great disturbance\"/\"minor annoyance\".\n\nExpressions that demonstrate
+      or imply the degree of perceived threat susceptibility, containing phrases and
+      words such as \"high/low risk\", \"high/low prevalence\", \"likely/unlikely\",
+      \"nobody I know\"/\"a lot of people I know\" (the latter two responses refering
+      to adverse consequences of engaging in the target [risk] behaviour) should be
+      coded as dct:threat_susceptibility_79n2fh4s.  \n\nExpressions that illustrate
+      the participant's risk perception with regard to the health threat without a
+      reference to susceptibility or severity should be coded as dct:risk_perception_79n2fh4t.
+      For example, if the question is \"Can you describe your personal ideas of the
+      risk associated with smoking cigarettes?\" and the response is \"I know there
+      is a risk associated with smoking, so I try not to smoke to much\", no clear
+      reference is made to to the severity of the threat or to personal susceptibility.\n"
+  rel: ~
+
+---
+

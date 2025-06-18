@@ -1,0 +1,35 @@
+---
+format: html
+subtitle: 'UCID: instrumentalAttitude_73dnt5zb'
+title: Instrumental attitude
+toc: true
+---
+
+## Definition
+
+A latent disposition or tendency to respond with some degree of favorableness or unfavorableness to the target behavior based on the perceived usefulness of engaging in that target behavior to achieving one’s goals.
+
+
+## Developing Measurement Instruments
+
+Use semantic differentials with root ‘For me, TARGET BEHAVIOR is …’ and a bidimensional scale where the right-most anchor expresses a generally desirable instrumental state/goal and the left-most anchor expresses the opposite undesirable state/goal (e.g. ‘unwise’ versus ‘wise’ and ‘bad’ versus ‘good’). The example items in the 2010 RAA book are ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Bad’ vs ‘Good’; ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Unpleasant’ vs ‘Pleasant’; ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Harmful’ vs ‘Beneficial’; and ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Boring’ vs ‘Interesting’.
+
+
+## Coding Measurement Instruments
+
+Operationalisations that measure aspects of the latent disposition or tendency to respond favourably versus unfavourably to the target behavior based on the perceived usefulness of engaging in that target behavior to achieving one’s goals, for example using the semantic differentials ‘wise’ vs ‘unwise’ or ‘good’ vs ‘bad’.
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use these three questions: ‘What do you see as the advantages of you engaging in TARGET BEHAVIOUR?', 'What do you see as the disadvantages of you engaging in TARGET BEHAVIOUR?', and 'What else comes to mind when you think about engaging in TARGET BEHAVIOUR?'.
+
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply aspects of the latent disposition or tendency to respond favourably versus unfavourably to the target behaviour based on the perceived usefulness of engaging in the target behaviour to achieving one’s goals, for example using the semantic differentials ‘wise’/‘unwise’ or ‘good’/‘bad’.
+
+Manifestations that express affective aspects of favourableness or unfavourableness to the target behaviour should be coded dct:experientialAttitude_73dnt5z5.
+
+

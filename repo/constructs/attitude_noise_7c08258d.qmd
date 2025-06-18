@@ -1,0 +1,44 @@
+---
+format: html
+subtitle: 'UCID: attitude_noise_7c08258d'
+title: Attitude towards noise
+toc: true
+---
+
+## Definition
+
+A latent disposition or tendency to respond with some degree of favorableness or unfavorableness to loud sounds.
+
+## Developing Measurement Instruments
+
+Attitude towards noise is a specific subtype of attitude (see dct: attitude_73dnt5zc). It is assessed with instruments that consist of  items that measure both the experiential (see dct:experientialAttitude_73dnt5z5) and instrumental (dct:instrumentalAttitude_73dnt5zb) attitude towards noise, as is for example the case for the ‘Youth Attitude to Noise Scale’ (YANS) (Widen et al, 2006), or the instrument may measure attitude towards loud sounds without the items being particularly experiential or instrumental in nature.
+
+When "attitude towards noise" is assessed it is important that this attitude is measured in diverse situations, i.e. the situations must refer to both voluntarily and involuntarily chosen sources of loud noise (e.g. both pop concerts and traffic noise). 
+
+
+
+## Coding Measurement Instruments
+
+Attitude towards noise is a specific subtype of attitude (see dct: attitude_73dnt5zc). It is assessed with instruments that consist of  items that measure both the experiential (see dct:experientialAttitude_73dnt5z5) and instrumental (dct:instrumentalAttitude_73dnt5zb) attitude towards noise, as is for example the case for the ‘Youth Attitude to Noise Scale’ (YANS) (Widen et al, 2006), or the instrument may measure attitude towards loud sounds without the items being particularly experiential or instrumental in nature.
+
+When "attitude towards noise" is assessed it is important that this attitude is measured in diverse situations, i.e. the situations must refer to both voluntarily and involuntarily chosen sources of loud noise (e.g. both pop concerts and traffic noise). 
+
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are individually interviewed in a free-response format, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding. In this qualitative study, use these three questions: 'What do you see as the advantages of LOUD SOUND', 'What do you see as the disadvantages of LOUD SOUND?' and 'What else comes to mind when you think about LOUD SOUND?'.
+
+To elicit the general attitude towards loud sound, diverse sources of loud sound and situations in which loud sound may be present, should be presented.
+
+
+
+## Coding Qualitative Data
+
+Expressions of any global evaluation of loud sound as a whole. Note that evaluations of specific aspects or consequences of the behavior relate to aspects of underlying constructs, not of attitude itself. 
+
+Expressions that relate specifically and only to attitudes towards loud sounds in sports, musical, or nightlife settings are coded as dct:attitude_soundculture_7c082lmy
+
+Also make sure to check the coding instructions for the two sub-constructs that attitude consists of: dct:experientialAttitude_73dnt5z5 and dct:instrumentalAttitude_73dnt5zb.
+
+

@@ -1,0 +1,43 @@
+---
+format: html
+subtitle: 'UCID: descriptiveNorms_73dnt5zp'
+title: Descriptive norms
+toc: true
+---
+
+## Definition
+
+
+Descriptive norms refer to perceptions that others are or are not performing the behavior in question.
+
+## Developing Measurement Instruments
+
+Use likert scales that measure perceived behavior of important social referents in general. It is important that no specific individuals are referenced, but that the items do refer to individuals that are similar, important or seen as important to follow. Note that the behavior in these items must always be the target behavior. 
+
+The example items in the 2010 RAA book are ‘Most people I respect and admire will TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’; and ‘How many people like you TARGET BEHAVIOR?’ with anchors ‘Nobody’ vs ‘Everybody’.
+
+
+## Coding Measurement Instruments
+
+Questions or questionnaires that measure the perceived degree to which important social referents in general perform or do not perform the target behaviour.
+
+Examples of questions measuring descriptive norms (on a 7-point Likert scale) are: "‘Most people I respect and admire will TARGET BEHAVIOUR’ with anchors ‘Unlikely’ vs ‘Likely’; and ‘How many people like you TARGET BEHAVIOUR?’ with anchors ‘Nobody’ vs ‘Everybody’.
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use the introduction ‘Sometimes, when we are not sure what to do, we look to see what others are doing’, and then ask the question: ‘Do persons important to you (engage in) TARGET BEHAVIOUR?'. 
+
+Reference here is made to a 'generalized agent' (i.e. important social referents in general) and no specific individuals are referenced. As reference to a specific individual is often unavoidable, one may opt not to elicit construct content with regard to descriptive norms, but limit the elicitation of construct content to the subconstructs dct:referentBehavior_73dnt5zk and dct:referentIdentification_73dnt5zl.
+                                                                                                                                                    
+
+## Coding Qualitative Data
+
+Expressions of perceived behavior of others, i.e. whether others perform the target behavior or not, where it is unclear who exactly is the other or group that is referred to. If the social referent *is* clear, this should be coded as the underlying constructs: see dct:referentBehavior_73dnt5zk and dct:referentIdentification_73dnt5zl.
+
+Note that expressions of perceived approval or disapproval should be coded as dct:perceivedNorm_injunctive_73bg2wm7, and expressions of perceived norms where it is unclear whether they concern perceived (dis)approval or perceived approval should be coded as dct:perceivedNorm_71w98kk2.
+
+
+

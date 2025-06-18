@@ -1,0 +1,43 @@
+---
+format: html
+subtitle: 'UCID: habit_79n2r0sz'
+title: Habit
+toc: true
+---
+
+## Definition
+
+A habit is an action or behavioural tendency that it enacted spontaneously, with little conscious awareness or reflection, in response to a set of associated conditions or contextual cues.
+
+
+## Developing Measurement Instruments
+
+The four most widely used instruments to measure habit are so-called "association measures", the Behavior Frequency x Context Stability measure (BFCS), the Self-Report Habit Index (SRHI), and the Self-Report Behavioral Automaticity Index (SRBAI) (Van Bree, 2018). The choice of a habit measure depends on the goal of the measurement and the setting where the assessment is ought to take place; each of the four aforementioned instruments tap on different aspects of habit (e.g. automaticity, repetition, and self-identity in case of the SRHI), and while the latter three measures can be incorprated into a survey, association measures, in contrast, can only be administered in a controlled laboratory setting.
+
+The 12-item SRHI (Verplanken & Orbell, 2003) is the instrument most frequently used to measure habit (Gardner, 2015). The SRHI is supposed to measure behaviour performed across contexts. However, specific context cues can be added by modifying the stem of SRHI-items.
+
+All 12 SRHI-items start with the sentence "TARGET BEHAVIOUR is something...", after which a particular statement follows for each individual item, such as "I do frequently", "I do automatically", and "That would require effort not to do". The items are accompanied by response scales anchored by agree/disagree and contain five or more response categories.
+
+An example of an item measuring "smoking cigarettes" (the target behaviour) as habit, thus, would be: "Smoking cigarettes is something I do automatically".
+
+A critique on self-report measures of habit, such as the SRHI, is that they require respondents to reflect on behaviours that are automatic and, as such, outside of conscious awareness (Van Bree, 2018).
+
+## Coding Measurement Instruments
+
+Questions or questionnaires that measure the perceived degree to which target behaviour is habitual. Depending on the theoretical framework in which an author operates, and the specific instrument used, the focus may be on different aspects of habitual behaviour (e.g. automaticity, repetition, and self-identity).
+
+Sample items measuring habit on a 5-point Likert scale with anchors "Totally agree" and "Totally disageree" are: "TARGET BEHAVIOUR is something I do frequently" and "TARGET BEHAVIOUR is something I do automatically".
+
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use these questions: "What role does TARGET BEHAVIOUR play in your daily life?" or "How would you describe your engagement in the TARGET BEHAVIOUR in your daily living?".
+
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply the presence or absence of habitual behaviour, using words and phrases such as "automatically/deliberate", "frequent/infrequent", "spontaneous/planned", and "hard not do/easy to cease" (with the first component of each pair of opposites indicating the possible presence of habitual behaviour).  
+

@@ -1,0 +1,36 @@
+---
+format: html
+subtitle: 'UCID: inaction_regret_79n2r0t0'
+title: Inaction regret
+toc: true
+---
+
+## Definition
+
+Anticipated regret from not engaging in a behaviour.
+
+## Developing Measurement Instruments
+
+Use 5-point Likert scales that measures the degree to which participants believe that not performing a particular behaviour will subsequently lead to regret, e.g. "If you would not use ear plugs when going clubbing, how much regret would you feel the next day?" or "If you would not use a condom when having sex with a one night stand, how much regret would you feel the next day?", both items with anchors "None" (=0) and "A lot" (=4).
+
+
+## Coding Measurement Instruments
+
+Operationalisations that measure the expectation to feel regret after not performing the target behaviour, e.g. "If you would not use ear plugs when going clubbing, how much regret would you feel the next day?" or "If you would not use a condom when having sex with a one night stand, how much regret would you feel the next day?", both items with anchors "None" (=0) and "A lot" (=4).
+
+Anticipated regret from engaging in the target behaviour is action regret (dct:action_regret_79n2w1bj).
+
+For the composite of action and inaction regret, either as incentive towards a behaviour (i.e. as sumscore) or the total anticipated regret experienced, see respectively anticip_regret_79n2w1bh and anticip_regret_79n2w1bj.
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use these questions: ‘What do you expect to feel if you would not (engage in) TARGET BEHAVIOUR?', 'What emotions do do you expect to experience if you would not (engage in) TARGET BEHAVIOUR?'
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply that one expects to experience feelings of regret if one would not engage in the target behaviour, i.e. usings verbs such 'remorse', 'sorry', and 'lament'.
+
+Manifestations that express feelings of regret if one would engage in the target behaviour,should be coded dct:action_regret_79n2w1bj.
+

@@ -1,0 +1,63 @@
+---
+format: html
+subtitle: 'UCID: coping_79n2w1bj'
+title: Coping
+toc: true
+---
+
+## Definition
+
+Conscious and volitional efforts to regulate emotion, cognition, behaviour, physiology, and the environment in response to stressful events or circumstances.
+
+
+
+## Developing Measurement Instruments
+
+Skinner (2007) describes the state of assessment in the field of coping as "chaotic and confusing", and in a review (Skinner et al., 2003) identified over 100 assessments, tapping over 400 ways of coping.
+
+Among the various measures, self-report instruments exist to assess coping styles among members of various groups (adults, children, adolescents, elderly), and scales may be broadly applicable, while others are ment for situation-specific application (e.g. health-related issues). The COPE (Carver, Scheier, & Weintraub, 1989) is the most frequently used instrument for broad application, and also one of the most commonly used measures in situation-specific contexts (Kato, 2015). 
+
+The 60-item COPE consists of 15 subscales (e.g. "active coping" and "acceptance") and its theoretical development is based on the models of behavioral self-regulation (Carver & Scheier, 1981) and stress and coping (Lazarus & Folkman, 1984). The COPE assumes that individual coping strategies are relatively stable across different types of stressors. 
+
+Individuals that participate in the COPE are asked to indicate on a 4-points scale what they usually do when they experience a stressful event (1 = I usually don't do this at all, 2 = I usually do this a little bit, 3 = I usually do this a medium amount, 4 = I usually do this a lot). Examples of items used in the COPE are: "I get upset and let my emotions out", "I laugh about the situation", "I daydream about things other than this" and "I think hard about what steps to take".
+
+The COPE, in its original form, measures coping style across different types of stressors. However, researchers have also adapted the scale to assess coping in specific situations (e.g. by replacing "stressful event" by a more narrow description of a potentially stressful situation), or by using only a selection of the 15 subscales. The COPE does not have an overall score, and the authors do not endorse combining subscales or deducing a dominant coping style from the scores (Carver, 2013).
+
+Researchers that want to create their own coping scale (e.g. for specific groups, situations, or risk behaviours) can use the framework provided by Skinner et al. (2003), which identifies a dozen core families of coping based on action types. Any measure of coping, according to the authors, no matter the domain, developmental level, or time frame, should include ways of coping from each of these 12 families.
+
+Different ways are used to classify coping styles into higher-order families. These classifications are often problematic (see Skinner et al., 2003 for a thorough discussion). Engagement and disengagement coping (see dct:engCoping and dct:disengCoping) is the higher-order structure adhered by Carver (2019), and the one used here. One should, however, take into account that the presence or absence of particular coping styles should be assessed at a higher level of specificity, e.g. coping styles pertaining to the 12 families identified by Skinner et al. (2003) or the 15 subscales of the COPE (Carver, 2013) should be selected. After an assessment is made at this higher level of specificity, subsequently one can potentially classify an individual's dominant overall coping style as engagement  (see dct:engCoping_79n2r0sy) or disengagement coping (see dct:disengCoping_79n2w1bk). Which particular coping styles researchers should direct their focus on, will depend on their appropriateness for the target event and age group (Skinner, 2007).
+
+
+
+ 
+
+## Coding Measurement Instruments
+
+Questions or questionnaires that measure the way individuals handle potentiially stressful situations. A broad range of (self-report) instruments exist to assess coping styles, e.g there are scales for members of various groups (adults, children, adolescents, elderly) and broad and situation-specific application (e.g. health-related issues). The COPE (Carver, Scheier, & Weintraub, 1989) is the most frequently used instrument for broad application, and also one of the most commonly used measures in situation-specific contexts (Kato, 2015). 
+
+The 60-item COPE consists of 15 subscales (e.g. "active coping" and "acceptance"). Individuals that participate in the COPE are asked to indicate on a 4-points scale what they usually do when they experience a stressful event (1 = I usually don't do this at all, 2 = I usually do this a little bit, 3 = I usually do this a medium amount, 4 = I usually do this a lot). Examples of items used in the COPE are: "I get upset and let my emotions out", "I laugh about the situation", "I daydream about things other than this" and "I think hard about what steps to take".
+
+The COPE, in its original form, measures coping style across different types of stressors. However, researchers have also adapted the scale to assess coping in specific situations (e.g. by replacing "stressful event" by a more narrow description of a potentially stressful situation), or by using only a selection of the 15 subscales. The COPE does not have an overall score, and the authors do not endorse combining subscales or deducing a dominant coping style from the scores (Carver, 2013).
+
+Different ways are used to classify coping styles into higher-order families. Engagement and disengagement coping (see dct:engCoping and dct:disengCoping) is the higher-order structure used here. One should, however, take into account that the presence or absence of particular coping styles should be assessed at a higher level of specificity, e.g. coping styles pertaining to the 12 families identified by Skinner et al. (2003) or the 15 subscales of the COPE (Carver, 2013) should be selected. After an assessment is made at this higher level of specificity, subsequently one can potentially classify an individual's dominant overall coping style as engagement  (see dct:engCoping_79n2r0sy) or disengagement coping (see dct:disengCoping_79n2w1bk).
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use one of these two questions: "What do you usually do when you experience a stressful event?" or "What do you usually do when you experience stress in SITUATION X/ from BEHAVIOUR X?".
+
+The first question is for assessing general coping strategies (i.e. across situations), the second question is for measuring coping styles associated with specific situations or behaviours. An example of the second question is: "What do you usually do when you experience stress at work?" or "What do you usually do when you experience stress from sleeping too little?".
+
+
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply a certain response to events or circumstances experienced as stressful (i.e. "coping"), without refering to specific strategies used.
+
+When reference is made to specific coping strategies, these can be classified as either characteristic of engagement  (see dct:engCoping_79n2r0sy) or disengagement coping (see dct:disengCoping_79n2w1bk). “Responses that are oriented toward either the source of stress, or toward one’s emotions and thoughts” are typical for engagement coping, while “responses that are oriented away from the stressor or one’s emotions/thoughts” may indicate the presence of a dominantly disengagement coping style (Compas et al., 2001).
+
+Depending on their appropriateness for the target event and age group, the researcher can also adopt or develop a more specific coding scheme, for example based on the coping styles pertaining to the 12 families identified by Skinner et al. (2003) or the 15 subscales of the COPE (Carver, 2013), e.g. identifying denial, acceptance, humor, and other possible coping strategies.
+
+
+

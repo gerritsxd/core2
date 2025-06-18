@@ -1,0 +1,79 @@
+---
+dct:
+  version: 0.1.0
+  id: self_standards_79n2fh4w
+  label: Self Standards
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: "Self-standards are preferential self-beliefs (as opposed to descriptive
+      and evaluative ones), which consist of self-imposed criteria for judging oneself.
+      They are self-views that refer to some desired or undesired end-states. \n\n\n"
+  measure_dev:
+    instruction: "Whether a participant's self-standards in- or decrease the likelihood
+      the target behaviour is performed, can be assessed by presenting the following
+      two questions (each consisting of six subquestions) to participants:\n\n1) What
+      kind of person would you like to be? Assign a score from 1 to 6 to each of the
+      following six descriptions. Each score is assigned once (i.e. a score of 6 for
+      the description you would most want to be like, and a score of 1 for the description
+      you would least want to be like).\n[Six descriptions or traits are given - the
+      choice and length of the descriptions is determined by the target behaviour
+      and target population in question. For example: Assertive, Brilliant, Eloquent,
+      Unpredictable, Athletic, and Resourceful.]\n\n2) “Do you think a person that
+      [include one of the six previous descriptions] would engage in TARGET BEHAVIOUR?\"
+      \nFor each of the six descriptions the response options are: \"Very likely\"(=2),
+      \"Likely\" (=1), \"Not Likely or Unlikely\" (=0), \"Unlikely\" (-1), \"Very
+      unlikely\" (-2).\n\nThe answers to question 1 and 2 are multiplied. This results
+      in a maximum score of 42 and a minimum score of -42. \n\nA high score indicates
+      that a participant's self-standards increase the likelihood that the TARGET
+      BEHAVIOUR is performed, while a low score indicates that a participant's self-standards
+      decrease the likelihood that the TARGET BEHAVIOUR is performed.\n"
+  measure_code:
+    instruction: "Questions or questionnaires that measure the degree a participant's
+      self-standards in- or decrease the likelihood of engagement in the target behaviour.\n\nThis
+      can, for example, be assessed by presenting the following two questions (each
+      consisting of six subquestions) to participants:\n\n1) What kind of person would
+      you like to be? Assign a score from 1 to 6 to each of the following six descriptions.
+      Each score is assigned once (i.e. a score of 6 for the description you would
+      most want to be like and a score of 1 for the description you would least want
+      to be like).\n[Six descriptions or traits are given - the choice and length
+      of the descriptions is determined by the target behaviour and target population
+      in question. For example: Assertive, Brilliant, Eloquent, Unpredictable, Athletic,
+      and Resourceful.]\n\n2) “Do you think a person that [include one of the six
+      previous descriptions] would engage in TARGET BEHAVIOUR?\" \nFor each of the
+      six descriptions the response options are: \"Very likely\"(=2), \"Likely\" (=1),
+      \"Not Likely or Unlikely\" (=0), \"\"Unlikely\" (-1), \"Very unlikely\" (-2).\n\nThe
+      answers to question 1 and 2 are multiplied. This results in a maximum score
+      of 42 and a minimum score of -42. \n\nA high score indicates that a participant's
+      self-standards increase the likelihood that the TARGET BEHAVIOUR is performed,
+      while a low score indicates that a participant's self-standards decrease the
+      likelihood that the TARGET BEHAVIOUR is performed).\n\nNote that most instruments
+      that measure self-standards are not suited to use for the design of behaviour
+      change interventions, as they assess self-standards in relation to self-discrepancy
+      (i.e. the degree of dissimilarity between self-standards and the actual self).
+      Outcomes of these instruments reflect the perceived degree of actualization
+      of an individual's self-standards. Although self-discrepancy may operate as
+      an incentive for engagement in the target behaviour, the self-standards they
+      relate to are trait-like and, thus, hard to change.\n\nIn contrast, an individual's
+      perceptions of how his or her self-standards relate to the target behaviour
+      may be easier to change and are, thus, a more appropriate goal for behaviour
+      change interventions. Bear in mind that in this latter case the self-standard
+      itself is not changed, 'solely' an individual's perceptions how the self-standard
+      relates to the particular behaviour. For example, the use of role models and
+      other BCTs may help to change these perceptions.\n"
+  aspect_dev:
+    instruction: |
+      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+      In this qualitative study, use this two consecutive questions: "What kind of person do you want to be?" and "Does this kind of person engage in TARGET BEHAVIOUR?".
+  aspect_code:
+    instruction: "Expressions that specify the relationship between self-standards
+      and the target behaviour. For example: \"I think it is very important to be
+      honest. Me secretly drinking does not fit with that ideal\" or \"I don't have
+      a problem being the only one wearing ear plugs. Being independent and doing
+      what I believe in, has always been important to me\".  \n"
+  rel: ~
+
+---
+

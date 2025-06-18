@@ -1,0 +1,70 @@
+---
+dct:
+  version: 0.1.0
+  id: motivationToComply_73dnt5zf
+  label: "Motivation to comply"
+  date: ""
+  source:
+    id: "raa_book"
+
+################################################################################
+
+  definition:
+    definition: "Motivation to comply with a specific social referent refers to an individual's motivation to behave in a way that is most approved of by that social referent. Note that motivation to comply is separate from the approval or disapproval itself, which is captured in dct:referentApproval_73dnt5zd.
+
+
+A social referent can be a specific individual, a group of distinct individuals (e.g. one's siblings), or a more generically defined group (e.g. the residents of my city).
+
+
+The motivation to comply with a given social referent combines multiplicatively with the perceived approval of that referent (dct:referentApproval_73dnt5zd) into an injunctive norm belief (dct:injNorms_belief_73dnt5zg)."
+
+    source:
+      spec: ""
+
+################################################################################
+
+  measure_dev:
+    instruction: "To measure the motivation to comply with a given social referent, measure how much people want to do what the relevant social referents think they should do with regard to the target behavior.
+
+
+In most behaviors and populations, unidimensional scales can be used. As item stem, use 'When it comes to [TARGET BEHAVIOR], I want to do what [SOCIAL REFERENT] think(s) I should do.', and as anchors, 'Not at all' and 'Very much'. For example, 'When it comes to whether I avoid meat during dinner, I want to do what my partner thinks I should do. ['Not at all'|'Very much']' or 'When it comes to my coffee consumption, I want to do what my colleagues think I should do. ['Not at all'|'Very much']'.
+
+
+However, for some behaviors and some populations, it's not only possible that individuals want to do what a social referent thinks they should do to a certain degree, but it's also possible that the individual actively wants to do what that social referent would *disapprove* of. For example, people may strongly want to clearly demonstrate distancing themselves from members of a perceived outgroup (e.g. adolescents may want to disobey middle-aged people).
+
+
+In such situations, you can use a bidimensional scale to account for this variation. Use item stem 'When it comes to [TARGET BEHAVIOR], I want to do what [SOCIAL REFERENT]...' with anchors 'Do(es)n't want me to do' and 'Want(s) me to do'. For example, 'When it comes to condom use with a partner, I want to do what other adolescents... [Don’t want me to do|Want me to do]', or 'When it comes to how late I go to bed, I want to do what my older sibling ... [Doesn’t want me to do|Wants me to do]'"
+
+    source:
+      spec: ""
+
+################################################################################
+
+  measure_code:
+    instruction: ""
+    source:
+      spec: ""
+
+################################################################################
+
+  aspect_dev:
+    instruction: ""
+    source:
+      spec: ""
+
+################################################################################
+
+  aspect_code:
+    instruction: ""
+    source:
+      spec: ""
+
+################################################################################
+
+  rel:
+    id: "injNorms_belief_73dnt5zg"
+    type: "causal_influences_product"
+
+################################################################################
+---
+

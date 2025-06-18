@@ -1,0 +1,55 @@
+---
+dct:
+  version: 0.1.0
+  id: injNorms_belief_73dnt5zg
+  label: Injunctive norm belief
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: |2-
+
+      A person's belief what should or ought to be done with respect to performing a particular behaviour.
+  measure_dev:
+    instruction: "The measurement of injunctive norm beliefs starts with an elicitation
+      study to identify the content of injunctive norm beliefs about the behaviour
+      which are shared by the target population. \n\nTo obtain quantitative data regarding
+      injunctive norm beliefs, the participant is subsequently asked to respond to
+      two questions with respect to each injunctive norm belief, one to assess the
+      perceived approval or disapproval of a social referent (see dct:referentApproval_73dnt5zd)
+      and the other to measure  the motivation to comply with that referent (see dct:motivationToComply_73dnt5zf).
+      \n\nFinally, to get a total quantitative score of a descriptive norm belief,
+      the perceived behaviour of a social referent is multiplied by the identification
+      with that social referent. The total score of a injunctive norm belief enables
+      the assessment of the importance of the contribution of an injunctive norm belief,
+      in comparison with other injunctive norm beliefs, to the injunctive norm beliefs
+      composite (see dct:injNorms_belCom_73dnt5zh). \n            "
+  measure_code:
+    instruction: "Each injunctive norm belief is the product term of the multiplication
+      of the perceived approval or disapproval of a given normative referent (see
+      dct:referentApproval_73dnt5zd) by the motivation to comply with that referent
+      \ (see dct:motivationToComply_73dnt5zf).  \n\nTherefore, whether an injunctive
+      norm belief exerts influence (and if so, to what extent) on the injunctivenorm
+      beliefs composite (see dct:injNorms_belCom_73dnt5zh), and whether a particular
+      injunctive norm belief lowers or increases the perception that salient injunctive
+      referents think one should perform the behaviour in question, can only be deduced
+      by concurrent consultation of the two subcomponents of which it is constructed.
+      Table 4.1 on p. 136 of the Reasoned Action Approach book (Ajzen & Fishbein,
+      2010) provides an example how the two subcomponents exert an influence on the
+      formation of individual injunctive normative beliefs.\n"
+  aspect_dev:
+    instruction: "Injunctive norm beliefs can not be directly elicited. They are the
+      product of  the perceived referent approval of the target behaviour (dct:referentApproval_73dnt5zd)
+      multiplied by the motivation to comply with that referent (dct:motivationToComply_73dnt5zf).
+      \n\nSee these two subconstructs for instructions for eliciting their respective
+      construct content.\n"
+  aspect_code:
+    instruction: "Injunctive norm beliefs can not be directly elicited. They are the
+      product of  the perceived referent approval of the target behaviour (dct:referentApproval_73dnt5zd)
+      multiplied by the motivation to comply with that referent (dct:motivationToComply_73dnt5zf).
+      \n\nSee these two subconstructs for instructions for coding their respective
+      construct content.\n"
+  rel: ~
+
+---
+

@@ -1,0 +1,45 @@
+---
+format: html
+subtitle: 'UCID: awareness_79n2w1bj'
+title: Awareness
+toc: true
+---
+
+## Definition
+
+People’s perceptions of the consistency or inconsistency between their perceived behaviour and a given guideline.
+
+## Developing Measurement Instruments
+
+Awareness, in the present definition, is the agreement between self-rated behaviour and a given behavioural guideline. The construct can be assessed in a three-step procedure:
+
+1) Firstly, participants are asked if their behaviour is in line with with the guidelines for that particular behaviour (yes/no). If the guideline is not known, in an introduction to the question this information is provided.
+
+2) Secondly, participants' actual engagement in the target behaviour is assessed using objective measures (e.g. accelerometer and heart rate monitor to measure actual physical activity, caloric calculations to measure food intake).
+
+3) Thirdly, the accuracy of participants' perception of their behaviour meeting the guidelines can be assessed by comparing the outcomes of step 1 and 2. As a result of this comparison, four awareness groups can be created: overestimators, underestimators, realistic (not meeting guideline), and realistic (meeting guideline). Thus, the latter two groups are aware of their behaviour, while the first two groups are not.
+
+See "Awareness of physical activity in healthy middle-aged adults: a cross-sectional study of associations with sociodemographic, biological, behavioural, and psychological factors" (Godino et al., 2014) for a sample application of this method.
+
+
+## Coding Measurement Instruments
+
+People's perception of their behaviour meeting a guideline (yes/no) compared with an objective assessment of this particular behaviour can be employed as a measure of awareness.
+
+People's perception of their behaviour meeting a guideline can be asssessed with a single question, with yes/no response options.
+
+Objective measures of behaviour are observation and/or the tracking/monitoring of behaviour with mobile apps and technical devices such as accelerometers. If no objective assessment of behaviour can be made, participants can be asked a series of very specific questions concering the target behaviour or asked to keep a diary. These outcomes are subsequently compared with participants' perception of their behaviour meeting the guideline.  
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, introduce a specific guideline (for example for physical activity, the number of calories needed a day, or the maximum safe exposure to loud noise in decibels/minutes a day), followed by the following consecutive questions "Do you meet this guideline?" and "Why do you think you meet/do not meet the guideline?" 
+
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply the ability to correctly evaluate one's behaviour in light of the guideline (i.e. "awareness"). For example: "I don't do sports, I do not do any physical work, I travel by car, so I am pretty sure I don't get the recommended level of activity" or "I weigh all my food and use an app to calculate the number of calories, so I know my food intake is in line with the energetic recommendations for my age, bodyweight, and activity level". 
+
+

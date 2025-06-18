@@ -1,0 +1,47 @@
+---
+format: html
+subtitle: 'UCID: disengCoping_79n2w1bk'
+title: Disengagement coping
+toc: true
+---
+
+## Definition
+
+Disengagement coping is effort to avoid confronting the threat or the stress-related emotions.
+
+
+## Developing Measurement Instruments
+
+Numerous self-report instruments exist to assess coping styles (see dct:coping_79n2w1bj for a more extensive discourse). Nevertheless, regardless of the specific instrument used, an individual overall response pattern can be classified as either being typical of engagement (dct:engCoping_79n2r0sy) or disengagement coping, with "responses that are oriented toward either the source of stress, or toward one’s emotions and thoughts” representing engagement coping, while “responses that are oriented away from the stressor or one’s emotions/thoughts” indicating the dominant presence of a disengagement coping style (Compas et al., 2001). 
+
+Disengagement coping  may be conceived at the highest level of a hierarchical factor structure with three levels (Tobin et al., 1989), with one level below, "problem disengagement" and "emotion disengagement", and at the lowest level, respectively, "problem avoidance" and "wishful thinking" (for problem disengagement), and "self criticism" and "social withdrawal" (for emotion disengagement). Therefore, when an individidual scores high on these lower level coping strategies, and relatively low on the coping strategies falling under engagement coping (dct:engCoping_79n2r0sy), the dominant coping pattern can be classified as "disengagement coping".
+
+However, a problem is that each coping instrument assesses and classifies coping styles differently. For example, the aforementioned coping styles "problem avoidance" and "wishful thinking" are distinct categories of the Coping Strategies Inventory (Tobin et al., 1989), but not of many other coping style measures. Therefore, whether a particular coping style pertains to the higher-order class of engagement or disengament coping, should be decided based on factor analysis or an a priori categorization of each individual coping style as either falling under the umbrella of engagement or disengament coping. 
+
+## Coding Measurement Instruments
+
+Questions or questionnaires that measure a so-called "disengagement" coping style (i.e. efforts to avoid confronting the threat or the stress-related emotions) when faced with stressful situations.  A broad range of (self-report) instruments exist for this purpose, e.g the COPE (Carver, Scheier, & Weintraub, 1989). Each of these instruments assesses and classifies the different coping styles differently.
+
+Therefore, whether a particular coping style pertains to the higher-order class of engagement or disengament coping, should be decided based on factor analysis or an a priori categorization of each individual coping style as either falling under the umbrella of engagement (dct:engCoping_79n2r0sy) or disengament coping, with "responses that are oriented toward either the source of stress, or toward one’s emotions and thoughts” representing engagement coping, while “responses that are oriented away from the stressor or one’s emotions/thoughts” indicating the dominant presence of a disengagement coping style (Compas et al., 2001).
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use one of these two questions: "What do you usually do when you experience a stressful event?" or "What do you usually do when you experience stress in SITUATION X/ from BEHAVIOUR X?".
+
+The first question is for assessing general coping strategies (i.e. across situations), the second question is for measuring coping styles associated with specific situations or behaviours. An example of the second question is: "What do you usually do when you experience stress at work?" or "What do you usually do when you experience stress from sleeping too little?".
+
+
+
+## Coding Qualitative Data
+
+“Responses that are oriented away from the stressor or one’s emotions/thoughts”  (Compas et al., 2001) may indicate the dominant presence of a disengagement coping style. Coping responses that indicate the presence of  a disengagement coping style are, for example, denial, restraint, and substance use. Therefore, expressions that demonstrate or imply the presence of such coping styles should be coded as disengagement coping (dct:disengCoping_79n2w1bk).
+
+“Responses that are oriented toward either the source of stress, or toward one’s emotions and thoughts” (Compas et al., 2001) are typical for engagement coping. Coping responses that indicate the presence of  an engagement coping style are, for example, acceptance, humor, and planning. Therefore, expressions that demonstrate or imply the presence of such coping styles should be coded as engagement coping (dct:engCoping_79n2r0sy).
+
+Expressions that demonstrate or imply a certain response to events or circumstances experienced as stressful (i.e. "coping"), without refering to specific strategies used, should be coded as dct:coping_79n2w1bj.
+
+Depending on their appropriateness for the target event and age group, the researcher can also adopt or develop a more specific coding scheme, for example based on the coping styles pertaining to the 12 families identified by Skinner et al. (2003) or the 15 subscales of the COPE (Carver, 2013), e.g. identifying coping styles such as denial, restraint, substance use, and other coping strategies typical of disengagement coping.
+
+

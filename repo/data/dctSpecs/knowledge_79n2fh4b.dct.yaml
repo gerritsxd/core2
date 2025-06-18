@@ -1,0 +1,37 @@
+---
+dct:
+  version: 0.1.0
+  id: knowledge_79n2fh4b
+  label: Knowledge
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: |
+      A representation of the world that one believes to accurately describe a part of the world.
+  measure_dev:
+    instruction: |
+      Knowledge can be measured by presenting statements about parts of reality (i.e. about objects or relationships that exist or do not exist in the world) related to the target behaviour, and determining a participant's belief concerning this statement by using a 5-point Likert scale that ranges from "certainly not true" through "probably not true", "no idea", "certainly true", "certaintly true".
+
+      An example of such an item for the target behaviour "protecing hearing against exposure to loud noise" is: "Exposure to very loud music (>120 decibel) can lead to acute and permanent hearing loss" or "When volume restriction is switched on for a MP-3 player sold in E.U., the maximum attainable level of decibels is 85."
+  measure_code:
+    instruction: |-
+      Questions that measure participants' beliefs concerning statements about reality (i.e. about objects or relationships that exist or do not exist in the world) related to the target behaviour. These beliefs can be determined by using a 5-point Likert scale that ranges from "certainly not true" through "probably not true", "no idea", "certainly true", "certaintly true".
+
+      Two examples for the target behaviour "protecing hearing against exposure to loud noise" are: "Exposure to very loud music (>120 decibel) can lead to acute and permanent hearing loss" and  "When volume restriction is switched on for a MP-3 player sold in E.U. the maximum attainable level of decibels is 85."
+  aspect_dev:
+    instruction: |
+      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+      In this qualitative study, participants are asked to express their knowledge regarding  the target behaviour or topics related to the target behaviour.
+
+      These question can be formulated in the following way: "What do you know about TARGET BEHAVIOUR?" and "What do you know about POTENTIAL CONSEQUENCE OF (NOT) ENGAGING IN TARGET BEHAVIOUR?" For example: "What do you know about noise-induced hearing loss?" and "What do you know about the effect of loud noise on the hearing?"
+  aspect_code:
+    instruction: |+
+      Expressions that demonstrate or imply the presence or absence of knowledge concerning the target behaviour or topics related to the target behaviour. These expressions pertain to structural or causal characteristics of the natural world. Importantly, these are separate from, for example, one's evaluations of those characteristics. E.g. "smoking causes lung cancer" is knowledge; "if I smoke, I get lung cancer" is expectation; "I don't like lung cancer" is evaluation.
+
+
+  rel: ~
+
+---
+

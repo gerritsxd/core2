@@ -1,0 +1,84 @@
+---
+dct:
+  version: 0.1.0
+  id: introjBehaviour_79n2r0t0
+  label: Introjected regulation of behaviour
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: |
+      In introjected behaviour the regulation of action has been partially internalized and is energized by factors such as an approval motive, avoidance of shame, contingent self-esteem, and ego-involvements.
+  measure_dev:
+    instruction: "Use Likert scales that measure the degree to which participants'
+      engagement in the target activity is determined by introjected regulation. Examples
+      of statements expressing introjected regulation of behaviour are: \"To show
+      myself that I am an intelligent person\", \"Because I want to show myself that
+      I can succeed in my studies\", and \"Because of the fact that when I succeed
+      in school I feel important\". Responses on these items are given on a 7-point
+      scale  ranging from \"Does  not correspond  at  all\" to \"Corresponds  exactly\".
+      These sample items are form the Academic Motivation Scale (AMS) developed by
+      Vallerand, Blais, Brière, & Pelletier (1989) which assesses motivation in post-secondary
+      students (AMS).\n\nThe often used Situational Motivation Scale (SIMS) (Guay
+      et al., 2000) does not measure introjected (nor integrated) regulation. The
+      SIMS assesses self-reported intrinsic regulation, identified regulation, external
+      regulation, and amotivation, and is used to assess motivation for various activities
+      (e.g. physical exercise, academic performance). \n\nIn practice, it is difficult
+      to distinguish the four types of extrinsic motivation (external, introjected,
+      identified, and integrated self-regulation) using self-report instruments (i.e.
+      insufficient discriminant validity). Therefore, a less precise categorization
+      can be made between controlled and autonomous motivation. External and introjected
+      regulation belonging to the first category, and identified and integrated self-regulation
+      belonging to the first category. When this dichotomous categorization of extrinsic
+      motivation is maintained, items to assess external and introjected self-regulation
+      can be grouped together.\n"
+  measure_code:
+    instruction: "Instruments that measure the degree to which engagement in the target
+      activity is determined by introjected regulation. Examples of statements expressing
+      introjected regulation of behaviour are: \"To show myself that I am an intelligent
+      person\", \"Because I want to show myself that I can succeed in my studies\",
+      and \"Because of the fact that when I succeed in school I feel important\".
+      Responses on these items are given on a 7-point scale  ranging from \"Does  not
+      correspond  at  all\" to \"Corresponds  exactly\". These items are form the
+      Academic Motivation Scale (AMS) developed by Vallerand, Blais, Brière, & Pelletier
+      (1989) which assesses motivation in post-secondary students (AMS).\n\nThe often
+      used Situational Motivation Scale (SIMS) (Guay et al., 2000) does not measure
+      introjected (nor integrated) regulation. The SIMS assesses self-reported intrinsic
+      regulation, identified regulation, external regulation, and amotivation, and
+      is used to assess motivation for various activities (e.g. physical exercise,
+      academic performance). \n\nIn practice, it is difficult to distinguish the four
+      types of extrinsic motivation (external, introjected, identified, and integrated
+      self-regulation) using self-report instruments. Therefore, a less precise categorization
+      can be made between controlled and autonomous motivation. External and introjected
+      regulation belonging to the first category, and identified and integrated self-regulation
+      belonging to the first category. When this dichotomous categorization of extrinsic
+      motivation is maintained, items to assessexternal and introjected self-regulation
+      can be grouped together.\n"
+  aspect_dev:
+    instruction: "Conduct a qualitative study where participants are interviewed,
+      and the interviews are either recorded and transcribed, or notes are kept. These
+      sources are then coded using the instruction for aspect coding.\n\nIn this qualitative
+      study, use this question: “Why are you currently engaged in TARGET BEHAVIOUR?”
+      \n\nFor example: \"Why do you currently wear ear plugs at concerts?\" or \"Why
+      do you currently follow a calorie-restricted diet?\""
+  aspect_code:
+    instruction: |
+      Expressions that demonstrate or imply that engagement in the target behaviour is determined by introjected regulation , using phrases such as "Because I want to show myself that I can succeed in my studies" and "Because of the fact that when I succeed in school I feel important".
+
+      Expressions that demonstrate or imply the presence of externally regulated behaviour should be coded as dct:extBehaviour_79n2r0sz.
+
+      Expressions that demonstrate or imply the presence of identified regulation of behaviour should be coded as dct:identifiedBehaviour_79n2r0t0.
+
+      Expressions that demonstrate or imply the presence of integrated regulation of behaviour should be coded as dct:integratedBehaviour_79n2r0t0.
+
+      In practice, it can be difficult to distinguish expressions belonging to the four types of extrinsic motivation (external, introjected, identified, and integrated self-regulation). Therefore, a less precise categorization can be made between controlled and autonomous motivation: external and introjected regulation belonging to the first category, and identified and integrated self-regulation belonging to the first category.
+
+      Expressions that demonstrate or imply the presence of intrinsically regulated behaviour should be coded as dct:intrinsicBehaviour_79n2r0t0.
+
+      Expressions that demonstrate or imply the absence of motivation to engage in the target behaviour (i.e. "amotivation") should be coded as dct:motivation_79n2fh4q, and in a supplementary comment scored "0" or "absent".
+
+      Expressions that refer to the presence of motivation with regard to the target behaviour without specifying the nature of its regulation or expressions that refer to the presence of motivation in general should be coded dct:motivation_79n2fh4q.
+  rel: ~
+
+---
+

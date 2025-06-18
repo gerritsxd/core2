@@ -1,0 +1,101 @@
+---
+dct:
+  version: 0.1.0
+  id: expAttitude_evaluation_73dnt5z2
+  label: "Experiential attitude belief evaluation"
+  date: ""
+  ancestry:        ### The DCT(s) this DCT is based on
+  retires:         ### Any DCT(s) that are made obsolete by this one
+  source:
+    id: "raa_book"
+
+################################################################################
+
+  definition:
+    definition: "An experiential attitude belief evaluation is the evaluation as positive or negative (i.e. desirable or undesirable) of one specific experiential potential consequence of a behavior. The experiential nature of this evaluation means that this concerns mostly expected experiences and sensations, such as pleasure or pain. Consequences that render the target behavior less or more instrumental given more long-term goals are captured in instrumental attitude and the underlying beliefs (see dct:expAttitude_expectation_73dnt5z1 and dct:instrAttitude_expectation_73dnt5z6 for more details about this distinction).
+
+
+According to the Reasoned Action Approach, experiential attitude belief evaluations combine multiplicatively with experiential attitude belief expectations (see dct:expAttitude_expectation_73dnt5z1) into experiential attitude beliefs (see dct:expAttitude_belief_73dnt5z3).
+
+
+Examples of experiential attitude belief evaluations are (note that the examples provided for the experiential attitude belief expectations should probably be read first, see dct:expAttitude_expectation_73dnt5z1): the degree to which one finds it pleasant to sit down during a bus journey to the city centre; the evaluation of watching the scenery as desirable; one's evaluation of a pizza's taste as nice; one appraising a relaxed feeling as pleasant; one enjoying the sensation of sex without a condom."
+
+    source:
+      spec: ""
+
+################################################################################
+
+  measure_dev:
+    instruction: "Experiential attitude belief evaluations are measured using questions in a questionnaire that are referred to as 'items'. Experiential attitude belief evaluation always relate to specific experiential attitude belief expectations, so the first step is to identify the expectation for which the evaluation should be measured (e.g. 'Drinking alcohol makes me feel ... [much more relaxed|much more excited]'). Evaluations of expectations are always measured on a bidimensional scale.
+	
+	
+As item stem, use 'I prefer ...', and as anchors, include the scale extremes used when measuring the expectation. For example, an item could be 'I prefer ... [being much more relaxed|being much more excited]'. Make sure to formulate the item stem such that it makes clear that you are asking people about *their* evaluation (not what they think holds more generally). Use a seven-point response scale and try to always be consistent in the scale valence; in languages that are read from left to right, always place the most passive/low/less/weak/unlikely scale extreme (anchor) on the left, and the most active/high/more/strong/likely scale extreme (anchor) on the right. Do not reverse this order for one or more items.
+
+
+The item or set of items should be accompanied by an instruction that makes clear that you are asking people about *their* evaluation (not what they think holds more generally)."
+
+    source:
+      spec: ""
+
+################################################################################
+
+  measure_code:
+    instruction: "Experiential attitude belief evaluations are measured using questions in a questionnaire (these are referred to as 'items'). Items can be coded as measuring an experiential attitude belief evaluation if they measure participants' evaluation of one specific experiential potential consequence of a behavior as positive or negative (i.e. desirable or undesirable).
+
+
+The experiential nature of this evaluation means that this concerns mostly expected experiences and sensations, such as pleasure or pain.
+
+
+The question should include, either in its stem or in its anchors, the specific dimension of which the evaluation is being measured (e.g. whether people prefer feeling relaxed or feeling excited, or whether people evaluate being excited as positive or negative).
+
+
+Note that evaluations of consequences that render the target behavior less or more instrumental given more long-term goals are captured in instrumental attitude and the underlying beliefs. (see dct:expAttitude_expectation_73dnt5z1 and dct:instrAttitude_expectation_73dnt5z6 for more details about this distinction, and see dct:instrAttitude_evaluation_73dnt5z7 for the coding instruction for instrumental attitude belief evaluations)."
+
+    source:
+      spec: ""
+
+################################################################################
+
+  manipulate_dev:
+    instruction: ""
+    source:
+      spec: ""
+
+################################################################################
+
+  manipulate_code:
+    instruction: ""
+    source:
+      spec: ""
+
+################################################################################
+
+  aspect_dev:
+    instruction: "Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources (i.e. transcripts or notes) are then coded using the instruction for aspect coding. In this qualitative study, use these questions: 'What do you see as the advantages of you engaging in [target behavior]?', 'What do you see as the disadvantages of you engaging in [target behavior]?', and 'What else comes to mind when you think about [target behavior]?'."
+
+    source:
+      spec: ""
+
+################################################################################
+
+  aspect_code:
+    instruction: "Expressions of one's evaluations as positive or negative (i.e. desirable or undesirable) of experiential potential consequences of a behavior. The experiential nature of this evaluation means that this these evaluations concern mostly expected experiences and sensations, such as pleasure or pain.
+
+
+Note that expressions of evaluations of consequences that render the target behavior less or more instrumental given more long-term goals are captured in instrumental attitude and the underlying beliefs (see dct:instrAttitude_evaluation_73dnt5z7).
+
+
+One's actual expectation (i.e. whether a consequence is likely or unlikely) should be coded as dct:expAttitude_expectation_73dnt5z1."
+
+    source:
+      spec: ""
+
+################################################################################
+
+  rel:
+    id: "expAttitude_belief_73dnt5z3"
+    type: "causal_influences_product"
+
+################################################################################
+---
+

@@ -1,7 +1,7 @@
 ---
-title: "Behavior"
-subtitle: "UCID: behavior_73dnt605"
 format: html
+subtitle: 'UCID: behavior_73dnt605'
+title: Behavior
 toc: true
 ---
 

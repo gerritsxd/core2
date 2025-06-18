@@ -1,0 +1,64 @@
+---
+dct:
+  version: 0.1.0
+  id: inflEnvironment_79n2r0sy
+  label: Environmental influences
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: Aspects of a person’s physical and social surroundings that discourage
+      or encourage the behaviour of interest.
+  measure_dev:
+    instruction: |
+      Depending on the relevance for the research in question, a list of potentially relevant environmental influences can be composed. Examples of frequently assessed environmental influences are the living environment (e.g. the neighboorhood), weather/climate, health care, public transport, sport and recreation facilities, legislation, and politics.
+
+      The environmental influences deemed of importance are assessed in different ways: if the number of potential responses on a question is limited, fixed answer options should be offered. When answers are aspected to be very diverse, or participants may need to elaborate, open answer options is the format of preference.
+  measure_code:
+    instruction: "Questions or questionnaires that measure environmental factors (e.g.
+      health care, public transport) with a potential influence on the behaviour of
+      interest. \n\nIn behaviour change research, environmental influences are most
+      often regarded to exert a \"distal\" effect on behaviour, i.e. exerting influence
+      on behaviour through other variables with a more direct, \"proximal\", effect.
+      As these latter variables have a greater potential for change, the focus in
+      questionnaires is mostly on these variables, and environmental influences are
+      considered background factors, measured with a few questions, most often at
+      the beginning of the questionnaire. \n\nNote that certain variables may be coded
+      as both a environmental and demographic influence (dct:inflDemographic_79n2w1bk).
+      Whether classification as the former or latter is more appropriate depends on
+      the focus of the research, e.g. if the impact of green neigboorhood spaces on
+      physical activity is studied, it is appropraite to classify living in a deprived
+      neighboorhood with limited spaces for leisure time activities as an environmental
+      influence rather than a demographic influence.  \n"
+  aspect_dev:
+    instruction: |
+      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+      In this qualitative study, one of two different approaches can be followed:
+
+      1) The participant is encouraged to name environmental factors that he/she perceives to have an influence on his/her engagement in the target behaviour.
+
+      2) a) The participant is asked if he/she perceives a particular environmental factors factor to have an influence on his/her engagement in the target behaviour. This question can be repeated for other environmental factors the researcher thinks to be relevant.
+
+         b) The participant is asked to name the factors out of a series of environmental factors that he/she perceives to have an influence on his/her engagement in the target behaviour.
+
+      When the first approach is chosen, use the following question 'Please list any environmental factors that may have an influence on your engagement in the TARGET BEHAVIOUR’.
+
+      One should consider that the concept of "environmental influences" for most study populations may be too difficult to understand, or the range of environmental influences considered may be too narrow. In that case, the researcher can adopt the second approach and either:
+
+      a) ask if the participant perceives a particular environmental factor to have an influence on his/her engagement in the target behaviour, e.g."Do you think that the number of parks in your neighboorhood has an influence on your obesity?". Possibly followed by the same question for other environmental factors, e.g. "Do you think that the number of fitness centres in your neighboorhood has an influence on your obesity?".
+      or
+      b) name a number of environmental influences, using the following introduction and question: "I will name a couple of so-called environmental factors: [name environmental variables of interest]". "Please list those factors that you think have an influence on your engagement in the TARGET BEHAVIOUR". For example: "I will name a couple of so-called environmental factors: the presence of parks, the presence of fitness centres, the presence of bicycle lanes, and the presence of food markets. Please list those factors that you think have an influence on your obesity."
+
+      Any of the aforementioned questions is followed by "Please explain" if the participant names an environmental factor without giving an explanation for this particular response.
+  aspect_code:
+    instruction: |+
+      Expressions that demonstrate or imply the presence or absence of environmental influences on the engagement in the target behaviour. For example, expressions such as "I don not do any sports because there are no sport clubs in my neighboorhood" and "I would like to travel by bike, but it is too dangerous to ride a bike in my neighboorhood".
+
+      Note that certain expressions may be coded as both an environmental and demographic influence (dct:inflDemographic_79n2w1bk). Whether classification as the former or latter is more appropriate depends on the context the expression is made in, e.g. classifying  "neighboorhood" as an environmental influence rather than a demographic influence in the expression "I don't engage in outdoor physical activity, as in my neighboorhood there are no spaces for leisure time activities" is appropriate.
+
+
+  rel: ~
+
+---
+

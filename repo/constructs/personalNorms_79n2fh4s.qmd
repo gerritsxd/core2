@@ -1,0 +1,47 @@
+---
+format: html
+subtitle: 'UCID: personalNorms_79n2fh4s'
+title: Personal norms
+toc: true
+---
+
+## Definition
+
+Feelings of moral obligation to perform or refrain from specific action.
+
+## Developing Measurement Instruments
+
+Whether a person holds a certain personal norm concerning the topic of interest can be measured by proposing statements concerning the perceived moral obligation to (not) engage in a particular behaviour and asking participants to repond on a 5- or 7-points Likert scale with anchors "Strongly disagree" and "Strongly agree". 
+
+Two sample items to measure personal norms are: "Because of my own values/principles I feel an obligation to use public transport instead of the car for everyday trips here in X" and "Regardless of what other people do, because of my own values/principles I feel an obligation to use public transport instead of the car for everyday trips here in X" (from "Social context, personal norms and the use of public transportation" by Bamberg et al., 2007).
+
+Two sample questions used by Doran et al., 2015 in "The relative importance of social and personal norms in explaining intentions to choose eco‐friendly travel options" are: "I do feel a moral obligation to pay more for a trip if this helps to protect the environment" and "I do feel a moral obligation to make an effort to stay at environmentally friendly accommodation when travelling".
+
+
+## Coding Measurement Instruments
+
+Questions or questionnaires that measure the level of agreement/disagreement with a certain personal norm concerning the topic of interest (e.g. the target behaviour).
+
+A 5- or 7-points Likert scale with anchors "Strongly disagree" and "Strongly agree" are most often used to measure personal norms, as is the case in the following sample items: "Because of my own values/principles I feel an obligation to use public transport instead of the car for everyday trips here in X" and "Regardless of what other people do, because of my own values/principles I feel an obligation to use public transport instead of the car for everyday trips here in X" (from "Social context, personal norms and the use of public transportation" by Bamberg et al., 2007).
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use these questions: "Why do you engage/not engage in TARGET BEHAVIOUR?", e.g. "Why do you travel by public transport?" or "Why do you not donate money for charity?". 
+
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply the presence or absence of personal norms concerning the target behaviour. Expressions containing words and phrases such as "values", "principles", and "moral obligation" may indicate the presence of personal norms linked to the behaviour in question. 
+
+Expressions that refer to the perceived approval or disapproval of the behaviour by others, should be coded as dct: injunctiveNorms_73dnt5zj.
+
+Expressions that refer to the perceived behaviour of others (i.e. whether others perform the target behaviour or not),  should be coded as dct:descriptiveNorms_73dnt5zp.
+
+Expressions that demonstrate or imply either the presence/absence of confidence about one’s ability to perform the target behaviour, should be coded as dct:capacity_73dnt602
+
+Expressions that demonstrate or imply the presence/absence of confidence about one’s control over performance or nonperformance of the target behaviour (i.e. if (non)performance is "up to them"), for example because of a barrier, obstacle, or facilitating condition or circumstance,  should be coded as dct:autonomy_73dnt5zx.
+
+Personal norms most often are a crucial component of one's self-identity (see dct:self_identity_79n2fh4t). Therefore, if a participants explicitly expresses that a personsal norm is central to his/her self-identity, the expression should also be coded as such (i.e. dct:self_identity_79n2fh4t).
+

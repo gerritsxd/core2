@@ -1,0 +1,33 @@
+---
+format: html
+subtitle: 'UCID: self_identity_79n2fh4t'
+title: Self-identity
+toc: true
+---
+
+## Definition
+
+People form representations of the world, and some of those representations pertain to the self. This set of attributes together form one’s general self-identity (i.e. unrelated to specific behaviors). However, most of these attributes are relatively trivial (e.g. all humans have a brain, but brains are usually not part of their self-identity). How central a given attribute is to one’s self-identity in general (its centrality) can depend on the degree to which it is perceived to distinguish one from others, confers positive characteristics, or is instrumental. For example, health is seen as desirable, so being ‘a healthy eater’ is desirable. Similarly, if sophistication is seen as desirable, and having well-developed tastes are seen as indicative of sophistication, then being somebody who is very picky about one’s coffee blends and preparation methods can be seen as desirable. As a final example of an instrumental function of self-identity, being ‘an addict’ can be used to excuse relapse.
+
+Also, a given attribute can be more or less related to a given target behavior (e.g. being a ‘vegan’ is intrinsically related to eating behaviors). Given that one’s self-identity is defined as all these attributes that pertain to one’s self (weighted by their centrality), it follows that for different people, a given target behavior can be differentially relevant to their self-identity. In terms of operationalizations, this implies that this relevance of a behavior to one’s self-identity should be what is measured (note that this is not the same as general relevance of a behavior).
+
+## Developing Measurement Instruments
+
+As a so-called "direct measure", the items recommended by Snippe et al. (2020, https://doi.org/10.31234/osf.io/ygpmw) can be used.
+
+According to the definition of self-identity in this DCT, if a target behavior is strongly associated to somebody's self-identity, to the degree that this is not only a reflection of the frequency or intensity with which they engage in that behavior, this association reflects the fact that one or more attributes is simultaneously connected to the target behavior and central to one's self-identity.
+
+Therefore, to map the construct content for a given target behavior, for each attribute dimension along which self-identification can occur, two things have to be measured. First, that attribute's centrality: the degree to which people consider that attribute a part of their self-identity. Second, the strength of that attribute's association to the target behavior.
+
+## Coding Measurement Instruments
+
+These instructions still have to be specified.
+
+## Eliciting Construct Content (Qualitative Research)
+
+These instructions still have to be specified.
+
+## Coding Qualitative Data
+
+These instructions still have to be specified.
+

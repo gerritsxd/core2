@@ -1,0 +1,42 @@
+---
+format: html
+subtitle: 'UCID: risk_perception_79n2fh4t'
+title: Risk perception
+toc: true
+---
+
+## Definition
+
+Risk perception is the perceived susceptibility to and the perceived severity of a threat.
+
+## Developing Measurement Instruments
+
+Risk perception is determined by the perceived susceptibility (see dct:threat_susceptibility_79n2fh4s) to and the perceived severity (see dct:threat_severity_79n2fh4r) of a (health) threat, i.e. it is the product term of the multiplication of these component constructs. 
+
+See dct:threat_susceptibility_79n2fh4s and dct:threat_severity_79n2fh4r for instructions for developing measurement instruments for these subconstructs. The resulting measurements express the degree of susceptibility and severity as a numeric score which, subsequently, can be multiplicated to estimate an individual's perception of the level of risk associated with a threat.
+
+Instead of multiplying the two subcomponents, threat susceptibility and threat severity are also summed by some risk perception measures, e.g. the 12-item Risk Behaviour Diagnosis (RBD) Scale (Witte et al., 1995) includes 3 items measuring threat susceptibility and 3 items measuring threat severity on a 5-point Likert scale. Together these 6 (summed) items scores determine a participant's risk perception (there named "perceived threat").
+
+
+## Coding Measurement Instruments
+
+Risk perception is measured by measuring both of the component constructs: perceived threat susceptibility (see dct:threat_susceptibility_79n2fh4s) and perceived threat severity (see dct:threat_severity_79n2fh4r) and, subsequently, multiplying or summing the scores of these two components.
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use the questions: "How would you rate the risk associated with HEALTH THREAT (e.g. TARGET BEHAVIOUR)?" or "Can you describe your personal ideas of the risk associated with HEALTH THREAT (e.g. TARGET BEHAVIOUR)?"
+
+
+## Coding Qualitative Data
+
+Expressions that illustrate the participant's risk perception with regard to the health threat (e.g. the target behaviour) without a reference to susceptibility or severity.
+
+For example, if the question is "Can you describe your personal ideas of the risk associated with smoking cigarettes?" and the response is "I know there is a risk associated with smoking, so I try not to smoke to much" no clear reference is made to to the severity of the threat or to personal susceptibility.  However, a reference to a risk perception is nevertheless made.
+
+Expressions that demonstrate or imply the degree of perceived threat susceptibility, containing phrases and words such as "high/low risk", "high/low prevalence", "likely/unlikely", "nobody I know"/"a lot of people I know" (the latter two responses refering to adverse consequences of engaging in the target behaviour) should be coded as dct:threat_susceptibility_79n2fh4s.
+
+Expressions that demonstrate or imply the degree of perceived threat severity, containing verbs such as "very/not very severe",  "malicious/benign", "great disturbance"/"minor annoyance" should be coded as dct:threat_severity_79n2fh4r.
+
+

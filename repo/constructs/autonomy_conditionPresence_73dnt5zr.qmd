@@ -1,0 +1,23 @@
+---
+format: html
+subtitle: 'UCID: autonomy_conditionPresence_73dnt5zr'
+title: Perceived presence of condition
+toc: true
+---
+
+## Definition
+
+The perceived presence of a condition refers to the perceived probability that a condition will be present that may have some power to facilitate or obstruct successfully accomplishing the target behavior. Such conditions are perceived to be external to the individuals direct control (though they may in reality be internal conditions; for example, addicts may perceive their craving to be irresistible, and as such, a condition they have no control over and that negatively impacts their autonomy). Facilitating or obstructing factors that are perceived to be internal (i.e. that an individual can learn over time) are subskills (see dct:capacity_subskillPresence_73dnt5zy).
+
+Each perceived presence of a condition concerns the absence or presence of one condition. The perceived nature of the condition (i.e. whether it facilitates or obstructs the target behavior), i.e. the perceived power of that condition, is covered in dct:autonomy_conditionPower_73dnt5zs.
+
+According to the Reasoned Action Approach, perceptions about the presence of conditions combine multiplicatively with perceptions about the power of conditions (see dct:autonomy_conditionPower_73dnt5zs) into autonomy beliefs (see dct:autonomy_belief_73dnt5zt).
+
+Examples of perceived presence of a condition are the perception that to buy condoms, one will have to ask for them at the counter (which may obstruct buying condoms); the perception that it is raining (which may obstruct going for a run); the perception that healthy food is very expensive (which may obstruct buying healthy food); the perception that testing for STIs is free (which may facilitate getting tested for STIs); and the perception that anticonception is widely available (which may facilitate using anticonception).
+
+## Developing Measurement Instruments
+
+The perceived presence of a condition is measured by asking the perceived probability that a condition will be present. A unidimensional scale is required. The items are formulated as 'How likely do you think it is that [CONDITION]?' with anchors 'Very unlikely' and 'Very likely'.
+
+For example, 'How likely do you think it is that it will rain?' and 'How likely do you think it is that anticonception will be widely available?', both with anchors 'Very unlikely' and 'Very likely'.
+

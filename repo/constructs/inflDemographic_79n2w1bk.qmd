@@ -1,0 +1,56 @@
+---
+format: html
+subtitle: 'UCID: inflDemographic_79n2w1bk'
+title: Demographic influences
+toc: true
+---
+
+## Definition
+
+The influence of an individual's broad characteristics (e.g. age, marital status, nationality) as determined in demographic research and/or known to public institutions on the behaviour of interest.
+
+## Developing Measurement Instruments
+
+Depending on the relevance for the research in question, a list of potentially relevant demographic influences can be composed. Examples of frequently assessed demographic influences are age, marital status, income, religion, and education. The demographic influences deemed of importance are assessed in different ways: if the number of potential responses on a question is limited, fixed answer options should be offered. When answers are aspected to be very diverse, or participants may need to elaborate, open answer options is the format of preference.
+
+
+
+## Coding Measurement Instruments
+
+Questions or questionnaires that measure demographic factors (e.g. income, education, marital/partner status) with a potential influence on the behaviour of interest. 
+
+In behaviour change research, demographic influences are most often regarded to exert a "distal" effect on behaviour, i.e. exerting influence on behaviour through other variables with a more direct, "proximal", effect. As these latter variables have a greater potential for change, the focus in questionnaires is mostly on these variables, and demographic influences are considered background factors, measured with a few questions, most often at the beginning of the questionnaire. 
+
+Note that certain variables, such as age and gender, may be coded as both a biological (i.e. dct:inflBiological_79n2w1bj) and demographic influence. Whether classification as the former or latter is more appropriate depends on the focus of the research, e.g. if the impact of legislation on alcohol consumption in adolescents is studied, classifying "age" as a demographic influence rather than a biological influence is appropriate. 
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, one of two different approaches can be followed:
+
+1) The participant is encouraged to name demographic factors that he/she perceives to have an influence on his/her engagement in the target behaviour.
+
+2) a) The participant is asked if he/she perceives a particular demographic factor to have an influence on his/her engagement in the target behaviour. This question can be repeated for other demographic factors the researcher thinks to be relevant.
+
+   b) The participant is asked to name the factors out of a series of demographic factors that he/she perceives to have an influence on his/her engagement in the target behaviour.
+
+When the first approach is chosen, use the following question 'Please list any demographic factors that may have an influence on your engagement in the TARGET BEHAVIOUR’.
+
+One should consider that the concept of "demographic influences" for most study populations may be too difficult to understand, or the range of demographic influences considered may be too narrow. In that case, the researcher can adopt the second approach and either:
+
+a) ask if the participant perceives a particular demographic factor to have an influence on his/her engagement in the target behaviour, e.g."Do you think that being single has an influence on your alcohol consumption?". Possibly followed by the same question for other demographic factors, e.g. "Do you think that being unemployed has an influence on your alcohol consumption?".
+or
+b) name a number of demographic influences, using the following introduction and question: "I will name a couple of so-called demographic factors: [name demograhic variables of interest]". "Please list those factors that you think have an influence on your engagement in the TARGET BEHAVIOUR". For example: "I will name a couple of so-called demographic factors: partner status, employment status, nationality, and religion. Please list those factors that you think have an influence on your alcohol consumption."
+
+Any of the aforementioned questions is followed by "Please explain" if the participant names a demographic factor without giving an explanation for this particular response.
+
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply the presence or absence of demographic influences on the engagement in the target behaviour. For example, expressions such as "I don't drink alcohol because I am a muslim" or "Eating healthy for me is difficult as I am unemployed".
+
+Note that certain expressions, such as those refering to age and gender, may be coded as both a biological (i.e. dct:inflBiological_79n2w1bj) and demographic influence. Whether classification as the former or latter is more appropriate depends on the context the expression is made in, e.g. classifying "age" as a demographic influence rather than a biological influence in the expression "I don't drink alcohol because I cannot buy it, as I am underage" is appropriate.
+
+
+

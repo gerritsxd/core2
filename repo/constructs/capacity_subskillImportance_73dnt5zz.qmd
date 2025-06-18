@@ -1,0 +1,21 @@
+---
+format: html
+subtitle: 'UCID: capacity_subskillImportance_73dnt5zz'
+title: Perceived subskill importance
+toc: true
+---
+
+## Definition
+
+The perceived importance of a subskill refers to how important possessing the subskill is to successfully accomplishing the target behavior. A subskill can be perceived to anything from completely irrelevant to crucial. Note that the perception of whether one possesses a subskills is its perceived presence (dct:capacity_subskillPresence_73dnt5zy).
+
+According to the Reasoned Action Approach, perceptions about the importance of subskills combine multiplicatively with perceptions about the presence of subskills (see dct:capacity_subskillPresence_73dnt5zy) into capacity beliefs (see dct:capacity_belief_73dnt600).
+
+Examples of perceived subskill importance are the perception that to successfully buy condoms, it is vital one possesses the skill to ask for condoms at the counter; the perception that to successfully moderate one's alcohol intake, it doesn't really matter whether one possesses the skill to decline an alcoholic drink when it is offered; the perception that to successfully run 5 kilometers, it is a prerequisite that one is able to run 5 kilometers; the perception that to protect one's hearing from loud sounds, it helps if one is able to insert earplugs into one's ear canal properly; and the perception that to prevent skin cancer in one's child, it doesn't matter whether one knows how to apply sunscreen on a child.
+
+## Developing Measurement Instruments
+
+The perceived importance of a subskill is measured by asking the extent to which possessing the subskill is relevant to performance of the behavior. The items are formulated as 'For me to successfully [BEHAVIOR], being able to [SUBSKILL] is...' with 'Not at all important' and 'extremely important' as anchors.
+
+For example, 'For me to successfully use condoms, being able to ask for condoms at the counter is [not at all important|extremely important],' 'For me to successfully moderate my alcohol intake, being able to decline an alcoholic drink when it is offered is [not at all important|extremely important].'
+

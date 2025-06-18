@@ -3,7 +3,7 @@ title: "Instructions for developing measurement instruments"
 listing:
   - id: "measureDevListing"
     template: "psycore-measureDev-template.ejs"
-    contents: "../data/dctSpecs/*.yaml"
+    contents: "../data/dctSpecs/*.dct.yaml"
     sort-ui: false
     filter-ui: false
     page-size: 999

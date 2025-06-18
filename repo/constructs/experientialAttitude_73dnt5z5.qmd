@@ -1,0 +1,33 @@
+---
+format: html
+subtitle: 'UCID: experientialAttitude_73dnt5z5'
+title: Experiential attitude
+toc: true
+---
+
+## Definition
+
+A latent disposition or tendency to respond with some degree of favorableness or unfavorableness to the target behavior based on what one expects to experience if engaging in the target behavior.
+
+
+## Developing Measurement Instruments
+
+Use semantic differentials with root ‘For me, TARGET BEHAVIOR is …’ and a bidimensional scale where the right-most anchor expresses a pleasant affective state and the left-most anchor expresses the opposite unpleasant affective state (e.g. ‘unpleasant’ versus ‘pleasant’).
+
+The example items in the 2010 RAA book are ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Bad’ vs ‘Good’; ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Unpleasant’ vs ‘Pleasant’; ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Harmful’ vs ‘Beneficial’; and ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Boring’ vs ‘Interesting’.
+
+
+## Coding Measurement Instruments
+
+Operationalisations that measure affective aspects of the latent disposition or tendency to respond favourably versus unfavourably to target behavior, for example using the semantic differentials ‘pleasant’ vs ‘unpleasant’ or ‘fun’ vs ‘boring’.
+
+## Eliciting Construct Content (Qualitative Research)
+
+Experiential attitude is defined as a construct that is the consequence of a person’s evaluation of the experiential attitude belief composite.
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply affective aspects of the latent disposition or tendency to respond favourably versus unfavourably to the target behaviour at a very general level (e.g. "Face masks just feel bad."). If the expressions are more specific, relating to specific experiences, sensations, or feelings (e.g. "I don't like the way face masks feel against my skin"), code them as [[..........]].
+
+Manifestations that express favourableness or unfavourableness to the target behaviour based on the perceived usefulness of engaging in the target behaviour to achieving one’s goals (e.g. "Face masks don't help") should be coded as dct:instrumentalAttitude_73dnt5zb. If the expressions are so general and vague that they don't clearly relate to experiential aspects of attitude, code them as dct:attitude_73dnt5zc.
+

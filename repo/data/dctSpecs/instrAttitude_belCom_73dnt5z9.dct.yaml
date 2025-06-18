@@ -1,0 +1,40 @@
+---
+dct:
+  version: 0.1.0
+  id: instrAttitude_belCom_73dnt5z9
+  label: Instrumental attitude beliefs composite
+  date: '2021-03-18'
+  ancestry: ''
+  retires: ''
+  definition:
+    definition: The sum of the instrumental attitude beliefs.
+  measure_dev:
+    instruction: |
+      A composite of instrumental attitude beliefs is obtained by multiplying the expectations of each instrumental attitude belief (see dct:instrAttitude_expectation_73dnt5z6) by its evaluation (see dct:instrAttitude_evaluation_73dnt5z7) and then summing the product terms across all instrumental attitude beliefs. This, preferably, is represented graphically (e.g. in a table or index) and, additionally, in an equation.
+
+      The authors state on p.104 of  the Reasoned Action Approach book (Ajzen & Fishbein, 2010) that the composite measure of beliefs is assumed to determine the (instrumental) attitude, and should not be interpreted as an indirect measure of (instrumental) attitude. A low correlation between the beliefs composite and a direct measure of instrumental attitude may be an indication that the expectancy-value index (i.e. the attitude beliefs composite) is based on an inappropriate set of (nonsalient) beliefs, or that the measure of belief strength may be scored inappropriately.
+  measure_code:
+    instruction: |
+      Questions or questionnaires that measure the expectations (dct:instrAttitude_expectation_73dnt5z6) and evaluations (dct:instrAttitude_evaluation_73dnt5z7) of all salient instrumental attitude beliefs with regard to the target behaviour.
+
+      Instrumental attitude belief expectations combine multiplicatively with  instrumental attitude belief evaluations into  instrumental attitude beliefs. The product terms for each belief and the sum of the products terms of all salients beliefs are represented in the expectancy-value index (i.e. the compostite of attitude beliefs) for the target behaviour. See Table 3.2 on p. 98 of  the Reasoned Action Approach book (Ajzen & Fishbein, 2010) for an example of such an index.
+  aspect_dev:
+    instruction: "Instrumental attitude beliefs and, as a consequence, also instrumental
+      attitude beliefs composites (which are the sum of the former), can not be directly
+      elicited. Instrumental attitude beliefs are the product of the product of the
+      expected instrumental consequences of a target behaviour (instrAttitude_expectation_73dnt5z6)
+      multiplied by the evaluation of those consequences (instrAttitude_evaluation_73dnt5z7).
+      \n\nSee these two subconstructs for instructions for eliciting their respective
+      construct content.\n\n\n"
+  aspect_code:
+    instruction: "Instrumental attitude beliefs and, as a consequence, also instrumental
+      attitude beliefs composites (which are the sum of the former), can not be directly
+      elicited. Instrumental attitude beliefs are the product of the product of the
+      expected instrumental consequences of a target behaviour (instrAttitude_expectation_73dnt5z6)
+      multiplied by the evaluation of those consequences (instrAttitude_evaluation_73dnt5z7).
+      \n\nSee these two subconstructs for instructions for coding their respective
+      construct content.\n\n\n"
+  rel: ~
+
+---
+

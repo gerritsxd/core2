@@ -1,0 +1,40 @@
+---
+format: html
+subtitle: 'UCID: autonomy_belCom_73dnt5zw'
+title: Autonomy beliefs composite
+toc: true
+---
+
+## Definition
+
+The sum of the autonomy beliefs. In their totality, autonomy beliefs lead to the perception that performance or nonperformance of the target behaviour is under their control or is up to them. 
+
+
+## Developing Measurement Instruments
+
+A composite of autonomy beliefs is obtained by multiplying the strength of each autonomy belief (see dct:autonomy_conditionPresence_73dnt5zr) by its perceived power (see dct:autonomy_conditionPower_73dnt5zs) and then summing the product terms across all autonomy beliefs.
+
+This, preferably, is represented graphically (e.g. in a table or index) and, additionally, in an equation. See Table 5.5 on p.171 of the Reasoned Action Approach (RAA) book (Ajzen & Fishbein, 2010) for an example. 
+
+
+## Coding Measurement Instruments
+
+The autonomy beliefs composite reflects the summation of salient autonomy beliefs with regard to the target behaviour. Each autonomy belief  (dct:autonomy_belief_73dnt5zt), in its turn, is the product term of the multiplication of the strength of the belief (dct:autonomy_conditionPresence_73dnt5zr) by its perceived power (dct:autonomy_conditionPower_73dnt5zs).
+
+Given the formative nature of the autonomy beliefs composite, for a swift and clear overview of its composition and its effect on autonomy (see: autonomy_73dnt5zx), preferably a graphical representation (e.g. a table or index) and, possibly, an equation is consulted. Table 5.5 on p.171 of Reasoned Action Approach book (Ajzen & Fishbein, 2010) represents such an overview. 
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Autonomy beliefs and, as a consequence, also autonomy beliefs composites (which are the sum of the former), can not be directly elicited. Autonomy beliefs are the product of the multiplication of a belief's strength (dct:autonomy_conditionPresence_73dnt5zr) by its perceived power (dct:autonomy_conditionPower_73dnt5zs).
+
+See these two subconstructs for instructions for eliciting their respective construct content.
+
+
+## Coding Qualitative Data
+
+Autonomy beliefs and, as a consequence, also autonomy beliefs composites (which are the sum of the former), can not be directly elicited. Autonomy beliefs are the product of the multiplication of a belief's strength (dct:autonomy_conditionPresence_73dnt5zr) by its perceived power (dct:autonomy_conditionPower_73dnt5zs).
+
+See these two subconstructs for instructions for coding expressions of construct content. 
+
+

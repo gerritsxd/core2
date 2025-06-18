@@ -1,0 +1,42 @@
+---
+format: html
+subtitle: 'UCID: descrNorms_belCom_73dnt5zn'
+title: Descriptive norm beliefs composite
+toc: true
+---
+
+## Definition
+
+
+The sum of the descriptive norm beliefs.
+
+## Developing Measurement Instruments
+
+A composite of descriptive norm beliefs is obtained by multiplying the perceived likelihood that a given normative referent performs the target behaviour (dct:referentBehavior_73dnt5zk) by the identification with that referent (dct:referentIdentification_73dnt5zl), and then summing the product terms across all descriptive norms beliefs (i.e. across all salient normative referents). 
+
+This, preferably, is represented graphically (e.g. in a table or index) and, additionally, in an equation. See Table 4.1 on p. 136 of Reasoned Action Approach book (Ajzen & Fishbein, 2010) for an example. 
+
+
+## Coding Measurement Instruments
+
+The descriptive norm beliefs composite reflects the summation of salient descriptive norm beliefs with regard to the target behaviour. Each descriptive norm belief  (dct:descrNorms_belief_73dnt5zm), in its turn, is the product term of the multiplication of the perceived likelihood that a normative referent performs the target behavior (dct:referentBehavior_73dnt5zk) by the level of identification with the referent (dct:referentIdentification_73dnt5zl).
+
+Given the formative nature of the descriptive norm beliefs composite, for a swift and clear overview of its composition and its effect on descriptive norms (dct:descriptiveNorms_73dnt5zp), preferably a graphical representation (e.g. a table or index) and , possibly, an equation is consulted. Table 4.1 on p. 136 of the Reasoned Action Approach book (Ajzen & Fishbein, 2010) represents an example of an overview of a (injunctive) norm beliefs composite.
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Descriptive norm beliefs and, as a consequence, also descriptive norm beliefs composites (which are the sum of the former), can not be directly elicited. Descriptive norm beliefs are the product of a participant's perception of a normative referent's conduct of the target behaviour multiplied by the degree a participant wants to be like that normative referent with regards to the target behaviour.
+
+See these two subconstructs  (i.e. dct:referentBehavior_73dnt5zk and dct:referentIdentification_73dnt5zl) for instructions for eliciting their respective construct content.
+
+
+
+## Coding Qualitative Data
+
+Descriptive norm beliefs and, as a consequence, also descriptive norm beliefs composites (which are the sum of the former), can not be directly elicited. Descriptive norm beliefs are the product of a participant's perception of a normative referent's conduct of the target behaviour multiplied by the degree a participant wants to be like that normative referent with regards to the target behaviour.
+
+See these two subconstructs  (i.e. dct:referentBehavior_73dnt5zk and dct:referentIdentification_73dnt5zl) for instructions for coding their respective construct content.
+
+
+

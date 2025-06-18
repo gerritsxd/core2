@@ -1,0 +1,29 @@
+---
+format: html
+subtitle: 'UCID: desire_79n2w1bk'
+title: Desire
+toc: true
+---
+
+## Definition
+
+Desire is a psychological state of motivation for a specific stimulus or experience that is anticipated to be rewarding. This state may or may not be consciously experienced.
+
+
+## Developing Measurement Instruments
+
+In the context of behaviour change, the construct "desire" is covered by experiential attitude (see dct:experientialAttitude_73dnt5z5). For instructions for developing a measurement instrument, see the dct of this latter construct.
+
+## Coding Measurement Instruments
+
+Questions or questionnaires that measure whether engagement in the target behaviour is perceived to be rewarding. As this operationalisation is similar to the measurement of experiential attitude (see dct:experientialAttitude_73dnt5z5), for behaviour change purposes, the use of the latter suffices. Therefore, instruments measuring this part of human psychology should be coded as dct:experientialAttitude_73dnt5z5.
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+In the context of behaviour change, the construct "desire" is covered by experiential attitude (see dct:experientialAttitude_73dnt5z5). See dct:experientialAttitude_73dnt5z5 for instructions for eliciting construct content. 
+
+## Coding Qualitative Data
+
+In the context of behaviour change, the construct "desire" is covered by experiential attitude (see dct:experientialAttitude_73dnt5z5). See dct:experientialAttitude_73dnt5z5 for instructions for coding construct content. 
+

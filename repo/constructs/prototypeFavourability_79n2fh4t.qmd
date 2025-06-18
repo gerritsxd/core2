@@ -1,0 +1,45 @@
+---
+format: html
+subtitle: 'UCID: prototypeFavourability_79n2fh4t'
+title: Prototype favourability
+toc: true
+---
+
+## Definition
+
+The degree of likability of a image representing perceptions of typical persons engaging in or refraining from a certain behaviour.
+
+## Developing Measurement Instruments
+
+Prototype favourability can be assessed by rating adjectives relating to the prototype, for instance, how  "cool" or "likeable" the prototype is, and measuring responses on a 5- or 7-point Likert scale.
+
+For example: "How likeable or dislikeable do you think the type of person who drinks four units of alcohol (over the legal limit) and drives thereafter is?", with the scale anchors "Very likeable" and "Very dislikeable" (example from "Understanding young and older male drivers' willingness to drive while intoxicated" by Rivis et al., 2011).
+
+Higher prototype favourability is assumed to be related to the increased likelihood that individuals will actually engage in the behaviour or will exhibit the willingness or intention to engage in the health-related behaviour associated with the prototype.
+
+
+## Coding Measurement Instruments
+
+Questions or questionnaires that measure prototype favourability by rating adjectives relating to the prototype, for instance, how  "cool" or "likeable" the prototype is, and measuring responses on a 5- or 7-point Likert scale.
+
+For example: "How likeable or dislikeable do you think the type of person who drinks four units of alcohol (over the legal limit) and drives thereafter is?", with the scale ancors "Very likeable" and "Very dislikeable" (example from "Understanding young and older male drivers' willingness to drive while intoxicated" by Rivis et al., 2011).
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+
+In this qualitative study, use the questions: "How would you describe the typical person that engages in TARGET BEHAVIOUR?" or "What is your image of the typical person that engages in TARGET BEHAVIOUR?"
+
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply the degree of favourability, containing words such as "smart/dumb", "attractive/unattractive", and "desirable/undiserable". 
+
+The words chosen to express the degree of (un)favourability associated with the prototype in itself is also informative; i.e. it tells us which association is most salient when refering to a prototype. For example, indicating that a person wearing ear plugs when in a club is "cool/uncool" and not saying that this particular person is "smart/dumb", may indicate that "coolness" is an important factor (and likely more important than "smartness") to assess the level of favourability with regard to the prototype. 
+
+Expressions that demonstrate or imply the degree of similarity, containing verbs such as "familiar/unfamiliar",  "related/unrelated", "resemble/differ" should be coded as dct:prototypeSimilarity_79n2fh4t.
+
+Expressions that exhibit the presence of a prototype image associated with the behaviour without a reference to favourability or similarity should be coded as dct:prototype_79n2fh4t.
+
+

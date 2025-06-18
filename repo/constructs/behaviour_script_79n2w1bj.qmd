@@ -1,0 +1,38 @@
+---
+format: html
+subtitle: 'UCID: behaviour_script_79n2w1bj'
+title: Behavioural script
+toc: true
+---
+
+## Definition
+
+Organized sets of information stored schematically linking the action with cues and contexts built up through repeated past experience.
+
+## Developing Measurement Instruments
+
+Behavioural scripts describe the sequencing of events involving observable, recurrent activities and patterns of interaction characteristic of a particular setting. As can be deduced from this definition, behavioral script can be observed. This measurement method is, however, very time intensive and unpractical. 
+
+The presence of behavioural scripts can also be assessed by self-report, using interviews and questionnaires as research methods. However, no specific questionnaires exist to measure the presence of behavioural scripts. Therefore, one could use a questionnaire to measure habitual behaviour, such as the Self-Report Habit Index (SRHI) (see dct:habit_79n2r0sz), and possibly apply some modifications to this measure, or develop a new questionnaire from scratch.
+
+A questionnaire measuring behavioural scripts for a particular behaviour can present different scenarios (each representing a particular behavioural script) and ask whether the participant performs the target behaviour in this fashion, with "Very likely" and "Very unlikely" at the extreme ends of a 5- or 7-point Likert scale. For example "When I am at a club or festival I usually get offered a couple of alcoholic drinks from friends, even when I don't aks for them", "When I am at a club or festival and a stranger bumps into me, I don't pay attention to it or start an argument, and I continue my way" and "When I am at a club or festival I first walk around at the event to see who is there."
+
+
+## Coding Measurement Instruments
+
+Questions or questionnaires that measure the degree to which performance of the target behaviour follows certain behavioural scripts. These fixed behavioural patters may be prompted by certain cues or certain situations.
+
+Questions measuring the presence of behavioural scripts for a particular behaviour can present different scenarios (each representing a particualr behavioural script) and ask whether the participant performs the target behaviour in this fashion, with "Very likely" and "Very unlikely" at the extreme ends of a 5- or 7-point Likert scale. For example "When I am at a club or festival, I usually get offered a couple of alcoholic drink from friends, even when I don't aks for them", "When I am at a club or festival and a stranger bumps into me, I don't pay attention to it or start an argument, and I continue my way" and "When I am at a club or festival, I first walk around at the event to see who is there."
+
+
+## Eliciting Construct Content (Qualitative Research)
+
+Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding. In this qualitative study, use questions similar to the following examples: "Please describe how your engagement in the TARGET BEHAVIOUR looks like when at location X" or "Please describe the things you usually do before, during, and after you engage in TARGET BEHAVIOUR?". For example, "Please describe the things you usually do before, during, and after you use cannabis?".
+
+
+## Coding Qualitative Data
+
+Expressions that demonstrate or imply the presence of behavioural scripts, using expressions suchs as: "When at X I always do X", "Without thinking about it, I first do X, then I do X, and then I do X", "Every day I follow the same sequence of actions....". More specifically, for example: "When I drink my first cup of coffee, I automatically light a cigarette. After I have finished my coffee and cigarette, I go to the toilet" 
+
+Behavioural scripts are related to dct:habit_79n2r0sz and the constructs may overlap.
+
