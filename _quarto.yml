@@ -10,6 +10,7 @@ project:
     - "repo/overview/search_index.json"
 
 website:
+  site-url: https://gerritsxd.github.io/core2
   title: "COMMS Repository Template: CoRe"
   navbar:
     background: "#666666"
