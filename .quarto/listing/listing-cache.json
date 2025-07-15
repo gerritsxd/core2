@@ -1,0 +1,10 @@
+{
+  "listingMap": {
+    "posts\\index.qmd": [
+      "*.qmd"
+    ],
+    "repo\\construct\\index.qmd": [
+      "../data/dctSpecs/*.yaml"
+    ]
+  }
+}

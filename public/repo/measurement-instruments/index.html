@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Developing Measurement Instruments – COMMS Repository Template: CoRe</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-9445a4555af3a56b987823823f9b9d54.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">COMMS Repository Template: CoRe</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../repo/index.html"> 
+<span class="menu-text">🎯CoRe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/index.html"> 
+<span class="menu-text">✍️ Posts</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Developing Measurement Instruments</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="{=html}">
+<table>
+<thead>
+<tr>
+<th>
+Construct
+</th>
+<th>
+Instructions
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="../../repo/constructs/action_plancomp_79n2w1bh.html">Action plan composite</a>
+</td>
+<td>
+<p>A composite of action plans is obtained by summing present and absent action plans for the target behaviour. The subsequent approach can thereby be followed:</p>
+<ol type="1">
+<li>Break downs the target behaviour in subbehaviours.</li>
+<li>Formulate items measuring the presence of action plans for each of these subbehaviours (see dct:action_plan_79n2w1bh for instructions).</li>
+<li>Create action plan composite: sum all present (=1) and absent (=0) action plans for the target behaviour</li>
+</ol>
+Participants’ overall score expresses the degree action plans for the subbehaviours are present. A high score (e.g.&nbsp;6 out of 7) makes performance of the target behaviour more likely.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/action_plan_79n2w1bh.html">Action plan</a>
+</td>
+<td>
+<p>The self-reported presence of action plans can be measured with dichotomous items asking if a specific plan is present (yes/no) for performance of a subbehaviour of the target behaviour. Answers on these items express if the participant has a plan to perform the subbehaviour according to the description provided. Items should specify when, where, and how the particular subbehaviour is performed.</p>
+<p>Items measuring the presence of action plans start with a question stem that presents the situation about which the question is asking, followed by a detailed description of an action plan. Participants are asked to indicate if they have (yes=1/no=0) this specific action plan.</p>
+<p>An example of a question stem followed by three items measuring the presence of three separate action plans for the target behaviour “protecting skin against UV radiation” is:</p>
+<p>When you are going on a day trip this summer and large parts of your skin will be uncovered (e.g.&nbsp;at the pool or beach)… 1) Do you plan to check one day or more beforehand if you have sunscreen at home? 2) Do you plan to check if you have sunscreen with you before leaving on the day trip? 3) Do you plan to use sunscreen every 2 hours?</p>
+To assess a participant’s overall presence of action plans for the target behaviour see dct:action_plancomp_79n2w1bh.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/action_regret_79n2w1bj.html">Action regret</a>
+</td>
+<td>
+Use 5-point Likert scales that measure the degree to which participants believe that engagement in a particular behaviour will subsequently lead to regret, e.g.&nbsp;“If you would play video games the whole night, how much regret would you feel?” or “If you would eat a bag of cookies, how much regret would you feel?”, both items with anchors “none” (=0) and “a lot” (=4).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/actualControl_7blfql8r.html">Actual control</a>
+</td>
+<td>
+<p>Researchers can utilize three complementary methods to assess the degree of actual control of a participant.</p>
+<p>First, they can establish whether control factors, expressed by participants during the elicitation of salient beliefs, constitute actual (real) barriers or facilitators. Fishbein &amp; Ajzen (2010) on p.&nbsp;330-331 provide an example: ‘Imagine that lack of public transportation is one of the salient factors mentioned as a possible barrier to getting a colonoscopy. We can try to establish if this is a realistic concern by checking with the transportation authorities on the kinds of public transportation available in the area. This would provide a measure of actual control with respect to this particular factor. In addition, we would also need to ascertain whether it is true that lack of public transportation actually interferes with getting to the doctor’s office’.</p>
+<p>A second method to assess actual control is to gather background information about the population of interest; specifically concerning factors that may affect their performance of the target behaviour. Identification of these factors, whether personal or environmental, may be enhanced by consulting experts, members of the target population, and those closely living or working together with those members. As a result of increased comprehension of the study population, specific items can be formulated and included in the questionnaire that measure background factors relevant for performance of the target behaviour (e.g.&nbsp;highest level of education achieved), and/or a skills test (see next paragraph) may be developed, and as such these measures may be provide an (indirect) indication of the level of actual control.</p>
+Finally, a third method to measure actual control is observation. The current gold standard for objectively measuring enacted behaviour is ‘observational coding’ (i.e.&nbsp;‘classifying and quantifying verbal and nonverbal behavioural events or psychological states, irrespective of participants’ reports or perceptions’). For example, registering actual control over the intention to be physically active by observing a participant’s choices during the day, e.g taking the stairs instead of the elevator, going by bike, and not by car, etc. As a consequence of its time and resource intensive nature, direct observation is not always a viable option. However, technical innovations have augmented the possiblities to track people’s behaviour, affect, and physiology outside of laboratory settings, e.g.&nbsp;an accelerometer may give an (objective) indication of a person’s ability to remain physically active over a determined time period. Another way of observing actual control is by designing a test in which participants’ skills are put to the proof, e.g.&nbsp;by asking participants to prepare a résumé to test the presence of facilitating factors in applying for a job (example from p.&nbsp;331 of Fishbein &amp; Ajzen, 2010).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/anticip_regret_79n2w1bj.html">Anticipated regret</a>
+</td>
+<td>
+<p>Anticipated regret stems from the the expectation that the decision to perform or not perform the target behaviour will lead to feelings of regret. Therefore, anticipated regret with regard to the target behaviour is assessed via the subconstruct action regret (dct:action_regret_79n2w1bj) and inaction regret (dct:inaction_regret_79n2r0t0).</p>
+<p>Whether assessment of action regret or inaction regret, or both, is more appropriate depends on the target behaviour and setting of the study. For example, if the target behaviour is “exercising at least six times over the next two weeks”, then measuring inaction regret appears more logical: “If you would not exercise at least six times in the next two weeks, how much regret would you feel?”, with anchors “none” (=0) and “a lot” (=4). However, one can imagine situations (e.g.&nbsp;exercise as escapism, recovery from injury) in which it makes sense to also measure in the opposite direction (i.e.&nbsp;assess action regret): “If you would exercise at least six times in the next two weeks, how much regret would you feel?”.</p>
+<p>Expressed as a numeric score, the level of anticipated regret is equal to the level of action or inaction regret, if only one of the two subconstructs is assessed. When both the level of action and inaction regret are measured (with regard to the same target behaviour), the situation is different. In that case, people that experience anticipated regret tend to have a high score on either action or inaction regret. Therefore, calculating a sum or mean score for the two measures combined does not make sense, as this would make the scores of people with a strong experience of anticipated regret (e.g.&nbsp;4+0=4 sumscore) equal to people with a moderate experience of anticipated regret (e.g.&nbsp;2+2=4 sumscore), which would no do justice to their experience. Furthermore, it seems likely that for the former group, the instigation towards action/inaction with respect to the target behaviour is greater, precisely because in this group anticipated regret is experienced stronger. Creating a sum or average score from action and inaction regret scores thus does not make sense, neither to express the level of experienced anticipated regret nor to predict engagement vs non-engagement in the target behaviour.</p>
+<p>Substracting one score from the other, or multiplying scores, does not help with the interpretation either. Therefore, no combined score is created from action and inaction regret and scores for both subcontructs are independently assessed and interpreted.</p>
+For anticipated regret expressed as a composite score (i.e.&nbsp;the summation of action and inaction regret scores) see dct:anticip_regret_79n2w1bh
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/attitude_73dnt5zc.html">Attitude</a>
+</td>
+<td>
+<p>Attitude consists of two sub-constructs, and is measured by measuring those, i.e.: dct:experientialAttitude_73dnt5z5 and dct:instrumentalAttitude_73dnt5zb</p>
+A sample question to measure instrumental and experiental attitude would be (from Ajzen &amp; Fishbein, 2010, on p.&nbsp;450 of their book “Predicting and changing Behavior: The Reasoned Action Approach”): “My exercising for at least 20 minutes, three times per week, for the next 3 months would be….”. Answer options range from “bad” to “good” (for instrumental attitude), and from “pleasant” to “unpleasant” (for experiental attitude) on a 7-point Likert scale.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/attitude_noise_7c08258d.html">Attitude towards noise</a>
+</td>
+<td>
+<p>Attitude towards noise is a specific subtype of attitude (see dct: attitude_73dnt5zc). It is assessed with instruments that consist of items that measure both the experiential (see dct:experientialAttitude_73dnt5z5) and instrumental (dct:instrumentalAttitude_73dnt5zb) attitude towards noise, as is for example the case for the ‘Youth Attitude to Noise Scale’ (YANS) (Widen et al, 2006), or the instrument may measure attitude towards loud sounds without the items being particularly experiential or instrumental in nature.</p>
+<p>When “attitude towards noise” is assessed it is important that this attitude is measured in diverse situations, i.e.&nbsp;the situations must refer to both voluntarily and involuntarily chosen sources of loud noise (e.g.&nbsp;both pop concerts and traffic noise).</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/attitude_soundculture_7c082lmy.html">Attitude towards sound level in music and sports settings</a>
+</td>
+<td>
+<p>Attitude towards sound levels is a subgroup of attitude towards noise (see:dct:attitude_noise_7c08258d), which in its turn is a specific subtype of attitude (see dct: attitude_73dnt5zc).</p>
+<p>Attitude towards sound levels is assessed with instruments that consist of items that measure both the experiential (see dct:experientialAttitude_73dnt5z5) and instrumental (dct:instrumentalAttitude_73dnt5zb) attitude towards sound levels at musical and sports activities and events, and in nightlife settings (‘clubbing’), or the instrument may measure attitude towards the sound levels at musical and sports activities and events, and in nightlife settings, without the items being particularly experiential or instrumental in nature.</p>
+<p>The first factor (phrased “elements of youth culture”) of the ‘Youth Attitude to Noise Scale’ (YANS) (Widen et al, 2006), consisting of 8 items, is an example of an instrument assessing this construct. It consists of items measuring both experiential and instrumental attitudes towards sound levels in musical, sports and nightlife settings.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/autonomy_73dnt5zx.html">Autonomy</a>
+</td>
+<td>
+<p>Items to measure autonomy usually ask participants to consider the extent to which extent performance or nonperformance of the behaviour is under their control or is up to them. The focus here is on control over performance as well as nonperformance of the behaviour.</p>
+<p>Fishbein &amp; Ajzen provide a sample question to measure autonomy on p.&nbsp;450 of their Reasoned Action Approach (RAA) book (2010): “My exercising for at least 20 minutes, three times per week, for the next 3 months is up to me”. Answer options range from “Disagree” to “Agree” on a 7-point Likert scale.</p>
+Other examples of items that measure autonomy are (p.&nbsp;166 of RAA book): “How much control do you have over whether you perform behavior x?” (no control–complete control); “I feel in complete control over whether I perform behavior x” (completely false–completely true); “Whether or not I perform behavior x is completely up to me” (disagree–agree); “How much do you feel that performing behavior x is beyond your control?” (not at all–very much); “It is mostly up to me whether or not I perform behavior x” (strongly agree–strongly disagree); “The number of events outside my control which could prevent me from performing behavior x are …” (numerous–very few).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/autonomy_belCom_73dnt5zw.html">Autonomy beliefs composite</a>
+</td>
+<td>
+<p>A composite of autonomy beliefs is obtained by multiplying the strength of each autonomy belief (see dct:autonomy_conditionPresence_73dnt5zr) by its perceived power (see dct:autonomy_conditionPower_73dnt5zs) and then summing the product terms across all autonomy beliefs.</p>
+This, preferably, is represented graphically (e.g.&nbsp;in a table or index) and, additionally, in an equation. See Table 5.5 on p.171 of the Reasoned Action Approach (RAA) book (Ajzen &amp; Fishbein, 2010) for an example.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/autonomy_belief_73dnt5zt.html">Autonomy belief</a>
+</td>
+<td>
+<p>The measurement of autonomy beliefs starts with an elicitation study to identify the content of autonomy beliefs about the behaviour which are shared by the target population.</p>
+<p>To obtain quantitative data regarding autonomy beliefs, the participant is subsequently asked to respond to two questions with respect to each autonomy belief, one to assess autonomy belief strength (see dct:autonomy_conditionPresence_73dnt5zr) and the other to measure the power of the autonomy belief to facilitate or impede behavioural performance (see dct:autonomy_conditionPower_73dnt5zs).</p>
+Finally, to get an overall quantitative score of an autonomy belief, the strength of a belief is multiplied by its perceived power. The total score of an autonomy belief enables the assessment of the importance of the contribution of an autonomy belief, in comparison with other autonomy beliefs, to the autonomy beliefs composite (see dct:autonomy_belCom_73dnt5zw ).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/autonomy_conditionPower_73dnt5zs.html">Perceived power of condition</a>
+</td>
+<td>
+<p>The perceived power of a condition is measured by asking the extent to which a condition facilitates or impedes performance of a behavior. As the same condition can be facilitating for some people and impeding for others, this also implies that use of bidimensional scales is required. However, if one of the two dimensions can be excluded a priori, a unidimensional scale suffices.</p>
+<p>For bidimensional scales, the items are formulated as ‘If I want to [TARGET BEHAVIOR], (whether) [CONDITION] …’ with anchors ‘Much harder’ and ‘Much easier’. For example, ‘If I want to go for a run, rainy weather makes it [Much harder|Much easier].’</p>
+<p>For unidimensional scales, which are only used if one of the dimensions can be excluded a priori, the way the items are formulated depends on whether they concern a barrier or a facilitator. For facilitators, use ‘If I want to [TARGET BEHAVIOR], whether [CONDITION]…’ with anchors ‘Doesn’t matter’ and ‘Makes it much easier’, and for barriers, ‘If I want to [TARGET BEHAVIOR], whether [CONDITION]…’ with anchors ‘Doesn’t matter’ and ‘Makes it much harder’.</p>
+For example, ‘If I want to use anticonception, whether it is widely available…’ with anchors ‘Doesn’t matter’ to ‘Makes it much easier’.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/autonomy_conditionPresence_73dnt5zr.html">Perceived presence of condition</a>
+</td>
+<td>
+<p>The perceived presence of a condition is measured by asking the perceived probability that a condition will be present. A unidimensional scale is required. The items are formulated as ‘How likely do you think it is that [CONDITION]?’ with anchors ‘Very unlikely’ and ‘Very likely’.</p>
+For example, ‘How likely do you think it is that it will rain?’ and ‘How likely do you think it is that anticonception will be widely available?’, both with anchors ‘Very unlikely’ and ‘Very likely’.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/awareness_79n2w1bj.html">Awareness</a>
+</td>
+<td>
+<p>Awareness, in the present definition, is the agreement between self-rated behaviour and a given behavioural guideline. The construct can be assessed in a three-step procedure:</p>
+<ol type="1">
+<li><p>Firstly, participants are asked if their behaviour is in line with with the guidelines for that particular behaviour (yes/no). If the guideline is not known, in an introduction to the question this information is provided.</p></li>
+<li><p>Secondly, participants’ actual engagement in the target behaviour is assessed using objective measures (e.g.&nbsp;accelerometer and heart rate monitor to measure actual physical activity, caloric calculations to measure food intake).</p></li>
+<li><p>Thirdly, the accuracy of participants’ perception of their behaviour meeting the guidelines can be assessed by comparing the outcomes of step 1 and 2. As a result of this comparison, four awareness groups can be created: overestimators, underestimators, realistic (not meeting guideline), and realistic (meeting guideline). Thus, the latter two groups are aware of their behaviour, while the first two groups are not.</p></li>
+</ol>
+See “Awareness of physical activity in healthy middle-aged adults: a cross-sectional study of associations with sociodemographic, biological, behavioural, and psychological factors” (Godino et al., 2014) for a sample application of this method.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/behavior_73dnt605.html">Behavior</a>
+</td>
+<td>
+Depending on the nature of the target behavior, engagement in that behavior can be conceived as binary (i.e.&nbsp;one either does or does not engage in the target behavior, e.g.&nbsp;getting tested for STIs every six months), a matter of frequency (i.e.&nbsp;one engages in the target behavior with a frequency from zero up to a given feasible maximum frequency in a given timespan, e.g.&nbsp;the frequency with which one washes their hands conform the guidelines), a matter of intensity (i.e.&nbsp;one engages in the target behavior to a degree from zero up to a given feasible maximum intensity, e.g.&nbsp;the amount of kilocalories one consumed in a meal), or a combination of these (i.e.&nbsp;one engages in the target behavior with a given frequency and with a given intensity, e.g.&nbsp;how frequently one drinks alcohol, and how many grams of alcohol one consumes when one does).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/behaviour_79n2w1bj.html">Behaviour</a>
+</td>
+<td>
+<p>The prefered instruments to measure behaviour are observation by trained observers using a valid and reliable reporting protocol and/or the use of technical measures and devices to record and track behaviour during particular events and over time.</p>
+<p>If these objective measures can not be used, self-report of behaviour assessed by questionniares or interviews are an alternative option. However, one should take into account that these latter instruments by definition measure a subjective representation of behaviour. Moreover, whereas there is general agreement about the definition of a specific behaviour (“running”), this is not the case when asking about a broad behavioural category, such as “exercising”. To assess a category of behaviours via self-report, therefore, we must provide a clear definition of the category in question and specify action, target, context, and time.</p>
+<p>Depending on the nature of the behaviour, engagement in the behaviour can be conceived as binary (i.e.&nbsp;one either does or does not engage in the target behaviour, e.g.&nbsp;getting tested for STIs every six months), a matter of frequency (i.e.&nbsp;one engages in the target behaviour with a frequency from zero up to a given feasible maximum frequency in a given timespan, e.g.&nbsp;the frequency with which one washes their hands conform the guidelines), a matter of intensity (i.e.&nbsp;one engages in the target behaviour to a degree from zero up to a given feasible maximum intensity, e.g.&nbsp;the amount of kilocalories one consumed in a meal), or a combination of these (i.e.&nbsp;one engages in the target behaviour with a given frequency and with a given intensity, e.g.&nbsp;how frequently one drinks alcohol, and how many grams of alcohol one consumes when one does).</p>
+The instructions for developing a self-report instrument to measure behaviour, logically derive from the foregoing consideration regarding the nature of the behaviour of interest. For example, for a dichotomous response option (yes/no) the question can be formulated in the following way: “Did you get tested for STIs during the last six months?”. If the behaviour is a matter of frequency, multiple response options may be given, e.g.: “During the last seven days, how many days did you drink two or more alcoholic drinks?”, with response options ranging from 0 to 7.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/behaviour_script_79n2w1bj.html">Behavioural script</a>
+</td>
+<td>
+<p>Behavioural scripts describe the sequencing of events involving observable, recurrent activities and patterns of interaction characteristic of a particular setting. As can be deduced from this definition, behavioral script can be observed. This measurement method is, however, very time intensive and unpractical.</p>
+<p>The presence of behavioural scripts can also be assessed by self-report, using interviews and questionnaires as research methods. However, no specific questionnaires exist to measure the presence of behavioural scripts. Therefore, one could use a questionnaire to measure habitual behaviour, such as the Self-Report Habit Index (SRHI) (see dct:habit_79n2r0sz), and possibly apply some modifications to this measure, or develop a new questionnaire from scratch.</p>
+A questionnaire measuring behavioural scripts for a particular behaviour can present different scenarios (each representing a particular behavioural script) and ask whether the participant performs the target behaviour in this fashion, with “Very likely” and “Very unlikely” at the extreme ends of a 5- or 7-point Likert scale. For example “When I am at a club or festival I usually get offered a couple of alcoholic drinks from friends, even when I don’t aks for them”, “When I am at a club or festival and a stranger bumps into me, I don’t pay attention to it or start an argument, and I continue my way” and “When I am at a club or festival I first walk around at the event to see who is there.”
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/capacity_73dnt602.html">Capacity</a>
+</td>
+<td>
+<p>Use Likert scales that measure the degree to which participants believe the target behavior to be something they are capable of performing successfully. The items suggested in the book are: ‘I am confident that if I want to, I can TARGET BEHAVIOR.’ with anchors ‘No confidence at all’ vs ‘A lot of confidence’ and ‘If I really wanted to, I could TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’.</p>
+Note that questions about how easy or difficult participants perceive a target behavior to be fall outside of the constructs of Perceived Behavioral Control, Autonomy, and Capacity as defined in the 2010 RAA book.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/capacity_belCom_73dnt601.html">Capacity beliefs composite</a>
+</td>
+<td>
+<p>A composite of capacity beliefs is obtained by multiplying the perceived presence of each relevant capacity (i.e.&nbsp;‘subskill’) (see dct:capacity_subskillPresence_73dnt5zy) by its perceived importance (see dct:capacity_subskillImportance_73dnt5zz) and then summing the product terms across all capacity beliefs.</p>
+This, preferably, is represented graphically (e.g.&nbsp;in a table or index) and, additionally, in an equation. See Table 5.5 on p.171 of the Reasoned Action Approach book (Ajzen &amp; Fishbein, 2010) for an example.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/capacity_belief_73dnt600.html">Capacity belief</a>
+</td>
+<td>
+<p>The measurement of capacity beliefs starts with an elicitation study to identify the content of capacity beliefs about the behaviour which are shared by the target population.</p>
+<p>To obtain quantitative data regarding capacity beliefs, the participant is subsequently asked to respond to two questions with respect to each salient capacity belief, one question to assess the perceived likelihood that the capacity will be present (see dct:capacity_subskillPresence_73dnt5zy), and the other to measure the perceived importance of the capacity to facilitate or impede behavioral performance (see dct:capacity_subskillImportance_73dnt5zz).</p>
+Finally, to get a total quantitative score of a capacity belief, the perceived presence of a capacity is multiplied by its perceived importance. The total score of a capacity belief enables the assessment of the importance of the contribution of a capacity belief, in comparison with other capacity beliefs, to the capacity beliefs composite (see dct:capacity_belCom_73dnt601).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/capacity_subskillImportance_73dnt5zz.html">Perceived subskill importance</a>
+</td>
+<td>
+<p>The perceived importance of a subskill is measured by asking the extent to which possessing the subskill is relevant to performance of the behavior. The items are formulated as ‘For me to successfully [BEHAVIOR], being able to [SUBSKILL] is…’ with ‘Not at all important’ and ‘extremely important’ as anchors.</p>
+For example, ‘For me to successfully use condoms, being able to ask for condoms at the counter is [not at all important|extremely important],’ ‘For me to successfully moderate my alcohol intake, being able to decline an alcoholic drink when it is offered is [not at all important|extremely important].’
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/capacity_subskillPresence_73dnt5zy.html">Perceived subskill presence</a>
+</td>
+<td>
+<p>The perceived presence of a subskill is measured by asking the perceived probability that a person has a certain skill that is required to successfully accomplish the target behavior. It is important that the item stem explicitly describes a scenario where not successfully accomplishing the relevant sub-behavior (that corresponds to the relevant subskill) can only be the consequence of insufficiently possessing that subskill.</p>
+<p>In the item stem, start with a word that establishes that the question concerns a regular situation. Then, if the subskill pertains to a specific scenario, insert that condition. Then continue with ‘are you able to [TARGET BEHAVIOR]’. For subskills that do not pertain to specific scenarios, the item stem then becomes ‘Typically, are you able to [TARGET BEHAVIOR]’, and for subskills that do pertain to a specific scenario, the item stem becomes ‘Typically, if [SCENARIO], are you able to [TARGET BEHAVIOR]’.</p>
+<p>As anchors, use ‘Absolutely unable’ to ‘Absolutely able’ (this is a unidimensional scale).</p>
+For example, ‘Typically, are you able to ask for condoms at the counter?’ and ‘Typically, if an alcoholic drink is offered, are you able to decline?’, both with anchors ‘Absolutely unable’ and ‘Absolutely able’.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/coping_79n2w1bj.html">Coping</a>
+</td>
+<td>
+<p>Skinner (2007) describes the state of assessment in the field of coping as “chaotic and confusing”, and in a review (Skinner et al., 2003) identified over 100 assessments, tapping over 400 ways of coping.</p>
+<p>Among the various measures, self-report instruments exist to assess coping styles among members of various groups (adults, children, adolescents, elderly), and scales may be broadly applicable, while others are ment for situation-specific application (e.g.&nbsp;health-related issues). The COPE (Carver, Scheier, &amp; Weintraub, 1989) is the most frequently used instrument for broad application, and also one of the most commonly used measures in situation-specific contexts (Kato, 2015).</p>
+<p>The 60-item COPE consists of 15 subscales (e.g.&nbsp;“active coping” and “acceptance”) and its theoretical development is based on the models of behavioral self-regulation (Carver &amp; Scheier, 1981) and stress and coping (Lazarus &amp; Folkman, 1984). The COPE assumes that individual coping strategies are relatively stable across different types of stressors.</p>
+<p>Individuals that participate in the COPE are asked to indicate on a 4-points scale what they usually do when they experience a stressful event (1 = I usually don’t do this at all, 2 = I usually do this a little bit, 3 = I usually do this a medium amount, 4 = I usually do this a lot). Examples of items used in the COPE are: “I get upset and let my emotions out”, “I laugh about the situation”, “I daydream about things other than this” and “I think hard about what steps to take”.</p>
+<p>The COPE, in its original form, measures coping style across different types of stressors. However, researchers have also adapted the scale to assess coping in specific situations (e.g.&nbsp;by replacing “stressful event” by a more narrow description of a potentially stressful situation), or by using only a selection of the 15 subscales. The COPE does not have an overall score, and the authors do not endorse combining subscales or deducing a dominant coping style from the scores (Carver, 2013).</p>
+<p>Researchers that want to create their own coping scale (e.g.&nbsp;for specific groups, situations, or risk behaviours) can use the framework provided by Skinner et al.&nbsp;(2003), which identifies a dozen core families of coping based on action types. Any measure of coping, according to the authors, no matter the domain, developmental level, or time frame, should include ways of coping from each of these 12 families.</p>
+<p>Different ways are used to classify coping styles into higher-order families. These classifications are often problematic (see Skinner et al., 2003 for a thorough discussion). Engagement and disengagement coping (see dct:engCoping and dct:disengCoping) is the higher-order structure adhered by Carver (2019), and the one used here. One should, however, take into account that the presence or absence of particular coping styles should be assessed at a higher level of specificity, e.g.&nbsp;coping styles pertaining to the 12 families identified by Skinner et al.&nbsp;(2003) or the 15 subscales of the COPE (Carver, 2013) should be selected. After an assessment is made at this higher level of specificity, subsequently one can potentially classify an individual’s dominant overall coping style as engagement (see dct:engCoping_79n2r0sy) or disengagement coping (see dct:disengCoping_79n2w1bk). Which particular coping styles researchers should direct their focus on, will depend on their appropriateness for the target event and age group (Skinner, 2007).</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/cues_79n2w1bj.html">Cues</a>
+</td>
+<td>
+<p>Use Likert scales that measure the degree to which participants believe a potential cue affects their engagement in the target behaviour. The following phrasing can be used: “CUE X would make me TARGET BEHAVIOUR”. For example: “If my ears would start ringing, I would start wearing earplugs”, “The smell of cannabis would make me smoke cannabis” and “Seeing a snack commercial on TV would make me eat a snack”. Reponses are given on a 5-point Likert scale ranging from “Very likely” to “Very unlikely”.</p>
+<p>Observation and field experiments or other measurement methods that may be employed to measure the presence of cues. A choice for a particular measurement method may be prompted by a subject’s degree of awareness and introspective capacity with regard to the presence and influence (on behaviour) of cues. Diverse methods may potentially be combined to assess this awareness and introspective capacity for a diversity of cues. When self-reflective capacity is low, self-report methods preferably are dismissed.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/descriptiveNorms_73dnt5zp.html">Descriptive norms</a>
+</td>
+<td>
+<p>Use likert scales that measure perceived behavior of important social referents in general. It is important that no specific individuals are referenced, but that the items do refer to individuals that are similar, important or seen as important to follow. Note that the behavior in these items must always be the target behavior.</p>
+The example items in the 2010 RAA book are ‘Most people I respect and admire will TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’; and ‘How many people like you TARGET BEHAVIOR?’ with anchors ‘Nobody’ vs ‘Everybody’.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/descrNorms_belCom_73dnt5zn.html">Descriptive norm beliefs composite</a>
+</td>
+<td>
+<p>A composite of descriptive norm beliefs is obtained by multiplying the perceived likelihood that a given normative referent performs the target behaviour (dct:referentBehavior_73dnt5zk) by the identification with that referent (dct:referentIdentification_73dnt5zl), and then summing the product terms across all descriptive norms beliefs (i.e.&nbsp;across all salient normative referents).</p>
+This, preferably, is represented graphically (e.g.&nbsp;in a table or index) and, additionally, in an equation. See Table 4.1 on p.&nbsp;136 of Reasoned Action Approach book (Ajzen &amp; Fishbein, 2010) for an example.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/descrNorms_belief_73dnt5zm.html">Descriptive norm belief</a>
+</td>
+<td>
+<p>The measurement of descriptive norm beliefs starts with an elicitation study to identify the content of descriptive norm beliefs about the behaviour which are shared by the target population.</p>
+<p>To obtain quantitative data regarding descriptive norm beliefs, the participant is subsequently asked to respond to two questions with respect to each salient descriptive norm belief, one to assess the perceived behaviour of a given social referent (dct:referentBehavior_73dnt5zk) and the other to measure the identification with that social referent (dct:referentIdentification_73dnt5zl).</p>
+Finally, to get a total quantitative score of a descriptive norm belief, the perceived behaviour of a social referent is multiplied by the identification with that social referent . The total score of a descriptive norm belief enables the assessment of the importance of the contribution of a descriptive norm belief, in comparison with other descriptive norm beliefs, to the descriptive norm beliefs composite (dct:descrNorms_belCom_73dnt5zn).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/desire_79n2w1bk.html">Desire</a>
+</td>
+<td>
+In the context of behaviour change, the construct “desire” is covered by experiential attitude (see dct:experientialAttitude_73dnt5z5). For instructions for developing a measurement instrument, see the dct of this latter construct.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/disengCoping_79n2w1bk.html">Disengagement coping</a>
+</td>
+<td>
+<p>Numerous self-report instruments exist to assess coping styles (see dct:coping_79n2w1bj for a more extensive discourse). Nevertheless, regardless of the specific instrument used, an individual overall response pattern can be classified as either being typical of engagement (dct:engCoping_79n2r0sy) or disengagement coping, with “responses that are oriented toward either the source of stress, or toward one’s emotions and thoughts” representing engagement coping, while “responses that are oriented away from the stressor or one’s emotions/thoughts” indicating the dominant presence of a disengagement coping style (Compas et al., 2001).</p>
+<p>Disengagement coping may be conceived at the highest level of a hierarchical factor structure with three levels (Tobin et al., 1989), with one level below, “problem disengagement” and “emotion disengagement”, and at the lowest level, respectively, “problem avoidance” and “wishful thinking” (for problem disengagement), and “self criticism” and “social withdrawal” (for emotion disengagement). Therefore, when an individidual scores high on these lower level coping strategies, and relatively low on the coping strategies falling under engagement coping (dct:engCoping_79n2r0sy), the dominant coping pattern can be classified as “disengagement coping”.</p>
+However, a problem is that each coping instrument assesses and classifies coping styles differently. For example, the aforementioned coping styles “problem avoidance” and “wishful thinking” are distinct categories of the Coping Strategies Inventory (Tobin et al., 1989), but not of many other coping style measures. Therefore, whether a particular coping style pertains to the higher-order class of engagement or disengament coping, should be decided based on factor analysis or an a priori categorization of each individual coping style as either falling under the umbrella of engagement or disengament coping.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/ego_depletion_79n2r0sy.html">Ego depletion</a>
+</td>
+<td>
+<p>Present participants with items describing situations and circumstances that may potentially reduce the capacity for self-control, and ask participants to which extent they believe their ability is reduced to control over dominant responses with respect to the target behaviour. Responses are given on a 5-point Likert scale ranging from “Severly reduced” to “Not reduced at all”.</p>
+<p>Examples of such items are: “Is your capacity to control the expression of vicious comments to friends or family reduced when preparing for an important test or exam?”, “Is your capacity to control your alcohol intake reduced when tired from an exhausting day at work?”, “Is your ability to control your exposure to loud music (e.g.&nbsp;by wearing ear plugs, restricting volume, or keeping a distance from loudspeakers) reduced when under the influence of alcohol of drugs?”.</p>
+<p>Note that various situations and circumstances are depicted that may temporarily reduce self-control. The definition of “ego depletion” in this DCT is thus broader than in the original definition of ego depletion by Baumeister et al.&nbsp;(1994). “Ego depletion” in the present DCT can be the result of a prolonged effort to exert self-control (in line with the original defintion by Baumeister et al.), but it can also be prompted by other internal or external factors.</p>
+For each behaviour and group of persons, different situations and circumstances may reduce the capacity for self-control. Therefore, specific items are composed for each target behaviour and target group.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/emotion_79n2r0sy.html">Emotion</a>
+</td>
+<td>
+<p>Emotions affect an individual on different levels (behaviour, physiology, affect, cognition). As a consequence, multiple measurement methods may be employed, and possibly integrated, to measure emotion. Self-report, other-report, observation, and neurophysiology are the measurement methods most dominantly used in emotion research.</p>
+<p>A three-step system for choosing a measure of emotion can be employed (Ekkekakis, 2008): 1) Decide whether you wish to study core affect, emotion, or mood (these are related but different constructs); 2) Choose the most appropriate theoretical framework for the chosen construct; 3) Select the psychometrically strongest measure based on the chosen theoretical framework.</p>
+<p>In the context of behaviour change, emotions may exert an influence on the target behaviour in various ways. The mere thought of performing the behaviour may trigger a strong emotion and in- or decrease the likelihood of performing the behaviour. Emotions may also affect the actual performance of the behaviour. The kinds of emotion that are experienced before, during, and after the behaviour may also be diverse (e.g.&nbsp;anger, shame, or joy).</p>
+The foregoing must be taken into account when a measurement instrument is chosen or developed, e.g.&nbsp;if a (fictitious) research hypothesis is that the experience of “positive” emotions (e.g.&nbsp;joy, pride) and “negative” emotions (e.g.&nbsp;anger, shame), respectively, de- and increase the number of cigarettes smoked during a day, then retrospective assessment of experienced emotions with a self-report questionnaire likely is not the most appropriate instrument, but an measurement method that is able to record emotions at various moments of the day such as ecological momentary assessments (EMAs) is a better candidate.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/engCoping_79n2r0sy.html">Engagement coping</a>
+</td>
+<td>
+<p>Numerous self-report instruments exist to assess coping styles (see dct:coping_79n2w1bj for a more extensive discourse). Nevertheless, regardless of the specific instrument used, an individual overall response pattern can be classified as either being typical of engagement or disengagement coping (see dct:disengCoping_79n2w1bk), with “responses that are oriented toward either the source of stress, or toward one’s emotions and thoughts” representing engagement coping, while “responses that are oriented away from the stressor or one’s emotions/thoughts” indicating the dominant presence of a disengagement coping style (Compas et al., 2001).</p>
+<p>Engagement coping may be conceived at the highest level of a hierarchical factor structure with three levels (Tobin et al., 1989), with one level below, “problem engagement” and “emotion engagement”, and at the lowest level, respectively, “problem solving” and “cognitive restructuring” (for problem engagement), and “express emotions” and “social support” (for emotion engagement). Therefore, when an individidual scores high on these lower level coping strategies, and relatively low on the coping strategies falling under disengagement coping (dct:disengCoping_79n2w1bk), the dominant coping pattern can be classified as “engagement coping”.</p>
+However, a problem is that each coping instrument, measures and classifies coping styles differently. For example, the aforementioned coping styles “problem solving” and “cognitive restructuring” are distinct categories of the Coping Strategies Inventory (Tobin et al., 1989), but not of many other coping style measures. Therefore, whether a particular coping style pertains to the higher-order class of engagement or disengament coping, should be decided based on factor analysis or an a priori categorization of each individual coping style as either falling under the umbrella of engagement or disengagement coping.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/expAttitude_belCom_73dnt5z4.html">Experiential attitude beliefs composite</a>
+</td>
+<td>
+<p>A composite of experiential attitude beliefs (i.e.&nbsp;the expectancy-value index) for the target behaviour is obtained by multiplying each experiential attitude belief’s expectation strength (dct:expAttitude_expectation_73dnt5z1) by its evaluation (dct:expAttitude_evaluation_73dnt5z2) and then summing the product terms across all experiential attitude beliefs. This, preferably, is represented graphically (e.g.&nbsp;in a table or index) and, additionally, in an equation.</p>
+<p>Ajzen &amp; Fishbein state on p.104 of the Reasoned Action Approach book (2010) that the composite measure of beliefs is assumed to determine the (experiential) attitude, and should not be interpreted as an indirect measure of (experiential) attitude. A low correlation between the beliefs composite and a direct measure of experiential attitude may be an indication that the expectancy-value index is based on an inappropriate set of (nonsalient) beliefs, or that the measure of belief strength may be scored inappropriately.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/expAttitude_belief_73dnt5z3.html">Experiential attitude belief</a>
+</td>
+<td>
+Experiential attitude beliefs are measured by measuring both of the component constructs, i.e.: experiential attitude belief expectations (see dct:expAttitude_expectation_73dnt5z1) and experiential attitude belief evaluation (see dct:expAttitude_evaluation_73dnt5z2).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/expAttitude_evaluation_73dnt5z2.html">Experiential attitude belief evaluation</a>
+</td>
+<td>
+<p>Experiential attitude belief evaluations are measured using questions in a questionnaire that are referred to as ‘items’. Experiential attitude belief evaluation always relate to specific experiential attitude belief expectations, so the first step is to identify the expectation for which the evaluation should be measured (e.g.&nbsp;‘Drinking alcohol makes me feel … [much more relaxed|much more excited]’). Evaluations of expectations are always measured on a bidimensional scale.</p>
+<p>As item stem, use ‘I prefer …’, and as anchors, include the scale extremes used when measuring the expectation. For example, an item could be ‘I prefer … [being much more relaxed|being much more excited]’. Make sure to formulate the item stem such that it makes clear that you are asking people about <em>their</em> evaluation (not what they think holds more generally). Use a seven-point response scale and try to always be consistent in the scale valence; in languages that are read from left to right, always place the most passive/low/less/weak/unlikely scale extreme (anchor) on the left, and the most active/high/more/strong/likely scale extreme (anchor) on the right. Do not reverse this order for one or more items.</p>
+The item or set of items should be accompanied by an instruction that makes clear that you are asking people about <em>their</em> evaluation (not what they think holds more generally).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/expAttitude_expectation_73dnt5z1.html">Experiential attitude belief expectation</a>
+</td>
+<td>
+<p>Experiential attitude belief expectations are measured using questions in a questionnaire that are referred to as ‘items’. To measure an experiential attitude belief expectation, first, identify exactly which potential experiential consequence of the target behavior (e.g.&nbsp;a specific experience or sensation) you want to measure. Then, establish whether accurately describing the spectrum of possibilities regarding this experiential consequence requires a unidimensional scale or a bidimensional scale. Most potential consequences of a target behavior can be perceived either to <em>increase</em> or <em>decrease</em> upon performance of the target behavior, requiring a bidimensional scale. For example, some people might expect they will feel <em>less</em> relaxed if they drink alcohol, while others might expect they will feel <em>more</em> relaxed. However, in rare cases, one of the two dimensions can be excluded a priori, in which case a unidimensional scale suffices. For example, the degree to which people will expect they will feel less hungry may vary; but it is excessively unlikely that somebody might expect that if they eat a whole pizza, they will then feel <em>more</em> hungry. Therefore, in that case, one might want to choose a unidimensional scale. In general, a rule of thumb is that if the ‘default state’ of this experiential consequence resembles absence of the experience, and therefore, engaging in the target behavior can only have an effect in one direction, a unidimensional scale can be used. However, when engaging in the target behavior can conceivably increase <em>or</em> decrease this experiential consequence, a bidimensional scale is required.</p>
+<p>Once it is clear whether a bidimensional or unidimensional scale should be used, the construction of the item stem and the two anchors can start. Make sure to formulate the item stem such that it makes clear that you are asking people about <em>their</em> expectation (not what they think holds more generally).</p>
+<p>For unidimensional scales, create an item stem that explicitly lists the single dimension that expresses the experiential consequence (e.g.&nbsp;feeling full after eating a pizza). As anchors, always use ‘Very unlikely’ and ‘Very likely’. An example item would be: ‘If I eat a whole pizza at once, it is … that it will make me feel full. [Very unlikely|Very likely]’. However, as explained above, unidimensional scales can rarely be used in most circumstances, so bidimensional scales are usually required.</p>
+<p>For bidimensional scales, the item stem cannot explicitly list only one of the two dimensions (e.g.&nbsp;‘feeling much less relaxed’ or ‘feeling much more relaxed’). This is because this would create a unidimensional or ambiguous response scale. People who would score low on the unidimensional scale might mean either that they don’t think that consequence will occur, or that they think that the opposite consequence will occur. For example, when creating an item ‘If I drink a glass of alcohol, I will feel much more relaxed. [Very unlikely|Very likely]’, people who respond ‘Very unlikely’ can mean either that they expect to feel much less relaxed, or that they expect that drinking a glass of alcohol will have no effect on how relaxed they will feel.</p>
+<p>Therefore, capturing the full potential breadth of the beliefs of your target population requires asking what they expect exactly. To do this, create an item stem that contains the target behavior, and anchors that express the extremes of the bidimensional scale. For example, ‘Drinking alcohol makes me feel … [much less relaxed|much more relaxed]’. Sometimes, the two extremes of the dimension you want to measure can be expressed in two antonyms, such as ‘Drinking alcohol makes me feel … [much more relaxed|much more excited]’.</p>
+<p>Once the item stem and the two anchors have been determined, decide which response scale to use. For bidimensional scales, seven-point scales are preferred, as these leave three degrees of expression in each dimension (the mid-point representing the expectation that the behavior does not have a consequence regarding this specific experiential attitude belief). For unidimensional scales, five-point scales suffice. Try to always be consistent in the scale valence; in languages that are read from left to right, always place the most passive/low/less/weak/unlikely scale extreme (anchor) on the left, and the most active/high/more/strong/likely scale extreme (anchor) on the right. Do not reverse this order for one or more items.</p>
+<p>When combining multiple items in one measurement instrument, if both evaluations of unidimensional consequences and evaluations of bidimensional consequences are measured, either use two matrices or combine them in one that uses seven-point scales for all items.</p>
+The item or set of items should be accompanied by an instruction that makes clear that you are asking people about <em>their</em> expectation (not what they think holds more generally).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/experientialAttitude_73dnt5z5.html">Experiential attitude</a>
+</td>
+<td>
+<p>Use semantic differentials with root ‘For me, TARGET BEHAVIOR is …’ and a bidimensional scale where the right-most anchor expresses a pleasant affective state and the left-most anchor expresses the opposite unpleasant affective state (e.g.&nbsp;‘unpleasant’ versus ‘pleasant’).</p>
+The example items in the 2010 RAA book are ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Bad’ vs ‘Good’; ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Unpleasant’ vs ‘Pleasant’; ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Harmful’ vs ‘Beneficial’; and ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Boring’ vs ‘Interesting’.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/extBehaviour_79n2r0sz.html">External regulation of behaviour</a>
+</td>
+<td>
+<p>The degree to which engagement in the target activity is externally regulated can be assessed by asking participants “Why are you currently engaged in this activity?” and representing a series of items containing potential answers to this question. Responses to each item are given on a 7-point Likert scale ranging from “Does not correspond at all” to “Corresponds exactly”.</p>
+<p>Examples of items expressing externally regulated behaviour are: “Because I am supposed to do it”, “Because it is something that I have to do”, and “Because I feel that I have to do it”.</p>
+The procedure and items described here are from the Situational Motivation Scale (SIMS) (Guay et al., 2000). Beside items containing statements deemed typical for externally regulated behaviour, the SIMS contains items to assess identified regulation, intrinsic regulation, and amotivation. The items belonging to each particular subscale are summed to assess which motivational construct dominates. The SIMS is used to assess motivation for various activities such as physical exercise and academic performance.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/goal_79n2r0sz.html">Goal</a>
+</td>
+<td>
+<p>Make 5- or 7-point Likert scales that measure the extent participants think engagement in the target behavior will help them reach their goals. For example: “TARGET BEHAVIOUR will help me reach my goals”, with anchors “Totally agree” and “Totally disagree”.</p>
+<p>Note that no specified goals are formulated. If one wants to identify the goals that are associated with a target behaviour, an elicitation study among the study population can be performed. This will identify the most salient goal beliefs.</p>
+<p>After the elicitation study, participants can be asked to respond to two questions with respect to each salient goal belief, one question to assess the perceived likelihood that engagement in the target behaviour will lead to attainment of the goal, and the other to measure the perceived importance of this goal.</p>
+To get a total quantitative score of a goal belief, the perceived likelihood that engagement in the target behaviour will lead to attainment of the goal is multiplied by the perceived importance of the goal. The total score of a goal belief enables the assessment of the impact of a specific goal belief, in comparison with other goal beliefs, and thus helps to identify the most important goals people may have for engaging in the target behaviour.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/habit_79n2r0sz.html">Habit</a>
+</td>
+<td>
+<p>The four most widely used instruments to measure habit are so-called “association measures”, the Behavior Frequency x Context Stability measure (BFCS), the Self-Report Habit Index (SRHI), and the Self-Report Behavioral Automaticity Index (SRBAI) (Van Bree, 2018). The choice of a habit measure depends on the goal of the measurement and the setting where the assessment is ought to take place; each of the four aforementioned instruments tap on different aspects of habit (e.g.&nbsp;automaticity, repetition, and self-identity in case of the SRHI), and while the latter three measures can be incorprated into a survey, association measures, in contrast, can only be administered in a controlled laboratory setting.</p>
+<p>The 12-item SRHI (Verplanken &amp; Orbell, 2003) is the instrument most frequently used to measure habit (Gardner, 2015). The SRHI is supposed to measure behaviour performed across contexts. However, specific context cues can be added by modifying the stem of SRHI-items.</p>
+<p>All 12 SRHI-items start with the sentence “TARGET BEHAVIOUR is something…”, after which a particular statement follows for each individual item, such as “I do frequently”, “I do automatically”, and “That would require effort not to do”. The items are accompanied by response scales anchored by agree/disagree and contain five or more response categories.</p>
+<p>An example of an item measuring “smoking cigarettes” (the target behaviour) as habit, thus, would be: “Smoking cigarettes is something I do automatically”.</p>
+A critique on self-report measures of habit, such as the SRHI, is that they require respondents to reflect on behaviours that are automatic and, as such, outside of conscious awareness (Van Bree, 2018).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/identifiedBehaviour_79n2r0t0.html">Identified regulation of behaviour</a>
+</td>
+<td>
+<p>Use Likert scales that measure the degree to which engagement in the target activity is controlled by identified regulation.</p>
+<p>The Situational Motivation Scale (SIMS) (Guay et al., 2000) is a frequently used self-report instrument to assess identified regulation of behaviour. Beside identified regulation of behaviour, the SIMS assesses intrinsic regulation, external regulation, and amotivation, and is used to assess motivation for various activities (e.g.&nbsp;physical exercise, academic performance).</p>
+<p>The SIMS asks participants “Why are you currently engaged in this activity?”. Scale items represent potential answers to this question. Responses are given on a 7-point Likert scale ranging from “Does not correspond at all” to “Corresponds exactly”.</p>
+Examples of statements expressing identified regulation of behaviour are: “Because I am doing it for my own good”, “Because I think this activity is good for me”, and “Because I believe this activity is important for me”.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/impulse_79n2r0t0.html">Impulse</a>
+</td>
+<td>
+<p>To measure impulsive action in humans, several tests exist in which participants have to carry out an assignment or a series of assignments; among these tests the go-no go task, stop signal task (SST), Stroop task, and the continuous performance task (CPT) are most often utilized.</p>
+<p>In addition, self-report instruments are used to measure impulsive choice and/or impulsive action, of which the Barratt Impulsiveness Scale (BIS-11) is most commonly used. The BIS-11 consists of 30 items, and answers on each item are measured on a 4-point scale (rarely/never, occasionally, often, almost always), with higher scores indicative of greater impulsivity. Examples of items used are: “I act on the spur of the moment” and ” I say things without thinking”.</p>
+<p>The aforementioned tests measure impulsive action as a general trait, not related to specific behaviours or objects. If one wants to assess impulsivity with regard to a particular behaviour or object, specific questions can be composed that measure the frequency impulses are experienced, and/or the strength of these impulses, in situations related to the target behaviour/object.</p>
+<p>To measure impulsivity related to a specific behaviour, the stem “When it comes to TARGET BEHAVIOUR….” can be composed, followed by a series of phrases that express behaviour considered indicative for the presence or absence of impulsivity. For example: “When it comes to smoking cigarettes… 1) I do it without thinking about it; 2) I am self controlled; 3) I don’t manage to plan my behaviour 4) I act on the spur of the moment 5) I often suddenly abandon my behavioural intentions. Responses on these items can be given on a 5-point Likert scale ranging from”totally agree” to “totally disagree”.</p>
+<p>Alternatively, a series of unique items can be composed to measure behaviour- or object-related impulsivity, such as: “I don’t wear ear plugs because when I decide to go to an event or concert it’s on the spur of the moment” (for target behaviour “wearing ear plugs when exposed to loud music”) and “When I hear a good track, I just have to turn off the volume restriction” (for target behaviour “use volume restriction on music players”) with responses “totally agree” and “totally disagree” as anchors on a 5-point Likert scale.</p>
+Impulsivity can be regarded as the converse of self-control. Therefore, the same instrument to assess self control (dct:self_control_79n2fh4t) can potentially be used to measure impulsivity. However, the scoring for the questionnaire items should be reversed (see dct:self_control_79n2fh4t for an example).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/inaction_regret_79n2r0t0.html">Inaction regret</a>
+</td>
+<td>
+Use 5-point Likert scales that measures the degree to which participants believe that not performing a particular behaviour will subsequently lead to regret, e.g.&nbsp;“If you would not use ear plugs when going clubbing, how much regret would you feel the next day?” or “If you would not use a condom when having sex with a one night stand, how much regret would you feel the next day?”, both items with anchors “None” (=0) and “A lot” (=4).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/inflBiological_79n2w1bj.html">Biological influences</a>
+</td>
+<td>
+<p>Depending on the relevance for the research in question, a list of potentially relevant biological influences can be composed. Examples of frequently assessed biological influences are sex, height, and presence of (hereditary) diseases. The biological influences deemed of importance are assessed in different ways: if the number of potential responses on a question is limited, fixed answer options should be offered. When answers are aspected to be diverse, or participants may need to elaborate, open answer options is the format of preference.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/inflDemographic_79n2w1bk.html">Demographic influences</a>
+</td>
+<td>
+<p>Depending on the relevance for the research in question, a list of potentially relevant demographic influences can be composed. Examples of frequently assessed demographic influences are age, marital status, income, religion, and education. The demographic influences deemed of importance are assessed in different ways: if the number of potential responses on a question is limited, fixed answer options should be offered. When answers are aspected to be very diverse, or participants may need to elaborate, open answer options is the format of preference.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/inflEnvironment_79n2r0sy.html">Environmental influences</a>
+</td>
+<td>
+<p>Depending on the relevance for the research in question, a list of potentially relevant environmental influences can be composed. Examples of frequently assessed environmental influences are the living environment (e.g.&nbsp;the neighboorhood), weather/climate, health care, public transport, sport and recreation facilities, legislation, and politics.</p>
+The environmental influences deemed of importance are assessed in different ways: if the number of potential responses on a question is limited, fixed answer options should be offered. When answers are aspected to be very diverse, or participants may need to elaborate, open answer options is the format of preference.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/injNorms_belCom_73dnt5zh.html">Injunctive norm beliefs composite</a>
+</td>
+<td>
+A composite of injunctive norms beliefs is obtained by multiplying the perceived approval or disapproval of a normative referent (dct:referentApproval_73dnt5zd) by the motivation to comply with that referent (dct:motivationToComply_73dnt5zf) and then summing the product terms across all salient injunctive norms beliefs. This, preferably, is represented graphically (e.g.&nbsp;in a table or index) and, additionally, in an equation. See Table 4.1 on p.&nbsp;136 of the Reasoned Action Approach book (Ajzen &amp; Fishbein, 2010) for an example.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/injNorms_belief_73dnt5zg.html">Injunctive norm belief</a>
+</td>
+<td>
+<p>The measurement of injunctive norm beliefs starts with an elicitation study to identify the content of injunctive norm beliefs about the behaviour which are shared by the target population.</p>
+<p>To obtain quantitative data regarding injunctive norm beliefs, the participant is subsequently asked to respond to two questions with respect to each injunctive norm belief, one to assess the perceived approval or disapproval of a social referent (see dct:referentApproval_73dnt5zd) and the other to measure the motivation to comply with that referent (see dct:motivationToComply_73dnt5zf).</p>
+Finally, to get a total quantitative score of a descriptive norm belief, the perceived behaviour of a social referent is multiplied by the identification with that social referent. The total score of a injunctive norm belief enables the assessment of the importance of the contribution of an injunctive norm belief, in comparison with other injunctive norm beliefs, to the injunctive norm beliefs composite (see dct:injNorms_belCom_73dnt5zh).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/injunctiveNorms_73dnt5zj.html">Injunctive norms</a>
+</td>
+<td>
+Use likert scales that measure perceived social approval of important social referents in general. It is important that no specific individuals are referenced, but that the items do refer to individuals that are similar, important or seen as important to follow. Note that the behaviour in these items must always be the target behavior. The example items in the 2010 RAA book are ‘Most people who are important to me think I should TARGET BEHAVIOUR.’ with anchors ‘False’ vs ‘True’; and ‘Most people whose opinions I value would … of my TARGET BEHAVIOUR’ with anchors ‘Disapprove’ vs ‘Approve’.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/instrAttitude_belCom_73dnt5z9.html">Instrumental attitude beliefs composite</a>
+</td>
+<td>
+<p>A composite of instrumental attitude beliefs is obtained by multiplying the expectations of each instrumental attitude belief (see dct:instrAttitude_expectation_73dnt5z6) by its evaluation (see dct:instrAttitude_evaluation_73dnt5z7) and then summing the product terms across all instrumental attitude beliefs. This, preferably, is represented graphically (e.g.&nbsp;in a table or index) and, additionally, in an equation.</p>
+The authors state on p.104 of the Reasoned Action Approach book (Ajzen &amp; Fishbein, 2010) that the composite measure of beliefs is assumed to determine the (instrumental) attitude, and should not be interpreted as an indirect measure of (instrumental) attitude. A low correlation between the beliefs composite and a direct measure of instrumental attitude may be an indication that the expectancy-value index (i.e.&nbsp;the attitude beliefs composite) is based on an inappropriate set of (nonsalient) beliefs, or that the measure of belief strength may be scored inappropriately.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/instrAttitude_belief_73dnt5z8.html">Instrumental attitude belief</a>
+</td>
+<td>
+Instrumental attitude beliefs are measured by measuring both of the component constructs, i.e.: dct:instrAttitude_evaluation_73dnt5z7 and dct:instrAttitude_expectation_73dnt5z6.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/instrAttitude_evaluation_73dnt5z7.html">Instrumental attitude belief evaluation</a>
+</td>
+<td>
+<p>Instrumental attitude belief evaluations are measured using questions in a questionnaire that are referred to as ‘items’. Instrumental attitude belief evaluation always relate to specific instrumental attitude belief expectations, so the first step is to identify the expectation for which the evaluation should be measured (e.g.&nbsp;‘Drinking four cups of coffee every day leads to me being … [much less healthy|much more healthy]’ or ‘Drinking four cups of coffee makes me … [very idle|very productive]’). Evaluations of expectations are always measured on a bidimensional scale.</p>
+<p>As item stem, use ‘I prefer …’, and as anchors, include the scale extremes used when measuring the expectation. For example, an item could be ‘I prefer … [being much less healthy|being much more healthy]’, and another items can be ‘I prefer … [being very idle|being very productive]’. Make sure to formulate the item stem such that it makes clear that you are asking people about <em>their</em> evaluation (not what they think holds more generally). Use a seven-point response scale and try to always be consistent in the scale valence; in languages that are read from left to right, always place the most passive/low/less/weak/unlikely scale extreme (anchor) on the left, and the most active/high/more/strong/likely scale extreme (anchor) on the right. Do not reverse this order for one or more items.</p>
+The item or set of items should be accompanied by an instruction that makes clear that you are asking people about <em>their</em> evaluation (not what they think holds more generally).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/instrAttitude_expectation_73dnt5z6.html">Instrumental attitude belief expectation</a>
+</td>
+<td>
+<p>Instrumental attitude belief expectations are measured using questions in a questionnaire that are referred to as ‘items’. To measure an instrumental attitude belief expectation, first, identify exactly which potential instrumental consequence of the target behavior (e.g.&nbsp;a specific benefit or advantage) you want to measure. Then, establish whether accurately describing the spectrum of possibilities regarding this instrumental consequence requires a unidimensional scale or a bidimensional scale. Most potential consequences of a target behavior can be perceived either to <em>increase</em> or <em>decrease</em> upon performance of the target behavior, requiring a bidimensional scale. For example, some people might expect that drinking four cups of coffee every day contributes to their goal of being healthy, whether others might expect that that is unhealthy instead, expecting that not consuming any coffee at all is more healthy. However, in rare cases, one of the two dimensions can be excluded a priori, in which case a unidimensional scale suffices. For example, the degree to which people will expect that exercising regularly for a month will increase their health may vary; but is it excessively unlikely that somebody might expect that if they exercise regularly for a month, their health will <em>decrease</em>. Therefore, in that case, one might want to choose a unidimensional scale. In general, a rule of thumb is that if the ‘default state’ of this instrumental consequence resembles absence of the potential consequence, and therefore, engaging in the target behavior can only have an effect in one direction, a unidimensional scale can be used. However, when engaging in the target behavior can conceivably increase <em>or</em> decrease this instrumental consequence, a bidimensional scale is required.</p>
+<p>Once it is clear whether a bidimensional or unidimensional scale should be used, the construction of the item stem and the two anchors can start. Make sure to formulate the item stem such that it makes clear that you are asking people about <em>their</em> expectation (not what they think holds more generally).</p>
+<p>For unidimensional scales, create an item stem that explicitly lists the single dimension that expresses the instrumental consequence (e.g.&nbsp;exercising regularly for a month leading to increased health). As anchors, always use ‘Very unlikely’ and ‘Very likely’. An example item would be: ‘If I exercise regularly for a month, it is … that my health will increase. [Very unlikely|Very likely]’. However, as explained above, unidimensional scales can rarely be used in most circumstances, so bidimensional scales are usually required.</p>
+<p>For bidimensional scales, the item stem cannot explicitly list only one of the two dimensions (e.g.&nbsp;‘become much less healthy’ or ‘become much more healthy’). This is because this would create a unidimensional or ambiguous response scale. People who would score low on the unidimensional scale might mean either that they don’t think that consequence will occur, or that they think that the opposite consequence will occur. For example, when creating an item ‘If I drink four cups of coffee every day, I will become much more healthy. [Very unlikely|Very likely]’, people who respond ‘Very unlikely’ can mean either that they expect to feel much less healthy, or that they expect that drinking four cups of coffee every day will have no effect on their health.</p>
+<p>Therefore, capturing the full potential breadth of the beliefs of your target population requires asking what they expect exactly. To do this, create an item stem that contains the target behavior, and anchors that express the extremes of the bidimensional scale. For example, ‘Drinking four cups of coffee every day leads to me being … [much less healthy|much more healthy]’. Sometimes, the two extremes of the dimension you want to measure can be expressed in two antonyms, such as ‘Drinking four cups of coffee makes me … [very idle|very productive]’.</p>
+<p>Once the item stem and the two anchors have been determined, decide which response scale to use. For bidimensional scales, seven-point scales are preferred, as these leave three degrees of expression in each dimension (the mid-point representing the expectation that the behavior does not have a consequence regarding this specific instrumental attitude belief). For unidimensional scales, five-point scales suffice. Try to always be consistent in the scale valence; in languages that are read from left to right, always place the most passive/low/less/weak/unlikely scale extreme (anchor) on the left, and the most active/high/more/strong/likely scale extreme (anchor) on the right. Do not reverse this order for one or more items.</p>
+<p>When combining multiple items in one measurement instrument, if both evaluations of unidimensional consequences and evaluations of bidimensional consequences are measured, either use two matrices or combine them in one that uses seven-point scales for all items.</p>
+The item or set of items should be accompanied by an instruction that makes clear that you are asking people about <em>their</em> expectation (not what they think holds more generally).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/instrumentalAttitude_73dnt5zb.html">Instrumental attitude</a>
+</td>
+<td>
+Use semantic differentials with root ‘For me, TARGET BEHAVIOR is …’ and a bidimensional scale where the right-most anchor expresses a generally desirable instrumental state/goal and the left-most anchor expresses the opposite undesirable state/goal (e.g.&nbsp;‘unwise’ versus ‘wise’ and ‘bad’ versus ‘good’). The example items in the 2010 RAA book are ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Bad’ vs ‘Good’; ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Unpleasant’ vs ‘Pleasant’; ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Harmful’ vs ‘Beneficial’; and ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Boring’ vs ‘Interesting’.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/integratedBehaviour_79n2r0t0.html">Integrated regulation of behaviour</a>
+</td>
+<td>
+<p>Use Likert scales that measure the degree to which participants’ engagement in the target activity is determined by integrated regulation. Examples of statements expressing integrated regulation of behaviour are: “It is essential to my identity and sense of self”, “It is genuinely part of me”, “It is consistent with my values, goals and aims in life”, and “Doing TARGET BEHAVIOUR and being myself are inseparable”. Responses on these items are given on a 4-point scale ranging from “Not true at all” to “Very true”. These sample items are form the Integrated regulation (INTEG) scale developed by McLachlan, Spray, and Hagger (2011) which assesses integrated regulation in exercise behaviour.</p>
+<p>The frequently used Situational Motivation Scale (SIMS) (Guay et al., 2000) does not measure integrated (nor introjected) regulation. The SIMS assesses self-reported intrinsic regulation, identified regulation, external regulation, and amotivation, and is used to assess motivation for various activities (e.g.&nbsp;physical exercise, academic performance).</p>
+<p>In practice, it is difficult to distinguish the four types of extrinsic motivation (external, introjected, identified, and integrated self-regulation) using self-report instruments (i.e.&nbsp;insufficient discriminant validity). Therefore, a less precise categorization can be made between controlled and autonomous motivation. External and introjected regulation belonging to the first category, and identified and integrated self-regulation belonging to the first category. When this dichotomous categorization of extrinsic motivation is maintained, items to assess identified and integrated self-regulation can be grouped together.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/intention_73dnt604.html">Intention</a>
+</td>
+<td>
+Use a likert scale to ask participants to what degree they intend to, are willing to, or plan to perform the target behavior. The items suggested in the 2010 RAA book are: ‘I intend to TARGET BEHAVIOR.’ with anchors ‘Definitely do not’ vs ‘Definitely do’; ‘I will TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’; ‘I am willing to TARGET BEHAVIOR.’ with anchors ‘False’ vs ‘True’; and ‘I plan to TARGET BEHAVIOR.’ with anchors ‘Absolutely not’ vs ‘Absolutely’.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/intrinsicBehaviour_79n2r0t0.html">Intrinsic regulation of behaviour</a>
+</td>
+<td>
+<p>The degree to which engagement in the target activity is intrinsically regulated can be assessed by asking participants “Why are you currently engaged in this activity?” and representing a series of items containing potential answers to this question. Responses to each item are given on a 7-point Likert scale ranging from “Does not correspond at all” to “Corresponds exactly”.</p>
+<p>Examples of items expressing intrinsically regulated behaviour are: “Because I think that this activity is interesting”, “Because I think that this activity is pleasant”, “Because this activity is fun”, and “Because I feel good when doing this activity”.</p>
+The procedure and items described here are from the Situational Motivation Scale (SIMS) (Guay et al., 2000). Beside items containing statements deemed typical for intrinsically regulated behaviour, the SIMS contains items to assess identified regulation, external regulation, and amotivation. The items belonging to each particular subscale are summed to assess which motivational construct dominates. The SIMS is used to assess motivation for various activities such as physical exercise and academic performance.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/introjBehaviour_79n2r0t0.html">Introjected regulation of behaviour</a>
+</td>
+<td>
+<p>Use Likert scales that measure the degree to which participants’ engagement in the target activity is determined by introjected regulation. Examples of statements expressing introjected regulation of behaviour are: “To show myself that I am an intelligent person”, “Because I want to show myself that I can succeed in my studies”, and “Because of the fact that when I succeed in school I feel important”. Responses on these items are given on a 7-point scale ranging from “Does not correspond at all” to “Corresponds exactly”. These sample items are form the Academic Motivation Scale (AMS) developed by Vallerand, Blais, Brière, &amp; Pelletier (1989) which assesses motivation in post-secondary students (AMS).</p>
+<p>The often used Situational Motivation Scale (SIMS) (Guay et al., 2000) does not measure introjected (nor integrated) regulation. The SIMS assesses self-reported intrinsic regulation, identified regulation, external regulation, and amotivation, and is used to assess motivation for various activities (e.g.&nbsp;physical exercise, academic performance).</p>
+In practice, it is difficult to distinguish the four types of extrinsic motivation (external, introjected, identified, and integrated self-regulation) using self-report instruments (i.e.&nbsp;insufficient discriminant validity). Therefore, a less precise categorization can be made between controlled and autonomous motivation. External and introjected regulation belonging to the first category, and identified and integrated self-regulation belonging to the first category. When this dichotomous categorization of extrinsic motivation is maintained, items to assess external and introjected self-regulation can be grouped together.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/knowledge_79n2fh4b.html">Knowledge</a>
+</td>
+<td>
+<p>Knowledge can be measured by presenting statements about parts of reality (i.e.&nbsp;about objects or relationships that exist or do not exist in the world) related to the target behaviour, and determining a participant’s belief concerning this statement by using a 5-point Likert scale that ranges from “certainly not true” through “probably not true”, “no idea”, “certainly true”, “certaintly true”.</p>
+An example of such an item for the target behaviour “protecing hearing against exposure to loud noise” is: “Exposure to very loud music (&gt;120 decibel) can lead to acute and permanent hearing loss” or “When volume restriction is switched on for a MP-3 player sold in E.U., the maximum attainable level of decibels is 85.”
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/motivationToComply_73dnt5zf.html">Motivation to comply</a>
+</td>
+<td>
+<p>To measure the motivation to comply with a given social referent, measure how much people want to do what the relevant social referents think they should do with regard to the target behavior.</p>
+<p>In most behaviors and populations, unidimensional scales can be used. As item stem, use ‘When it comes to [TARGET BEHAVIOR], I want to do what [SOCIAL REFERENT] think(s) I should do.’, and as anchors, ‘Not at all’ and ‘Very much’. For example, ‘When it comes to whether I avoid meat during dinner, I want to do what my partner thinks I should do. [’Not at all’|’Very much’]’ or ‘When it comes to my coffee consumption, I want to do what my colleagues think I should do. [’Not at all’|’Very much’]’.</p>
+<p>However, for some behaviors and some populations, it’s not only possible that individuals want to do what a social referent thinks they should do to a certain degree, but it’s also possible that the individual actively wants to do what that social referent would <em>disapprove</em> of. For example, people may strongly want to clearly demonstrate distancing themselves from members of a perceived outgroup (e.g.&nbsp;adolescents may want to disobey middle-aged people).</p>
+In such situations, you can use a bidimensional scale to account for this variation. Use item stem ‘When it comes to [TARGET BEHAVIOR], I want to do what [SOCIAL REFERENT]…’ with anchors ‘Do(es)n’t want me to do’ and ‘Want(s) me to do’. For example, ‘When it comes to condom use with a partner, I want to do what other adolescents… [Don’t want me to do|Want me to do]’, or ‘When it comes to how late I go to bed, I want to do what my older sibling … [Doesn’t want me to do|Wants me to do]’
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/motivation_79n2fh4q.html">Motivation</a>
+</td>
+<td>
+<p>The presence or absence of motivation for engagement in the target behaviour can be measured with the question “Are you motivated to engage in TARGET BEHAVIOUR?” followed by either a dichotomous response option (“yes”/“no”) or a 5-point Likert scale ranging from “Very Much” to “Not at all”.</p>
+According to self-determination theory (Deci &amp; Ryan, 1985), different types of motivation underlie human behaviour. These different types of motivation may be positioned on a continuum from high to low levels of self-determination, with intrinsic motivation and amotivation at the extreme ends. Instructions for measuring these different categories of motivation (each one with its specific place on the motivation continuum) can be found at their respective dcts, i.e.: dct:intrinsicBehaviour_79n2r0t0, dct:integratedBehaviour_79n2r0t0, dct:identifiedBehaviour_79n2r0t0, dct:introjBehaviour_79n2r0t0, and dct:extBehaviour_79n2r0sz.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/need_79n2fh4r.html">Need satisfaction</a>
+</td>
+<td>
+<p>Numerous self-report instruments exist to measure need satisfaction. These instruments measure the degree needs are satisfied in a particular domain (e.g.&nbsp;work, relationship), the degree needs are satisfied by a particular activity (e.g.&nbsp;a certain type of sports), or they assess need satisfaction in general.</p>
+<p>Instruments that measure need satisfaction most often assume that humans have universal needs. In particular, Self-Determination Theory (SDT) (Deci &amp; Ryan, 1985) and Maslow’s (1968) Hierarchy of Needs have instigated the development of instruments to measure the satisfaction of these universal needs. The Basic Psychological Needs Scale (BPNS) (Gagné et al., 2003) and the Balanced Measure of Psychological Needs (BMPN) (Sheldon et al., 2012) measure needs from a SDT-perspective, while the Basic Need Satisfaction Inventory (BNSI) (Leidy et al., 1994)) adopts Maslow’s standpoint on human needs.</p>
+<p>For behaviour change (e.g.&nbsp;instigating healthy lifestyle choices), measuring general, as well as measuring domain- or activity-specific need satisfaction may have its merits. For example, Timmerman et al.&nbsp;(2001) found that the lower the level of basic need satisfaction, the more likely one is engaged in emotional eating. Need satisfaction at this general level, however, is harder to change than needs being met by specific activities or in a narrow domain. Therefore, instruments pertaining to the latter category are preferably used.</p>
+<p>Need satisfaction can be asssessed by following a series of four steps: Firstly, depending on the theoretical background one adheres to (e.g.&nbsp;SDT) a list of of universal needs is composed. Secondly, to measure whether these needs are met by the situation or activity of interest, for each of these needs a number of items are used to assess the level of needs satisfaction. Thirdly, the item sumscores for each need, and the overall sumcore of all needs together are calculated. Fourth, the degree individual needs and all need together are satisfied by an activity or situation can be deduced from the two sumscores.</p>
+<p>Need satisfaction in a particular domain can, for example, be assessed with the following sample items. These sample items pertain to the assessment of need satisfaction at work but (with slight adjustments) could also be used to measure need satisfaction in other domains or concerning specific activities. Participants are asked to indicate how true each statement is for them, with answer option ranging from “Not at all true” to “Very true” on a 7-point Likert scale: “I feel like I can make a lot of inputs to deciding how my job gets done”, “People at work care about me”, and “Most days I feel a sense of accomplishment from working”. These three items reflect what SDT regards as the three basic human needs: autonomy, relatedness, and competence.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/perceivedBehavioralControl_73dnt603.html">Perceived behavioral control</a>
+</td>
+<td>
+<p>Use Likert scales that measure the degree to which participants believe the target behavior to be under their control and something they are capable of performing successfully, for example by measuring their perceived capacity and perceived autonomy to perform the target behavior.</p>
+<p>The items suggested in the 2010 RAA book are: ‘I am confident that if I want to, I can TARGET BEHAVIOR.’ with anchors ‘No confidence at all’ vs ‘A lot of confidence’; ‘Whether I TARGET BEHAVIOR is …’ with anchors ‘Not up to me’ vs ‘Completely up to me’; ‘If I really wanted to, I could TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’; and ‘For me to TARGET BEHAVIOR is under my control.’ with anchors ‘Not at all’ vs ‘Completely’. If only the first and third of these items are measured, the ‘Capacity’ construct is measured instead. If only the second and fourth items are measured, the ‘Autonomy’ construct is measured instead.</p>
+Note that questions about how easy or difficult participants perceive a target behavior to be fall outside of the constructs of Perceived Behavioral Control, Autonomy, and Capacity as defined in the 2010 RAA book (see also the discussion on page 164).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/perceivedNorms_73dnt5zq.html">Perceived norms</a>
+</td>
+<td>
+<p>Use likert scales that measure both perceived social approval and perceived behavior of important social referents in general. It is important that no specific individuals are referenced, but that the items do refer to individuals that are similar, important or seen as important to follow. Note that the behavior in these items must always be the target behavior.</p>
+The example items in the 2010 RAA book are ‘Most people who are important to me think I should TARGET BEHAVIOR.’ with anchors ‘False’ vs ‘True’; ‘Most people whose opinions I value would … of my TARGET BEHAVIOR’ with anchors ‘Disapprove’ vs ‘Approve’; ‘Most people I respect and admire will TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’; and ‘How many people like you TARGET BEHAVIOR?’ with anchors ‘Nobody’ vs ‘Everybody’.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/personality_79n2fh4s.html">Personality</a>
+</td>
+<td>
+<p>Numerous instruments exist that aim to measure human personality. Most instruments are self-report questionnaires. However, other measures of personality exist such as performance tests, instruments for direct observation, semi-structured interviews, and projective tests.</p>
+<p>The choice for a particular instrument is largely driven by the specific personality theory one adheres to; for example the influential Big Five model of personality traits, or five-factor model (FFM), has inspired the creation of a number of self-report instruments (such as the the Revised NEO Personality Inventory [NEO PI-R]) that assess the relative presence of each of the Big Five personality traits (openness to experience, conscientiousness, extraversion, agreeableness, and neuroticism) in a person.</p>
+The NEO PI-R consists of 240 items such as “I like to have a lot of people around me” and “I often find myself in disagreements with my family and colleagues”. Answers are given on a 5-points Likert scale ranging from “Totally disagree” to “Totally agree”. Each of the five personality dimensions in the NEO PI-R consists of six facets. At the broadest level, personality can be described in terms of five basic dimensions by summing the six facets in each domain. More precise estimates of standing on the five factors, can be provided by factor scores (i.e.&nbsp;a weighted combination of scores on all 30 facets). For interpretation, an individual’s scores on the NEO PI-R are compared to a relevant reference group (e.g.&nbsp;adult men).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/personalNorms_79n2fh4s.html">Personal norms</a>
+</td>
+<td>
+<p>Whether a person holds a certain personal norm concerning the topic of interest can be measured by proposing statements concerning the perceived moral obligation to (not) engage in a particular behaviour and asking participants to repond on a 5- or 7-points Likert scale with anchors “Strongly disagree” and “Strongly agree”.</p>
+<p>Two sample items to measure personal norms are: “Because of my own values/principles I feel an obligation to use public transport instead of the car for everyday trips here in X” and “Regardless of what other people do, because of my own values/principles I feel an obligation to use public transport instead of the car for everyday trips here in X” (from “Social context, personal norms and the use of public transportation” by Bamberg et al., 2007).</p>
+Two sample questions used by Doran et al., 2015 in “The relative importance of social and personal norms in explaining intentions to choose eco‐friendly travel options” are: “I do feel a moral obligation to pay more for a trip if this helps to protect the environment” and “I do feel a moral obligation to make an effort to stay at environmentally friendly accommodation when travelling”.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/problematicHypersexuality_7mm4hr4f.html">Problematic Hypersexuality</a>
+</td>
+<td>
+<ol type="1">
+<li><p>One-off measurement instruments - Currently, there are a number of one-off measurement instruments available that either measure sex addiction, hypersexual disorder or compulsive sexual behavior disorder. These questionnaires reflect one specific perspective on PH. In line with our DCT definition for PH, we intend to combine a number of these questionnaires into one instrument. For this we need to investigate which items predict best if someone is afflicted by PH. This study is now (January 2023) underway. Previous validation research for PH did not involve Item Response Theory techniques. We make use of IRT to make the best selection of cue valid items from the different measurement instruments for PH. These items and instruments have been developed within the three perspectives on PH (sex addiction, hypersexual disorder, compulsive sexual behavior disorder). IRT might help to decide on what characteristics best define PH.</p></li>
+<li><p>Dynamical assessment - As specified in the definition, we see PH as driven by high sexual desire in combination with emotion dysregulation. These dynamical and fluctuating processes involved in PH we see as underlying the more permanent outcomes (each of the ten characteristics of PH). Experience Sampling Method (ESM) techniques are most optimal to assess these processes, as ESM is an ecologically valid method that is capable to assess fluctuations in sexual desire and emotions and link these to sexual activity in temporal analyses. Currently, a number of items are involved in measuring sexual desire and emotions with ESM techniques. Response Process Evaluations (Wolf et al., 2019) of these items needs to be undertaken still.</p>
+</li></ol></td>
+</tr>
+<tr>
+<td>
+<p><a href="../../repo/constructs/prototypeFavourability_79n2fh4t.html">Prototype favourability</a></p>
+</td>
+<td>
+<p>Prototype favourability can be assessed by rating adjectives relating to the prototype, for instance, how “cool” or “likeable” the prototype is, and measuring responses on a 5- or 7-point Likert scale.</p>
+
+<p>For example: “How likeable or dislikeable do you think the type of person who drinks four units of alcohol (over the legal limit) and drives thereafter is?”, with the scale anchors “Very likeable” and “Very dislikeable” (example from “Understanding young and older male drivers’ willingness to drive while intoxicated” by Rivis et al., 2011).</p>
+Higher prototype favourability is assumed to be related to the increased likelihood that individuals will actually engage in the behaviour or will exhibit the willingness or intention to engage in the health-related behaviour associated with the prototype.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/prototypeSimilarity_79n2fh4t.html">Prototype similarity</a>
+</td>
+<td>
+<p>Prototype similarity can be assessed by directly asking “how similar are you to the PROTOTYPE ?” and measuring responses on a 5- or 7-point Likert scale.</p>
+<p>For example, prototype similarity can be assessed with the following question: “In general, how similar are you to the type of person who drinks four units of alcohol (above the legal limit) and drives thereafter?”, with the scale anchors “Very similar” and “Not at all similar (example from”Understanding young and older male drivers’ willingness to drive while intoxicated” by Rivis et al., 2011).</p>
+Higher prototype similarity is assumed to be related to the increased likelihood that individuals will actually engage in the behaviour or will exhibit the willingness or intention to engage in the health-related behaviour associated with the prototype.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/prototype_79n2fh4t.html">Prototype</a>
+</td>
+<td>
+<p>An individual’s image of the typical person who performs (or does not perform) a given behaviour (i.e.&nbsp;the “prototype”) can be assessed by measuring the subconstructs prototype favourability (see dct:prototypeFavourability_79n2fh4t) and prototype similarity (see dct:prototypeSimilarity_79n2fh4t).</p>
+<p>When the prototype performs the target behaviour, higher prototype favourability and similarity are, in general, related to an increased likelihood that an individual will engage in the behaviour, or will exhibit the willingness or intention to engage in the behaviour associated with the prototype (vice versa, when the protoptype abstains from performing the behaviour, higher prototype favourability and similarity are related to a decreased likelihood that an individual will engage in the behaviour).</p>
+In addition, analyzing the interaction between prototype favourability and similarity can increase predictive validity (Van Lettow et al., 2016). For example, in the study by Rivis et al.&nbsp;(2011) more favourable perceptions of the drink-driver prototype were associated with greater willingness to drink and drive at high (but not moderate or low) levels of prototype similarity.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/referentApproval_73dnt5zd.html">Perceived referent approval</a>
+</td>
+<td>
+<p>Use item stems that list the target behavior and the social referent, and use disapproval and approval as anchors, in that order, with an intensifying adjective. Specifically, as item stem, use ‘If I were to (engage in) [TARGET BEHAVIOR], [SOCIAL REFERENT] would…’ with anchors ‘strongly disapprove’ versus ‘strongly approve’. Note that the ‘engage in’ is optional, depending on the kind of behavior. For example, ‘If I were to engage in a demonstration, my neighbour would… [Strongly disapprove|Strongly approve]’</p>
+Because this is a bidimensional scale, the scale midpoint reflects neutrality (i.e.&nbsp;one does not think the relevant social referent disapproves or approves of this target behavior. This means that a seven-point response scale is slightly preferred over a five-point response scale to allow participants to express three degrees of perceived (dis)approval.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/referentBehavior_73dnt5zk.html">Perceived referent behavior</a>
+</td>
+<td>
+<p>To measure the perceptions individuals have of social referents’ behavior, measure the probability that they engage in that target behavior. Use an item stem listing both the target behavior and the social referent, and use anchors ‘improbable’ versus ‘probable’, with intensifying adjectives.</p>
+<p>‘How likely do you think it is that [SOCIAL REFERENT] engage(s) in [TARGET BEHAVIOR]?’ with anchors ‘Very improbable’ and ‘Very probable’.</p>
+For example, ‘How likely do you think it is that your close family members engage in recycling? [Very improbable|Very probable]’
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/referentIdentification_73dnt5zl.html">Identification with referent</a>
+</td>
+<td>
+<p>To measure the identification with a given social referent, measure how much people want to be like the relevant social referents with regard to the target behavior.</p>
+<p>Note that for any given social referent, it’s possible that an individual wants to be like that referent, but it’s also possible that the individual actively wants to be <em>unlike</em> that social referent. For example, people may strongly want to distance themselves from (be unlike) members of a perceived outgroup (e.g.&nbsp;adolescents may want to be unlike middle-aged people).</p>
+<p>Therefore, bidimensional scales are required to account for this variation. As item stem, use ‘Concerning [BEHAVIOR], I want to be like [SOCIAL REFERENT]…’, with anchors ‘as little as possible’ versus ‘as much as possible’. For example, ‘Concerning being able to speak in public, I want to be like a movie star… [As little as possible|As much as possible]’</p>
+Because this is a bidimensional scale, the scale midpoint reflects neutrality (i.e.&nbsp;the participant neither wants to identify with, nor distance themselves from, the relevant social referent regarding this target behavior). This means that a seven-point response scale is slightly preferred over a five-point response scale to allow participants to express three degrees of desire to be similar or dissimilar.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/risk_perception_79n2fh4t.html">Risk perception</a>
+</td>
+<td>
+<p>Risk perception is determined by the perceived susceptibility (see dct:threat_susceptibility_79n2fh4s) to and the perceived severity (see dct:threat_severity_79n2fh4r) of a (health) threat, i.e.&nbsp;it is the product term of the multiplication of these component constructs.</p>
+<p>See dct:threat_susceptibility_79n2fh4s and dct:threat_severity_79n2fh4r for instructions for developing measurement instruments for these subconstructs. The resulting measurements express the degree of susceptibility and severity as a numeric score which, subsequently, can be multiplicated to estimate an individual’s perception of the level of risk associated with a threat.</p>
+Instead of multiplying the two subcomponents, threat susceptibility and threat severity are also summed by some risk perception measures, e.g.&nbsp;the 12-item Risk Behaviour Diagnosis (RBD) Scale (Witte et al., 1995) includes 3 items measuring threat susceptibility and 3 items measuring threat severity on a 5-point Likert scale. Together these 6 (summed) items scores determine a participant’s risk perception (there named “perceived threat”).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/self_control_79n2fh4t.html">Self-control</a>
+</td>
+<td>
+<p>In a meta-analysis of self-control measures, Duckwort et al.&nbsp;(2011) distinguised four distinct approaches to the measurement of self-control: executive function tasks, delay of gratification tasks, selfreport questionnaires, and informant-report questionnaires.</p>
+<p>Among the self- and informant-report questionnaires, over 100 unique instruments were discerned (Duckwort et al., 2011). Items on these questionnaires suggest considerable heterogeneity in the underlying constructs assessed. However, Duckwort et al.&nbsp;(2011) found that urgency (the inability to override strong impulses, e.g., “I have trouble controlling my impulses”), (lack of) premeditation (acting before thinking , e.g., “My thinking is usually careful and purposeful” ), and (lack of) perseverance (the inability to focus on boring or difficult tasks, e.g., “I tend to give up easily”) are three central and related features of self-control. Therefore, when self-constructing an instrument to assess self-control, these three facets of self-control should be included. Moreover, for behaviour change, self-control related to a specific behaviour or object is of greater interest than self-control as a trait (i.e.&nbsp;stable across time and situations). Therefore, in a behaviour change setting, questionnaire items should refer to the specific behaviour or object of interest.</p>
+<p>Impulsivity can be regarded as the converse of self-control. Questionnaire items that attempt to measure self-control often present mutually exclusive responses. One response is aligned with long-term goals and standards, while the alternative response is more gratifying or automatic in the short-term. Self-controlled individuals tend to choose the first response, whereas impulsive individuals tend to choose the latter response.</p>
+If impulsivity is regarded as the converse of self-control, the same instrument used to assess impulsivity (see dct:impulse_79n2r0t0) can potentially also be used to measure self-control. However, the scoring for each questionnaire item should be reversed, i.e.&nbsp;if a high score on an item indicates a high level of impulsivity, it indicates a low level of self-control. For example: “When it comes to TARGET BEHAVIOUR I act on the spur of the moment” with responses ranging from “Totally agree” (=5) to “Totally disagree” (=1) on a 5-point Likert scale. A high score (=5) here is indicative of a high level of impulsivity and a low level of self-control.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/self_identity_79n2fh4t.html">Self-identity</a>
+</td>
+<td>
+<p>As a so-called “direct measure”, the items recommended by Snippe et al.&nbsp;(2020, https://doi.org/10.31234/osf.io/ygpmw) can be used.</p>
+<p>According to the definition of self-identity in this DCT, if a target behavior is strongly associated to somebody’s self-identity, to the degree that this is not only a reflection of the frequency or intensity with which they engage in that behavior, this association reflects the fact that one or more attributes is simultaneously connected to the target behavior and central to one’s self-identity.</p>
+Therefore, to map the construct content for a given target behavior, for each attribute dimension along which self-identification can occur, two things have to be measured. First, that attribute’s centrality: the degree to which people consider that attribute a part of their self-identity. Second, the strength of that attribute’s association to the target behavior.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/self_monitoring_79n2fh4w.html">Self-monitoring</a>
+</td>
+<td>
+<p>Self-monitoring actions with respect to the target behaviour can be assessed in two ways:</p>
+<ol type="1">
+<li><p>An individual’s self-reported self-monitoring behaviour can be measured with a questionnnaire or interview. Questionnnaire items to measure self-monitoring with respect to the target behaviour can, for example, be formulated in the following way: “By counting the number of alcoholic drinks, I know exactly how much alcohol I consume during a night clubbing” or “I use a diary or mobile app to track my daily food consumption”. Response can be either dichotomous (yes/no) or three response options can be provided (“Does not apply”, “More or less”, “Does apply”). Social desirability and distorted remembrance of events may result in incongruences between actual and reported self-monitoring behaviour with this asssessment procedure.</p></li>
+<li><p>An alternative way to assess an individual’s self-monitoring behaviour is to ask participants to keep a diary or use a mobile app (e.g.&nbsp;ecological momentary assessments (EMAs) ), internet program, or technical device to keep track of their self-monitoring actions with respect to the target behaviour, e.g.&nbsp;by asking youngsters to make a report each time they are aware to be exposed to music that is too loud (&gt; 100 decibel) during a night out with the help of a mobile app. By asking people to report their self-monitoring behaviour, this behaviour, however, changes and is no longer a reflection of a person’s actual self-monitoring behaviour.</p></li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/self_standards_79n2fh4w.html">Self Standards</a>
+</td>
+<td>
+<p>Whether a participant’s self-standards in- or decrease the likelihood the target behaviour is performed, can be assessed by presenting the following two questions (each consisting of six subquestions) to participants:</p>
+<ol type="1">
+<li><p>What kind of person would you like to be? Assign a score from 1 to 6 to each of the following six descriptions. Each score is assigned once (i.e.&nbsp;a score of 6 for the description you would most want to be like, and a score of 1 for the description you would least want to be like). [Six descriptions or traits are given - the choice and length of the descriptions is determined by the target behaviour and target population in question. For example: Assertive, Brilliant, Eloquent, Unpredictable, Athletic, and Resourceful.]</p></li>
+<li><p>“Do you think a person that [include one of the six previous descriptions] would engage in TARGET BEHAVIOUR?” For each of the six descriptions the response options are: “Very likely”(=2), “Likely” (=1), “Not Likely or Unlikely” (=0), “Unlikely” (-1), “Very unlikely” (-2).</p></li>
+</ol>
+<p>The answers to question 1 and 2 are multiplied. This results in a maximum score of 42 and a minimum score of -42.</p>
+A high score indicates that a participant’s self-standards increase the likelihood that the TARGET BEHAVIOUR is performed, while a low score indicates that a participant’s self-standards decrease the likelihood that the TARGET BEHAVIOUR is performed.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/temptation_79n2fh4w.html">Temptation</a>
+</td>
+<td>
+<p>Use Likert scales that measure the degree to which participants are temped by a situation or stimulus to carry out the behaviour of interest. For example, participants are asked to indicate if they are temped to take drugs in the following situations: “When I am feeling depressed”, “When I am being offered drugs in a social situation”, “When I am physically tired”, “When I see others using drugs at a bar or a party” with responses “Not at all”, “Not very”, “Moderately”, “Very”, and “Extremely” for each item on a 5-point Likert scale. The sample items are from the Temptation to Use Drugs Scale (Di Clemente et al., 1994).</p>
+<p>Another example is provided by Lazuras et al.&nbsp;(2010). They measured the situational tempation among athletes to use doping substances with the stem proposition “How much would you be tempted to use prohibited doping substances to enhance your performance this season,” followed by four items reflecting temptations to use prohibited performance-enhancing substances under different circumstances that potentially induce normative influence (“when your coach suggests so,” “when you believe that most colleagues of yours use prohibited substances,” “when you were told to enhance your performance,” and “when you prepare for an important game/competition”). Responses were recorded on a 5-point Likert scale (1 = not at all tempted, 5 = very much tempted).</p>
+Note that the instructions and examples given above apply to the measurement of situational temptation. For the measurement of the susceptibility to tempations in general (i.e.&nbsp;assessing the presence of a personality trait as the causal factor) other instructions and instruments apply, e.g.&nbsp;the Susceptibility to Temptation Scale can be used.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/threat_severity_79n2fh4r.html">Perceived threat severity</a>
+</td>
+<td>
+<p>Use 5- or 7-point Likert scales that measure the severity of the (health) threat in question, e.g.&nbsp;” I believe that HEALTH THREAT is severe” and “I believe that HEALTH THREAT has serious negative consequences” with “Strongly disagree” and “Strongly agree” as anchors.</p>
+Examples of items measuring the perceived severity of a health threat are: “I believe that HIV infection has serious negative consequences” and “I believe that HIV infection is extremely harmful”, with “Strongly disagree” and “Strongly agree” as anchors on a 5-point Likert scale (examples are from the Risk Behaviour Diagnosis Scale [Witte et al., 1995]).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/threat_susceptibility_79n2fh4s.html">Perceived threat susceptibility</a>
+</td>
+<td>
+<p>Use 5- or 7-point Likert scales that measure the perceived susceptibility to the (health) threat in question, e.g.&nbsp;“I am at risk for getting HEALTH THREAT” and “It is possible that I get HEALTH THREAT” with “Strongly disagree” and “Strongly agree” as anchors.</p>
+Examples of items measuring the perceived susceptibility to a health threat are: “It is likely that I will get infected with HIV” and “It is possible that I will get infected with HIV”, with “Strongly disagree” and “Strongly agree” as anchors on a 5-point Likert scale (examples are from the Risk Behaviour Diagnosis Scale [Witte et al., 1995]).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/willingness_79n2fh4w.html">Willingness</a>
+</td>
+<td>
+<p>Willingness to engage in a risky behaviour can be measured by asking participants to consider a hypothetical scenario and indicate their willingness to engage in the risk behaviour of interest. Responses on these items range from “Very unwilling” to “Very willing” on a 5- or 7-point Likert scale.</p>
+<p>Alternatively, following the scenario description, participants are asked to indicate the likelihood they would engage in the risk behaviour, with repsonses ranging from “Very unlikely” to “Very likely” on a 5- or 7-point Likert scale.</p>
+<p>Scores on the different items measuring behavioural willingness can subsequently be summed or averaged.</p>
+<p>For example, Molloy et al.&nbsp;(2019) measured willingness to use Nonmedical Prescription Stimulants (NPS) for academic reasons by asking participants to consider various hypothetical scenarios. The first scenario described a friend offering free prescription stimulants to study for a big, upcoming exam. Participants indicated how willing they would be to: (1) Take the pills, (2) Take the pills and ask for extra to use for another exam or paper, or (3) Tell the friend no thank you (reverse-coded).</p>
+<p>Davies et al.&nbsp;(2017) measured willingness to drink in a similar fashion, and used three hypothetical scenarios; a family wedding, a house party, and at the park. Participants were asked how likely it was that they would (1) take a drink and drink it, from 1 (“Unlikely”) to 7 (“Highly likely”); and (2) say no thanks, from 1 (“Unlikely”) to 7 (“Likely”) (reverse scored).</p>
+<p>Howell et al (2017) measured willingness to engage in risky sun behaviour by asking participants to assume there is no sunscreen, and then to respond how willing they would be to: (1) go to the beach with friends, (2) decline an invitation to go to the beach with friends (reverse coded). Participants responded on a scale ranging from “Very unwilling” (=1) to “Very willing” (=7).</p>
+Davies et al.&nbsp;(2017) expressed that a pilot study revealed that use of the verb “willing to” was difficult to understand for young adults. Therefore, (young) participants were asked to indicate the “likelihood” they would engage in a behaviour. Ideally thus the phrasing of items using “willing to” (or similar) should be first tested among the target population in a pilot study.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

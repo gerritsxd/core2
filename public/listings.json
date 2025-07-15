@@ -1,0 +1,12 @@
+[
+  {
+    "listing": "/repo/construct/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/first-post.html"
+    ]
+  }
+]
