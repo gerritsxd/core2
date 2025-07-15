@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Construct Definitions – COMMS Repository Template: CoRe</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-9445a4555af3a56b987823823f9b9d54.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">COMMS Repository Template: CoRe</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../repo/index.html"> 
+<span class="menu-text">🎯CoRe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/index.html"> 
+<span class="menu-text">✍️ Posts</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Construct Definitions</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="{=html}">
+<table>
+<thead>
+<tr>
+<th>
+Construct
+</th>
+<th>
+Definition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="../../repo/constructs/action_plancomp_79n2w1bh.html">Action plan composite</a>
+</td>
+<td>
+<p>The overall presence or absence of action plans for the target behaviour. In its totality, the action plan composite indicates the likelihood of performance of the target behaviour.</p>
+<p>Action plans (see dct:action_plan_79n2w1bh) are detailed plans to perform a distinct subbehaviour of the target behaviour. Action plans direct when, where, and how to carry out this subbehaviour or integrated set of component subbehaviours. If the target behaviour is defined at a very high level of specificity, the action plan may also concern performance of the target behaviour itself.</p>
+The presence of a greater number of action plans (i.e.&nbsp;an action plan for each of the subbehaviours that together constitute the target behaviour), and greater level of detail of action plans (i.e.&nbsp;specifying exactly when, where, and how to carry out the subbehaviours) increase the likelihood of performance of the target behaviour. The extent to which the various action plans related to the target behaviour are present or absent, is represented by the action plan composite.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/action_plan_79n2w1bh.html">Action plan</a>
+</td>
+<td>
+<p>Action plans are detailed plans to perform a distinct subbehaviour of the target behaviour. Action plans direct when, where, and how to carry out this subbehaviour or integrated set of component subbehaviours. If the target behaviour is defined at a very high level of specificity, the action plan may also concern performance of the target behaviour itself.</p>
+<p>An action plan is defined as a representation of the plan to perform the plan’s target behavior 1) at a specific time (when; temporal); 2) at a specific location or situation (where; contextual); and 3) in a specific way (how; operational). An incomplete action plan, for example only specifying the contextual or operational aspect, is still considered an action plan, and therefore, the ‘quality’/‘strength’ of action plans is variable.</p>
+<p>Representations of aspects of a plan to carry out one or more (sub)behaviors are not action plans: action plans must always represent one or more of the three aspects (contextual, temporal, or operational).</p>
+The presence of a greater number of action plans (i.e.&nbsp;an action plan for each of the subbehaviours that together constitute the target behaviour), and greater level of detail of action plans (i.e.&nbsp;specifying exactly when, where, and how to carry out the subbehaviours) increase the likelihood of performance of the target behaviour. The extent to which the various action plans related to the target behaviour are present or absent, is represented by the action plan composite (see dct:action_plancomp_79n2w1bh).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/action_regret_79n2w1bj.html">Action regret</a>
+</td>
+<td>
+Anticipated regret from engaging in a behaviour.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/actualControl_7blfql8r.html">Actual control</a>
+</td>
+<td>
+Relevant skills and abilities as well as barriers to and facilitators of behavioral performance.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/anticip_regret_79n2w1bj.html">Anticipated regret</a>
+</td>
+<td>
+<p>Anticipated regret is the expectation that the decision to perform or not perform a certain behaviour will result in disappointment.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/attitude_73dnt5zc.html">Attitude</a>
+</td>
+<td>
+A latent disposition or tendency to respond with some degree of favorableness or unfavorableness to the target behavior.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/attitude_noise_7c08258d.html">Attitude towards noise</a>
+</td>
+<td>
+A latent disposition or tendency to respond with some degree of favorableness or unfavorableness to loud sounds.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/attitude_soundculture_7c082lmy.html">Attitude towards sound level in music and sports settings</a>
+</td>
+<td>
+A latent disposition or tendency to respond with some degree of favorableness or unfavorableness to the sound levels at musical and sports activities and events, and in nightlife settings (‘clubbing’).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/autonomy_73dnt5zx.html">Autonomy</a>
+</td>
+<td>
+People’s perceptions of the extent to which performance or nonperformance of a behaviour is up to them.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/autonomy_belCom_73dnt5zw.html">Autonomy beliefs composite</a>
+</td>
+<td>
+The sum of the autonomy beliefs. In their totality, autonomy beliefs lead to the perception that performance or nonperformance of the target behaviour is under their control or is up to them.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/autonomy_belief_73dnt5zt.html">Autonomy belief</a>
+</td>
+<td>
+A person’s belief about the extent to which performance or nonperformance of a particular behaviour is up to him/her.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/autonomy_conditionPower_73dnt5zs.html">Perceived power of condition</a>
+</td>
+<td>
+<p>The perceived power of a condition refers to the perceived impact the presence of a condition has on one’s autonomy. This impact can be perceived to be anywhere from very negative (if the condition is a barrier), through zero if the condition is perceived to have no impact on one’s autonomy regardless of whether it is perceived to be present, to very positive (if the condition is a facilitator). Note that the perception as to whether the condition is present or not is its perceived presence (dct:autonomy_conditionPresence_73dnt5zr).</p>
+<p>According to the Reasoned Action Approach, perceptions about the power of conditions combine multiplicatively with perceptions about the presence of conditions (see dct:autonomy_conditionPresence_73dnt5zr) into autonomy beliefs (see dct:autonomy_belief_73dnt5zt).</p>
+Examples of the perceived power of a condition are the perception that having to ask for condoms at the counter obstructs buying them; the perception that rain obstructs going for a run; the perception that if food is expensive, that is a barrier to buying it; the perception that paying for STI tests is a barrier to get tested; and the perception that if anticonception is not widely available, it cannot be obtained and used.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/autonomy_conditionPresence_73dnt5zr.html">Perceived presence of condition</a>
+</td>
+<td>
+<p>The perceived presence of a condition refers to the perceived probability that a condition will be present that may have some power to facilitate or obstruct successfully accomplishing the target behavior. Such conditions are perceived to be external to the individuals direct control (though they may in reality be internal conditions; for example, addicts may perceive their craving to be irresistible, and as such, a condition they have no control over and that negatively impacts their autonomy). Facilitating or obstructing factors that are perceived to be internal (i.e.&nbsp;that an individual can learn over time) are subskills (see dct:capacity_subskillPresence_73dnt5zy).</p>
+<p>Each perceived presence of a condition concerns the absence or presence of one condition. The perceived nature of the condition (i.e.&nbsp;whether it facilitates or obstructs the target behavior), i.e.&nbsp;the perceived power of that condition, is covered in dct:autonomy_conditionPower_73dnt5zs.</p>
+<p>According to the Reasoned Action Approach, perceptions about the presence of conditions combine multiplicatively with perceptions about the power of conditions (see dct:autonomy_conditionPower_73dnt5zs) into autonomy beliefs (see dct:autonomy_belief_73dnt5zt).</p>
+Examples of perceived presence of a condition are the perception that to buy condoms, one will have to ask for them at the counter (which may obstruct buying condoms); the perception that it is raining (which may obstruct going for a run); the perception that healthy food is very expensive (which may obstruct buying healthy food); the perception that testing for STIs is free (which may facilitate getting tested for STIs); and the perception that anticonception is widely available (which may facilitate using anticonception).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/awareness_79n2w1bj.html">Awareness</a>
+</td>
+<td>
+People’s perceptions of the consistency or inconsistency between their perceived behaviour and a given guideline.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/behavior_73dnt605.html">Behavior</a>
+</td>
+<td>
+The target behaviour is the behaviour to explain using determinants. A behaviour is defined as individual human activity that involves co-ordinated contraction of striated muscles controlled by the brain. Note that this also includes the lack of such co-ordinated contraction.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/behaviour_79n2w1bj.html">Behaviour</a>
+</td>
+<td>
+An individual’s manifest, observable activities in response to external or internal stimuli.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/behaviour_script_79n2w1bj.html">Behavioural script</a>
+</td>
+<td>
+Organized sets of information stored schematically linking the action with cues and contexts built up through repeated past experience.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/capacity_73dnt602.html">Capacity</a>
+</td>
+<td>
+People’s perceptions of their ability to perform a behavior; that is, the degree to which they believe they can, are able to, or are capable of performing the behavior.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/capacity_belCom_73dnt601.html">Capacity beliefs composite</a>
+</td>
+<td>
+The sum of the capacity beliefs. In their totality, capacity beliefs lead to the perception that one has or does not have the ability to carry out the target behaviour.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/capacity_belief_73dnt600.html">Capacity belief</a>
+</td>
+<td>
+A person’s belief about the degree to which he/she can, is able to, or is capable of performing a particular behavior.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/capacity_subskillImportance_73dnt5zz.html">Perceived subskill importance</a>
+</td>
+<td>
+<p>The perceived importance of a subskill refers to how important possessing the subskill is to successfully accomplishing the target behavior. A subskill can be perceived to anything from completely irrelevant to crucial. Note that the perception of whether one possesses a subskills is its perceived presence (dct:capacity_subskillPresence_73dnt5zy).</p>
+<p>According to the Reasoned Action Approach, perceptions about the importance of subskills combine multiplicatively with perceptions about the presence of subskills (see dct:capacity_subskillPresence_73dnt5zy) into capacity beliefs (see dct:capacity_belief_73dnt600).</p>
+Examples of perceived subskill importance are the perception that to successfully buy condoms, it is vital one possesses the skill to ask for condoms at the counter; the perception that to successfully moderate one’s alcohol intake, it doesn’t really matter whether one possesses the skill to decline an alcoholic drink when it is offered; the perception that to successfully run 5 kilometers, it is a prerequisite that one is able to run 5 kilometers; the perception that to protect one’s hearing from loud sounds, it helps if one is able to insert earplugs into one’s ear canal properly; and the perception that to prevent skin cancer in one’s child, it doesn’t matter whether one knows how to apply sunscreen on a child.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/capacity_subskillPresence_73dnt5zy.html">Perceived subskill presence</a>
+</td>
+<td>
+<p>The perceived presence of a subskill refers to the perceived probability that a person has a certain skill that is required to successfully accomplishing the target behavior (hence ‘subskill’). Such subskills are perceived to be under the individual’s direct control (though they may in reality not be; for example, it is possible that it is not realistic for somebody to learn how to cook five star meals, yet they might believe that they can acquire the necessary subskills). Facilitating or obstructing factors that are perceived to be external to the individual’s control (i.e.&nbsp;that impact an individual’s autonomy) are perceived conditions (see dct:autonomy_conditionPresence_73dnt5zr).</p>
+<p>Each perceived presence of a subskill concerns the absence or presence of one subskill. The perceived importance of the subskill to successfully accomplishing the target behavior (i.e.&nbsp;whether the subskill is crucial or merely facilitates the target behavior), i.e.&nbsp;the perceived subskill importance, is covered in dct:capacity_subskillImportance_73dnt5zz.</p>
+<p>According to the Reasoned Action Approach, perceptions about the presence of subskills combine multiplicatively with perceptions about the importance subskills (see dct:capacity_subskillImportance_73dnt5zz) into capacity beliefs (see dct:capacity_belief_73dnt600).</p>
+Examples of perceived subskill presence are the perception that one possesses the skill to ask for condoms at the counter; the perception that one possesses the skill to decline an alcoholic drink when it is offered; the perception that one is able to run 5 kilometers; the perception that one can use earplugs properly; and the perception that one knows how to one can apply sunscreen on a child.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/coping_79n2w1bj.html">Coping</a>
+</td>
+<td>
+<p>Conscious and volitional efforts to regulate emotion, cognition, behaviour, physiology, and the environment in response to stressful events or circumstances.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/cues_79n2w1bj.html">Cues</a>
+</td>
+<td>
+<p>Aspects of the environment or bodily experience perceived by the individual to trigger a strong affective state or bring to mind previously developed intentions or knowledge and, as a consequence, may create an instigation towards a particular (health) behaviour.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/descriptiveNorms_73dnt5zp.html">Descriptive norms</a>
+</td>
+<td>
+Descriptive norms refer to perceptions that others are or are not performing the behavior in question.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/descrNorms_belCom_73dnt5zn.html">Descriptive norm beliefs composite</a>
+</td>
+<td>
+The sum of the descriptive norm beliefs.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/descrNorms_belief_73dnt5zm.html">Descriptive norm belief</a>
+</td>
+<td>
+A person’s belief that important individuals or groups in his/her life perform or don’t perform a particular behavior.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/desire_79n2w1bk.html">Desire</a>
+</td>
+<td>
+Desire is a psychological state of motivation for a specific stimulus or experience that is anticipated to be rewarding. This state may or may not be consciously experienced.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/disengCoping_79n2w1bk.html">Disengagement coping</a>
+</td>
+<td>
+Disengagement coping is effort to avoid confronting the threat or the stress-related emotions.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/ego_depletion_79n2r0sy.html">Ego depletion</a>
+</td>
+<td>
+<p>People’s perceptions of situations and circumstances in which their ability is reduced to control over dominant responses with respect to the target behaviour.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/emotion_79n2r0sy.html">Emotion</a>
+</td>
+<td>
+Emotions are states that follow from the appraisal of a specific situation as facilitating or endangering the achievement of an important goal, involving behavioural, physiological, affective, and cognitive elements.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/engCoping_79n2r0sy.html">Engagement coping</a>
+</td>
+<td>
+Engagement coping is aimed at dealing with the stressor or reducing stress-related emotions.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/expAttitude_belCom_73dnt5z4.html">Experiential attitude beliefs composite</a>
+</td>
+<td>
+The sum of the experiential attitude beliefs.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/expAttitude_belief_73dnt5z3.html">Experiential attitude belief</a>
+</td>
+<td>
+<p>Beliefs are defined as the subjective probability that an object has a certain attribute, where ‘object’ and ‘attribute’ are used in the generic sense, and refer to any discriminable aspect of an individual’s world. Conform the expectancy-value model of attitude, beliefs are the product of the expectation that engaging in a behavior will have a given consequence and the evaluation of that consequence as (very) negative or (very) positive.</p>
+Experiential attitude beliefs concern beliefs about consequences of engaging in the behavior that influence one’s experiences, for example by causing pleasure or pain.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/expAttitude_evaluation_73dnt5z2.html">Experiential attitude belief evaluation</a>
+</td>
+<td>
+<p>An experiential attitude belief evaluation is the evaluation as positive or negative (i.e.&nbsp;desirable or undesirable) of one specific experiential potential consequence of a behavior. The experiential nature of this evaluation means that this concerns mostly expected experiences and sensations, such as pleasure or pain. Consequences that render the target behavior less or more instrumental given more long-term goals are captured in instrumental attitude and the underlying beliefs (see dct:expAttitude_expectation_73dnt5z1 and dct:instrAttitude_expectation_73dnt5z6 for more details about this distinction).</p>
+<p>According to the Reasoned Action Approach, experiential attitude belief evaluations combine multiplicatively with experiential attitude belief expectations (see dct:expAttitude_expectation_73dnt5z1) into experiential attitude beliefs (see dct:expAttitude_belief_73dnt5z3).</p>
+Examples of experiential attitude belief evaluations are (note that the examples provided for the experiential attitude belief expectations should probably be read first, see dct:expAttitude_expectation_73dnt5z1): the degree to which one finds it pleasant to sit down during a bus journey to the city centre; the evaluation of watching the scenery as desirable; one’s evaluation of a pizza’s taste as nice; one appraising a relaxed feeling as pleasant; one enjoying the sensation of sex without a condom.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/expAttitude_expectation_73dnt5z1.html">Experiential attitude belief expectation</a>
+</td>
+<td>
+<p>An experiential attitude belief expectation is the expectation of how probable (i.e.&nbsp;unlikely versus likely) it is that engaging in the target behavior will cause one specific experiential potential consequence to come about. The experiential nature of this expectation means that these expected consequences must concern experiences and sensations, such as pleasure or pain.</p>
+<p>Each experiential attitude belief expectation covers one specific acute hedonic expectation, disconnected from potential long-term consequences the target behavior may have. Experiential attitude belief expectations always refer to immediately experienced consequences of a behavior. Expectations about consequences that render the target behavior less or more desirable without the immediate experiential effects of the behavior playing a role are captured in instrumental attitude belief expectations (see dct:instrAttitude_expectation_73dnt5z6).</p>
+<p>According to the Reasoned Action Approach, experiential attitude belief expectations combine multiplicatively with experiential attitude belief evaluations (see dct:expAttitude_evaluation_73dnt5z2) into experiental attitude beliefs (see dct:expAttitude_belief_73dnt5z3).</p>
+Examples of experiential attitude belief expectations are: the expectation that taking the bus to the city centre will allow one to sit down during the journey, which one finds a pleasant feeling; the expectation that walking to the city centre will allow one to watch the scenery, which one enjoys; the expectation that eating a pizza will taste nice; the expectation that going for a run will feel relaxing; and the expectation that having sex without a condom will feel more pleasant than having sex with a condom.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/experientialAttitude_73dnt5z5.html">Experiential attitude</a>
+</td>
+<td>
+A latent disposition or tendency to respond with some degree of favorableness or unfavorableness to the target behavior based on what one expects to experience if engaging in the target behavior.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/extBehaviour_79n2r0sz.html">External regulation of behaviour</a>
+</td>
+<td>
+<p>Behaviour is externally regulated when an activity is adopted to acquire an outcome that is separable from the activity itself.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/goal_79n2r0sz.html">Goal</a>
+</td>
+<td>
+The representation of a desired state.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/habit_79n2r0sz.html">Habit</a>
+</td>
+<td>
+A habit is an action or behavioural tendency that it enacted spontaneously, with little conscious awareness or reflection, in response to a set of associated conditions or contextual cues.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/identifiedBehaviour_79n2r0t0.html">Identified regulation of behaviour</a>
+</td>
+<td>
+In identified regulation a person endorses or identifies with the value or importance of a behaviour or health practice.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/impulse_79n2r0t0.html">Impulse</a>
+</td>
+<td>
+An impulsive action is defined as a non-deliberate action that serves the purpose of rendering one’s relation to the object, event, or state of the world more pleasant or less unpleasant.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/inaction_regret_79n2r0t0.html">Inaction regret</a>
+</td>
+<td>
+Anticipated regret from not engaging in a behaviour.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/inflBiological_79n2w1bj.html">Biological influences</a>
+</td>
+<td>
+<p>Biological influences consist of an individual’s genotypic and phenotypic characteristics (i.e., respectively, an organism’s hereditary information and its actual observed properties) that determine, or may potentially determine, its behaviour.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/inflDemographic_79n2w1bk.html">Demographic influences</a>
+</td>
+<td>
+The influence of an individual’s broad characteristics (e.g.&nbsp;age, marital status, nationality) as determined in demographic research and/or known to public institutions on the behaviour of interest.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/inflEnvironment_79n2r0sy.html">Environmental influences</a>
+</td>
+<td>
+Aspects of a person’s physical and social surroundings that discourage or encourage the behaviour of interest.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/injNorms_belCom_73dnt5zh.html">Injunctive norm beliefs composite</a>
+</td>
+<td>
+The sum of the injunctive norm beliefs.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/injNorms_belief_73dnt5zg.html">Injunctive norm belief</a>
+</td>
+<td>
+A person’s belief what should or ought to be done with respect to performing a particular behaviour.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/injunctiveNorms_73dnt5zj.html">Injunctive norms</a>
+</td>
+<td>
+Injunctive norms refer to perceptions concerning what should or ought to be done with respect to performing a given behaviour. People may be motivated to behave in accordance with what they believe others think they should do (injunctive norms) because the social agent has the power to reward or punish them, because the agent has the right to request it, because the agent is an expert, or because they want to be like the agent. The operation of reward, coercive, and legitimate power all imply that the social agent expects a particular kind of behavior; that is, it implies an injunctive norm.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/instrAttitude_belCom_73dnt5z9.html">Instrumental attitude beliefs composite</a>
+</td>
+<td>
+The sum of the instrumental attitude beliefs.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/instrAttitude_belief_73dnt5z8.html">Instrumental attitude belief</a>
+</td>
+<td>
+Beliefs are defined as the subjective probability that an object has a certain attribute, where ‘object’ and ‘attribute’ are used in the generic sense, and refer to any discriminable aspect of an individual’s world. Conform the expectancy-value model of attitude, beliefs are the product of the expectation that engaging in a behavior will have a given consequence and the evaluation of that consequence as (very) negative or (very) positive. Instrumental attitude beliefs concern beliefs about consequences of engaging in the behavior for achieving one’s goals.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/instrAttitude_evaluation_73dnt5z7.html">Instrumental attitude belief evaluation</a>
+</td>
+<td>
+<p>An instrumental attitude belief evaluation is the evaluation as positive or negative (i.e.&nbsp;desirable or undesirable) of one specific instrumental potential consequence of a behavior. The instrumental nature of this evaluation means that this these evaluations contain information about people’s longer term goals. Consequences that concern experiences and sensations, such as pleasure or pain, are captured in experiential attitude and the underlying beliefs (see dct:instrAttitude_expectation_73dnt5z6 and dct:expAttitude_expectation_73dnt5z1 for more details about this distinction).</p>
+<p>According to the Reasoned Action Approach, instrumental attitude belief evaluations combine multiplicatively with instrumental attitude belief expectations (see dct:instrAttitude_expectation_73dnt5z6) into instrumental attitude beliefs (see dct:instrAttitude_belief_73dnt5z8).</p>
+Examples of instrumental attitude belief evaluations are (note that the examples provided for the instrumental attitude belief expectations should probably be read first, see dct:instrAttitude_expectation_73dnt5z6): the degree to which one evaluates the expectation that one saves time by taking the bus to the city center as positive; the extent to which one considers it desirable that exercising will contribute to one’s goal of being healthy (assuming one holds that expectation, which is captured by dct:instrAttitude_expectation_73dnt5z6); whether somebody likes to prevent starving, a goal that eating a pizza contributes to; one’s evaluation of burning calories (an expectation one may have of the behavior going for a run); and whether somebody wants to produce offspring.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/instrAttitude_expectation_73dnt5z6.html">Instrumental attitude belief expectation</a>
+</td>
+<td>
+<p>An instrumental attitude belief expectation is the expectation of how probable (i.e.&nbsp;unlikely versus likely) it is that engaging in the target behavior will cause one specific instrumental potential consequence to come about. The instrumental nature of this consequence denotes that instrumental attitude belief expectations must concern consequences that facilitate or hinder achieving one or more longer term goals.</p>
+<p>Each instrumental attitude belief expectation covers one specific long-term consequence, disconnected from acute hedonic consequences the target behavior may have. Instrumental attitude belief expectations always refer to consequences that cause a behavior to contribute more or less to goals an individual has. Expectations about experiencing the consequences of a behavior, for example expectations relating to experiences and sensations, are captured in experiential attitude belief expectations (see dct:expAttitude_expectation_73dnt5z1).</p>
+<p>According to the Reasoned Action Approach, instrumental attitude belief expectations combine multiplicatively with instrumental attitude belief evaluations (see dct:instrAttitude_evaluation_73dnt5z7) into instrumental attitude beliefs (see dct:instrAttitude_belief_73dnt5z8).</p>
+Examples of instrumental attitude belief expectations are: the expectation that taking the bus to the city centre will save time, which contributes to the goal of being punctual; the expectation that walking to the city centre will allow one to exercise, which contributes to the goal of being healthy; the expectation that eating a pizza will prevent one from starving, which contributes to the goal of surviving; the expectation that going for a run will burn calories, which contributes to one’s goal of losing weight; and the expectation that having sex without a condom is more likely to lead to conception, which is required to achieve one’s goal of producing offspring.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/instrumentalAttitude_73dnt5zb.html">Instrumental attitude</a>
+</td>
+<td>
+A latent disposition or tendency to respond with some degree of favorableness or unfavorableness to the target behavior based on the perceived usefulness of engaging in that target behavior to achieving one’s goals.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/integratedBehaviour_79n2r0t0.html">Integrated regulation of behaviour</a>
+</td>
+<td>
+In integrated regulation a person not only values a behaviour, but has also aligned it with other central values and lifestyle patterns.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/intention_73dnt604.html">Intention</a>
+</td>
+<td>
+The readiness to engage in the behavior, incorporating concepts such as willingness, behavioral expectation, and trying.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/intrinsicBehaviour_79n2r0t0.html">Intrinsic regulation of behaviour</a>
+</td>
+<td>
+Behaviour is intrinsically regulated when an activity is driven by inherent satisfactions provided by the activity itself and not by an external positive or negative reward that is contingent upon the completion of the activity.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/introjBehaviour_79n2r0t0.html">Introjected regulation of behaviour</a>
+</td>
+<td>
+In introjected behaviour the regulation of action has been partially internalized and is energized by factors such as an approval motive, avoidance of shame, contingent self-esteem, and ego-involvements.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/knowledge_79n2fh4b.html">Knowledge</a>
+</td>
+<td>
+A representation of the world that one believes to accurately describe a part of the world.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/motivationToComply_73dnt5zf.html">Motivation to comply</a>
+</td>
+<td>
+<p>Motivation to comply with a specific social referent refers to an individual’s motivation to behave in a way that is most approved of by that social referent. Note that motivation to comply is separate from the approval or disapproval itself, which is captured in dct:referentApproval_73dnt5zd.</p>
+<p>A social referent can be a specific individual, a group of distinct individuals (e.g.&nbsp;one’s siblings), or a more generically defined group (e.g.&nbsp;the residents of my city).</p>
+The motivation to comply with a given social referent combines multiplicatively with the perceived approval of that referent (dct:referentApproval_73dnt5zd) into an injunctive norm belief (dct:injNorms_belief_73dnt5zg).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/motivation_79n2fh4q.html">Motivation</a>
+</td>
+<td>
+Motivation is the experience of desire or aversion that instigates, directs, and maintains goal-oriented behaviour, and is energized intrinsically, by internal factors related to the individual, and extrinsically, by external factors acting on the individual.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/need_79n2fh4r.html">Need satisfaction</a>
+</td>
+<td>
+<p>An individual’s perception whether an activity or situation satisfies an universal human need ( i.e.&nbsp;what is considered essential or necessary for well-being and healthy functioning).</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/perceivedBehavioralControl_73dnt603.html">Perceived behavioral control</a>
+</td>
+<td>
+People’s perceptions of the degree to which they are capable of, or have control over, performing a given behavior.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/perceivedNorms_73dnt5zq.html">Perceived norms</a>
+</td>
+<td>
+Perceived social pressure to perform (or not to perform) the target behavior.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/personality_79n2fh4s.html">Personality</a>
+</td>
+<td>
+Personality is the set of psychological traits and mechanisms within the individual that are organized and relatively enduring and that influence his or her interactions with, and adaptations to, the intrapsychic, physical, and social environments.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/personalNorms_79n2fh4s.html">Personal norms</a>
+</td>
+<td>
+Feelings of moral obligation to perform or refrain from specific action.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/problematicHypersexuality_7mm4hr4f.html">Problematic Hypersexuality</a>
+</td>
+<td>
+<p>Problematic Hypersexuality (PH) is defined as the experience of distress and negative consequences due to hypersexual urges and behavior - to the extent that the experience of PH causes the individual to at least consider seeking help. The construct of PH we base on the common and unique criteria (ten in total) found in three perspectives on PH.</p>
+<p>—- Before we present these ten criteria we distilled from the three perspectives, we note that the three perspectives come as diagnostic systems, while our definition of PH must be taken as a construct definition for research. This means, among others, that what are called ‘criteria’ within the diagnostic systems, we call ‘characteristics’. With this Decentralized Construct Taxonomy (DCT) definition on PH we hope to define as clearly as possible what we mean by PH in our studies (references to the studies using this definition can be found under ‘Comments’). As our research progresses, the DCT definition of PH might change. Also, others might use other but similar constructs that can be equally valid, if made explicit. Current research practices often suffer from hidden heterogeneity: definitions are not made explicit or are imprecise. Often constructs that bear the same name, prove to differ in small but important details. Reasons to adhere to explicit heterogeneity in definitions of constructs are explained in more detail here: (Peters &amp; Crutzen, 2022, https://doi.org/10.31234/osf.io/8tpcv).</p>
+<p>—- We now return to the DCT definition of PH. The three diagnostic perspectives on PH we make use of, are: 1) Sex addiction; 2) Hypersexual Disorder; and 3) Compulsive Sexual Behavior Disorder. The ten characteristics of PH we apply in this DCT of PH are based on 6 overlapping criteria and 4 unique criteria for PH retrieved from these three perspectives. The 6 overlapping criteria for PH we retrieved, are: 1) Intense focus on and preoccupation with sex; 2) Repetitive sexual acitivities leading to neglect of selfcare and responsibilities; 3) Negative consequences in one or more life domains; 4) Disregard of risk of harm to self or others: 5) Failed attempts to stop the sexual behavior; and 6) Continue PH behavior despite negative consequences. From the ‘sex addiction’ perspective we retrieved the following criteria: 7) Tolerance (the need to increase sexual intenstiy of frequency); and 8) Withdrawal symptoms (e.g.&nbsp;restlessness). From the ‘hypersexual disorder’ perspective we retrieved: 9) Sex used to cope with dysphoric mood states or stressful life events. From the ‘compulsive sexual behavior disorder’ perspective we retrieved: 10) Continue PH behavior despite loss of pleasure in sex. These ten potentially cue valid characteristics of PH we consider as more permanent and relatively stable. With cue valid we mean: to a greater or lesser degree uniquely pertaining to hypersexuality. IRT validation studies can decide on the importance of each of these characteristics in assessing PH and are able to assess cue validity when relevant subpopulations are included in research. Furthermore, we consider PH to be ruled by two drivers: 1) high sexual desire; and 2) emotion dysregulation with regard to sexuality (Kingston, 2018; specifies these drivers as ‘dimensions’). These two drivers we see as necessary for PH to occur but not as sufficient for PH to be the case. The ten characteristics are connected to the two drivers as outcomes are connected to processes. The process in PH that is maintained by the two drivers is that of a vicious circle- we hypothesize. Negative feelings (e.g.&nbsp;shame) lead to sexually acting out in order to cope with them. The sexual acting out reinforces shame, thus increasing the risk of a new cycle of shame and sexual acting out. Our investigations of this vicious circle is underway but at the time not conclusive. Therefore, this DCT of PH should be considered as preliminary and open to change. If a vicious circle for PH is not confirmed - or even disconfirmed - this will lead to a different DCT for PH. If a vicious circle is confirmed, this might lead to a more detailed description of its nature, and this too will lead to an adaptation of this DCT for PH.</p>
+<p>—- To conclude this definition: we consider Problematic Hypersexuality as delineated from Non-problematic Hypersexuality (NH). By NH we mean the experience of hypersexuality without enduring distress or negative consequences. Hypersexuality in general - in short defined as taking great interest in experiencing sexuality - is the overarching concept, binding NH and PH together. In the future both NH and Hypersexuality might be awarded their own DCT.</p>
+<p>—- We offer the following figure as an overview of this DCT definition of PH and note that cue valid characteristics are best established using IRT validation, while measuring driving processes of PH can best be done using ESM techniques: https://osf.io/89ha7 Both research methodologies (IRT and ESM) will profit from comparing a PH populations with relevant other populations and we suggest to consider an NH population for this purpose.</p>
+<p>—–Studies using this DCT of PH are currently under review or are being developed (January 2023).</p>
+<p>—-References:</p>
+<p>—-Kingston D. A. (2018). Hypersexuality: Fact or Fiction?. The journal of sexual medicine, 15(5), 613–615. https://doi.org/10.1016/j.jsxm.2018.02.015</p>
+<p>—-Peters, G. Y., &amp; Crutzen, R. (2022, November 22). Knowing What We’re Talking About: Facilitating Decentralized, Unequivocal Publication of and Reference to Psychological Construct Definitions and Instructions. https://doi.org/10.31234/osf.io/8tpcv</p>
+—-Wolf, M. G., Ihm, E. D., maul, a., &amp; Taves, A. (2019, July 23). Survey Item Validation. https://doi.org/10.31234/osf.io/k27w3
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/prototypeFavourability_79n2fh4t.html">Prototype favourability</a>
+</td>
+<td>
+The degree of likability of a image representing perceptions of typical persons engaging in or refraining from a certain behaviour.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/prototypeSimilarity_79n2fh4t.html">Prototype similarity</a>
+</td>
+<td>
+The perceived resemblance to the self with an image representing perceptions of typical persons engaging in or refraining from a certain behaviour.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/prototype_79n2fh4t.html">Prototype</a>
+</td>
+<td>
+A person’s image of the typical person who performs (or does not perform) a given behaviour.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/referentApproval_73dnt5zd.html">Perceived referent approval</a>
+</td>
+<td>
+<p>The perceived approval or disapproval of a social referent refers to whether a given individual believes that social referent thinks that that given individual should engage in the target behavior. Note that this concerns whether the <em>individual</em> should engage in the target behavior, not whether the social referent themselves should engage in the target behavior. Also note that this is distinct from whether the social referent themselves does actually engage in the target behavior, which is captured in dct:referentBehavior_73dnt5zk.</p>
+<p>A social referent can be a specific individual, a group of distinct individuals (e.g.&nbsp;one’s siblings), or a more generically defined group (e.g.&nbsp;the residents of my city).</p>
+The perceived approval for a given social referent combines multiplicatively with the motivation to comply with that referent (dct:motivationToComply_73dnt5zf) into an injunctive norm belief (dct:injNorms_belief_73dnt5zg).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/referentBehavior_73dnt5zk.html">Perceived referent behavior</a>
+</td>
+<td>
+<p>The perceived behavior of a social referent is a given individual’s perception of whether that person engages in the target behavior. Note that this perception only relates to the behavior of the social referent, not to what the social referent might believe. Perceptions of the social referent’s (dis)approval of whether the given individual engages in the target behavior is captured in dct:referentApproval_73dnt5zd.</p>
+<p>A social referent can be a specific individual, a group of distinct individuals (e.g.&nbsp;one’s siblings), or a more generically defined group (e.g.&nbsp;the residents of my city).</p>
+<p>Depending on the nature of the target behavior, engagement in that behavior can be conceived as binary (i.e.&nbsp;one either does or does not engage in the target behavior, e.g.&nbsp;getting tested for STIs every six months), a matter of frequency (i.e.&nbsp;one engages in the target behavior with a frequency from zero up to a given feasible maximum frequency in a given timespan, e.g.&nbsp;the frequency with which one washes their hands conform the guidelines), a matter of intensity (i.e.&nbsp;one engages in the target behavior to a degree from zero up to a given feasible maximum intensity, e.g.&nbsp;the amount of kilocalories one consumed in a meal), or a combination of these (i.e.&nbsp;one engages in the target behavior with a given frequency and with a given intensity, e.g.&nbsp;how frequently one drinks alcohol, and how many grams of alcohol one consumes when one does).</p>
+The perceived behavior of a given social referent combines multiplicatively with the identification with that social referent (dct:referentIdentification_73dnt5zl) into a descriptive norm belief (dct:descrNorms_belief_73dnt5zm).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/referentIdentification_73dnt5zl.html">Identification with referent</a>
+</td>
+<td>
+<p>Identification with a social referent is defined as the degree to which an individual wants to be like that social referent with regards to the target behavior.</p>
+<p>A social referent can be a specific individual, a group of distinct individuals (e.g.&nbsp;one’s siblings), or a more generically defined group (e.g.&nbsp;the residents of my city).</p>
+The identification with a given social referent combines multiplicatively with the perceived behavior of that social referent (dct:referentBehavior_73dnt5zk) into a descriptive norm belief (dct:descrNorms_belief_73dnt5zm).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/risk_perception_79n2fh4t.html">Risk perception</a>
+</td>
+<td>
+Risk perception is the perceived susceptibility to and the perceived severity of a threat.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/self_control_79n2fh4t.html">Self-control</a>
+</td>
+<td>
+<p>People’s perceptions of their ability to effortful control over dominant responses with respect to the target behaviour.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/self_identity_79n2fh4t.html">Self-identity</a>
+</td>
+<td>
+<p>People form representations of the world, and some of those representations pertain to the self. This set of attributes together form one’s general self-identity (i.e.&nbsp;unrelated to specific behaviors). However, most of these attributes are relatively trivial (e.g.&nbsp;all humans have a brain, but brains are usually not part of their self-identity). How central a given attribute is to one’s self-identity in general (its centrality) can depend on the degree to which it is perceived to distinguish one from others, confers positive characteristics, or is instrumental. For example, health is seen as desirable, so being ‘a healthy eater’ is desirable. Similarly, if sophistication is seen as desirable, and having well-developed tastes are seen as indicative of sophistication, then being somebody who is very picky about one’s coffee blends and preparation methods can be seen as desirable. As a final example of an instrumental function of self-identity, being ‘an addict’ can be used to excuse relapse.</p>
+Also, a given attribute can be more or less related to a given target behavior (e.g.&nbsp;being a ‘vegan’ is intrinsically related to eating behaviors). Given that one’s self-identity is defined as all these attributes that pertain to one’s self (weighted by their centrality), it follows that for different people, a given target behavior can be differentially relevant to their self-identity. In terms of operationalizations, this implies that this relevance of a behavior to one’s self-identity should be what is measured (note that this is not the same as general relevance of a behavior).
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/self_monitoring_79n2fh4w.html">Self-monitoring</a>
+</td>
+<td>
+Tracking of one’s own actions with regard to a specific behaviour or goal.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/self_standards_79n2fh4w.html">Self Standards</a>
+</td>
+<td>
+<p>Self-standards are preferential self-beliefs (as opposed to descriptive and evaluative ones), which consist of self-imposed criteria for judging oneself. They are self-views that refer to some desired or undesired end-states.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/temptation_79n2fh4w.html">Temptation</a>
+</td>
+<td>
+<p>A situation or stimulus that creates a desire to carry out the problem behaviour(s).</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/threat_severity_79n2fh4r.html">Perceived threat severity</a>
+</td>
+<td>
+Beliefs about the significance or magnitude of the threat.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/threat_susceptibility_79n2fh4s.html">Perceived threat susceptibility</a>
+</td>
+<td>
+Beliefs about one’s risk of experiencing the threat.
+</td>
+</tr>
+<tr>
+<td>
+<a href="../../repo/constructs/willingness_79n2fh4w.html">Willingness</a>
+</td>
+<td>
+<p>Openness to engaging in a risky behaviour, should the opportunity arise: i.e.&nbsp;it represents a propensity to engage in a risky behaviour without necessarily indicating a plan to engage in that behaviour.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
