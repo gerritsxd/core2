@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: cues_79n2w1bj
@@ -7,37 +6,67 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: "Aspects of the environment or bodily experience perceived by the
-      individual to trigger a strong affective state or bring to mind previously developed
-      intentions or knowledge and, as a consequence, may create an instigation towards
-      a particular (health) behaviour.  \n\n\n"
+    definition: "Aspects of the environment or bodily experience perceived by the\
+      \ individual to trigger a strong affective state or bring to mind previously\
+      \ developed intentions or knowledge and, as a consequence, may create an instigation\
+      \ towards a particular (health) behaviour.  \n\n\n"
   measure_dev:
-    instruction: |+
-      Use Likert scales that measure the degree to which participants believe a potential cue affects their  engagement in the target behaviour. The following phrasing can be used: "CUE X would make me TARGET BEHAVIOUR". For example: "If my ears would start ringing, I would start wearing earplugs", "The smell of cannabis would make me smoke cannabis" and "Seeing a snack commercial on TV would make me eat a snack". Reponses are given on a 5-point Likert scale ranging from "Very likely" to "Very unlikely".
-
-      Observation and field experiments or other measurement methods that may be employed to measure the presence of cues. A choice for a particular measurement method may be prompted by a subject's degree of awareness and introspective capacity with regard to the presence and influence (on behaviour) of cues. Diverse methods may potentially be combined to assess this awareness and introspective capacity for a diversity of cues. When self-reflective capacity is low, self-report methods preferably are dismissed.
-
-
-
-
-
+    instruction: 'Use Likert scales that measure the degree to which participants
+      believe a potential cue affects their  engagement in the target behaviour. The
+      following phrasing can be used: "CUE X would make me TARGET BEHAVIOUR". For
+      example: "If my ears would start ringing, I would start wearing earplugs", "The
+      smell of cannabis would make me smoke cannabis" and "Seeing a snack commercial
+      on TV would make me eat a snack". Reponses are given on a 5-point Likert scale
+      ranging from "Very likely" to "Very unlikely".
 
 
+      Observation and field experiments or other measurement methods that may be employed
+      to measure the presence of cues. A choice for a particular measurement method
+      may be prompted by a subject''s degree of awareness and introspective capacity
+      with regard to the presence and influence (on behaviour) of cues. Diverse methods
+      may potentially be combined to assess this awareness and introspective capacity
+      for a diversity of cues. When self-reflective capacity is low, self-report methods
+      preferably are dismissed.
 
+
+
+
+
+
+
+
+
+      '
   measure_code:
-    instruction: |
-      Questions or questionnaires that measure the perceived degree to which participants believe a potential cue affects their  engagement in the target behaviour. The following phrasing can be used: "CUE X would make me TARGET BEHAVIOUR". For example: "If my ears would start ringing, I would start wearing earplugs", "The smell of cannabis would make me smoke cannabis" and "Seeing a snack commercial on TV would make me eat a snack". Reponses are given on a 5-point Likert scale ranging from "Very likely" to "Very unlikely".
+    instruction: 'Questions or questionnaires that measure the perceived degree to
+      which participants believe a potential cue affects their  engagement in the
+      target behaviour. The following phrasing can be used: "CUE X would make me TARGET
+      BEHAVIOUR". For example: "If my ears would start ringing, I would start wearing
+      earplugs", "The smell of cannabis would make me smoke cannabis" and "Seeing
+      a snack commercial on TV would make me eat a snack". Reponses are given on a
+      5-point Likert scale ranging from "Very likely" to "Very unlikely".
+
+      '
   aspect_dev:
-    instruction: |
-      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+    instruction: 'Conduct a qualitative study where participants are interviewed,
+      and the interviews are either recorded and transcribed, or notes are kept. These
+      sources are then coded using the instruction for aspect coding.
 
-      In this qualitative study, use this question: "Please list any elements in the environment/bodily experiences that make it more likely that you engage in the TARGET BEHAVIOUR?" For example: "Please list any elements in the environment that make it more likely that you smoke cannabis?" and "Please list any audiological experiences that make it more likely that you would wear earplugs?"
+
+      In this qualitative study, use this question: "Please list any elements in the
+      environment/bodily experiences that make it more likely that you engage in the
+      TARGET BEHAVIOUR?" For example: "Please list any elements in the environment
+      that make it more likely that you smoke cannabis?" and "Please list any audiological
+      experiences that make it more likely that you would wear earplugs?"
+
+      '
   aspect_code:
-    instruction: |-
-      Expressions that demonstrate or imply the influence of cues on performance of the target behaviour, for example: ""The smell of cannabis makes me smoke cannabis" and "seeing a snack commercial on TV makes me eat a snack".
+    instruction: 'Expressions that demonstrate or imply the influence of cues on performance
+      of the target behaviour, for example: ""The smell of cannabis makes me smoke
+      cannabis" and "seeing a snack commercial on TV makes me eat a snack".
 
-      Expression that demonstrate or imply the influence of the perception of other people performing the target behaviour, should be coded as a descriptive norms (see dct:descriptiveNorms_73dnt5zp).
-  rel: ~
 
----
-
+      Expression that demonstrate or imply the influence of the perception of other
+      people performing the target behaviour, should be coded as a descriptive norms
+      (see dct:descriptiveNorms_73dnt5zp).'
+  rel: null

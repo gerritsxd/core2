@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: self_control_79n2fh4t
@@ -7,84 +6,91 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: |+
-      People’s perceptions of their ability to effortful control over dominant responses with respect to the target behaviour.
-
+    definition: "People\u2019s perceptions of their ability to effortful control over\
+      \ dominant responses with respect to the target behaviour.\n\n"
   measure_dev:
-    instruction: "In a meta-analysis of self-control measures, Duckwort et al. (2011)
-      distinguised four distinct approaches to the measurement of self-control: executive
-      function tasks, delay of gratification tasks, selfreport questionnaires, and
-      informant-report questionnaires. \n\nAmong the self- and informant-report questionnaires,
-      over 100 unique instruments were  discerned (Duckwort et al., 2011). Items on
-      these questionnaires suggest considerable heterogeneity in the underlying constructs
-      assessed. However, Duckwort et al. (2011) found that urgency (the inability
-      to override strong impulses, e.g., “I have trouble controlling my impulses”),
-      (lack of) premeditation (acting before thinking , e.g., “My thinking is usually
-      careful and purposeful” ), and (lack of) perseverance (the inability to focus
-      on boring or difficult tasks, e.g., “I tend to give up easily”) are three central
-      and related features of self-control. Therefore, when self-constructing an instrument
-      to assess self-control, these three facets of self-control should be included.
-      Moreover, for behaviour change, self-control related to a specific behaviour
-      or object is of greater interest than self-control as a trait (i.e. stable across
-      time and situations). Therefore, in a behaviour change setting, questionnaire
-      items should refer to the specific behaviour or object of interest.  \n\nImpulsivity
-      can be regarded as the converse of self-control. Questionnaire items that attempt
-      to measure self-control often present mutually exclusive responses. One response
-      is aligned with long-term goals and standards, while the alternative response
-      is more gratifying or automatic in the short-term. Self-controlled individuals
-      tend to choose the first response, whereas impulsive individuals tend to choose
-      the latter response.\n\nIf impulsivity is regarded as the converse of self-control,
-      the same instrument used to assess impulsivity (see dct:impulse_79n2r0t0) can
-      potentially also be used to measure self-control. However, the scoring for each
-      questionnaire item should be reversed, i.e. if a high score on an item indicates
-      a high level of impulsivity, it indicates a low level of self-control. For example:
-      \"When it comes to TARGET BEHAVIOUR I act on the spur of the moment\" with responses
-      ranging from \"Totally agree\" (=5) to \"Totally disagree\" (=1) on a 5-point
-      Likert scale. A high score (=5) here is indicative of a high level of impulsivity
-      and a low level of self-control.\n"
+    instruction: "In a meta-analysis of self-control measures, Duckwort et al. (2011)\
+      \ distinguised four distinct approaches to the measurement of self-control:\
+      \ executive function tasks, delay of gratification tasks, selfreport questionnaires,\
+      \ and informant-report questionnaires. \n\nAmong the self- and informant-report\
+      \ questionnaires, over 100 unique instruments were  discerned (Duckwort et al.,\
+      \ 2011). Items on these questionnaires suggest considerable heterogeneity in\
+      \ the underlying constructs assessed. However, Duckwort et al. (2011) found\
+      \ that urgency (the inability to override strong impulses, e.g., \u201CI have\
+      \ trouble controlling my impulses\u201D), (lack of) premeditation (acting before\
+      \ thinking , e.g., \u201CMy thinking is usually careful and purposeful\u201D\
+      \ ), and (lack of) perseverance (the inability to focus on boring or difficult\
+      \ tasks, e.g., \u201CI tend to give up easily\u201D) are three central and related\
+      \ features of self-control. Therefore, when self-constructing an instrument\
+      \ to assess self-control, these three facets of self-control should be included.\
+      \ Moreover, for behaviour change, self-control related to a specific behaviour\
+      \ or object is of greater interest than self-control as a trait (i.e. stable\
+      \ across time and situations). Therefore, in a behaviour change setting, questionnaire\
+      \ items should refer to the specific behaviour or object of interest.  \n\n\
+      Impulsivity can be regarded as the converse of self-control. Questionnaire items\
+      \ that attempt to measure self-control often present mutually exclusive responses.\
+      \ One response is aligned with long-term goals and standards, while the alternative\
+      \ response is more gratifying or automatic in the short-term. Self-controlled\
+      \ individuals tend to choose the first response, whereas impulsive individuals\
+      \ tend to choose the latter response.\n\nIf impulsivity is regarded as the converse\
+      \ of self-control, the same instrument used to assess impulsivity (see dct:impulse_79n2r0t0)\
+      \ can potentially also be used to measure self-control. However, the scoring\
+      \ for each questionnaire item should be reversed, i.e. if a high score on an\
+      \ item indicates a high level of impulsivity, it indicates a low level of self-control.\
+      \ For example: \"When it comes to TARGET BEHAVIOUR I act on the spur of the\
+      \ moment\" with responses ranging from \"Totally agree\" (=5) to \"Totally disagree\"\
+      \ (=1) on a 5-point Likert scale. A high score (=5) here is indicative of a\
+      \ high level of impulsivity and a low level of self-control.\n"
   measure_code:
-    instruction: "Questions or questionnaires that measure self-control related to
-      a specific behaviour or object. For self-report asessment, a statement such
-      as \"When it comes to TARGET BEHAVIOUR....\" can be composed, followed by a
-      series of phrases that express behaviour considered indicative for the presence
-      or absence of self-control. For example: \"When it comes to smoking cigarettes...
-      1) I do it without thinking about it; 2) I am self controlled; 3) I don't manage
-      to plan my behaviour; 4) I act on the spur of the moment; 5) I often suddenly
-      abandon my behavioural intentions; 6) I afterwards frequently regret that I
-      smoked. Responses on these items can be given on a 5-point Likert scale ranging
-      from \"totally agree\" to \"totally disagree\".\n\nBeside behaviour- or object-related
-      self-control, self-control as a trait can be measured. In fact, most self-control
-      instruments measure self-control as a trait (i.e. stable across time and situations).
-      Furthermore, beside selfreport questionnaires, executive function tasks, delay
-      of gratification tasks, and informant-report questionnaires are used to measure
-      self-control. Duckwort et al. (2011) discerned over 100 unique self- and informant-report
-      questionnaires. Items on these questionnaires suggest considerable heterogeneity
-      in the underlying constructs assessed. \n\nIf impulsivity is regarded as the
-      converse of self-control, the same instrument to assess impulsivity (see dct:impulse_79n2r0t0)
-      can potentially be used to measure self-control, applying reverse scoring.\n"
+    instruction: "Questions or questionnaires that measure self-control related to\
+      \ a specific behaviour or object. For self-report asessment, a statement such\
+      \ as \"When it comes to TARGET BEHAVIOUR....\" can be composed, followed by\
+      \ a series of phrases that express behaviour considered indicative for the presence\
+      \ or absence of self-control. For example: \"When it comes to smoking cigarettes...\
+      \ 1) I do it without thinking about it; 2) I am self controlled; 3) I don't\
+      \ manage to plan my behaviour; 4) I act on the spur of the moment; 5) I often\
+      \ suddenly abandon my behavioural intentions; 6) I afterwards frequently regret\
+      \ that I smoked. Responses on these items can be given on a 5-point Likert scale\
+      \ ranging from \"totally agree\" to \"totally disagree\".\n\nBeside behaviour-\
+      \ or object-related self-control, self-control as a trait can be measured. In\
+      \ fact, most self-control instruments measure self-control as a trait (i.e.\
+      \ stable across time and situations). Furthermore, beside selfreport questionnaires,\
+      \ executive function tasks, delay of gratification tasks, and informant-report\
+      \ questionnaires are used to measure self-control. Duckwort et al. (2011) discerned\
+      \ over 100 unique self- and informant-report questionnaires. Items on these\
+      \ questionnaires suggest considerable heterogeneity in the underlying constructs\
+      \ assessed. \n\nIf impulsivity is regarded as the converse of self-control,\
+      \ the same instrument to assess impulsivity (see dct:impulse_79n2r0t0) can potentially\
+      \ be used to measure self-control, applying reverse scoring.\n"
   aspect_dev:
-    instruction: |
-      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+    instruction: 'Conduct a qualitative study where participants are interviewed,
+      and the interviews are either recorded and transcribed, or notes are kept. These
+      sources are then coded using the instruction for aspect coding.
 
-      In this qualitative study, use these two questions (with preferably some questions in between): "When it comes to TARGET BEHAVIOUR how deliberate and controlled do you see your actions?" and "When it comes to TARGET BEHAVIOUR how spontaneous do you see your actions?".
 
-      These same questions are used to elicite expressions indicative of impulsivity (see dct:impulse_79n2r0t0).
+      In this qualitative study, use these two questions (with preferably some questions
+      in between): "When it comes to TARGET BEHAVIOUR how deliberate and controlled
+      do you see your actions?" and "When it comes to TARGET BEHAVIOUR how spontaneous
+      do you see your actions?".
+
+
+      These same questions are used to elicite expressions indicative of impulsivity
+      (see dct:impulse_79n2r0t0).
+
+      '
   aspect_code:
-    instruction: "Expressions that demonstrate or imply the presence of self-control.
-      In the context of behaviour change interventions (i.e. health behaviour changes),
-      this self-control is regarded with respect to a specific behaviour or object.\n\nTrait
-      self-control, i.e. self-control across situations, not specifically linked to
-      a particular behaviour or object, is usually not the focus of interest. Therefore,
-      expressions indicative of self-control should be coded as such only when they
-      concern the behaviour or object of interest, unless beforehand another decision
-      has been made.\n\nExpressions indicative of the presence of self-control may
-      contain phrases such as \"I did not succumb to temptation X because I wanted
-      to achieve goal X\" and \"I sticked to my plan, but sometimes it was difficult\".
-      \n\nExpressions indicative of impulsivity should be coded as dct:impulse_79n2r0t0.
-      Expressions that refer to an individual's perceptions of the degree to which
-      he/she is capable of, or has control over, performing a given behaviour, should
-      be coded as dct:perceivedBehavioralControl_73dnt603."
-  rel: ~
-
----
-
+    instruction: "Expressions that demonstrate or imply the presence of self-control.\
+      \ In the context of behaviour change interventions (i.e. health behaviour changes),\
+      \ this self-control is regarded with respect to a specific behaviour or object.\n\
+      \nTrait self-control, i.e. self-control across situations, not specifically\
+      \ linked to a particular behaviour or object, is usually not the focus of interest.\
+      \ Therefore, expressions indicative of self-control should be coded as such\
+      \ only when they concern the behaviour or object of interest, unless beforehand\
+      \ another decision has been made.\n\nExpressions indicative of the presence\
+      \ of self-control may contain phrases such as \"I did not succumb to temptation\
+      \ X because I wanted to achieve goal X\" and \"I sticked to my plan, but sometimes\
+      \ it was difficult\". \n\nExpressions indicative of impulsivity should be coded\
+      \ as dct:impulse_79n2r0t0. Expressions that refer to an individual's perceptions\
+      \ of the degree to which he/she is capable of, or has control over, performing\
+      \ a given behaviour, should be coded as dct:perceivedBehavioralControl_73dnt603."
+  rel: null

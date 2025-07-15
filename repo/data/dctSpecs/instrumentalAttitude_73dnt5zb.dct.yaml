@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: instrumentalAttitude_73dnt5zb
@@ -7,28 +6,41 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: |
-      A latent disposition or tendency to respond with some degree of favorableness or unfavorableness to the target behavior based on the perceived usefulness of engaging in that target behavior to achieving one’s goals.
+    definition: "A latent disposition or tendency to respond with some degree of favorableness\
+      \ or unfavorableness to the target behavior based on the perceived usefulness\
+      \ of engaging in that target behavior to achieving one\u2019s goals.\n"
   measure_dev:
-    instruction: |
-      Use semantic differentials with root ‘For me, TARGET BEHAVIOR is …’ and a bidimensional scale where the right-most anchor expresses a generally desirable instrumental state/goal and the left-most anchor expresses the opposite undesirable state/goal (e.g. ‘unwise’ versus ‘wise’ and ‘bad’ versus ‘good’). The example items in the 2010 RAA book are ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Bad’ vs ‘Good’; ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Unpleasant’ vs ‘Pleasant’; ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Harmful’ vs ‘Beneficial’; and ‘For me, TARGET BEHAVIOR is …’ with anchors ‘Boring’ vs ‘Interesting’.
+    instruction: "Use semantic differentials with root \u2018For me, TARGET BEHAVIOR\
+      \ is \u2026\u2019 and a bidimensional scale where the right-most anchor expresses\
+      \ a generally desirable instrumental state/goal and the left-most anchor expresses\
+      \ the opposite undesirable state/goal (e.g. \u2018unwise\u2019 versus \u2018\
+      wise\u2019 and \u2018bad\u2019 versus \u2018good\u2019). The example items in\
+      \ the 2010 RAA book are \u2018For me, TARGET BEHAVIOR is \u2026\u2019 with anchors\
+      \ \u2018Bad\u2019 vs \u2018Good\u2019; \u2018For me, TARGET BEHAVIOR is \u2026\
+      \u2019 with anchors \u2018Unpleasant\u2019 vs \u2018Pleasant\u2019; \u2018For\
+      \ me, TARGET BEHAVIOR is \u2026\u2019 with anchors \u2018Harmful\u2019 vs \u2018\
+      Beneficial\u2019; and \u2018For me, TARGET BEHAVIOR is \u2026\u2019 with anchors\
+      \ \u2018Boring\u2019 vs \u2018Interesting\u2019.\n"
   measure_code:
-    instruction: Operationalisations that measure aspects of the latent disposition
-      or tendency to respond favourably versus unfavourably to the target behavior
-      based on the perceived usefulness of engaging in that target behavior to achieving
-      one’s goals, for example using the semantic differentials ‘wise’ vs ‘unwise’
-      or ‘good’ vs ‘bad’.
+    instruction: "Operationalisations that measure aspects of the latent disposition\
+      \ or tendency to respond favourably versus unfavourably to the target behavior\
+      \ based on the perceived usefulness of engaging in that target behavior to achieving\
+      \ one\u2019s goals, for example using the semantic differentials \u2018wise\u2019\
+      \ vs \u2018unwise\u2019 or \u2018good\u2019 vs \u2018bad\u2019."
   aspect_dev:
-    instruction: |
-      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
-
-      In this qualitative study, use these three questions: ‘What do you see as the advantages of you engaging in TARGET BEHAVIOUR?', 'What do you see as the disadvantages of you engaging in TARGET BEHAVIOUR?', and 'What else comes to mind when you think about engaging in TARGET BEHAVIOUR?'.
+    instruction: "Conduct a qualitative study where participants are interviewed,\
+      \ and the interviews are either recorded and transcribed, or notes are kept.\
+      \ These sources are then coded using the instruction for aspect coding.\n\n\
+      In this qualitative study, use these three questions: \u2018What do you see\
+      \ as the advantages of you engaging in TARGET BEHAVIOUR?', 'What do you see\
+      \ as the disadvantages of you engaging in TARGET BEHAVIOUR?', and 'What else\
+      \ comes to mind when you think about engaging in TARGET BEHAVIOUR?'.\n"
   aspect_code:
-    instruction: |
-      Expressions that demonstrate or imply aspects of the latent disposition or tendency to respond favourably versus unfavourably to the target behaviour based on the perceived usefulness of engaging in the target behaviour to achieving one’s goals, for example using the semantic differentials ‘wise’/‘unwise’ or ‘good’/‘bad’.
-
-      Manifestations that express affective aspects of favourableness or unfavourableness to the target behaviour should be coded dct:experientialAttitude_73dnt5z5.
-  rel: ~
-
----
-
+    instruction: "Expressions that demonstrate or imply aspects of the latent disposition\
+      \ or tendency to respond favourably versus unfavourably to the target behaviour\
+      \ based on the perceived usefulness of engaging in the target behaviour to achieving\
+      \ one\u2019s goals, for example using the semantic differentials \u2018wise\u2019\
+      /\u2018unwise\u2019 or \u2018good\u2019/\u2018bad\u2019.\n\nManifestations that\
+      \ express affective aspects of favourableness or unfavourableness to the target\
+      \ behaviour should be coded dct:experientialAttitude_73dnt5z5.\n"
+  rel: null

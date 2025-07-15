@@ -1,64 +1,59 @@
----
 dct:
   version: 0.1.0
   id: referentApproval_73dnt5zd
-  label: "Perceived referent approval"
-  date: ""
+  label: Perceived referent approval
+  date: ''
   source:
-    id: "raa_book"
-
-################################################################################
-
+    id: raa_book
   definition:
-    definition: "The perceived approval or disapproval of a social referent refers to whether a given individual believes that social referent thinks that that given individual should engage in the target behavior. Note that this concerns whether the *individual* should engage in the target behavior, not whether the social referent themselves should engage in the target behavior. Also note that this is distinct from whether the social referent themselves does actually engage in the target behavior, which is captured in dct:referentBehavior_73dnt5zk.
+    definition: 'The perceived approval or disapproval of a social referent refers
+      to whether a given individual believes that social referent thinks that that
+      given individual should engage in the target behavior. Note that this concerns
+      whether the *individual* should engage in the target behavior, not whether the
+      social referent themselves should engage in the target behavior. Also note that
+      this is distinct from whether the social referent themselves does actually engage
+      in the target behavior, which is captured in dct:referentBehavior_73dnt5zk.
 
 
-A social referent can be a specific individual, a group of distinct individuals (e.g. one's siblings), or a more generically defined group (e.g. the residents of my city).
+      A social referent can be a specific individual, a group of distinct individuals
+      (e.g. one''s siblings), or a more generically defined group (e.g. the residents
+      of my city).
 
 
-The perceived approval for a given social referent combines multiplicatively with the motivation to comply with that referent (dct:motivationToComply_73dnt5zf) into an injunctive norm belief (dct:injNorms_belief_73dnt5zg)."
-
+      The perceived approval for a given social referent combines multiplicatively
+      with the motivation to comply with that referent (dct:motivationToComply_73dnt5zf)
+      into an injunctive norm belief (dct:injNorms_belief_73dnt5zg).'
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   measure_dev:
-    instruction: "Use item stems that list the target behavior and the social referent, and use disapproval and approval as anchors, in that order, with an intensifying adjective. Specifically, as item stem, use 'If I were to (engage in) [TARGET BEHAVIOR], [SOCIAL REFERENT] would...' with anchors 'strongly disapprove' versus 'strongly approve'. Note that the 'engage in' is optional, depending on the kind of behavior. For example, 'If I were to engage in a demonstration, my neighbour would... [Strongly disapprove|Strongly approve]'
+    instruction: 'Use item stems that list the target behavior and the social referent,
+      and use disapproval and approval as anchors, in that order, with an intensifying
+      adjective. Specifically, as item stem, use ''If I were to (engage in) [TARGET
+      BEHAVIOR], [SOCIAL REFERENT] would...'' with anchors ''strongly disapprove''
+      versus ''strongly approve''. Note that the ''engage in'' is optional, depending
+      on the kind of behavior. For example, ''If I were to engage in a demonstration,
+      my neighbour would... [Strongly disapprove|Strongly approve]''
 
 
-Because this is a bidimensional scale, the scale midpoint reflects neutrality (i.e. one does not think the relevant social referent disapproves or approves of this target behavior. This means that a seven-point response scale is slightly preferred over a five-point response scale to allow participants to express three degrees of perceived (dis)approval."
-
+      Because this is a bidimensional scale, the scale midpoint reflects neutrality
+      (i.e. one does not think the relevant social referent disapproves or approves
+      of this target behavior. This means that a seven-point response scale is slightly
+      preferred over a five-point response scale to allow participants to express
+      three degrees of perceived (dis)approval.'
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   measure_code:
-    instruction: ""
+    instruction: ''
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   aspect_dev:
-    instruction: "Page 135 of the RAA book"
+    instruction: Page 135 of the RAA book
     source:
-      spec: "p. 135"
-
-################################################################################
-
+      spec: p. 135
   aspect_code:
-    instruction: ""
+    instruction: ''
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   rel:
-    id: "injNorms_belief_73dnt5zg"
-    type: "causal_influences_product"
-
-################################################################################
----
-
+    id: injNorms_belief_73dnt5zg
+    type: causal_influences_product

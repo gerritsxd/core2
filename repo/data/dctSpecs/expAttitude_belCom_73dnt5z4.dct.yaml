@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: expAttitude_belCom_73dnt5z4
@@ -9,29 +8,63 @@ dct:
   definition:
     definition: The sum of the experiential attitude beliefs.
   measure_dev:
-    instruction: |+
-      A composite of experiential attitude beliefs (i.e. the expectancy-value index) for the target behaviour is obtained by multiplying each experiential attitude belief's expectation strength (dct:expAttitude_expectation_73dnt5z1) by its evaluation (dct:expAttitude_evaluation_73dnt5z2) and then summing the product terms across all experiential attitude beliefs. This, preferably, is represented graphically (e.g. in a table or index) and, additionally, in an equation.
+    instruction: 'A composite of experiential attitude beliefs (i.e. the expectancy-value
+      index) for the target behaviour is obtained by multiplying each experiential
+      attitude belief''s expectation strength (dct:expAttitude_expectation_73dnt5z1)
+      by its evaluation (dct:expAttitude_evaluation_73dnt5z2) and then summing the
+      product terms across all experiential attitude beliefs. This, preferably, is
+      represented graphically (e.g. in a table or index) and, additionally, in an
+      equation.
 
-      Ajzen & Fishbein state on p.104 of the Reasoned Action Approach book (2010) that the composite measure of beliefs is assumed to determine the (experiential) attitude, and should not be interpreted as an indirect measure of (experiential) attitude. A low correlation between the beliefs composite and a direct measure of experiential attitude may be an indication that the expectancy-value index is based on an inappropriate set of (nonsalient) beliefs, or that the measure of belief strength may be scored inappropriately.
 
+      Ajzen & Fishbein state on p.104 of the Reasoned Action Approach book (2010)
+      that the composite measure of beliefs is assumed to determine the (experiential)
+      attitude, and should not be interpreted as an indirect measure of (experiential)
+      attitude. A low correlation between the beliefs composite and a direct measure
+      of experiential attitude may be an indication that the expectancy-value index
+      is based on an inappropriate set of (nonsalient) beliefs, or that the measure
+      of belief strength may be scored inappropriately.
+
+
+      '
   measure_code:
-    instruction: |
-      Questions or questionnaires that measure the expectations (dct:expAttitude_expectation_73dnt5z1) and evaluations (dct:expAttitude_evaluation_73dnt5z2) of all salient experiential attitude beliefs with regard to the target behaviour.
+    instruction: 'Questions or questionnaires that measure the expectations (dct:expAttitude_expectation_73dnt5z1)
+      and evaluations (dct:expAttitude_evaluation_73dnt5z2) of all salient experiential
+      attitude beliefs with regard to the target behaviour.
 
-      Experiential attitude belief expectations combine multiplicatively with experiential attitude belief evaluations into experiental attitude beliefs. The product terms for each belief and the sum of the products terms of all salients beliefs are represented in the expectancy-value index (i.e. the compostite of attitude beliefs) for the target behaviour. See Table 3.2 on p. 98 of the Reasoned Action Approach book (Ajzen & Fishbein, 2010)  for an example of such an index.
+
+      Experiential attitude belief expectations combine multiplicatively with experiential
+      attitude belief evaluations into experiental attitude beliefs. The product terms
+      for each belief and the sum of the products terms of all salients beliefs are
+      represented in the expectancy-value index (i.e. the compostite of attitude beliefs)
+      for the target behaviour. See Table 3.2 on p. 98 of the Reasoned Action Approach
+      book (Ajzen & Fishbein, 2010)  for an example of such an index.
+
+      '
   aspect_dev:
-    instruction: |+
-      Experiential attitude beliefs and, as a consequence, also experiential attitude beliefs composites (which are the sum of the former), can not be directly elicited. Experiential attitude beliefs are the product of the product of expected experiential consequences of a target behaviour (expAttitude_expectation_73dnt5z1) multiplied by the evaluation of those consequences (expAttitude_evaluation_73dnt5z2).
+    instruction: 'Experiential attitude beliefs and, as a consequence, also experiential
+      attitude beliefs composites (which are the sum of the former), can not be directly
+      elicited. Experiential attitude beliefs are the product of the product of expected
+      experiential consequences of a target behaviour (expAttitude_expectation_73dnt5z1)
+      multiplied by the evaluation of those consequences (expAttitude_evaluation_73dnt5z2).
 
-      See these two subconstructs for instructions for eliciting their respective construct content.
 
+      See these two subconstructs for instructions for eliciting their respective
+      construct content.
+
+
+      '
   aspect_code:
-    instruction: |+
-      Experiential attitude beliefs and, as a consequence, also experiential attitude beliefs composites (which are the sum of the former), can not be directly elicited. Experiential attitude beliefs are the product of the product of expected experiential consequences of a target behaviour (expAttitude_expectation_73dnt5z1) multiplied by the evaluation of those consequences (expAttitude_evaluation_73dnt5z2).
+    instruction: 'Experiential attitude beliefs and, as a consequence, also experiential
+      attitude beliefs composites (which are the sum of the former), can not be directly
+      elicited. Experiential attitude beliefs are the product of the product of expected
+      experiential consequences of a target behaviour (expAttitude_expectation_73dnt5z1)
+      multiplied by the evaluation of those consequences (expAttitude_evaluation_73dnt5z2).
 
-      See these two subconstructs for instructions for coding their respective construct content.
 
-  rel: ~
+      See these two subconstructs for instructions for coding their respective construct
+      content.
 
----
 
+      '
+  rel: null

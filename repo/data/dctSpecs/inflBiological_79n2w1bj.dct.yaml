@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: inflBiological_79n2w1bj
@@ -7,50 +6,69 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: |+
-      Biological influences consist of an individual's genotypic and phenotypic characteristics (i.e., respectively, an organism's hereditary information and its actual observed properties) that determine, or may potentially determine, its behaviour.
+    definition: 'Biological influences consist of an individual''s genotypic and phenotypic
+      characteristics (i.e., respectively, an organism''s hereditary information and
+      its actual observed properties) that determine, or may potentially determine,
+      its behaviour.
 
 
+
+      '
   measure_dev:
-    instruction: |+
-      Depending on the relevance for the research in question, a list of potentially relevant biological influences can be composed. Examples of frequently assessed biological influences are sex, height, and presence of (hereditary) diseases. The biological influences deemed of importance are assessed in different ways: if the number of potential responses on a question is limited, fixed answer options should be offered. When answers are aspected to be diverse, or participants may need to elaborate, open answer options is the format of preference.
+    instruction: 'Depending on the relevance for the research in question, a list
+      of potentially relevant biological influences can be composed. Examples of frequently
+      assessed biological influences are sex, height, and presence of (hereditary)
+      diseases. The biological influences deemed of importance are assessed in different
+      ways: if the number of potential responses on a question is limited, fixed answer
+      options should be offered. When answers are aspected to be diverse, or participants
+      may need to elaborate, open answer options is the format of preference.
 
+
+      '
   measure_code:
-    instruction: "Questions or questionnaires that measure biological factors (e.g.
-      sex or height) with a potential influence on the behaviour of interest. \n\nIn
-      behaviour change research, biological influences are most often regarded to
-      exert a \"distal\" effect on behaviour, i.e. exerting influence on behaviour
-      through other variables with a more direct, \"proximal\", effect. As these latter
-      variables have a greater potential for change, the focus in questionnaires is
-      mostly on these variables, and biological influences are considered background
-      factors, measured with a few questions, most often at the beginning of the questionnaire.
-      \n\nNote that certain variables, such as age and sex, may be coded as both a
-      biological and demographic influence (i.e. dct:inflDemographic_79n2w1bk). Whether
-      classification as the former or latter is more appropriate depends on the focus
-      of the research, e.g. if the impact of legislation on alcohol consumption in
-      adolescents is studied, classifying \"age\" as a demographic influence rather
-      than a biological influence is appropriate. \n"
+    instruction: "Questions or questionnaires that measure biological factors (e.g.\
+      \ sex or height) with a potential influence on the behaviour of interest. \n\
+      \nIn behaviour change research, biological influences are most often regarded\
+      \ to exert a \"distal\" effect on behaviour, i.e. exerting influence on behaviour\
+      \ through other variables with a more direct, \"proximal\", effect. As these\
+      \ latter variables have a greater potential for change, the focus in questionnaires\
+      \ is mostly on these variables, and biological influences are considered background\
+      \ factors, measured with a few questions, most often at the beginning of the\
+      \ questionnaire. \n\nNote that certain variables, such as age and sex, may be\
+      \ coded as both a biological and demographic influence (i.e. dct:inflDemographic_79n2w1bk).\
+      \ Whether classification as the former or latter is more appropriate depends\
+      \ on the focus of the research, e.g. if the impact of legislation on alcohol\
+      \ consumption in adolescents is studied, classifying \"age\" as a demographic\
+      \ influence rather than a biological influence is appropriate. \n"
   aspect_dev:
-    instruction: "Conduct a qualitative study where participants are interviewed,
-      and the interviews are either recorded and transcribed, or notes are kept. These
-      sources are then coded using the instruction for aspect coding.\n\nIn this qualitative
-      study, use this question: 'Please list any biological factors that may have
-      an influence on your engagement in the TARGET BEHAVIOUR’. For example: \"Please
-      list any biological influences that may have an influence on your consumption
-      of alcohol\".\n\nThe aformentioned question may to difficult for some target
-      groups and/or participants may not be able to consider, or are not aware of,
-      all possible biological influences. In those cases a more 'narrow' question
-      zooming in on a particular biological influence (e.g. hereditary addiction sensitivity)
-      may be prefered, e.g.: \"Do you have or did you have any family members with
-      dependency or addiction problems?\".\n\nSee also dct:inflDemographic_79n2w1bk
-      for more examples of questions that may be used to elicit contruct content for
-      biological influences. \n"
+    instruction: "Conduct a qualitative study where participants are interviewed,\
+      \ and the interviews are either recorded and transcribed, or notes are kept.\
+      \ These sources are then coded using the instruction for aspect coding.\n\n\
+      In this qualitative study, use this question: 'Please list any biological factors\
+      \ that may have an influence on your engagement in the TARGET BEHAVIOUR\u2019\
+      . For example: \"Please list any biological influences that may have an influence\
+      \ on your consumption of alcohol\".\n\nThe aformentioned question may to difficult\
+      \ for some target groups and/or participants may not be able to consider, or\
+      \ are not aware of, all possible biological influences. In those cases a more\
+      \ 'narrow' question zooming in on a particular biological influence (e.g. hereditary\
+      \ addiction sensitivity) may be prefered, e.g.: \"Do you have or did you have\
+      \ any family members with dependency or addiction problems?\".\n\nSee also dct:inflDemographic_79n2w1bk\
+      \ for more examples of questions that may be used to elicit contruct content\
+      \ for biological influences. \n"
   aspect_code:
-    instruction: |
-      Expressions that demonstrate or imply the presence or absence of biological influences on engagement in the target behaviour. For example, expressions such as "Although we don't eat much, obesity is a problem in my family" and "My father and uncle had a drinking problem as well" may indicate that biological factors exert an influence on the (problem) behaviour of interest.
+    instruction: 'Expressions that demonstrate or imply the presence or absence of
+      biological influences on engagement in the target behaviour. For example, expressions
+      such as "Although we don''t eat much, obesity is a problem in my family" and
+      "My father and uncle had a drinking problem as well" may indicate that biological
+      factors exert an influence on the (problem) behaviour of interest.
 
-      Note that certain expressions, such as those refering to age and sex, may be coded as both a biological and demographic (i.e. dct:inflDemographic_79n2w1bk) influence. Whether classification as the former or latter is more appropriate depends on the context the expression is made in, e.g. classifying "age" as a demographic influence rather than a biological influence in the expression "I don't drink alcohol because I cannot buy it, as I am underage" is appropriate.
-  rel: ~
 
----
+      Note that certain expressions, such as those refering to age and sex, may be
+      coded as both a biological and demographic (i.e. dct:inflDemographic_79n2w1bk)
+      influence. Whether classification as the former or latter is more appropriate
+      depends on the context the expression is made in, e.g. classifying "age" as
+      a demographic influence rather than a biological influence in the expression
+      "I don''t drink alcohol because I cannot buy it, as I am underage" is appropriate.
 
+      '
+  rel: null

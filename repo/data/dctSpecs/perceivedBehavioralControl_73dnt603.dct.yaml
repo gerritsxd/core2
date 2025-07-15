@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: perceivedBehavioralControl_73dnt603
@@ -7,43 +6,68 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: People’s perceptions of the degree to which they are capable of, or
-      have control over, performing a given behavior.
+    definition: "People\u2019s perceptions of the degree to which they are capable\
+      \ of, or have control over, performing a given behavior."
   measure_dev:
-    instruction: |
-      Use Likert scales that measure the degree to which participants believe the target behavior to be under their control and something they are capable of performing successfully, for example by measuring their perceived capacity and perceived autonomy to perform the target behavior.
-
-      The items suggested in the 2010 RAA book are: ‘I am confident that if I want to, I can TARGET BEHAVIOR.’ with anchors ‘No confidence at all’ vs ‘A lot of confidence’; ‘Whether I TARGET BEHAVIOR is …’ with anchors ‘Not up to me’ vs ‘Completely up to me’; ‘If I really wanted to, I could TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’; and ‘For me to TARGET BEHAVIOR is under my control.’ with anchors ‘Not at all’ vs ‘Completely’. If only the first and third of these items are measured, the ‘Capacity’ construct is measured instead. If only the second and fourth items are measured, the ‘Autonomy’ construct is measured instead.
-
-      Note that questions about how easy or difficult participants perceive a target behavior to be fall outside of the constructs of Perceived Behavioral Control, Autonomy, and Capacity as defined in the 2010 RAA book (see also the discussion on page 164).
+    instruction: "Use Likert scales that measure the degree to which participants\
+      \ believe the target behavior to be under their control and something they are\
+      \ capable of performing successfully, for example by measuring their perceived\
+      \ capacity and perceived autonomy to perform the target behavior.\n\nThe items\
+      \ suggested in the 2010 RAA book are: \u2018I am confident that if I want to,\
+      \ I can TARGET BEHAVIOR.\u2019 with anchors \u2018No confidence at all\u2019\
+      \ vs \u2018A lot of confidence\u2019; \u2018Whether I TARGET BEHAVIOR is \u2026\
+      \u2019 with anchors \u2018Not up to me\u2019 vs \u2018Completely up to me\u2019\
+      ; \u2018If I really wanted to, I could TARGET BEHAVIOR.\u2019 with anchors \u2018\
+      Unlikely\u2019 vs \u2018Likely\u2019; and \u2018For me to TARGET BEHAVIOR is\
+      \ under my control.\u2019 with anchors \u2018Not at all\u2019 vs \u2018Completely\u2019\
+      . If only the first and third of these items are measured, the \u2018Capacity\u2019\
+      \ construct is measured instead. If only the second and fourth items are measured,\
+      \ the \u2018Autonomy\u2019 construct is measured instead.\n\nNote that questions\
+      \ about how easy or difficult participants perceive a target behavior to be\
+      \ fall outside of the constructs of Perceived Behavioral Control, Autonomy,\
+      \ and Capacity as defined in the 2010 RAA book (see also the discussion on page\
+      \ 164).\n"
   measure_code:
-    instruction: |
-      Questions or questionnaires that measure the perceived degree to which the target behavior or the contrast behavior is both under the control of the target population individual and something they are confident they can successfully perform. If only one aspect is measured (i.e. only control or only confidence), code this as the ‘Autonomy’ or ‘Capacity’ constructs.
-
-      For example, the items suggested in the book are: ‘I am confident that if I want to, I can TARGET BEHAVIOR.’ with anchors ‘No confidence at all’ vs ‘A lot of confidence’; ‘Whether I TARGET BEHAVIOR is …’ with anchors ‘Not up to me’ vs ‘Completely up to me’; ‘If I really wanted to, I could TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’; and ‘For me to TARGET BEHAVIOR is under my control.’ with anchors ‘Not at all’ vs ‘Completely’. If only the first and third of these items are measured, the ‘Capacity’ construct should be coded instead. If only the second and fourth items are measured, the ‘Autonomy’ construct should be coded instead.
+    instruction: "Questions or questionnaires that measure the perceived degree to\
+      \ which the target behavior or the contrast behavior is both under the control\
+      \ of the target population individual and something they are confident they\
+      \ can successfully perform. If only one aspect is measured (i.e. only control\
+      \ or only confidence), code this as the \u2018Autonomy\u2019 or \u2018Capacity\u2019\
+      \ constructs.\n\nFor example, the items suggested in the book are: \u2018I am\
+      \ confident that if I want to, I can TARGET BEHAVIOR.\u2019 with anchors \u2018\
+      No confidence at all\u2019 vs \u2018A lot of confidence\u2019; \u2018Whether\
+      \ I TARGET BEHAVIOR is \u2026\u2019 with anchors \u2018Not up to me\u2019 vs\
+      \ \u2018Completely up to me\u2019; \u2018If I really wanted to, I could TARGET\
+      \ BEHAVIOR.\u2019 with anchors \u2018Unlikely\u2019 vs \u2018Likely\u2019; and\
+      \ \u2018For me to TARGET BEHAVIOR is under my control.\u2019 with anchors \u2018\
+      Not at all\u2019 vs \u2018Completely\u2019. If only the first and third of these\
+      \ items are measured, the \u2018Capacity\u2019 construct should be coded instead.\
+      \ If only the second and fourth items are measured, the \u2018Autonomy\u2019\
+      \ construct should be coded instead.\n"
   aspect_dev:
-    instruction: |
-      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
-
-      In this qualitative study, use these questions: ‘Please list any factors or circumstances that would make it easy or enable you to target behavior.’ and ‘Please list any factors or circumstances that would make it difficult or prevent you from target behavior.’
+    instruction: "Conduct a qualitative study where participants are interviewed,\
+      \ and the interviews are either recorded and transcribed, or notes are kept.\
+      \ These sources are then coded using the instruction for aspect coding.\n\n\
+      In this qualitative study, use these questions: \u2018Please list any factors\
+      \ or circumstances that would make it easy or enable you to target behavior.\u2019\
+      \ and \u2018Please list any factors or circumstances that would make it difficult\
+      \ or prevent you from target behavior.\u2019\n"
   aspect_code:
-    instruction: "Expressions that demonstrate or imply that one perceives behavioural
-      control with regard to the target behaviour to be present or absent. These are
-      general expressions of perceived behavioural control, i.e. not refering specifically
-      to the ability or autonomy to perform the behaviour, e.g.: \"Only time will
-      tell if I will be able to follow the entire exercise program\".\n\nExpressions
-      that demonstrate or imply either the presence/absence of confidence about one’s
-      ability to perform the target behavior, should be coded as dct:capacity_73dnt602.
-      An example of a statement expressing the capacity to perform the target behaviour
-      is: \"I am confident that I have the required muscle strength to perform all
-      the exercises of the prescribed program\". \n\nExpressions that demonstrate
-      or imply the presence/absence of confidence about one’s control over performance
-      or nonperformance of the target behavior (i.e. if (non)performance is \"up to
-      them\"), for example because of a barrier, obstacle, or facilitating condition
-      or circumstance, should be coded as dct:autonomy_73dnt5zx. An example of a statement
-      expressing the perceived autonomy to perform the target behaviour is: \"My exercising
-      for at least 20 minutes, three times per week, is up to me\".\n"
-  rel: ~
-
----
-
+    instruction: "Expressions that demonstrate or imply that one perceives behavioural\
+      \ control with regard to the target behaviour to be present or absent. These\
+      \ are general expressions of perceived behavioural control, i.e. not refering\
+      \ specifically to the ability or autonomy to perform the behaviour, e.g.: \"\
+      Only time will tell if I will be able to follow the entire exercise program\"\
+      .\n\nExpressions that demonstrate or imply either the presence/absence of confidence\
+      \ about one\u2019s ability to perform the target behavior, should be coded as\
+      \ dct:capacity_73dnt602. An example of a statement expressing the capacity to\
+      \ perform the target behaviour is: \"I am confident that I have the required\
+      \ muscle strength to perform all the exercises of the prescribed program\".\
+      \ \n\nExpressions that demonstrate or imply the presence/absence of confidence\
+      \ about one\u2019s control over performance or nonperformance of the target\
+      \ behavior (i.e. if (non)performance is \"up to them\"), for example because\
+      \ of a barrier, obstacle, or facilitating condition or circumstance, should\
+      \ be coded as dct:autonomy_73dnt5zx. An example of a statement expressing the\
+      \ perceived autonomy to perform the target behaviour is: \"My exercising for\
+      \ at least 20 minutes, three times per week, is up to me\".\n"
+  rel: null

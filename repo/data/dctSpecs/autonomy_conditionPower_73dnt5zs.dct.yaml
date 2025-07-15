@@ -1,85 +1,81 @@
----
 dct:
   version: 0.1.0
   id: autonomy_conditionPower_73dnt5zs
-  label: "Perceived power of condition"
-  date: ""
-  ancestry:        ### The DCT(s) this DCT is based on
-  retires:         ### Any DCT(s) that are made obsolete by this one
+  label: Perceived power of condition
+  date: ''
+  ancestry: null
+  retires: null
   source:
-    id: "raa_book"
-
-################################################################################
-
+    id: raa_book
   definition:
-    definition: "The perceived power of a condition refers to the perceived impact the presence of a condition has on one's autonomy. This impact can be perceived to be anywhere from very negative (if the condition is a barrier), through zero if the condition is perceived to have no impact on one's autonomy regardless of whether it is perceived to be present, to very positive (if the condition is a facilitator). Note that the perception as to whether the condition is present or not is its perceived presence (dct:autonomy_conditionPresence_73dnt5zr).
+    definition: 'The perceived power of a condition refers to the perceived impact
+      the presence of a condition has on one''s autonomy. This impact can be perceived
+      to be anywhere from very negative (if the condition is a barrier), through zero
+      if the condition is perceived to have no impact on one''s autonomy regardless
+      of whether it is perceived to be present, to very positive (if the condition
+      is a facilitator). Note that the perception as to whether the condition is present
+      or not is its perceived presence (dct:autonomy_conditionPresence_73dnt5zr).
 
 
-According to the Reasoned Action Approach, perceptions about the power of conditions combine multiplicatively with perceptions about the presence of conditions (see dct:autonomy_conditionPresence_73dnt5zr) into autonomy beliefs (see dct:autonomy_belief_73dnt5zt).
+      According to the Reasoned Action Approach, perceptions about the power of conditions
+      combine multiplicatively with perceptions about the presence of conditions (see
+      dct:autonomy_conditionPresence_73dnt5zr) into autonomy beliefs (see dct:autonomy_belief_73dnt5zt).
 
 
-Examples of the perceived power of a condition are the perception that having to ask for condoms at the counter obstructs buying them; the perception that rain obstructs going for a run; the perception that if food is expensive, that is a barrier to buying it; the perception that paying for STI tests is a barrier to get tested; and the perception that if anticonception is not widely available, it cannot be obtained and used."
-
+      Examples of the perceived power of a condition are the perception that having
+      to ask for condoms at the counter obstructs buying them; the perception that
+      rain obstructs going for a run; the perception that if food is expensive, that
+      is a barrier to buying it; the perception that paying for STI tests is a barrier
+      to get tested; and the perception that if anticonception is not widely available,
+      it cannot be obtained and used.'
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   measure_dev:
-    instruction: "The perceived power of a condition is measured by asking the extent to which a condition facilitates or impedes performance of a behavior. As the same condition can be facilitating for some people and impeding for others, this also implies that use of bidimensional scales is required. However, if one of the two dimensions can be excluded a priori, a unidimensional scale suffices.
-    
-	
-For bidimensional scales, the items are formulated as 'If I want to [TARGET BEHAVIOR], (whether) [CONDITION] ...' with anchors 'Much harder' and 'Much easier'. For example, 'If I want to go for a run, rainy weather makes it [Much harder|Much easier].'
-	
-    
-For unidimensional scales, which are only used if one of the dimensions can be excluded a priori, the way the items are formulated depends on whether they concern a barrier or a facilitator. For facilitators, use 'If I want to [TARGET BEHAVIOR], whether [CONDITION]...' with anchors 'Doesn't matter' and 'Makes it much easier', and for barriers, 'If I want to [TARGET BEHAVIOR], whether [CONDITION]...' with anchors 'Doesn't matter' and 'Makes it much harder'.
+    instruction: 'The perceived power of a condition is measured by asking the extent
+      to which a condition facilitates or impedes performance of a behavior. As the
+      same condition can be facilitating for some people and impeding for others,
+      this also implies that use of bidimensional scales is required. However, if
+      one of the two dimensions can be excluded a priori, a unidimensional scale suffices.
 
 
-For example, 'If I want to use anticonception, whether it is widely available...' with anchors 'Doesn't matter' to 'Makes it much easier'."
+      For bidimensional scales, the items are formulated as ''If I want to [TARGET
+      BEHAVIOR], (whether) [CONDITION] ...'' with anchors ''Much harder'' and ''Much
+      easier''. For example, ''If I want to go for a run, rainy weather makes it [Much
+      harder|Much easier].''
+
+
+      For unidimensional scales, which are only used if one of the dimensions can
+      be excluded a priori, the way the items are formulated depends on whether they
+      concern a barrier or a facilitator. For facilitators, use ''If I want to [TARGET
+      BEHAVIOR], whether [CONDITION]...'' with anchors ''Doesn''t matter'' and ''Makes
+      it much easier'', and for barriers, ''If I want to [TARGET BEHAVIOR], whether
+      [CONDITION]...'' with anchors ''Doesn''t matter'' and ''Makes it much harder''.
+
+
+      For example, ''If I want to use anticonception, whether it is widely available...''
+      with anchors ''Doesn''t matter'' to ''Makes it much easier''.'
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   measure_code:
-    instruction: ""
+    instruction: ''
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   manipulate_dev:
-    instruction: ""
+    instruction: ''
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   manipulate_code:
-    instruction: ""
+    instruction: ''
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   aspect_dev:
-    instruction: ""
+    instruction: ''
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   aspect_code:
-    instruction: ""
+    instruction: ''
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   rel:
-    id: "autonomy_belief_73dnt5zt"
-    type: "causal_influences_product"
-
-################################################################################
----
-
+    id: autonomy_belief_73dnt5zt
+    type: causal_influences_product

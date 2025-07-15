@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: perceivedNorms_73dnt5zq
@@ -10,22 +9,45 @@ dct:
     definition: Perceived social pressure to perform (or not to perform) the target
       behavior.
   measure_dev:
-    instruction: |
-      Use likert scales that measure both perceived social approval and perceived behavior of important social referents in general. It is important that no specific individuals are referenced, but that the items do refer to individuals that are similar, important or seen as important to follow. Note that the behavior in these items must always be the target behavior.
-
-      The example items in the 2010 RAA book are ‘Most people who are important to me think I should TARGET BEHAVIOR.’ with anchors ‘False’ vs ‘True’; ‘Most people whose opinions I value would … of my TARGET BEHAVIOR’ with anchors ‘Disapprove’ vs ‘Approve’; ‘Most people I respect and admire will TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’; and ‘How many people like you TARGET BEHAVIOR?’ with anchors ‘Nobody’ vs ‘Everybody’.
+    instruction: "Use likert scales that measure both perceived social approval and\
+      \ perceived behavior of important social referents in general. It is important\
+      \ that no specific individuals are referenced, but that the items do refer to\
+      \ individuals that are similar, important or seen as important to follow. Note\
+      \ that the behavior in these items must always be the target behavior.\n\nThe\
+      \ example items in the 2010 RAA book are \u2018Most people who are important\
+      \ to me think I should TARGET BEHAVIOR.\u2019 with anchors \u2018False\u2019\
+      \ vs \u2018True\u2019; \u2018Most people whose opinions I value would \u2026\
+      \ of my TARGET BEHAVIOR\u2019 with anchors \u2018Disapprove\u2019 vs \u2018\
+      Approve\u2019; \u2018Most people I respect and admire will TARGET BEHAVIOR.\u2019\
+      \ with anchors \u2018Unlikely\u2019 vs \u2018Likely\u2019; and \u2018How many\
+      \ people like you TARGET BEHAVIOR?\u2019 with anchors \u2018Nobody\u2019 vs\
+      \ \u2018Everybody\u2019.\n"
   measure_code:
-    instruction: |
-      Questionnaires that measure both perceived social approval and perceived behavior of important social referents in general. It is important that no specific individuals are referenced, but that the items do refer to individuals that are similar, important or seen as important to follow. Note that the behavior in these items must always be the target behavior.
+    instruction: 'Questionnaires that measure both perceived social approval and perceived
+      behavior of important social referents in general. It is important that no specific
+      individuals are referenced, but that the items do refer to individuals that
+      are similar, important or seen as important to follow. Note that the behavior
+      in these items must always be the target behavior.
+
+      '
   aspect_dev:
-    instruction: |
-      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
-
-      In this qualitative study, use the introduction ‘When it comes to TARGET BEHAVIOR, there might be individuals or groups who would think you should or should not perform this behavior.’, and then ask these questions: ‘Please list any individuals or groups who would approve or think you should TARGET BEHAVIOR’; ‘Please list any individuals or groups who would disapprove or think you should not TARGET BEHAVIOR’; ‘Sometimes, when we are not sure what to do, we look to see what others are doing. Please list the individuals or groups who are most likely to TARGET BEHAVIOR’; and ‘Please list the individuals or groups who are least likely to TARGET BEHAVIOR’.
+    instruction: "Conduct a qualitative study where participants are interviewed,\
+      \ and the interviews are either recorded and transcribed, or notes are kept.\
+      \ These sources are then coded using the instruction for aspect coding.\n\n\
+      In this qualitative study, use the introduction \u2018When it comes to TARGET\
+      \ BEHAVIOR, there might be individuals or groups who would think you should\
+      \ or should not perform this behavior.\u2019, and then ask these questions:\
+      \ \u2018Please list any individuals or groups who would approve or think you\
+      \ should TARGET BEHAVIOR\u2019; \u2018Please list any individuals or groups\
+      \ who would disapprove or think you should not TARGET BEHAVIOR\u2019; \u2018\
+      Sometimes, when we are not sure what to do, we look to see what others are doing.\
+      \ Please list the individuals or groups who are most likely to TARGET BEHAVIOR\u2019\
+      ; and \u2018Please list the individuals or groups who are least likely to TARGET\
+      \ BEHAVIOR\u2019.\n"
   aspect_code:
-    instruction: |
-      Expressions that refer to social pressure in general. However, expressions about perceived behavior of others are coded as dct:perceivedNorm_descriptive_73bg61tx and expressions about perceived (dis)approval of others are coded as dct:perceivedNorm_injunctive_73bg2wm7.
-  rel: ~
+    instruction: 'Expressions that refer to social pressure in general. However, expressions
+      about perceived behavior of others are coded as dct:perceivedNorm_descriptive_73bg61tx
+      and expressions about perceived (dis)approval of others are coded as dct:perceivedNorm_injunctive_73bg2wm7.
 
----
-
+      '
+  rel: null

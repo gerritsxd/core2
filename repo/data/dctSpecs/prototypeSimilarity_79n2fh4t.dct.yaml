@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: prototypeSimilarity_79n2fh4t
@@ -10,33 +9,58 @@ dct:
     definition: The perceived resemblance to the self with an image representing perceptions
       of typical persons engaging in or refraining from a certain behaviour.
   measure_dev:
-    instruction: |
-      Prototype similarity can be assessed by directly asking "how similar are you to the PROTOTYPE ?" and measuring responses on a 5- or 7-point Likert scale.
+    instruction: 'Prototype similarity can be assessed by directly asking "how similar
+      are you to the PROTOTYPE ?" and measuring responses on a 5- or 7-point Likert
+      scale.
 
-      For example, prototype similarity can be assessed with the following question: "In general, how similar are you to the type of person who drinks four units of alcohol (above the legal limit) and drives thereafter?", with the scale anchors "Very similar" and  "Not at all similar (example from "Understanding young and older male drivers' willingness to drive while intoxicated" by Rivis et al., 2011).
 
-      Higher prototype similarity is assumed to be related to the increased likelihood that individuals will actually engage in the behaviour or will exhibit the willingness or intention to engage in the health-related behaviour associated with the prototype.
+      For example, prototype similarity can be assessed with the following question:
+      "In general, how similar are you to the type of person who drinks four units
+      of alcohol (above the legal limit) and drives thereafter?", with the scale anchors
+      "Very similar" and  "Not at all similar (example from "Understanding young and
+      older male drivers'' willingness to drive while intoxicated" by Rivis et al.,
+      2011).
+
+
+      Higher prototype similarity is assumed to be related to the increased likelihood
+      that individuals will actually engage in the behaviour or will exhibit the willingness
+      or intention to engage in the health-related behaviour associated with the prototype.
+
+      '
   measure_code:
-    instruction: |+
-      Questions or questionnaires that measure prototype similarity by asking "how similar are you to the PROTOTYPE ?" (or similar) and measuring responses on a 5- or 7-point Likert scale.
+    instruction: 'Questions or questionnaires that measure prototype similarity by
+      asking "how similar are you to the PROTOTYPE ?" (or similar) and measuring responses
+      on a 5- or 7-point Likert scale.
 
-      For example, prototype similarity can be assessed with the following question: "In general, how similar are you to the type of person who drinks four units of alcohol (above the legal limit) and drives thereafter?", with the scale anchors "Very similar" and  "Not at all similar (example from "Understanding young and older male drivers' willingness to drive while intoxicated" by Rivis et al., 2011).
+
+      For example, prototype similarity can be assessed with the following question:
+      "In general, how similar are you to the type of person who drinks four units
+      of alcohol (above the legal limit) and drives thereafter?", with the scale anchors
+      "Very similar" and  "Not at all similar (example from "Understanding young and
+      older male drivers'' willingness to drive while intoxicated" by Rivis et al.,
+      2011).
 
 
+
+      '
   aspect_dev:
-    instruction: |
-      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+    instruction: 'Conduct a qualitative study where participants are interviewed,
+      and the interviews are either recorded and transcribed, or notes are kept. These
+      sources are then coded using the instruction for aspect coding.
 
-      In this qualitative study, use the questions: "How would you describe the typical person that engages in TARGET BEHAVIOUR?" or "What is your image of the typical person that engages in TARGET BEHAVIOUR?"
+
+      In this qualitative study, use the questions: "How would you describe the typical
+      person that engages in TARGET BEHAVIOUR?" or "What is your image of the typical
+      person that engages in TARGET BEHAVIOUR?"
+
+      '
   aspect_code:
-    instruction: "Expressions that demonstrate or imply the degree of similarity,
-      containing verbs such as \"familiar/unfamiliar\",  \"related/unrelated\", and
-      \"resemble/differ\". \n\nExpressions that demonstrate or imply the degree of
-      favourability, containing verbs such as \"smart/dumb\", \"attractive/unattractive\",
-      and \"desirable/undiserable\" should be coded as dct:prototypeFavourability_79n2fh4t.\n\nExpressions
-      that exhibit the presence of a prototype image associated with the behaviour
-      without a reference to favourability or similarity should be coded as dct:prototype_79n2fh4t.\n"
-  rel: ~
-
----
-
+    instruction: "Expressions that demonstrate or imply the degree of similarity,\
+      \ containing verbs such as \"familiar/unfamiliar\",  \"related/unrelated\",\
+      \ and \"resemble/differ\". \n\nExpressions that demonstrate or imply the degree\
+      \ of favourability, containing verbs such as \"smart/dumb\", \"attractive/unattractive\"\
+      , and \"desirable/undiserable\" should be coded as dct:prototypeFavourability_79n2fh4t.\n\
+      \nExpressions that exhibit the presence of a prototype image associated with\
+      \ the behaviour without a reference to favourability or similarity should be\
+      \ coded as dct:prototype_79n2fh4t.\n"
+  rel: null

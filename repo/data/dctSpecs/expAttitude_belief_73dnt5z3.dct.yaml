@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: expAttitude_belief_73dnt5z3
@@ -7,29 +6,59 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: |-
-      Beliefs are defined as the subjective probability that an object has a certain attribute, where ‘object’ and ‘attribute’ are used in the generic sense, and refer to any discriminable aspect of an individual’s world. Conform the expectancy-value model of attitude, beliefs are the product of the expectation that engaging in a behavior will have a given consequence and the evaluation of that consequence as (very) negative or (very) positive.
-
-      Experiential attitude beliefs concern beliefs about consequences of engaging in the behavior that influence one’s experiences, for example by causing pleasure or pain.
+    definition: "Beliefs are defined as the subjective probability that an object\
+      \ has a certain attribute, where \u2018object\u2019 and \u2018attribute\u2019\
+      \ are used in the generic sense, and refer to any discriminable aspect of an\
+      \ individual\u2019s world. Conform the expectancy-value model of attitude, beliefs\
+      \ are the product of the expectation that engaging in a behavior will have a\
+      \ given consequence and the evaluation of that consequence as (very) negative\
+      \ or (very) positive.\n\nExperiential attitude beliefs concern beliefs about\
+      \ consequences of engaging in the behavior that influence one\u2019s experiences,\
+      \ for example by causing pleasure or pain."
   measure_dev:
-    instruction: |
-      Experiential attitude beliefs are measured by measuring both of the component constructs, i.e.: experiential attitude belief expectations (see dct:expAttitude_expectation_73dnt5z1) and experiential attitude belief evaluation (see dct:expAttitude_evaluation_73dnt5z2).
+    instruction: 'Experiential attitude beliefs are measured by measuring both of
+      the component constructs, i.e.: experiential attitude belief expectations (see
+      dct:expAttitude_expectation_73dnt5z1) and experiential attitude belief evaluation
+      (see dct:expAttitude_evaluation_73dnt5z2).
+
+      '
   measure_code:
-    instruction: |
-      Each experiential attitude belief is the product term of the multiplication of the evaluation of the perceived experiential consequences of the target behaviour (dct:expAttitude_evaluation_73dnt5z2) by the perceived likelihood that engaging in the behaviour will actually have these consequences (dct:expAttitude_expectation_73dnt5z1).
+    instruction: 'Each experiential attitude belief is the product term of the multiplication
+      of the evaluation of the perceived experiential consequences of the target behaviour
+      (dct:expAttitude_evaluation_73dnt5z2) by the perceived likelihood that engaging
+      in the behaviour will actually have these consequences (dct:expAttitude_expectation_73dnt5z1).
 
-      Therefore, whether an experiential attitude belief exerts influence (and if so, to what extent) on the experiential attitude beliefs composite (dct:expAttitude_belCom_73dnt5z4), and whether a particular experiential attitude belief leads to a more favourable or more unfavourable experiential attitude towards performing the target behaviour, can only be deduced by concurrent consultation of the two subcomponents of which it is constructed. Table 3.2 on p. 98 of the Reasoned Action Approach book (Ajzen & Fishbein, 2010) illustrates how the two subcomponents can exert an influence on individual attitude beliefs.
+
+      Therefore, whether an experiential attitude belief exerts influence (and if
+      so, to what extent) on the experiential attitude beliefs composite (dct:expAttitude_belCom_73dnt5z4),
+      and whether a particular experiential attitude belief leads to a more favourable
+      or more unfavourable experiential attitude towards performing the target behaviour,
+      can only be deduced by concurrent consultation of the two subcomponents of which
+      it is constructed. Table 3.2 on p. 98 of the Reasoned Action Approach book (Ajzen
+      & Fishbein, 2010) illustrates how the two subcomponents can exert an influence
+      on individual attitude beliefs.
+
+      '
   aspect_dev:
-    instruction: |
-      Experiential attitude beliefs can not be directly elicited. They are the product of expected experiential consequences of a target behaviour (dct:expAttitude_expectation_73dnt5z1) multiplied by the evaluation of those consequences (dct:expAttitude_evaluation_73dnt5z2).
+    instruction: 'Experiential attitude beliefs can not be directly elicited. They
+      are the product of expected experiential consequences of a target behaviour
+      (dct:expAttitude_expectation_73dnt5z1) multiplied by the evaluation of those
+      consequences (dct:expAttitude_evaluation_73dnt5z2).
 
-      See these two subconstructs for instructions for eliciting their respective construct content.
+
+      See these two subconstructs for instructions for eliciting their respective
+      construct content.
+
+      '
   aspect_code:
-    instruction: |
-      Experiential attitude beliefs can not be directly elicited. They are the product of expected experiential consequences of a target behaviour (dct:expAttitude_expectation_73dnt5z1) multiplied by the evaluation of those consequences (dct:expAttitude_evaluation_73dnt5z2).
+    instruction: 'Experiential attitude beliefs can not be directly elicited. They
+      are the product of expected experiential consequences of a target behaviour
+      (dct:expAttitude_expectation_73dnt5z1) multiplied by the evaluation of those
+      consequences (dct:expAttitude_evaluation_73dnt5z2).
 
-      See these two subconstructs for instructions for coding their respective construct content.
-  rel: ~
 
----
+      See these two subconstructs for instructions for coding their respective construct
+      content.
 
+      '
+  rel: null

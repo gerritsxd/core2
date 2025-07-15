@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: temptation_79n2fh4w
@@ -7,36 +6,78 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: |+
-      A situation or stimulus that creates a desire to carry out the problem behaviour(s).
+    definition: 'A situation or stimulus that creates a desire to carry out the problem
+      behaviour(s).
 
+
+      '
   measure_dev:
-    instruction: |-
-      Use Likert scales that measure the degree to which participants are temped by a situation or stimulus to carry out the behaviour of interest. For example, participants are asked to indicate if they are temped to take drugs in the following situations: "When I am feeling depressed", "When I am being offered drugs in a social situation", "When I am physically tired", "When I see others using drugs at a bar or a party" with responses "Not at all", "Not very", "Moderately", "Very", and "Extremely" for each item on a 5-point Likert scale. The sample items are from the Temptation to Use Drugs Scale (Di Clemente et al., 1994).
-
-      Another example is provided by Lazuras et al. (2010). They measured the situational tempation among athletes to use doping substances with the stem proposition “How much would you be tempted to use prohibited doping substances to enhance your performance this season,” followed by four items reflecting temptations to use prohibited performance-enhancing substances under different circumstances that potentially induce normative influence (“when your coach suggests so,” “when you believe that most colleagues of yours use prohibited substances,” “when you were told to enhance your performance,” and “when you prepare for an important game/competition”). Responses were recorded on a 5-point Likert scale (1 = not at all tempted, 5 = very much tempted).
-
-      Note that the instructions and examples given above apply to the measurement of situational temptation. For the measurement of the susceptibility to tempations in general (i.e. assessing the presence of a personality trait as the causal factor) other instructions and instruments apply, e.g. the Susceptibility to Temptation Scale can be used.
+    instruction: "Use Likert scales that measure the degree to which participants\
+      \ are temped by a situation or stimulus to carry out the behaviour of interest.\
+      \ For example, participants are asked to indicate if they are temped to take\
+      \ drugs in the following situations: \"When I am feeling depressed\", \"When\
+      \ I am being offered drugs in a social situation\", \"When I am physically tired\"\
+      , \"When I see others using drugs at a bar or a party\" with responses \"Not\
+      \ at all\", \"Not very\", \"Moderately\", \"Very\", and \"Extremely\" for each\
+      \ item on a 5-point Likert scale. The sample items are from the Temptation to\
+      \ Use Drugs Scale (Di Clemente et al., 1994).\n\nAnother example is provided\
+      \ by Lazuras et al. (2010). They measured the situational tempation among athletes\
+      \ to use doping substances with the stem proposition \u201CHow much would you\
+      \ be tempted to use prohibited doping substances to enhance your performance\
+      \ this season,\u201D followed by four items reflecting temptations to use prohibited\
+      \ performance-enhancing substances under different circumstances that potentially\
+      \ induce normative influence (\u201Cwhen your coach suggests so,\u201D \u201C\
+      when you believe that most colleagues of yours use prohibited substances,\u201D\
+      \ \u201Cwhen you were told to enhance your performance,\u201D and \u201Cwhen\
+      \ you prepare for an important game/competition\u201D). Responses were recorded\
+      \ on a 5-point Likert scale (1 = not at all tempted, 5 = very much tempted).\n\
+      \nNote that the instructions and examples given above apply to the measurement\
+      \ of situational temptation. For the measurement of the susceptibility to tempations\
+      \ in general (i.e. assessing the presence of a personality trait as the causal\
+      \ factor) other instructions and instruments apply, e.g. the Susceptibility\
+      \ to Temptation Scale can be used."
   measure_code:
-    instruction: |-
-      Questions or questionnaires that measure the degree to which participants are temped by a situation or stimulus to carry out the behaviour of interest. For example, participants are asked to indicate if they are temped to take drugs in the following situations: "When I am feeling depressed", "When I am being offered drugs in a social situation", "When I am physically tired", "When I see others using drugs at a bar or a party" with responses "Not at all", "Not very", "Moderately", "Very", and "Extremely" for each item on a 5-point Likert scale. The sample items are from the Temptation to Use Drugs Scale (Di Clemente et al., 1994).
-
-      Another example is provided by Lazuras et al. (2010). They measured the situational temptation among athletes to use doping substances with the stem proposition “How much would you be tempted to use prohibited doping substances to enhance your performance this season,” followed by four items reflecting temptations to use prohibited performance-enhancing substances under different circumstances that potentially induce normative influence (“when your coach suggests so,” “when you believe that most colleagues of yours use prohibited substances,” “when you were told to enhance your performance,” and “when you prepare for an important game/competition”). Responses were recorded on a 5-point Likert scale (1 = not at all tempted, 5 = very much tempted).
-
-      Note that the instructions and examples given above apply to the measurement of situational temptation. For the measurement of the susceptibility to temptations in general (i.e. as a trait) other instructions and instruments apply, e.g. the Susceptibility to Temptation Scale can be used.
+    instruction: "Questions or questionnaires that measure the degree to which participants\
+      \ are temped by a situation or stimulus to carry out the behaviour of interest.\
+      \ For example, participants are asked to indicate if they are temped to take\
+      \ drugs in the following situations: \"When I am feeling depressed\", \"When\
+      \ I am being offered drugs in a social situation\", \"When I am physically tired\"\
+      , \"When I see others using drugs at a bar or a party\" with responses \"Not\
+      \ at all\", \"Not very\", \"Moderately\", \"Very\", and \"Extremely\" for each\
+      \ item on a 5-point Likert scale. The sample items are from the Temptation to\
+      \ Use Drugs Scale (Di Clemente et al., 1994).\n\nAnother example is provided\
+      \ by Lazuras et al. (2010). They measured the situational temptation among athletes\
+      \ to use doping substances with the stem proposition \u201CHow much would you\
+      \ be tempted to use prohibited doping substances to enhance your performance\
+      \ this season,\u201D followed by four items reflecting temptations to use prohibited\
+      \ performance-enhancing substances under different circumstances that potentially\
+      \ induce normative influence (\u201Cwhen your coach suggests so,\u201D \u201C\
+      when you believe that most colleagues of yours use prohibited substances,\u201D\
+      \ \u201Cwhen you were told to enhance your performance,\u201D and \u201Cwhen\
+      \ you prepare for an important game/competition\u201D). Responses were recorded\
+      \ on a 5-point Likert scale (1 = not at all tempted, 5 = very much tempted).\n\
+      \nNote that the instructions and examples given above apply to the measurement\
+      \ of situational temptation. For the measurement of the susceptibility to temptations\
+      \ in general (i.e. as a trait) other instructions and instruments apply, e.g.\
+      \ the Susceptibility to Temptation Scale can be used."
   aspect_dev:
-    instruction: "Conduct a qualitative study where participants are interviewed,
-      and the interviews are either recorded and transcribed, or notes are kept. These
-      sources are then coded using the instruction for aspect coding. \n\nIn this
-      qualitative study, use this questions: \"What situations or circumstances create
-      a desire to perform PROBLEM BEHAVIOUR?\"\n\nFor example, \"What situations or
-      circumstances create a desire to drink alcohol?\"\n"
+    instruction: "Conduct a qualitative study where participants are interviewed,\
+      \ and the interviews are either recorded and transcribed, or notes are kept.\
+      \ These sources are then coded using the instruction for aspect coding. \n\n\
+      In this qualitative study, use this questions: \"What situations or circumstances\
+      \ create a desire to perform PROBLEM BEHAVIOUR?\"\n\nFor example, \"What situations\
+      \ or circumstances create a desire to drink alcohol?\"\n"
   aspect_code:
-    instruction: |
-      Expressions that describe situations or circumstances that arouse a desire to engage in the behaviour of interest, e.g. expressions such as "when I see somebody drink a beer it is impossible to resist" and "when I see that a bike is not locked, I can not walk by without taking it with me".
+    instruction: 'Expressions that describe situations or circumstances that arouse
+      a desire to engage in the behaviour of interest, e.g. expressions such as "when
+      I see somebody drink a beer it is impossible to resist" and "when I see that
+      a bike is not locked, I can not walk by without taking it with me".
 
-      Expressions that describe a susceptibility to temptations in general (i.e. not refering to situations or circumstances but to a personality trait as causal factor), do not describe dct:temptation_79n2fh4w and should not be coded as such.
-  rel: ~
 
----
+      Expressions that describe a susceptibility to temptations in general (i.e. not
+      refering to situations or circumstances but to a personality trait as causal
+      factor), do not describe dct:temptation_79n2fh4w and should not be coded as
+      such.
 
+      '
+  rel: null

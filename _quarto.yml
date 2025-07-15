@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: public
+  output-dir: docs
   pre-render: generate_construct_pages.py
   resources: 
     - "img/*.*"

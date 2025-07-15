@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: self_monitoring_79n2fh4w
@@ -10,72 +9,79 @@ dct:
     definition: Tracking of one's own actions with regard to a specific behaviour
       or goal.
   measure_dev:
-    instruction: "Self-monitoring actions with respect to the target behaviour can
-      be assessed in two ways: \n\n1) An individual's self-reported self-monitoring
-      behaviour can be measured with a questionnnaire or interview. Questionnnaire
-      items to measure self-monitoring with respect to the target behaviour can, for
-      example, be formulated in the following way: \"By counting the number of alcoholic
-      drinks, I know exactly how much alcohol I consume during a night clubbing\"
-      or \"I use a diary or mobile app to track my daily food consumption\". Response
-      can be either dichotomous (yes/no) or three response options can be provided
-      (\"Does not apply\", \"More or less\", \"Does apply\"). Social desirability
-      and distorted remembrance of events may result in incongruences between actual
-      and reported self-monitoring behaviour with this asssessment procedure. \n\n2)
-      An alternative way to assess an individual's self-monitoring behaviour is to
-      ask participants to keep a diary or use a mobile app (e.g. ecological momentary
-      assessments (EMAs) ), internet program, or technical device to keep track of
-      their self-monitoring actions with respect to the target behaviour, e.g. by
-      asking youngsters to make a report each time they are aware to be exposed to
-      music that is too loud (> 100 decibel) during a night out with the help of a
-      mobile app. By asking people to report their self-monitoring behaviour, this
-      behaviour, however, changes and is no longer a reflection of a person's actual
-      self-monitoring behaviour. \n"
+    instruction: "Self-monitoring actions with respect to the target behaviour can\
+      \ be assessed in two ways: \n\n1) An individual's self-reported self-monitoring\
+      \ behaviour can be measured with a questionnnaire or interview. Questionnnaire\
+      \ items to measure self-monitoring with respect to the target behaviour can,\
+      \ for example, be formulated in the following way: \"By counting the number\
+      \ of alcoholic drinks, I know exactly how much alcohol I consume during a night\
+      \ clubbing\" or \"I use a diary or mobile app to track my daily food consumption\"\
+      . Response can be either dichotomous (yes/no) or three response options can\
+      \ be provided (\"Does not apply\", \"More or less\", \"Does apply\"). Social\
+      \ desirability and distorted remembrance of events may result in incongruences\
+      \ between actual and reported self-monitoring behaviour with this asssessment\
+      \ procedure. \n\n2) An alternative way to assess an individual's self-monitoring\
+      \ behaviour is to ask participants to keep a diary or use a mobile app (e.g.\
+      \ ecological momentary assessments (EMAs) ), internet program, or technical\
+      \ device to keep track of their self-monitoring actions with respect to the\
+      \ target behaviour, e.g. by asking youngsters to make a report each time they\
+      \ are aware to be exposed to music that is too loud (> 100 decibel) during a\
+      \ night out with the help of a mobile app. By asking people to report their\
+      \ self-monitoring behaviour, this behaviour, however, changes and is no longer\
+      \ a reflection of a person's actual self-monitoring behaviour. \n"
   measure_code:
-    instruction: "Questions or questionnaires that measure the degree to which an
-      individual engages in self-monitoring with respect to the target behaviour.
-      Items to measure self-reported self-monitoring with respect to a particular
-      (health) behaviour are, for example: \"By counting the number of alcoholic drinks,
-      I know exactly how much alcohol I consume during a night clubbing\" or \"I use
-      a diary or mobile app to track my daily food consumption\". Response can be
-      either dichotomous (yes/no) or three response options can be provided (\"Does
-      not apply\", \"More or less\", \"Does apply\").\n\nParticipants may also be
-      asked to keep a diary or use a mobile app, internet program, or technical device
-      to keep track of their self-monitoring actions with respect to the target behaviour,
-      e.g. by asking youngsters to make a report each time they are aware to be exposed
-      to music that is too loud (> 100 decibel) during a night out with the help of
-      a mobile app. However, by asking people to monitor their self-monitoring behaviour,
-      this behaviour changes and is no longer a reflection of a person's actual self-monitoring
-      behaviour. \n\nNote that self-monitoring as a personal capacity is the topic
-      of interest here. Asking a person (e.g. a patient) to self-monitor his or her
-      (health) behaviour may yield valuable information that other measurement methods
-      (e.g. questionniare, interview) possibly can not provide, e.g. by keeping track
-      of the activity and sleeping patterns of bipolar patients the development of
-      the disease can be predicted and altered. Self-monitoring is also a valuable
-      behaviour change technique; by increasing insight in their actions, people may
-      be instigated to modify their (problem) behaviour. However, as said, self-monitoring
-      as individual skill, and not self-monitoring as research method or behaviour
-      change technique, is of interest here.\n\nThe term \"self-monitoring\" is also
-      used in popular language and research to describe the personality trait along
-      which people differ in their abilities and desires to change their self-presentations,
-      expressive behaviour, and nonverbal affective displays. This is a different
-      construct from the one discussed here and should not be coded as such. The Self
-      Monitoring Scale (Snyder et al, 1974) is a questionnaire that is used to measure
-      this construct."
+    instruction: "Questions or questionnaires that measure the degree to which an\
+      \ individual engages in self-monitoring with respect to the target behaviour.\
+      \ Items to measure self-reported self-monitoring with respect to a particular\
+      \ (health) behaviour are, for example: \"By counting the number of alcoholic\
+      \ drinks, I know exactly how much alcohol I consume during a night clubbing\"\
+      \ or \"I use a diary or mobile app to track my daily food consumption\". Response\
+      \ can be either dichotomous (yes/no) or three response options can be provided\
+      \ (\"Does not apply\", \"More or less\", \"Does apply\").\n\nParticipants may\
+      \ also be asked to keep a diary or use a mobile app, internet program, or technical\
+      \ device to keep track of their self-monitoring actions with respect to the\
+      \ target behaviour, e.g. by asking youngsters to make a report each time they\
+      \ are aware to be exposed to music that is too loud (> 100 decibel) during a\
+      \ night out with the help of a mobile app. However, by asking people to monitor\
+      \ their self-monitoring behaviour, this behaviour changes and is no longer a\
+      \ reflection of a person's actual self-monitoring behaviour. \n\nNote that self-monitoring\
+      \ as a personal capacity is the topic of interest here. Asking a person (e.g.\
+      \ a patient) to self-monitor his or her (health) behaviour may yield valuable\
+      \ information that other measurement methods (e.g. questionniare, interview)\
+      \ possibly can not provide, e.g. by keeping track of the activity and sleeping\
+      \ patterns of bipolar patients the development of the disease can be predicted\
+      \ and altered. Self-monitoring is also a valuable behaviour change technique;\
+      \ by increasing insight in their actions, people may be instigated to modify\
+      \ their (problem) behaviour. However, as said, self-monitoring as individual\
+      \ skill, and not self-monitoring as research method or behaviour change technique,\
+      \ is of interest here.\n\nThe term \"self-monitoring\" is also used in popular\
+      \ language and research to describe the personality trait along which people\
+      \ differ in their abilities and desires to change their self-presentations,\
+      \ expressive behaviour, and nonverbal affective displays. This is a different\
+      \ construct from the one discussed here and should not be coded as such. The\
+      \ Self Monitoring Scale (Snyder et al, 1974) is a questionnaire that is used\
+      \ to measure this construct."
   aspect_dev:
-    instruction: |
-      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+    instruction: 'Conduct a qualitative study where participants are interviewed,
+      and the interviews are either recorded and transcribed, or notes are kept. These
+      sources are then coded using the instruction for aspect coding.
 
-      In this qualitative study, use the following introduction and question(s): "People differ in the degree they monitor their behaviour", followed by: "Do you keep an eye on your engagement in TARGET BEHAVIOUR?" (if response is "Yes":) "How do you keep track of your engagement in TARGET BEHAVIOUR?" (e.g. "How do you keep track of your smoking behaviour?").
+
+      In this qualitative study, use the following introduction and question(s): "People
+      differ in the degree they monitor their behaviour", followed by: "Do you keep
+      an eye on your engagement in TARGET BEHAVIOUR?" (if response is "Yes":) "How
+      do you keep track of your engagement in TARGET BEHAVIOUR?" (e.g. "How do you
+      keep track of your smoking behaviour?").
+
+      '
   aspect_code:
-    instruction: "Expressions that demonstrate or imply the presence or absence of
-      self-monitoring with regard to the target behaviour. For example: \"I weigh
-      my body weight every day\" or \"I keep a diary to help me understand why I feel
-      stressed at certain moments\". \n\nNote that the term \"self-monitoring\" is
-      also used in popular language and research to describe the personality trait
-      along which people differ in their abilities and desires to change their self-presentations,
-      expressive behaviour, and nonverbal affective displays. This is a different
-      construct from the one discussed here and should not be coded as such.\n"
-  rel: ~
-
----
-
+    instruction: "Expressions that demonstrate or imply the presence or absence of\
+      \ self-monitoring with regard to the target behaviour. For example: \"I weigh\
+      \ my body weight every day\" or \"I keep a diary to help me understand why I\
+      \ feel stressed at certain moments\". \n\nNote that the term \"self-monitoring\"\
+      \ is also used in popular language and research to describe the personality\
+      \ trait along which people differ in their abilities and desires to change their\
+      \ self-presentations, expressive behaviour, and nonverbal affective displays.\
+      \ This is a different construct from the one discussed here and should not be\
+      \ coded as such.\n"
+  rel: null

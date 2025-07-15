@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: desire_79n2w1bk
@@ -7,15 +6,23 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: |
-      Desire is a psychological state of motivation for a specific stimulus or experience that is anticipated to be rewarding. This state may or may not be consciously experienced.
+    definition: 'Desire is a psychological state of motivation for a specific stimulus
+      or experience that is anticipated to be rewarding. This state may or may not
+      be consciously experienced.
+
+      '
   measure_dev:
     instruction: In the context of behaviour change, the construct "desire" is covered
       by experiential attitude (see dct:experientialAttitude_73dnt5z5). For instructions
       for developing a measurement instrument, see the dct of this latter construct.
   measure_code:
-    instruction: |
-      Questions or questionnaires that measure whether engagement in the target behaviour is perceived to be rewarding. As this operationalisation is similar to the measurement of experiential attitude (see dct:experientialAttitude_73dnt5z5), for behaviour change purposes, the use of the latter suffices. Therefore, instruments measuring this part of human psychology should be coded as dct:experientialAttitude_73dnt5z5.
+    instruction: 'Questions or questionnaires that measure whether engagement in the
+      target behaviour is perceived to be rewarding. As this operationalisation is
+      similar to the measurement of experiential attitude (see dct:experientialAttitude_73dnt5z5),
+      for behaviour change purposes, the use of the latter suffices. Therefore, instruments
+      measuring this part of human psychology should be coded as dct:experientialAttitude_73dnt5z5.
+
+      '
   aspect_dev:
     instruction: 'In the context of behaviour change, the construct "desire" is covered
       by experiential attitude (see dct:experientialAttitude_73dnt5z5). See dct:experientialAttitude_73dnt5z5
@@ -24,7 +31,4 @@ dct:
     instruction: 'In the context of behaviour change, the construct "desire" is covered
       by experiential attitude (see dct:experientialAttitude_73dnt5z5). See dct:experientialAttitude_73dnt5z5
       for instructions for coding construct content. '
-  rel: ~
-
----
-
+  rel: null

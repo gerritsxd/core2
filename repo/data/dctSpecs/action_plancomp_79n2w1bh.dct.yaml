@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: action_plancomp_79n2w1bh
@@ -7,37 +6,63 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: |-
-      The overall presence or absence of action plans for the target behaviour. In its totality, the action plan composite indicates the likelihood of performance of the target behaviour.
+    definition: 'The overall presence or absence of action plans for the target behaviour.
+      In its totality, the action plan composite indicates the likelihood of performance
+      of the target behaviour.
 
-      Action plans (see dct:action_plan_79n2w1bh) are detailed plans to perform a distinct subbehaviour of the target behaviour. Action plans direct when, where, and how to carry out this subbehaviour or integrated set of component subbehaviours. If the target behaviour is defined at a very high level of specificity, the action plan may also concern performance of the target behaviour itself.
 
-      The presence of a greater number of action plans (i.e. an action plan for each of the subbehaviours that together constitute the target behaviour), and greater level of detail of action plans (i.e. specifying exactly when, where, and how to carry out the subbehaviours) increase the likelihood of performance of the target behaviour. The extent to which the various action plans related to the target behaviour are present or absent, is represented by the action plan composite.
+      Action plans (see dct:action_plan_79n2w1bh) are detailed plans to perform a
+      distinct subbehaviour of the target behaviour. Action plans direct when, where,
+      and how to carry out this subbehaviour or integrated set of component subbehaviours.
+      If the target behaviour is defined at a very high level of specificity, the
+      action plan may also concern performance of the target behaviour itself.
+
+
+      The presence of a greater number of action plans (i.e. an action plan for each
+      of the subbehaviours that together constitute the target behaviour), and greater
+      level of detail of action plans (i.e. specifying exactly when, where, and how
+      to carry out the subbehaviours) increase the likelihood of performance of the
+      target behaviour. The extent to which the various action plans related to the
+      target behaviour are present or absent, is represented by the action plan composite.'
   measure_dev:
-    instruction: |
-      A composite of action plans is obtained by summing present and absent action plans for the target behaviour. The subsequent approach can thereby be followed:
+    instruction: 'A composite of action plans is obtained by summing present and absent
+      action plans for the target behaviour. The subsequent approach can thereby be
+      followed:
+
 
       1) Break downs the target behaviour in subbehaviours.
-      2) Formulate items measuring the presence of action plans for each of these subbehaviours (see dct:action_plan_79n2w1bh for instructions).
-      3) Create action plan composite: sum all present (=1) and absent (=0) action plans for the target behaviour
 
-      Participants' overall score expresses the degree action plans for the subbehaviours are present. A high score (e.g. 6 out of 7) makes performance of the target behaviour more likely.
+      2) Formulate items measuring the presence of action plans for each of these
+      subbehaviours (see dct:action_plan_79n2w1bh for instructions).
+
+      3) Create action plan composite: sum all present (=1) and absent (=0) action
+      plans for the target behaviour
+
+
+      Participants'' overall score expresses the degree action plans for the subbehaviours
+      are present. A high score (e.g. 6 out of 7) makes performance of the target
+      behaviour more likely.
+
+      '
   measure_code:
-    instruction: "Action plans composites represent the degree action plans are present
-      or absent for the target behaviour. In research, such an overall overview, either
-      graphically or numerically represented, is generally absent. \n\nTherefore,
-      action plans composites have to be deduced from the scores on the different
-      action plan items. One way of doing is, is by creating an overall score by summing
-      the scores of all items measuring action plans (see \"measure_dev\" for instruction
-      for dichotomous scored items). \n\nParticipants' overall score expresses the
-      degree action plans for the subbehaviours are present. A high score (e.g. 6
-      out of 7) makes performance of the target behaviour more likely."
+    instruction: "Action plans composites represent the degree action plans are present\
+      \ or absent for the target behaviour. In research, such an overall overview,\
+      \ either graphically or numerically represented, is generally absent. \n\nTherefore,\
+      \ action plans composites have to be deduced from the scores on the different\
+      \ action plan items. One way of doing is, is by creating an overall score by\
+      \ summing the scores of all items measuring action plans (see \"measure_dev\"\
+      \ for instruction for dichotomous scored items). \n\nParticipants' overall score\
+      \ expresses the degree action plans for the subbehaviours are present. A high\
+      \ score (e.g. 6 out of 7) makes performance of the target behaviour more likely."
   aspect_dev:
-    instruction: |+
-      Action plan composites can not be directly elicited. See action plans (dct:action_plan_79n2w1bh) for instructions for eliciting their construct content.
+    instruction: 'Action plan composites can not be directly elicited. See action
+      plans (dct:action_plan_79n2w1bh) for instructions for eliciting their construct
+      content.
 
+
+      '
   aspect_code:
-    instruction: "Action plan composites can not be directly elicited. See action
-      plans (dct:action_plan_79n2w1bh) for instructions  for coding expressions of
-      construct content. \n"
-  rel: ~
+    instruction: "Action plan composites can not be directly elicited. See action\
+      \ plans (dct:action_plan_79n2w1bh) for instructions  for coding expressions\
+      \ of construct content. \n"
+  rel: null

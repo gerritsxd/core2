@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: intrinsicBehaviour_79n2r0t0
@@ -11,61 +10,84 @@ dct:
       inherent satisfactions provided by the activity itself and not by an external
       positive or negative reward that is contingent upon the completion of the activity.
   measure_dev:
-    instruction: "The degree to which engagement in the target activity is intrinsically
-      regulated can be assessed by asking participants “Why are you currently engaged
-      in this activity?” and representing a series of items containing potential answers
-      to this question. Responses to each item are given on a 7-point Likert scale
-      ranging from \"Does not correspond at all\" to \"Corresponds exactly\".\n\nExamples
-      of items expressing intrinsically regulated behaviour are: \"Because I think
-      that this activity is interesting\", \"Because I think that this activity is
-      pleasant\", \"Because this activity is fun\", and \"Because I feel good when
-      doing this activity\".\n\nThe procedure and items described here are from the
-      Situational Motivation Scale (SIMS) (Guay et al., 2000). Beside items containing
-      statements deemed typical for intrinsically regulated behaviour, the SIMS contains
-      items to assess identified regulation, external regulation, and amotivation.
-      The items belonging to each particular subscale are summed to assess which motivational
-      construct dominates. The SIMS is used to assess motivation for various activities
-      such as physical exercise and academic performance. "
+    instruction: "The degree to which engagement in the target activity is intrinsically\
+      \ regulated can be assessed by asking participants \u201CWhy are you currently\
+      \ engaged in this activity?\u201D and representing a series of items containing\
+      \ potential answers to this question. Responses to each item are given on a\
+      \ 7-point Likert scale ranging from \"Does not correspond at all\" to \"Corresponds\
+      \ exactly\".\n\nExamples of items expressing intrinsically regulated behaviour\
+      \ are: \"Because I think that this activity is interesting\", \"Because I think\
+      \ that this activity is pleasant\", \"Because this activity is fun\", and \"\
+      Because I feel good when doing this activity\".\n\nThe procedure and items described\
+      \ here are from the Situational Motivation Scale (SIMS) (Guay et al., 2000).\
+      \ Beside items containing statements deemed typical for intrinsically regulated\
+      \ behaviour, the SIMS contains items to assess identified regulation, external\
+      \ regulation, and amotivation. The items belonging to each particular subscale\
+      \ are summed to assess which motivational construct dominates. The SIMS is used\
+      \ to assess motivation for various activities such as physical exercise and\
+      \ academic performance. "
   measure_code:
-    instruction: "Instruments that measure the degree to which engagement in the target
-      activity is intrinsically regulated.\n\nThe Situational Motivation Scale (SIMS)
-      (Guay et al., 2000) is a frequently used self-report instrument to assess whether
-      behaviour is intrinsically regulated. Beside intrinsic regulation of behaviour,
-      the SIMS assesses identified regulation, external regulation, and amotivation,
-      and is used to assess motivation for various activities (e.g. physical exercise,
-      academic performance). \n\nThe SIMS asks participants “Why are you currently
-      engaged in this activity?”. Scale items represent potential answers to this
-      question. Responses are given on a 7-point Likert scale ranging from \"Does
-      not correspond at all\" to \"Corresponds exactly\".\n\nExamples of statements
-      expressing intrinsic regulation of behaviour are: \"Because I think that this
-      activity is interesting\", \"Because I think that this activity is pleasant\",
-      \"Because this activity is fun\", and \"Because I feel good when doing this
-      activity\"."
+    instruction: "Instruments that measure the degree to which engagement in the target\
+      \ activity is intrinsically regulated.\n\nThe Situational Motivation Scale (SIMS)\
+      \ (Guay et al., 2000) is a frequently used self-report instrument to assess\
+      \ whether behaviour is intrinsically regulated. Beside intrinsic regulation\
+      \ of behaviour, the SIMS assesses identified regulation, external regulation,\
+      \ and amotivation, and is used to assess motivation for various activities (e.g.\
+      \ physical exercise, academic performance). \n\nThe SIMS asks participants \u201C\
+      Why are you currently engaged in this activity?\u201D. Scale items represent\
+      \ potential answers to this question. Responses are given on a 7-point Likert\
+      \ scale ranging from \"Does not correspond at all\" to \"Corresponds exactly\"\
+      .\n\nExamples of statements expressing intrinsic regulation of behaviour are:\
+      \ \"Because I think that this activity is interesting\", \"Because I think that\
+      \ this activity is pleasant\", \"Because this activity is fun\", and \"Because\
+      \ I feel good when doing this activity\"."
   aspect_dev:
-    instruction: "Conduct a qualitative study where participants are interviewed,
-      and the interviews are either recorded and transcribed, or notes are kept. These
-      sources are then coded using the instruction for aspect coding.\n\nIn this qualitative
-      study, use this question: “Why are you currently engaged in TARGET BEHAVIOUR?”
-      \n\nFor example: \"Why do you currently wear ear plugs at concerts?\" or \"Why
-      do you currently follow a calorie-restricted diet?\""
+    instruction: "Conduct a qualitative study where participants are interviewed,\
+      \ and the interviews are either recorded and transcribed, or notes are kept.\
+      \ These sources are then coded using the instruction for aspect coding.\n\n\
+      In this qualitative study, use this question: \u201CWhy are you currently engaged\
+      \ in TARGET BEHAVIOUR?\u201D \n\nFor example: \"Why do you currently wear ear\
+      \ plugs at concerts?\" or \"Why do you currently follow a calorie-restricted\
+      \ diet?\""
   aspect_code:
-    instruction: |
-      Expressions that demonstrate or imply that engagement in the target behaviour is intrinsically regulated, using phrases such as "Because I think that TARGET BEHAVIOUR is interesting" and "Because I think that TARGET BEHAVIOUR is pleasant".
+    instruction: 'Expressions that demonstrate or imply that engagement in the target
+      behaviour is intrinsically regulated, using phrases such as "Because I think
+      that TARGET BEHAVIOUR is interesting" and "Because I think that TARGET BEHAVIOUR
+      is pleasant".
 
-      Expressions that demonstrate or imply the presence of externally regulated behaviour should be coded as dct:extBehaviour_79n2r0sz.
 
-      Expressions that demonstrate or imply the presence of introjected regulation of behaviour should be coded as dct:introjBehaviour_79n2r0t0.
+      Expressions that demonstrate or imply the presence of externally regulated behaviour
+      should be coded as dct:extBehaviour_79n2r0sz.
 
-      Expressions that demonstrate or imply the presence of identified regulation of behaviour should be coded as dct:identifiedBehaviour_79n2r0t0.
 
-      Expressions that demonstrate or imply the presence of integrated regulation of behaviour should be coded as dct:integratedBehaviour_79n2r0t0.
+      Expressions that demonstrate or imply the presence of introjected regulation
+      of behaviour should be coded as dct:introjBehaviour_79n2r0t0.
 
-      In practice, it can be difficult to distinguish expressions belonging to the four types of extrinsic motivation (external, introjected, identified, and integrated self-regulation). Therefore, a less precise categorization can be made between controlled and autonomous motivation: external and introjected regulation belonging to the first category, and identified and integrated self-regulation belonging to the first category.
 
-      Expressions that demonstrate or imply the absence of motivation to engage in the target behaviour (i.e. "amotivation") should be coded as dct:motivation_79n2fh4q, and in a supplementary comment scored "0" or "absent".
+      Expressions that demonstrate or imply the presence of identified regulation
+      of behaviour should be coded as dct:identifiedBehaviour_79n2r0t0.
 
-      Expressions that refer to the presence of motivation with regard to the target behaviour without specifying the nature of its regulation or expressions that refer to the presence of motivation in general should be coded dct:motivation_79n2fh4q.
-  rel: ~
 
----
+      Expressions that demonstrate or imply the presence of integrated regulation
+      of behaviour should be coded as dct:integratedBehaviour_79n2r0t0.
 
+
+      In practice, it can be difficult to distinguish expressions belonging to the
+      four types of extrinsic motivation (external, introjected, identified, and integrated
+      self-regulation). Therefore, a less precise categorization can be made between
+      controlled and autonomous motivation: external and introjected regulation belonging
+      to the first category, and identified and integrated self-regulation belonging
+      to the first category.
+
+
+      Expressions that demonstrate or imply the absence of motivation to engage in
+      the target behaviour (i.e. "amotivation") should be coded as dct:motivation_79n2fh4q,
+      and in a supplementary comment scored "0" or "absent".
+
+
+      Expressions that refer to the presence of motivation with regard to the target
+      behaviour without specifying the nature of its regulation or expressions that
+      refer to the presence of motivation in general should be coded dct:motivation_79n2fh4q.
+
+      '
+  rel: null

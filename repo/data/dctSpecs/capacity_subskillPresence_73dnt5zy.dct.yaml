@@ -1,89 +1,90 @@
----
 dct:
   version: 0.1.0
   id: capacity_subskillPresence_73dnt5zy
-  label: "Perceived subskill presence"
-  date: ""
-  ancestry:        ### The DCT(s) this DCT is based on
-  retires:         ### Any DCT(s) that are made obsolete by this one
+  label: Perceived subskill presence
+  date: ''
+  ancestry: null
+  retires: null
   source:
-    id: "raa_book"
-
-################################################################################
-
+    id: raa_book
   definition:
-    definition: "The perceived presence of a subskill refers to the perceived probability that a person has a certain skill that is required to successfully accomplishing the target behavior (hence 'subskill'). Such subskills are perceived to be under the individual's direct control (though they may in reality not be; for example, it is possible that it is not realistic for somebody to learn how to cook five star meals, yet they might believe that they can acquire the necessary subskills). Facilitating or obstructing factors that are perceived to be external to the individual's control (i.e. that impact an individual's autonomy) are perceived conditions (see dct:autonomy_conditionPresence_73dnt5zr).
+    definition: 'The perceived presence of a subskill refers to the perceived probability
+      that a person has a certain skill that is required to successfully accomplishing
+      the target behavior (hence ''subskill''). Such subskills are perceived to be
+      under the individual''s direct control (though they may in reality not be; for
+      example, it is possible that it is not realistic for somebody to learn how to
+      cook five star meals, yet they might believe that they can acquire the necessary
+      subskills). Facilitating or obstructing factors that are perceived to be external
+      to the individual''s control (i.e. that impact an individual''s autonomy) are
+      perceived conditions (see dct:autonomy_conditionPresence_73dnt5zr).
 
 
-Each perceived presence of a subskill concerns the absence or presence of one subskill. The perceived importance of the subskill to successfully accomplishing the target behavior (i.e. whether the subskill is crucial or merely facilitates the target behavior), i.e. the perceived subskill importance, is covered in dct:capacity_subskillImportance_73dnt5zz.
+      Each perceived presence of a subskill concerns the absence or presence of one
+      subskill. The perceived importance of the subskill to successfully accomplishing
+      the target behavior (i.e. whether the subskill is crucial or merely facilitates
+      the target behavior), i.e. the perceived subskill importance, is covered in
+      dct:capacity_subskillImportance_73dnt5zz.
 
 
-According to the Reasoned Action Approach, perceptions about the presence of subskills combine multiplicatively with perceptions about the importance subskills (see dct:capacity_subskillImportance_73dnt5zz) into capacity beliefs (see dct:capacity_belief_73dnt600).
+      According to the Reasoned Action Approach, perceptions about the presence of
+      subskills combine multiplicatively with perceptions about the importance subskills
+      (see dct:capacity_subskillImportance_73dnt5zz) into capacity beliefs (see dct:capacity_belief_73dnt600).
 
 
-Examples of perceived subskill presence are the perception that one possesses the skill to ask for condoms at the counter; the perception that one possesses the skill to decline an alcoholic drink when it is offered; the perception that one is able to run 5 kilometers; the perception that one can use earplugs properly; and the perception that one knows how to one can apply sunscreen on a child."
-
+      Examples of perceived subskill presence are the perception that one possesses
+      the skill to ask for condoms at the counter; the perception that one possesses
+      the skill to decline an alcoholic drink when it is offered; the perception that
+      one is able to run 5 kilometers; the perception that one can use earplugs properly;
+      and the perception that one knows how to one can apply sunscreen on a child.'
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   measure_dev:
-    instruction: "The perceived presence of a subskill is measured by asking the perceived probability that a person has a certain skill that is required to successfully accomplish the target behavior. It is important that the item stem explicitly describes a scenario where not successfully accomplishing the relevant sub-behavior (that corresponds to the relevant subskill) can only be the consequence of insufficiently possessing that subskill.
-	
-	
-In the item stem, start with a word that establishes that the question concerns a regular situation. Then, if the subskill pertains to a specific scenario, insert that condition. Then continue with 'are you able to [TARGET BEHAVIOR]'. For subskills that do not pertain to specific scenarios, the item stem then becomes 'Typically, are you able to [TARGET BEHAVIOR]', and for subskills that do pertain to a specific scenario, the item stem becomes 'Typically, if [SCENARIO], are you able to [TARGET BEHAVIOR]'.
+    instruction: 'The perceived presence of a subskill is measured by asking the perceived
+      probability that a person has a certain skill that is required to successfully
+      accomplish the target behavior. It is important that the item stem explicitly
+      describes a scenario where not successfully accomplishing the relevant sub-behavior
+      (that corresponds to the relevant subskill) can only be the consequence of insufficiently
+      possessing that subskill.
 
 
-As anchors, use 'Absolutely unable' to 'Absolutely able' (this is a unidimensional scale).
+      In the item stem, start with a word that establishes that the question concerns
+      a regular situation. Then, if the subskill pertains to a specific scenario,
+      insert that condition. Then continue with ''are you able to [TARGET BEHAVIOR]''.
+      For subskills that do not pertain to specific scenarios, the item stem then
+      becomes ''Typically, are you able to [TARGET BEHAVIOR]'', and for subskills
+      that do pertain to a specific scenario, the item stem becomes ''Typically, if
+      [SCENARIO], are you able to [TARGET BEHAVIOR]''.
 
 
-For example, 'Typically, are you able to ask for condoms at the counter?' and 'Typically, if an alcoholic drink is offered, are you able to decline?', both with anchors 'Absolutely unable' and 'Absolutely able'."
+      As anchors, use ''Absolutely unable'' to ''Absolutely able'' (this is a unidimensional
+      scale).
 
+
+      For example, ''Typically, are you able to ask for condoms at the counter?''
+      and ''Typically, if an alcoholic drink is offered, are you able to decline?'',
+      both with anchors ''Absolutely unable'' and ''Absolutely able''.'
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   measure_code:
-    instruction: ""
+    instruction: ''
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   manipulate_dev:
-    instruction: ""
+    instruction: ''
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   manipulate_code:
-    instruction: ""
+    instruction: ''
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   aspect_dev:
-    instruction: ""
+    instruction: ''
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   aspect_code:
-    instruction: ""
+    instruction: ''
     source:
-      spec: ""
-
-################################################################################
-
+      spec: ''
   rel:
-    id: "capacity_belief_73dnt600"
-    type: "causal_influences_product"
-
-################################################################################
----
-
+    id: capacity_belief_73dnt600
+    type: causal_influences_product

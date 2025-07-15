@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: autonomy_belief_73dnt5zt
@@ -7,37 +6,50 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: |2-
+    definition: '
 
-      A person's belief about the extent to which performance or nonperformance of a particular behaviour is up to him/her.
+      A person''s belief about the extent to which performance or nonperformance of
+      a particular behaviour is up to him/her.'
   measure_dev:
-    instruction: "The measurement of autonomy beliefs starts with an elicitation study
-      to identify the content of autonomy beliefs about the behaviour which are shared
-      by the target population. \n\nTo obtain quantitative data regarding autonomy
-      beliefs, the participant is subsequently asked to respond to two questions with
-      respect to each autonomy belief, one to assess autonomy belief strength (see
-      dct:autonomy_conditionPresence_73dnt5zr) and the other to measure the power
-      of the autonomy belief to facilitate or impede behavioural performance (see
-      dct:autonomy_conditionPower_73dnt5zs). \n\nFinally, to get an overall quantitative
-      score of an autonomy belief, the strength of a belief is multiplied by its perceived
-      power. The total score of an autonomy belief enables the assessment of the importance
-      of the contribution of an autonomy belief, in comparison with other autonomy
-      beliefs, to the autonomy beliefs composite (see dct:autonomy_belCom_73dnt5zw
-      ).\n"
+    instruction: "The measurement of autonomy beliefs starts with an elicitation study\
+      \ to identify the content of autonomy beliefs about the behaviour which are\
+      \ shared by the target population. \n\nTo obtain quantitative data regarding\
+      \ autonomy beliefs, the participant is subsequently asked to respond to two\
+      \ questions with respect to each autonomy belief, one to assess autonomy belief\
+      \ strength (see dct:autonomy_conditionPresence_73dnt5zr) and the other to measure\
+      \ the power of the autonomy belief to facilitate or impede behavioural performance\
+      \ (see dct:autonomy_conditionPower_73dnt5zs). \n\nFinally, to get an overall\
+      \ quantitative score of an autonomy belief, the strength of a belief is multiplied\
+      \ by its perceived power. The total score of an autonomy belief enables the\
+      \ assessment of the importance of the contribution of an autonomy belief, in\
+      \ comparison with other autonomy beliefs, to the autonomy beliefs composite\
+      \ (see dct:autonomy_belCom_73dnt5zw ).\n"
   measure_code:
-    instruction: |+
-      Each autonomy belief is the product term of the multiplication of the strength of the belief (see dct:autonomy_conditionPresence_73dnt5zr) by its perceived power (see dct:autonomy_conditionPower_73dnt5zs). Therefore, whether an autonomy belief exerts influence (and if so, to what extent) on the autonomy beliefs composite (see dct:autonomy_belCom_73dnt5zw ), and whether a particular autonomy belief lowers or increases the sense of perceived autonomy, can only be deduced by concurrent consultation of the two subcomponents of which it is constructed. Table 5.5 on p. 171 of the Reasoned Action Approach (RAA) book (Ajzen & Fishbein, 2010) illustrates how the two subcomponents can exert an influence on individual autonomy beliefs.
+    instruction: 'Each autonomy belief is the product term of the multiplication of
+      the strength of the belief (see dct:autonomy_conditionPresence_73dnt5zr) by
+      its perceived power (see dct:autonomy_conditionPower_73dnt5zs). Therefore, whether
+      an autonomy belief exerts influence (and if so, to what extent) on the autonomy
+      beliefs composite (see dct:autonomy_belCom_73dnt5zw ), and whether a particular
+      autonomy belief lowers or increases the sense of perceived autonomy, can only
+      be deduced by concurrent consultation of the two subcomponents of which it is
+      constructed. Table 5.5 on p. 171 of the Reasoned Action Approach (RAA) book
+      (Ajzen & Fishbein, 2010) illustrates how the two subcomponents can exert an
+      influence on individual autonomy beliefs.
 
+
+      '
   aspect_dev:
-    instruction: |
-      Autonomy beliefs can not be directly elicited. They are the product of the multiplication of the strength of the autonomy belief (see dct:autonomy_conditionPresence_73dnt5zr) by its perceived power (see dct:autonomy_conditionPower_73dnt5zs). See these two subconstructs for instructions for eliciting their respective construct content.
-  aspect_code:
-    instruction: "Autonomy beliefs can not be directly elicited. They are the product
+    instruction: 'Autonomy beliefs can not be directly elicited. They are the product
       of the multiplication of the strength of the autonomy belief (see dct:autonomy_conditionPresence_73dnt5zr)
       by its perceived power (see dct:autonomy_conditionPower_73dnt5zs). See these
-      two subconstructs for instructions for coding expressions of construct content.
-      \n"
-  rel: ~
+      two subconstructs for instructions for eliciting their respective construct
+      content.
 
----
-
+      '
+  aspect_code:
+    instruction: "Autonomy beliefs can not be directly elicited. They are the product\
+      \ of the multiplication of the strength of the autonomy belief (see dct:autonomy_conditionPresence_73dnt5zr)\
+      \ by its perceived power (see dct:autonomy_conditionPower_73dnt5zs). See these\
+      \ two subconstructs for instructions for coding expressions of construct content.\
+      \ \n"
+  rel: null

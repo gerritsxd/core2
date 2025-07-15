@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: intention_73dnt604
@@ -7,23 +6,40 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: |
-      The readiness to engage in the behavior, incorporating concepts such as willingness, behavioral expectation, and trying.
-  measure_dev:
-    instruction: |
-      Use a likert scale to ask participants to what degree they intend to, are willing to, or plan to perform the target behavior. The items suggested in the 2010 RAA book are: ‘I intend to TARGET BEHAVIOR.’ with anchors ‘Definitely do not’ vs ‘Definitely do’; ‘I will TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’; ‘I am willing to TARGET BEHAVIOR.’ with anchors ‘False’ vs ‘True’; and ‘I plan to TARGET BEHAVIOR.’ with anchors ‘Absolutely not’ vs ‘Absolutely’.
-  measure_code:
-    instruction: |
-      Operationalisations that measure the degree to which a target population member has a deliberate (reasoned) plan/intention to engage in TARGET BEHAVIOR. For example, the items suggested in the book are: ‘I intend to TARGET BEHAVIOR.’ with anchors ‘Definitely do not’ vs ‘Definitely do’; ‘I will TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’; ‘I am willing to TARGET BEHAVIOR.’ with anchors ‘False’ vs ‘True’; and ‘I plan to TARGET BEHAVIOR.’ with anchors ‘Absolutely not’ vs ‘Absolutely’.
-  aspect_dev:
-    instruction: |
-      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+    definition: 'The readiness to engage in the behavior, incorporating concepts such
+      as willingness, behavioral expectation, and trying.
 
-      In this qualitative study, partcipants are asked whether they intend to perform the target behaviour, for example: 'Do you intend to exercise for at least 20 minutes, three times per week, for the next 3 months?'
+      '
+  measure_dev:
+    instruction: "Use a likert scale to ask participants to what degree they intend\
+      \ to, are willing to, or plan to perform the target behavior. The items suggested\
+      \ in the 2010 RAA book are: \u2018I intend to TARGET BEHAVIOR.\u2019 with anchors\
+      \ \u2018Definitely do not\u2019 vs \u2018Definitely do\u2019; \u2018I will TARGET\
+      \ BEHAVIOR.\u2019 with anchors \u2018Unlikely\u2019 vs \u2018Likely\u2019; \u2018\
+      I am willing to TARGET BEHAVIOR.\u2019 with anchors \u2018False\u2019 vs \u2018\
+      True\u2019; and \u2018I plan to TARGET BEHAVIOR.\u2019 with anchors \u2018Absolutely\
+      \ not\u2019 vs \u2018Absolutely\u2019.\n"
+  measure_code:
+    instruction: "Operationalisations that measure the degree to which a target population\
+      \ member has a deliberate (reasoned) plan/intention to engage in TARGET BEHAVIOR.\
+      \ For example, the items suggested in the book are: \u2018I intend to TARGET\
+      \ BEHAVIOR.\u2019 with anchors \u2018Definitely do not\u2019 vs \u2018Definitely\
+      \ do\u2019; \u2018I will TARGET BEHAVIOR.\u2019 with anchors \u2018Unlikely\u2019\
+      \ vs \u2018Likely\u2019; \u2018I am willing to TARGET BEHAVIOR.\u2019 with anchors\
+      \ \u2018False\u2019 vs \u2018True\u2019; and \u2018I plan to TARGET BEHAVIOR.\u2019\
+      \ with anchors \u2018Absolutely not\u2019 vs \u2018Absolutely\u2019.\n"
+  aspect_dev:
+    instruction: 'Conduct a qualitative study where participants are interviewed,
+      and the interviews are either recorded and transcribed, or notes are kept. These
+      sources are then coded using the instruction for aspect coding.
+
+
+      In this qualitative study, partcipants are asked whether they intend to perform
+      the target behaviour, for example: ''Do you intend to exercise for at least
+      20 minutes, three times per week, for the next 3 months?''
+
+      '
   aspect_code:
     instruction: Any expressions that somebody has the intention, goal, or plan to
       perform a target behavior.
-  rel: ~
-
----
-
+  rel: null

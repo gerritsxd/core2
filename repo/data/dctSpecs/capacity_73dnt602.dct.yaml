@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: capacity_73dnt602
@@ -7,26 +6,43 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: |2-
-
-      People’s perceptions of their ability to perform a behavior; that is, the degree to which they believe they can, are able to, or are capable of performing the behavior.
+    definition: "\nPeople\u2019s perceptions of their ability to perform a behavior;\
+      \ that is, the degree to which they believe they can, are able to, or are capable\
+      \ of performing the behavior."
   measure_dev:
-    instruction: |-
-      Use Likert scales that measure the degree to which participants believe the target behavior to be something they are capable of performing successfully. The items suggested in the book are: ‘I am confident that if I want to, I can TARGET BEHAVIOR.’ with anchors ‘No confidence at all’ vs ‘A lot of confidence’ and ‘If I really wanted to, I could TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’.
-
-      Note that questions about how easy or difficult participants perceive a target behavior to be fall outside of the constructs of Perceived Behavioral Control, Autonomy, and Capacity as defined in the 2010 RAA book.
+    instruction: "Use Likert scales that measure the degree to which participants\
+      \ believe the target behavior to be something they are capable of performing\
+      \ successfully. The items suggested in the book are: \u2018I am confident that\
+      \ if I want to, I can TARGET BEHAVIOR.\u2019 with anchors \u2018No confidence\
+      \ at all\u2019 vs \u2018A lot of confidence\u2019 and \u2018If I really wanted\
+      \ to, I could TARGET BEHAVIOR.\u2019 with anchors \u2018Unlikely\u2019 vs \u2018\
+      Likely\u2019.\n\nNote that questions about how easy or difficult participants\
+      \ perceive a target behavior to be fall outside of the constructs of Perceived\
+      \ Behavioral Control, Autonomy, and Capacity as defined in the 2010 RAA book."
   measure_code:
-    instruction: |
-      Questions or questionnaires that measure the perceived degree to which target behavior or [contrast behavior] is something [target population] are confident they can successfully perform. If perceived control over the behavior is also measured, code this as dct:perceivedBehavioralControl_71w8sfdk. For example, the items suggested in the book are: ‘I am confident that if I want to, I can TARGET BEHAVIOR.’ with anchors ‘No confidence at all’ vs ‘A lot of confidence’ and ‘If I really wanted to, I could TARGET BEHAVIOR.’ with anchors ‘Unlikely’ vs ‘Likely’.
+    instruction: "Questions or questionnaires that measure the perceived degree to\
+      \ which target behavior or [contrast behavior] is something [target population]\
+      \ are confident they can successfully perform. If perceived control over the\
+      \ behavior is also measured, code this as dct:perceivedBehavioralControl_71w8sfdk.\
+      \ For example, the items suggested in the book are: \u2018I am confident that\
+      \ if I want to, I can TARGET BEHAVIOR.\u2019 with anchors \u2018No confidence\
+      \ at all\u2019 vs \u2018A lot of confidence\u2019 and \u2018If I really wanted\
+      \ to, I could TARGET BEHAVIOR.\u2019 with anchors \u2018Unlikely\u2019 vs \u2018\
+      Likely\u2019.\n"
   aspect_dev:
-    instruction: |
-      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
-
-      In this qualitative study, use these two questions. ‘Please list any factors or circumstances that would make it easy or enable you to target behavior.’ and ‘Please list any factors or circumstances that would make it difficult or prevent you from target behavior.’
+    instruction: "Conduct a qualitative study where participants are interviewed,\
+      \ and the interviews are either recorded and transcribed, or notes are kept.\
+      \ These sources are then coded using the instruction for aspect coding.\n\n\
+      In this qualitative study, use these two questions. \u2018Please list any factors\
+      \ or circumstances that would make it easy or enable you to target behavior.\u2019\
+      \ and \u2018Please list any factors or circumstances that would make it difficult\
+      \ or prevent you from target behavior.\u2019\n"
   aspect_code:
-    instruction: |
-      Expressions that demonstrate or imply the presence or absence of confidence about one’s ability to perform the target behavior. Expressions that refer to explicit control over the target behavior (or lack thereof), for example because of a barrier, obstacle, or facilitating condition or circumstance, it should be coded as perceivedBehavioralControl_autonomy_73bg9sq6. Expressions that refer to confidence in general (not in one’s ability), should be coded as perceivedBehavioralControl_71w8sfdk.
-  rel: ~
-
----
-
+    instruction: "Expressions that demonstrate or imply the presence or absence of\
+      \ confidence about one\u2019s ability to perform the target behavior. Expressions\
+      \ that refer to explicit control over the target behavior (or lack thereof),\
+      \ for example because of a barrier, obstacle, or facilitating condition or circumstance,\
+      \ it should be coded as perceivedBehavioralControl_autonomy_73bg9sq6. Expressions\
+      \ that refer to confidence in general (not in one\u2019s ability), should be\
+      \ coded as perceivedBehavioralControl_71w8sfdk.\n"
+  rel: null

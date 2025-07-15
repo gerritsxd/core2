@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: threat_susceptibility_79n2fh4s
@@ -7,38 +6,60 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: Beliefs about one’s risk of experiencing the threat.
+    definition: "Beliefs about one\u2019s risk of experiencing the threat."
   measure_dev:
-    instruction: |
-      Use 5- or 7-point Likert scales that measure the perceived susceptibility to the (health) threat in question, e.g. "I am at risk for getting HEALTH THREAT"  and "It is possible that I get HEALTH THREAT" with "Strongly disagree" and "Strongly agree" as anchors.
+    instruction: 'Use 5- or 7-point Likert scales that measure the perceived susceptibility
+      to the (health) threat in question, e.g. "I am at risk for getting HEALTH THREAT"  and
+      "It is possible that I get HEALTH THREAT" with "Strongly disagree" and "Strongly
+      agree" as anchors.
 
-      Examples of items measuring the perceived susceptibility to a health threat are: "It is likely that I will get infected with HIV" and "It is possible that I will get infected with HIV", with "Strongly disagree" and "Strongly agree" as anchors on a 5-point Likert scale (examples are from the Risk Behaviour Diagnosis Scale [Witte et al., 1995]).
+
+      Examples of items measuring the perceived susceptibility to a health threat
+      are: "It is likely that I will get infected with HIV" and "It is possible that
+      I will get infected with HIV", with "Strongly disagree" and "Strongly agree"
+      as anchors on a 5-point Likert scale (examples are from the Risk Behaviour Diagnosis
+      Scale [Witte et al., 1995]).
+
+      '
   measure_code:
-    instruction: |
-      Questions or questionnaires that measure the perceived susceptibility to the (health) threat in question, e.g. "I am at risk for getting HEALTH THREAT" and "It is possible that I get HEALTH THREAT"  with "Strongly disagree" and "Strongly agree" as anchors on a 5-point Linkert scale.
+    instruction: 'Questions or questionnaires that measure the perceived susceptibility
+      to the (health) threat in question, e.g. "I am at risk for getting HEALTH THREAT"
+      and "It is possible that I get HEALTH THREAT"  with "Strongly disagree" and
+      "Strongly agree" as anchors on a 5-point Linkert scale.
 
-      Examples of items measuring the perceived susceptibility to a health threat are: "It is likely that I will get infected with HIV" and "It is possible that I will get infected with HIV", with "Strongly disagree" and "Strongly agree" as anchors on a 5-point Likert scale (examples are from the Risk Behaviour Diagnosis Scale [Witte et al., 1995]).
+
+      Examples of items measuring the perceived susceptibility to a health threat
+      are: "It is likely that I will get infected with HIV" and "It is possible that
+      I will get infected with HIV", with "Strongly disagree" and "Strongly agree"
+      as anchors on a 5-point Likert scale (examples are from the Risk Behaviour Diagnosis
+      Scale [Witte et al., 1995]).
+
+      '
   aspect_dev:
-    instruction: |
-      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
+    instruction: 'Conduct a qualitative study where participants are interviewed,
+      and the interviews are either recorded and transcribed, or notes are kept. These
+      sources are then coded using the instruction for aspect coding.
 
-      In this qualitative study, use the questions: "How would you rate the risk associated with HEALTH THREAT (e.g. TARGET BEHAVIOUR)?" or "Can you describe your personal ideas of the risk associated with HEALTH THREAT (e.g. TARGET BEHAVIOUR)?".
+
+      In this qualitative study, use the questions: "How would you rate the risk associated
+      with HEALTH THREAT (e.g. TARGET BEHAVIOUR)?" or "Can you describe your personal
+      ideas of the risk associated with HEALTH THREAT (e.g. TARGET BEHAVIOUR)?".
+
+      '
   aspect_code:
-    instruction: "Expressions that demonstrate or imply the degree of perceived threat
-      susceptibility, containing phrases and words such as \"high/low risk\", \"high/low
-      prevalence\", \"likely/unlikely\", and \"nobody I know\"/\"a lot of people I
-      know\" (the latter two responses refering to adverse consequences of engaging
-      in the target [risk] behaviour). \n\nExpressions that demonstrate or imply the
-      degree of perceived threat severity, containing verbs such as \"very/not very
-      severe\",  \"malicious/benign\", and \"great disturbance\"/\"minor annoyance\"
-      should be coded as dct:threat_severity_79n2fh4r.  \n\nExpressions that illustrate
-      the participant's risk perception with regard to the health threat without a
-      reference to susceptibility or severity should be coded as dct:risk_perception_79n2fh4t.
-      For example, if the question is \"Can you describe your personal ideas of the
-      risk associated with smoking cigarettes?\" and the response is \"I know there
-      is a risk associated with smoking, so I try not to smoke to much\" no clear
-      reference is made to to the severity of the threat or to personal susceptibility.\n"
-  rel: ~
-
----
-
+    instruction: "Expressions that demonstrate or imply the degree of perceived threat\
+      \ susceptibility, containing phrases and words such as \"high/low risk\", \"\
+      high/low prevalence\", \"likely/unlikely\", and \"nobody I know\"/\"a lot of\
+      \ people I know\" (the latter two responses refering to adverse consequences\
+      \ of engaging in the target [risk] behaviour). \n\nExpressions that demonstrate\
+      \ or imply the degree of perceived threat severity, containing verbs such as\
+      \ \"very/not very severe\",  \"malicious/benign\", and \"great disturbance\"\
+      /\"minor annoyance\" should be coded as dct:threat_severity_79n2fh4r.  \n\n\
+      Expressions that illustrate the participant's risk perception with regard to\
+      \ the health threat without a reference to susceptibility or severity should\
+      \ be coded as dct:risk_perception_79n2fh4t. For example, if the question is\
+      \ \"Can you describe your personal ideas of the risk associated with smoking\
+      \ cigarettes?\" and the response is \"I know there is a risk associated with\
+      \ smoking, so I try not to smoke to much\" no clear reference is made to to\
+      \ the severity of the threat or to personal susceptibility.\n"
+  rel: null

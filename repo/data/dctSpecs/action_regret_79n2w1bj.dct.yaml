@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: action_regret_79n2w1bj
@@ -9,26 +8,41 @@ dct:
   definition:
     definition: Anticipated regret from engaging in a behaviour.
   measure_dev:
-    instruction: |
-      Use 5-point Likert scales that measure the degree to which participants believe that engagement in a particular behaviour will subsequently lead to regret, e.g. "If you would play video games the whole night, how much regret would you feel?" or "If you would eat a bag of cookies, how much regret would you feel?", both items with anchors "none" (=0) and "a lot" (=4).
+    instruction: 'Use 5-point Likert scales that measure the degree to which participants
+      believe that engagement in a particular behaviour will subsequently lead to
+      regret, e.g. "If you would play video games the whole night, how much regret
+      would you feel?" or "If you would eat a bag of cookies, how much regret would
+      you feel?", both items with anchors "none" (=0) and "a lot" (=4).
+
+      '
   measure_code:
-    instruction: |-
-      Operationalisations that measure the expectation to feel regret after engagement in the target behavior, e.g. "If you would play video games the whole night, how much regret would you feel?" or "If you would eat a bag of cookies, how much regret would you feel?", both items with anchors "none" (=0) and "a lot" (=4).
+    instruction: 'Operationalisations that measure the expectation to feel regret
+      after engagement in the target behavior, e.g. "If you would play video games
+      the whole night, how much regret would you feel?" or "If you would eat a bag
+      of cookies, how much regret would you feel?", both items with anchors "none"
+      (=0) and "a lot" (=4).
 
-      Anticipated regret from not engaging in the target behaviour is inaction regret (see dct:inaction_regret_79n2r0t0).
 
-      For the composite of action and inaction regret, either as incentive towards a behaviour (i.e. as sumscore) or the total anticipated regret experienced, see respectively anticip_regret_79n2w1bh and anticip_regret_79n2w1bj.
+      Anticipated regret from not engaging in the target behaviour is inaction regret
+      (see dct:inaction_regret_79n2r0t0).
+
+
+      For the composite of action and inaction regret, either as incentive towards
+      a behaviour (i.e. as sumscore) or the total anticipated regret experienced,
+      see respectively anticip_regret_79n2w1bh and anticip_regret_79n2w1bj.'
   aspect_dev:
-    instruction: |-
-      Conduct a qualitative study where participants are interviewed, and the interviews are either recorded and transcribed, or notes are kept. These sources are then coded using the instruction for aspect coding.
-
-      In this qualitative study, use these questions: ‘What do you expect to feel after (engaging in) TARGET BEHAVIOUR?' and 'What emotions do do you expect to experience after (engaging in) TARGET BEHAVIOUR?'
+    instruction: "Conduct a qualitative study where participants are interviewed,\
+      \ and the interviews are either recorded and transcribed, or notes are kept.\
+      \ These sources are then coded using the instruction for aspect coding.\n\n\
+      In this qualitative study, use these questions: \u2018What do you expect to\
+      \ feel after (engaging in) TARGET BEHAVIOUR?' and 'What emotions do do you expect\
+      \ to experience after (engaging in) TARGET BEHAVIOUR?'"
   aspect_code:
-    instruction: |-
-      Expressions that demonstrate or imply that one expects to experience feelings of regret if one would engage in the target behaviour, usings verbs such 'remorse', 'sorry', and 'lament'.
+    instruction: 'Expressions that demonstrate or imply that one expects to experience
+      feelings of regret if one would engage in the target behaviour, usings verbs
+      such ''remorse'', ''sorry'', and ''lament''.
 
-      Manifestations that express feelings of regret if one would not engage in the target behaviour,should be coded dct:inaction_regret_79n2r0t0
-  rel: ~
 
----
-
+      Manifestations that express feelings of regret if one would not engage in the
+      target behaviour,should be coded dct:inaction_regret_79n2r0t0'
+  rel: null

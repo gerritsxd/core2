@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: capacity_belCom_73dnt601
@@ -7,43 +6,42 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: |2-
+    definition: '
 
-      The sum of the capacity beliefs. In their totality, capacity beliefs lead to the perception that one has or does not have the ability to carry out the target behaviour.
+      The sum of the capacity beliefs. In their totality, capacity beliefs lead to
+      the perception that one has or does not have the ability to carry out the target
+      behaviour.'
   measure_dev:
-    instruction: "A composite of capacity beliefs is obtained by multiplying the perceived
-      presence of each relevant capacity (i.e. 'subskill') (see dct:capacity_subskillPresence_73dnt5zy)
-      by its perceived importance (see dct:capacity_subskillImportance_73dnt5zz) and
-      then summing the product terms across all capacity beliefs.\n\nThis, preferably,
-      is represented graphically (e.g. in a table or index) and, additionally, in
-      an equation. See Table 5.5 on p.171 of the Reasoned Action Approach book (Ajzen
-      & Fishbein, 2010) for an example. \n"
+    instruction: "A composite of capacity beliefs is obtained by multiplying the perceived\
+      \ presence of each relevant capacity (i.e. 'subskill') (see dct:capacity_subskillPresence_73dnt5zy)\
+      \ by its perceived importance (see dct:capacity_subskillImportance_73dnt5zz)\
+      \ and then summing the product terms across all capacity beliefs.\n\nThis, preferably,\
+      \ is represented graphically (e.g. in a table or index) and, additionally, in\
+      \ an equation. See Table 5.5 on p.171 of the Reasoned Action Approach book (Ajzen\
+      \ & Fishbein, 2010) for an example. \n"
   measure_code:
-    instruction: "The capacity beliefs composite reflects the summation of salient
-      capacity beliefs with regard to the target behaviour. Each capacity belief (dct:capacity_belief_73dnt600),
-      in its turn, is the product term of the multiplication of the perceived presence
-      of the capacity (i.e. 'subskill') (dct:capacity_subskillPresence_73dnt5zy) by
-      the perceived importance of this subskill (dct:capacity_subskillImportance_73dnt5zz).\n\nGiven
-      the formative nature of the capacity beliefs composite, for a swift and clear
-      overview of its composition and its effect on capacity (dct:capacity_73dnt602),
-      preferably a graphical representation (e.g. a table or index) and, possibly,
-      an equation is consulted. Table 5.5 on p.171 of the Reasoned Action Approach
-      book (Ajzen & Fishbein, 2010) represents such an overview. \n"
+    instruction: "The capacity beliefs composite reflects the summation of salient\
+      \ capacity beliefs with regard to the target behaviour. Each capacity belief\
+      \ (dct:capacity_belief_73dnt600), in its turn, is the product term of the multiplication\
+      \ of the perceived presence of the capacity (i.e. 'subskill') (dct:capacity_subskillPresence_73dnt5zy)\
+      \ by the perceived importance of this subskill (dct:capacity_subskillImportance_73dnt5zz).\n\
+      \nGiven the formative nature of the capacity beliefs composite, for a swift\
+      \ and clear overview of its composition and its effect on capacity (dct:capacity_73dnt602),\
+      \ preferably a graphical representation (e.g. a table or index) and, possibly,\
+      \ an equation is consulted. Table 5.5 on p.171 of the Reasoned Action Approach\
+      \ book (Ajzen & Fishbein, 2010) represents such an overview. \n"
   aspect_dev:
-    instruction: "Capacity beliefs and, as a consequence, also capacity beliefs composites
-      (which are the sum of the former), can not be directly elicited. Capacity beliefs
-      are are the product of the multiplication of perceived subskill presence (dct:capacity_subskillPresence_73dnt5zy)
-      by the perceived  importance of this subskill (dct:capacity_subskillImportance_73dnt5zz).
-      \n\nSee these two subconstructs for instructions for eliciting their respective
-      construct content.\n"
+    instruction: "Capacity beliefs and, as a consequence, also capacity beliefs composites\
+      \ (which are the sum of the former), can not be directly elicited. Capacity\
+      \ beliefs are are the product of the multiplication of perceived subskill presence\
+      \ (dct:capacity_subskillPresence_73dnt5zy) by the perceived  importance of this\
+      \ subskill (dct:capacity_subskillImportance_73dnt5zz). \n\nSee these two subconstructs\
+      \ for instructions for eliciting their respective construct content.\n"
   aspect_code:
-    instruction: "Capacity beliefs and, as a consequence, also capacity beliefs composites
-      (which are the sum of the former), can not be directly elicited. Capacity beliefs
-      are are the product of the multiplication of perceived subskill presence (dct:capacity_subskillPresence_73dnt5zy)
-      by the perceived  importance of this subskill (dct:capacity_subskillImportance_73dnt5zz).
-      \n\nSee these two subconstructs for instructions for coding their respective
-      construct content.\n"
-  rel: ~
-
----
-
+    instruction: "Capacity beliefs and, as a consequence, also capacity beliefs composites\
+      \ (which are the sum of the former), can not be directly elicited. Capacity\
+      \ beliefs are are the product of the multiplication of perceived subskill presence\
+      \ (dct:capacity_subskillPresence_73dnt5zy) by the perceived  importance of this\
+      \ subskill (dct:capacity_subskillImportance_73dnt5zz). \n\nSee these two subconstructs\
+      \ for instructions for coding their respective construct content.\n"
+  rel: null

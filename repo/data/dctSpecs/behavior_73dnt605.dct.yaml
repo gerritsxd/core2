@@ -11,31 +11,59 @@ dct:
       contraction of striated muscles controlled by the brain. Note that this also
       includes the lack of such co-ordinated contraction.
   measure_dev:
-    instruction: |
-      Depending on the nature of the target behavior, engagement in that behavior can be conceived as binary (i.e. one either does or does not engage in the target behavior, e.g. getting tested for STIs every six months), a matter of frequency (i.e. one engages in the target behavior with a frequency from zero up to a given feasible maximum frequency in a given timespan, e.g. the frequency with which one washes their hands conform the guidelines), a matter of intensity (i.e. one engages in the target behavior to a degree from zero up to a given feasible maximum intensity, e.g. the amount of kilocalories one consumed in a meal), or a combination of these (i.e. one engages in the target behavior with a given frequency and with a given intensity, e.g. how frequently one drinks alcohol, and how many grams of alcohol one consumes when one does).
+    instruction: 'Depending on the nature of the target behavior, engagement in that
+      behavior can be conceived as binary (i.e. one either does or does not engage
+      in the target behavior, e.g. getting tested for STIs every six months), a matter
+      of frequency (i.e. one engages in the target behavior with a frequency from
+      zero up to a given feasible maximum frequency in a given timespan, e.g. the
+      frequency with which one washes their hands conform the guidelines), a matter
+      of intensity (i.e. one engages in the target behavior to a degree from zero
+      up to a given feasible maximum intensity, e.g. the amount of kilocalories one
+      consumed in a meal), or a combination of these (i.e. one engages in the target
+      behavior with a given frequency and with a given intensity, e.g. how frequently
+      one drinks alcohol, and how many grams of alcohol one consumes when one does).
+
+      '
   measure_code:
-    instruction: |
-      Ideally, the target behaviour is described unequivocally and consistent in the questions and instructions for participants, and in publications resulting from the research. Moreover, the target behaviour should be described as specific as possible, i.e. specifying action, target, context, and time - and address the level of generality of the behaviour. Diverging and/or ambiguous formulations of the target behaviour confound and limit the applicability of study results.
+    instruction: 'Ideally, the target behaviour is described unequivocally and consistent
+      in the questions and instructions for participants, and in publications resulting
+      from the research. Moreover, the target behaviour should be described as specific
+      as possible, i.e. specifying action, target, context, and time - and address
+      the level of generality of the behaviour. Diverging and/or ambiguous formulations
+      of the target behaviour confound and limit the applicability of study results.
 
-      For example 'exercising for at least 20 minutes, three times per week, for the next 3 months' could be a viable target behaviour. However, the definition of 'exercising' should specified, as participants be may have different views of what comprises 'exercising'. When a target behaviour is not sufficiently defined, or when various definitions are used, this has to be taken into account when assessing the quality of the study.
+
+      For example ''exercising for at least 20 minutes, three times per week, for
+      the next 3 months'' could be a viable target behaviour. However, the definition
+      of ''exercising'' should specified, as participants be may have different views
+      of what comprises ''exercising''. When a target behaviour is not sufficiently
+      defined, or when various definitions are used, this has to be taken into account
+      when assessing the quality of the study.
+
+      '
   aspect_dev:
-    instruction: "Conduct a qualitative study where participants are individually
-      interviewed in a free-response format, and the interviews are either recorded
-      and transcribed, or notes are kept. These sources are then coded using the instruction
-      for aspect coding. In this qualitative study, ask participants for their performance
-      of the target behaviour. The target behaviour should be described unequivocally
-      and consistent, addressing action, target, context, time, and level of generality.
-      As an introduction to the question a definition of the target behaviour can
-      be provided. \n\nAn example can be: 'Our definition of \"exercise\" is \"all
-      physical activity strenuous enough to make you sweat\". Can you tell me if you
-      currently exercise for at least 20 minutes, three times per week?'. An alternative
-      question could be: 'In the past 3 months, how often have you exercised for at
-      least 20 minutes, three times per week?'. Note that this latter question measures
-      past behaviour. In practice, asking about current behaviour most often concerns
-      a retrospective asessment of behaviour until the moment of assessment.\n"
+    instruction: "Conduct a qualitative study where participants are individually\
+      \ interviewed in a free-response format, and the interviews are either recorded\
+      \ and transcribed, or notes are kept. These sources are then coded using the\
+      \ instruction for aspect coding. In this qualitative study, ask participants\
+      \ for their performance of the target behaviour. The target behaviour should\
+      \ be described unequivocally and consistent, addressing action, target, context,\
+      \ time, and level of generality. As an introduction to the question a definition\
+      \ of the target behaviour can be provided. \n\nAn example can be: 'Our definition\
+      \ of \"exercise\" is \"all physical activity strenuous enough to make you sweat\"\
+      . Can you tell me if you currently exercise for at least 20 minutes, three times\
+      \ per week?'. An alternative question could be: 'In the past 3 months, how often\
+      \ have you exercised for at least 20 minutes, three times per week?'. Note that\
+      \ this latter question measures past behaviour. In practice, asking about current\
+      \ behaviour most often concerns a retrospective asessment of behaviour until\
+      \ the moment of assessment.\n"
   aspect_code:
-    instruction: |
-      Expressions that demonstrate or imply engagement in the target behaviour. The more specific the definition of the target behaviour, the greater the possibility that people partially engage in the target behaviour; i.e. they do not fulfill all behavioural criteria, e.g. when a participant exercises for at least 20 minutes, but not three, but two times per week. How these partial engagements in the target behaviour are to be coded, should be decided a priori.
-  rel: ~
+    instruction: 'Expressions that demonstrate or imply engagement in the target behaviour.
+      The more specific the definition of the target behaviour, the greater the possibility
+      that people partially engage in the target behaviour; i.e. they do not fulfill
+      all behavioural criteria, e.g. when a participant exercises for at least 20
+      minutes, but not three, but two times per week. How these partial engagements
+      in the target behaviour are to be coded, should be decided a priori.
 
-
+      '
+  rel: null

@@ -1,101 +1,44 @@
 ---
-title: "Construct Search"
-format:
-  html:
-    toc: false
+title: "Overview of All Constructs"
 ---
 
 <div class="form-group">
-  <label for="search-input">Search by Construct Title</label>
-  <input type="text" id="search-input" class="form-control" placeholder="Type to search...">
+  <label for="searchInput">Search Constructs:</label>
+  <input type="text" id="searchInput" class="form-control" onkeyup="filterConstructs()" placeholder="Type to search...">
 </div>
 
-<hr>
-
-<div id="results-container"></div>
+<ul id="constructList" class="list-group"></ul>
 
 <script>
-  // Debounce function to limit the rate at which a function gets called.
-  function debounce(func, wait) {
-    let timeout;
-    return function(...args) {
-      const context = this;
-      clearTimeout(timeout);
-      timeout = setTimeout(() => func.apply(context, args), wait);
-    };
+  let constructs = [];
+
+  // Fetch the search index and populate the list
+  fetch('search_index.json')
+    .then(response => response.json())
+    .then(data => {
+      constructs = data;
+      renderList(constructs);
+    });
+
+  // Function to render the list of constructs
+  function renderList(items) {
+    const list = document.getElementById('constructList');
+    list.innerHTML = ''; // Clear the list
+    items.forEach(item => {
+      const listItem = document.createElement('li');
+      listItem.className = 'list-group-item';
+      listItem.innerHTML = `<a href="${item.url}">${item.title}</a><br><small class="text-muted">${item.subtitle}</small>`;
+      list.appendChild(listItem);
+    });
   }
 
-  // Main search function
-  async function searchConstructs() {
-    const searchInput = document.getElementById('search-input');
-    const resultsContainer = document.getElementById('results-container');
-    let constructs = [];
-
-    // 1. Fetch the search index
-    try {
-      const response = await fetch('search_index.json');
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      constructs = await response.json();
-    } catch (error) {
-      resultsContainer.innerHTML = '<p class="text-danger">Could not load construct index. Please try reloading the page.</p>';
-      console.error('Failed to fetch search index:', error);
-      return;
-    }
-
-    // 2. Function to render results
-    function renderResults(results) {
-      if (results.length === 0) {
-        resultsContainer.innerHTML = '<p>No constructs found.</p>';
-        return;
-      }
-      
-      const list = document.createElement('ul');
-      list.className = 'list-group';
-      
-      results.forEach(construct => {
-        const listItem = document.createElement('li');
-        listItem.className = 'list-group-item';
-        
-        const link = document.createElement('a');
-        link.href = construct.url;
-        link.textContent = construct.title;
-        
-        const subtitle = document.createElement('small');
-        subtitle.className = 'd-block text-muted';
-        subtitle.textContent = construct.subtitle;
-        
-        listItem.appendChild(link);
-        listItem.appendChild(subtitle);
-        list.appendChild(listItem);
-      });
-      
-      resultsContainer.innerHTML = '';
-      resultsContainer.appendChild(list);
-    }
-
-    // 3. Function to filter constructs based on input
-    function filterConstructs() {
-      const query = searchInput.value.toLowerCase().trim();
-      if (!query) {
-        renderResults(constructs); // Show all if search is empty
-        return;
-      }
-      
-      const filteredResults = constructs.filter(construct => 
-        construct.title.toLowerCase().includes(query)
-      );
-      renderResults(filteredResults);
-    }
-
-    // 4. Add event listener with debounce
-    searchInput.addEventListener('input', debounce(filterConstructs, 250));
-
-    // 5. Initial render
-    renderResults(constructs);
+  // Function to filter the list based on search input
+  function filterConstructs() {
+    const input = document.getElementById('searchInput');
+    const filter = input.value.toLowerCase();
+    const filteredConstructs = constructs.filter(item => {
+      return item.title.toLowerCase().includes(filter) || item.subtitle.toLowerCase().includes(filter);
+    });
+    renderList(filteredConstructs);
   }
-
-  // Run the search function when the page loads
-  document.addEventListener('DOMContentLoaded', searchConstructs);
 </script>

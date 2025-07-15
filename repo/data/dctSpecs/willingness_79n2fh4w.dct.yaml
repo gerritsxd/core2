@@ -1,4 +1,3 @@
----
 dct:
   version: 0.1.0
   id: willingness_79n2fh4w
@@ -7,76 +6,87 @@ dct:
   ancestry: ''
   retires: ''
   definition:
-    definition: |+
-      Openness to engaging in a risky behaviour, should the opportunity arise: i.e. it represents a propensity to engage in a risky behaviour without necessarily indicating a plan to engage in that behaviour.
+    definition: 'Openness to engaging in a risky behaviour, should the opportunity
+      arise: i.e. it represents a propensity to engage in a risky behaviour without
+      necessarily indicating a plan to engage in that behaviour.
 
 
 
+
+      '
   measure_dev:
-    instruction: "Willingness to engage in a risky behaviour can be measured by asking
-      participants to consider a hypothetical scenario and indicate their willingness
-      to engage in the risk behaviour of interest. Responses on these items range
-      from \"Very unwilling\" to \"Very willing\" on a 5- or 7-point Likert scale.\n\nAlternatively,
-      following the scenario description, participants are asked to indicate the likelihood
-      they would engage in the risk behaviour, with repsonses ranging from \"Very
-      unlikely\" to \"Very likely\" on a 5- or 7-point Likert scale.\n\nScores on
-      the different items measuring behavioural willingness can subsequently be summed
-      or averaged. \n\nFor example, Molloy et al. (2019) measured willingness to use
-      Nonmedical Prescription Stimulants (NPS) for academic reasons by asking participants
-      to consider various hypothetical scenarios. The first scenario described a friend
-      offering free prescription stimulants to study for a big, upcoming exam. Participants
-      indicated how willing they would be to: (1) Take the pills, (2) Take the pills
-      and ask for extra to use for another exam or paper, or (3) Tell the friend no
-      thank you (reverse-coded). \n\nDavies et al. (2017) measured willingness to
-      drink in a similar fashion, and used three hypothetical scenarios; a family
-      wedding, a house party, and at the park. Participants were asked how likely
-      it was that they would (1) take a drink and drink it, from 1 (\"Unlikely\")
-      to 7 (\"Highly likely\"); and (2) say no thanks, from 1 (\"Unlikely\") to 7
-      (\"Likely\") (reverse scored).\n\nHowell et al (2017) measured willingness to
-      engage in risky sun behaviour by asking participants to assume there is no sunscreen,
-      and then to respond how willing they would be to: (1) go to the beach with friends,
-      (2) decline an invitation to go to the beach with friends (reverse coded). Participants
-      responded on a scale ranging from \"Very unwilling\" (=1) to \"Very willing\"
-      (=7).\n\nDavies et al. (2017) expressed that a pilot study revealed that use
-      of the verb \"willing to\" was difficult to understand for young adults. Therefore,
-      (young) participants were asked to indicate the \"likelihood\" they would engage
-      in a behaviour. Ideally thus the phrasing of items using \"willing to\" (or
-      similar) should be first tested among the target population in a pilot study.\n"
+    instruction: "Willingness to engage in a risky behaviour can be measured by asking\
+      \ participants to consider a hypothetical scenario and indicate their willingness\
+      \ to engage in the risk behaviour of interest. Responses on these items range\
+      \ from \"Very unwilling\" to \"Very willing\" on a 5- or 7-point Likert scale.\n\
+      \nAlternatively, following the scenario description, participants are asked\
+      \ to indicate the likelihood they would engage in the risk behaviour, with repsonses\
+      \ ranging from \"Very unlikely\" to \"Very likely\" on a 5- or 7-point Likert\
+      \ scale.\n\nScores on the different items measuring behavioural willingness\
+      \ can subsequently be summed or averaged. \n\nFor example, Molloy et al. (2019)\
+      \ measured willingness to use Nonmedical Prescription Stimulants (NPS) for academic\
+      \ reasons by asking participants to consider various hypothetical scenarios.\
+      \ The first scenario described a friend offering free prescription stimulants\
+      \ to study for a big, upcoming exam. Participants indicated how willing they\
+      \ would be to: (1) Take the pills, (2) Take the pills and ask for extra to use\
+      \ for another exam or paper, or (3) Tell the friend no thank you (reverse-coded).\
+      \ \n\nDavies et al. (2017) measured willingness to drink in a similar fashion,\
+      \ and used three hypothetical scenarios; a family wedding, a house party, and\
+      \ at the park. Participants were asked how likely it was that they would (1)\
+      \ take a drink and drink it, from 1 (\"Unlikely\") to 7 (\"Highly likely\");\
+      \ and (2) say no thanks, from 1 (\"Unlikely\") to 7 (\"Likely\") (reverse scored).\n\
+      \nHowell et al (2017) measured willingness to engage in risky sun behaviour\
+      \ by asking participants to assume there is no sunscreen, and then to respond\
+      \ how willing they would be to: (1) go to the beach with friends, (2) decline\
+      \ an invitation to go to the beach with friends (reverse coded). Participants\
+      \ responded on a scale ranging from \"Very unwilling\" (=1) to \"Very willing\"\
+      \ (=7).\n\nDavies et al. (2017) expressed that a pilot study revealed that use\
+      \ of the verb \"willing to\" was difficult to understand for young adults. Therefore,\
+      \ (young) participants were asked to indicate the \"likelihood\" they would\
+      \ engage in a behaviour. Ideally thus the phrasing of items using \"willing\
+      \ to\" (or similar) should be first tested among the target population in a\
+      \ pilot study.\n"
   measure_code:
-    instruction: "Willingness to engage in a risky behaviour is usually measured by
-      asking participants to consider a hypothetical scenario and then to indicate
-      their willingness to engage in a particular risk behaviour. Alternatively, following
-      the scenario description, participants are asked to indicate the likelihood
-      they would engage in the risk behaviour. Responses can range from \"Very unwilling\"
-      to \"Very willing\" or \"Very unlikely\" to \"Very likely\" on a 5- or 7-point
-      Likert scale. Scores on the different items measuring behavioural willingness
-      can subsequently be summed or averaged. \n\nFor example, Howell et al (2017)
-      measured willingness to engage in risky sun behaviour by asking participants
-      to assume there is no sunscreen, and then to respond how willing they would
-      be to: (1) go to the beach with friends, (2) decline an invitation to go to
-      the beach with friends (reverse coded). Participants responded on a scale ranging
-      from \"Very unwilling\" (=1) to \"Very willing\" (=7).\n\nFishbein & Ajzen (2011)
-      criticize the use and measurement of behavioural willingness and state that
-      asking people whether they would or would not engage in a certain risk behaviour
-      (e.g. unprotected sex) under certain circumstances may simply measure a more
-      specific intention than the intention to perform these behaviours in general. "
+    instruction: "Willingness to engage in a risky behaviour is usually measured by\
+      \ asking participants to consider a hypothetical scenario and then to indicate\
+      \ their willingness to engage in a particular risk behaviour. Alternatively,\
+      \ following the scenario description, participants are asked to indicate the\
+      \ likelihood they would engage in the risk behaviour. Responses can range from\
+      \ \"Very unwilling\" to \"Very willing\" or \"Very unlikely\" to \"Very likely\"\
+      \ on a 5- or 7-point Likert scale. Scores on the different items measuring behavioural\
+      \ willingness can subsequently be summed or averaged. \n\nFor example, Howell\
+      \ et al (2017) measured willingness to engage in risky sun behaviour by asking\
+      \ participants to assume there is no sunscreen, and then to respond how willing\
+      \ they would be to: (1) go to the beach with friends, (2) decline an invitation\
+      \ to go to the beach with friends (reverse coded). Participants responded on\
+      \ a scale ranging from \"Very unwilling\" (=1) to \"Very willing\" (=7).\n\n\
+      Fishbein & Ajzen (2011) criticize the use and measurement of behavioural willingness\
+      \ and state that asking people whether they would or would not engage in a certain\
+      \ risk behaviour (e.g. unprotected sex) under certain circumstances may simply\
+      \ measure a more specific intention than the intention to perform these behaviours\
+      \ in general. "
   aspect_dev:
-    instruction: "Conduct a qualitative study where participants are interviewed,
-      and the interviews are either recorded and transcribed, or notes are kept. These
-      sources are then coded using the instruction for aspect coding. \n\nIn this
-      qualitative study, decribe a scenario in which the participant has the opportunity
-      to engage in the risk behaviour of interest and, subsequently, ask the participant
-      how willing he/she would be to engage in the risk behaviour.\n\nFor example,
-      if the risk behaviour of interest is \"exposure to loud noise (>100 decibel)
-      without hearing protection\" the scenario and question can be: \"Imagine you
-      are going to a pop concert and you notice the music is very loud, and you forgot
-      to bring ear plugs. How willing would you be to stay at the concert?\"."
+    instruction: "Conduct a qualitative study where participants are interviewed,\
+      \ and the interviews are either recorded and transcribed, or notes are kept.\
+      \ These sources are then coded using the instruction for aspect coding. \n\n\
+      In this qualitative study, decribe a scenario in which the participant has the\
+      \ opportunity to engage in the risk behaviour of interest and, subsequently,\
+      \ ask the participant how willing he/she would be to engage in the risk behaviour.\n\
+      \nFor example, if the risk behaviour of interest is \"exposure to loud noise\
+      \ (>100 decibel) without hearing protection\" the scenario and question can\
+      \ be: \"Imagine you are going to a pop concert and you notice the music is very\
+      \ loud, and you forgot to bring ear plugs. How willing would you be to stay\
+      \ at the concert?\"."
   aspect_code:
-    instruction: |
-      Expressions that demonstrate or imply the presence or absence of willingness to engage in the risk behaviour. For example using verbs and phrases such as "Very willing", "Very likely", "I would probably perform RISK BEHAVIOUR", etc.
+    instruction: 'Expressions that demonstrate or imply the presence or absence of
+      willingness to engage in the risk behaviour. For example using verbs and phrases
+      such as "Very willing", "Very likely", "I would probably perform RISK BEHAVIOUR",
+      etc.
 
-      Expressions that refer to explicit intentions or specific plans to engage in (subbehaviours of) the risk behaviour should not be coded as willingness (dct: willingness) but as intention (dct:intention_73dnt604) or action plan (dct:action_plan_79n2w1bh).
-  rel: ~
 
----
+      Expressions that refer to explicit intentions or specific plans to engage in
+      (subbehaviours of) the risk behaviour should not be coded as willingness (dct:
+      willingness) but as intention (dct:intention_73dnt604) or action plan (dct:action_plan_79n2w1bh).
 
+      '
+  rel: null
