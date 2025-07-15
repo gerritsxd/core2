@@ -10,19 +10,21 @@ project:
     - "repo/overview/search_index.json"
 
 website:
-  site-url: https://gerritsxd.github.io/core2
+  site-url: https://gerritsxd.github.io/core2/
   title: "COMMS Repository Template: CoRe"
   navbar:
     background: "#666666"
     foreground: "#BBBBBB"
     left:
-      - repo/index.qmd
-      - posts/index.qmd
+      - href: repo/index.qmd
+        text: Overview
+      - href: posts/index.qmd
+        text: Posts
 
 format:
   html:
     theme: cosmo
-    css: /styles.css
+    css: styles.css
     toc: true
 
 execute:
